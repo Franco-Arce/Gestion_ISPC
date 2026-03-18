@@ -14,7 +14,7 @@ import MateriaCard from "./MateriaCard";
 import WeeklyCalendar from "./WeeklyCalendar";
 import InicioPanel from "./InicioPanel";
 
-type MainTab = "inicio" | "TSDS" | "TSCDIA";
+type MainTab = "inicio" | "calendario" | "TSDS" | "TSCDIA";
 
 const CARRERA_LABELS: Record<string, string> = {
   TSDS: "Tecnicatura en Desarrollo de Software",
@@ -32,8 +32,13 @@ export default function Dashboard({ data }: { data: ISPCData }) {
   const [materiaActiva, setMateriaActiva] = useState<string | null>(null);
   const [spinning, setSpinning] = useState(false);
 
+  // Deduplicate materias by nombre (scraper can return the same subject twice)
+  const materias = data.materias.filter(
+    (m, i, arr) => arr.findIndex((x) => x.nombre === m.nombre && x.carrera === m.carrera) === i
+  );
+
   const materiasPorCarrera = (carrera: string) =>
-    data.materias.filter((m) => m.carrera === carrera);
+    materias.filter((m) => m.carrera === carrera);
 
   const pendientesPorCarrera = (carrera: string) =>
     materiasPorCarrera(carrera).reduce(
@@ -43,7 +48,7 @@ export default function Dashboard({ data }: { data: ISPCData }) {
 
   const avisosHoy = (() => {
     const today = new Date().toISOString().slice(0, 10);
-    return data.materias.reduce(
+    return materias.reduce(
       (s, m) => s + m.avisos.filter((a) => a.fecha.startsWith(today)).length,
       0
     );
@@ -75,11 +80,12 @@ export default function Dashboard({ data }: { data: ISPCData }) {
   const carreraActiva =
     mainTab === "TSDS" || mainTab === "TSCDIA" ? mainTab : null;
   const materiaSeleccionada = materiaActiva
-    ? data.materias.find((m) => m.nombre === materiaActiva) ?? null
+    ? materias.find((m) => m.nombre === materiaActiva) ?? null
     : null;
 
   const tabBadge = (tab: MainTab) => {
     if (tab === "inicio") return avisosHoy || null;
+    if (tab === "calendario") return null;
     return pendientesPorCarrera(tab) || null;
   };
 
@@ -115,9 +121,11 @@ export default function Dashboard({ data }: { data: ISPCData }) {
 
       {/* ── Nav tabs ── */}
       <nav className="max-w-7xl mx-auto flex gap-6 border-b border-slate-800 mb-8 overflow-x-auto pb-px">
-        {(["inicio", "TSDS", "TSCDIA"] as MainTab[]).map((tab) => {
+        {(["inicio", "calendario", "TSDS", "TSCDIA"] as MainTab[]).map((tab) => {
           const isActive = mainTab === tab;
           const badge = tabBadge(tab);
+          const label =
+            tab === "inicio" ? "Inicio" : tab === "calendario" ? "Calendario" : tab;
           return (
             <button
               key={tab}
@@ -126,7 +134,7 @@ export default function Dashboard({ data }: { data: ISPCData }) {
                 isActive ? "text-white" : "text-slate-500 hover:text-slate-300"
               }`}
             >
-              {tab === "inicio" ? "Inicio" : tab}
+              {label}
               {badge !== null && (
                 <span
                   className={`text-xs px-2 py-0.5 rounded-full ${
@@ -151,11 +159,11 @@ export default function Dashboard({ data }: { data: ISPCData }) {
 
         {/* ══ INICIO ══ */}
         {mainTab === "inicio" && (
-          <div className="space-y-8">
-            <InicioPanel materias={data.materias} onSelectMateria={handleSelectMateria} />
-            <WeeklyCalendar />
-          </div>
+          <InicioPanel materias={materias} onSelectMateria={handleSelectMateria} />
         )}
+
+        {/* ══ CALENDARIO ══ */}
+        {mainTab === "calendario" && <WeeklyCalendar />}
 
         {/* ══ CARRERA ══ */}
         {carreraActiva && (
