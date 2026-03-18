@@ -147,6 +147,80 @@ async def get_courses(page) -> list[dict]:
     return courses
 
 
+async def extract_avisos(page, context) -> list[dict]:
+    """Encuentra foros de Avisos en la página del curso y extrae todos los mensajes."""
+    avisos = []
+
+    # Buscar links a foros de avisos
+    links = await page.query_selector_all("a")
+    foro_urls = []
+    for link in links:
+        text = (await link.inner_text()).strip().lower()
+        href = await link.get_attribute("href") or ""
+        if "forum" in href and text in ("avisos", "avisos com a", "avisos com b", "avisos generales"):
+            foro_urls.append((text, href))
+            log(f"    [FORO] Encontrado: '{text}' → {href}")
+
+    for foro_nombre, foro_url in foro_urls:
+        try:
+            foro_page = await context.new_page()
+            await foro_page.goto(foro_url, wait_until="networkidle", timeout=20000)
+
+            # Listar threads del foro
+            thread_links = await foro_page.query_selector_all("a[href*='discuss.php']")
+            log(f"    [FORO] '{foro_nombre}': {len(thread_links)} threads")
+
+            for thread_link in thread_links:
+                thread_href = await thread_link.get_attribute("href") or ""
+                if not thread_href:
+                    continue
+                try:
+                    thread_page = await context.new_page()
+                    await thread_page.goto(thread_href, wait_until="networkidle", timeout=20000)
+
+                    # Extraer posts del thread
+                    posts = await thread_page.query_selector_all(".forumpost, .post")
+                    for post in posts:
+                        # Autor
+                        autor_el = await post.query_selector(".author, .username, [data-region='author-name']")
+                        autor = (await autor_el.inner_text()).strip() if autor_el else "Desconocido"
+
+                        # Fecha
+                        fecha_el = await post.query_selector(".postdate, time, .date")
+                        fecha = (await fecha_el.inner_text()).strip() if fecha_el else ""
+                        if not fecha:
+                            fecha_el = await post.query_selector("time")
+                            if fecha_el:
+                                fecha = await fecha_el.get_attribute("datetime") or (await fecha_el.inner_text()).strip()
+
+                        # Mensaje
+                        msg_el = await post.query_selector(".posting, .post-content-container, [data-region='post-content']")
+                        if not msg_el:
+                            msg_el = await post.query_selector(".content")
+                        mensaje = (await msg_el.inner_text()).strip() if msg_el else ""
+
+                        if mensaje:
+                            log(f"    [AVISO] {autor} - {fecha}: {mensaje[:60]}...")
+                            avisos.append({
+                                "titulo": foro_nombre.title(),
+                                "autor": autor,
+                                "fecha": fecha,
+                                "mensaje": mensaje[:1000],
+                                "url": thread_href,
+                            })
+
+                    await thread_page.close()
+                except Exception as e:
+                    log(f"    [ERROR-THREAD] {e}")
+                    await thread_page.close()
+
+            await foro_page.close()
+        except Exception as e:
+            log(f"    [ERROR-FORO] {foro_nombre}: {e}")
+
+    return avisos
+
+
 async def extract_programa(page) -> str:
     log("    → Buscando programa...")
     links = await page.query_selector_all("a")
@@ -207,8 +281,7 @@ async def extract_course(page, course: dict) -> dict:
             log(f"    [CRITERIO] {text}")
             result["criterios"] += f"• {text}\n"
         elif any(k in text_lower for k in KEYWORDS["avisos"]):
-            log(f"    [AVISO] {text}")
-            result["avisos"].append(text)
+            pass  # Avisos se extraen por separado con extract_avisos()
         elif any(k in href for k in ["assign", "quiz", "workshop"]) or \
              any(k in text_lower for k in KEYWORDS["tareas"]):
             log(f"    [TAREA] {text} → {href}")
@@ -227,6 +300,7 @@ async def extract_course(page, course: dict) -> dict:
             result["materiales"].append({"nombre": text, "url": href, "tipo": tipo})
 
     result["programa"] = await extract_programa(page)
+    result["avisos"] = await extract_avisos(page, page.context)
 
     # Fechas de tareas
     for tarea in result["tareas"]:

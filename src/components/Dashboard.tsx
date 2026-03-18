@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { ISPCData, Materia } from "@/types";
 import MateriaCard from "./MateriaCard";
+import AvisosPanel from "./AvisosPanel";
 
 const CARRERAS = ["TSDS", "TSCDIA"] as const;
 
@@ -65,6 +66,9 @@ export default function Dashboard({ data }: { data: ISPCData }) {
       </header>
 
       <div className="max-w-7xl mx-auto px-4 py-6 space-y-6">
+
+        {/* Panel de notificaciones */}
+        <AvisosPanel materias={data.materias} />
 
         {/* Próximas entregas */}
         {tareasProximas.length > 0 && (

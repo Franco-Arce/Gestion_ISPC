@@ -11,9 +11,27 @@
       "programa": "",
       "criterios": "• Sistema de Acreditación - Espacios curriculares Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
-        "Avisos",
-        "Avisos COM A",
-        "Avisos COM B"
+        {
+          "titulo": "Aviso",
+          "autor": "",
+          "fecha": "",
+          "mensaje": "Avisos",
+          "url": ""
+        },
+        {
+          "titulo": "Aviso",
+          "autor": "",
+          "fecha": "",
+          "mensaje": "Avisos COM A",
+          "url": ""
+        },
+        {
+          "titulo": "Aviso",
+          "autor": "",
+          "fecha": "",
+          "mensaje": "Avisos COM B",
+          "url": ""
+        }
       ],
       "tareas": [
         {
@@ -47,7 +65,13 @@
       "programa": "",
       "criterios": "• Sistema de Acreditación - Espacios curriculares Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
-        "Avisos"
+        {
+          "titulo": "Aviso",
+          "autor": "",
+          "fecha": "",
+          "mensaje": "Avisos",
+          "url": ""
+        }
       ],
       "tareas": [
         {
@@ -81,9 +105,27 @@
       "programa": "Requisitos de finalización\nHaga clic en el enlace Programa para abrir el recurso.",
       "criterios": "• Criterios de evaluación\n• Sistema de Acreditación - Espacios curriculares Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
-        "Avisos",
-        "Avisos COM A",
-        "Avisos COM B"
+        {
+          "titulo": "Aviso",
+          "autor": "",
+          "fecha": "",
+          "mensaje": "Avisos",
+          "url": ""
+        },
+        {
+          "titulo": "Aviso",
+          "autor": "",
+          "fecha": "",
+          "mensaje": "Avisos COM A",
+          "url": ""
+        },
+        {
+          "titulo": "Aviso",
+          "autor": "",
+          "fecha": "",
+          "mensaje": "Avisos COM B",
+          "url": ""
+        }
       ],
       "tareas": [
         {

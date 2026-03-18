@@ -176,11 +176,16 @@ export default function MateriaCard({
             ) : (
               <div className="space-y-3">
                 {materia.avisos.map((a, i) => (
-                  <div
-                    key={i}
-                    className="p-3 bg-yellow-950 border border-yellow-800 rounded-lg text-sm text-yellow-200"
-                  >
-                    {a}
+                  <div key={i} className="p-4 bg-yellow-950 border border-yellow-800 rounded-lg">
+                    <div className="flex items-center justify-between mb-2">
+                      <span className="text-xs font-semibold text-yellow-400">{a.autor}</span>
+                      <span className="text-xs text-yellow-600">{a.fecha}</span>
+                    </div>
+                    <p className="text-sm text-yellow-100 leading-relaxed whitespace-pre-wrap">{a.mensaje}</p>
+                    <a href={a.url} target="_blank" rel="noopener noreferrer"
+                      className="text-xs text-yellow-500 hover:underline mt-2 inline-block">
+                      Ver en campus →
+                    </a>
                   </div>
                 ))}
               </div>

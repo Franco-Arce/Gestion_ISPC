@@ -11,6 +11,14 @@ export interface Material {
   tipo: "pdf" | "link" | "video" | "otro";
 }
 
+export interface Aviso {
+  titulo: string;
+  autor: string;
+  fecha: string;
+  mensaje: string;
+  url: string;
+}
+
 export interface Materia {
   nombre: string;
   carrera: "TSDS" | "TSCDIA";
@@ -19,7 +27,7 @@ export interface Materia {
   url_campus: string;
   programa: string;
   criterios: string;
-  avisos: string[];
+  avisos: Aviso[];
   tareas: Tarea[];
   materiales: Material[];
   ultima_actualizacion: string;
