@@ -3,12 +3,12 @@
 import { useState } from "react";
 import { Materia } from "@/types";
 
-type Tab = "programa" | "tareas" | "materiales" | "avisos";
+type Tab = "contenido" | "actividades" | "programa" | "avisos";
 
 const TAB_LABELS: Record<Tab, string> = {
+  contenido: "Contenido",
+  actividades: "Actividades",
   programa: "Programa",
-  tareas: "Tareas",
-  materiales: "Materiales",
   avisos: "Avisos",
 };
 
@@ -19,7 +19,7 @@ export default function MateriaCard({
   materia: Materia;
   color: string;
 }) {
-  const [tab, setTab] = useState<Tab>("programa");
+  const [tab, setTab] = useState<Tab>("contenido");
 
   const activeClass =
     color === "blue"
@@ -27,6 +27,7 @@ export default function MateriaCard({
       : "border-violet-500 text-violet-300";
 
   const pendientes = materia.tareas.filter((t) => t.estado === "pendiente").length;
+  const conFecha = materia.tareas.filter((t) => t.fecha_entrega).length;
 
   return (
     <div className="bg-gray-900 border border-gray-800 rounded-xl overflow-hidden">
@@ -65,7 +66,7 @@ export default function MateriaCard({
             }`}
           >
             {TAB_LABELS[t]}
-            {t === "tareas" && pendientes > 0 && (
+            {t === "actividades" && pendientes > 0 && (
               <span className="ml-1.5 bg-red-500 text-white text-xs rounded-full px-1.5 py-0.5">
                 {pendientes}
               </span>
@@ -81,6 +82,70 @@ export default function MateriaCard({
 
       {/* Contenido */}
       <div className="p-5 min-h-48">
+
+        {tab === "contenido" && (
+          <div>
+            {materia.unidades.length === 0 ? (
+              <EmptyState mensaje="El contenido aún no está publicado en el campus." />
+            ) : (
+              <div className="space-y-2">
+                <p className="text-xs text-gray-500 uppercase tracking-wider mb-3">
+                  {materia.unidades.length} unidades
+                </p>
+                {materia.unidades.map((u, i) => (
+                  <a key={i} href={u.url} target="_blank" rel="noopener noreferrer"
+                    className="flex items-center gap-3 p-3 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors group">
+                    <span className="w-6 h-6 rounded-full bg-blue-900 text-blue-300 text-xs flex items-center justify-center flex-shrink-0 font-medium">
+                      {i + 1}
+                    </span>
+                    <span className="text-sm text-gray-300 group-hover:text-white transition-colors">
+                      {u.nombre}
+                    </span>
+                  </a>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
+
+        {tab === "actividades" && (
+          <div>
+            {materia.tareas.length === 0 ? (
+              <EmptyState mensaje="Sin actividades publicadas por el momento." />
+            ) : (
+              <div className="space-y-4">
+                {materia.tareas.map((t, i) => (
+                  <div key={i} className="bg-gray-800 rounded-xl overflow-hidden">
+                    <div className="p-4">
+                      <div className="flex items-start justify-between gap-2 mb-2">
+                        <a href={t.url} target="_blank" rel="noopener noreferrer"
+                          className="text-sm font-semibold text-blue-400 hover:underline">
+                          {t.nombre}
+                        </a>
+                        <StatusBadge estado={t.estado} />
+                      </div>
+                      {t.seccion && (
+                        <span className="text-xs text-gray-500 bg-gray-700 px-2 py-0.5 rounded-full">
+                          {t.seccion}
+                        </span>
+                      )}
+                      {t.descripcion && (
+                        <p className="text-sm text-gray-400 mt-2 leading-relaxed">{t.descripcion}</p>
+                      )}
+                      {t.fecha_entrega && (
+                        <div className="mt-3 flex items-center gap-2 text-red-400">
+                          <span className="text-xs">⏰</span>
+                          <span className="text-xs font-medium">Fecha límite: {t.fecha_entrega}</span>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
+
         {tab === "programa" && (
           <div>
             {materia.programa ? (
@@ -105,69 +170,6 @@ export default function MateriaCard({
           </div>
         )}
 
-        {tab === "tareas" && (
-          <div>
-            {materia.tareas.length === 0 ? (
-              <EmptyState mensaje="No hay tareas publicadas aún." />
-            ) : (
-              <div className="space-y-3">
-                {materia.tareas.map((t, i) => (
-                  <div
-                    key={i}
-                    className="flex items-center gap-3 p-3 bg-gray-800 rounded-lg"
-                  >
-                    <StatusBadge estado={t.estado} />
-                    <div className="flex-1 min-w-0">
-                      <a
-                        href={t.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-sm text-blue-400 hover:underline truncate block"
-                      >
-                        {t.nombre}
-                      </a>
-                      {t.fecha_entrega && (
-                        <p className="text-xs text-gray-500 mt-0.5">
-                          Entrega:{" "}
-                          {new Date(t.fecha_entrega).toLocaleDateString("es-AR", {
-                            weekday: "long",
-                            day: "numeric",
-                            month: "long",
-                          })}
-                        </p>
-                      )}
-                    </div>
-                  </div>
-                ))}
-              </div>
-            )}
-          </div>
-        )}
-
-        {tab === "materiales" && (
-          <div>
-            {materia.materiales.length === 0 ? (
-              <EmptyState mensaje="No hay materiales publicados aún." />
-            ) : (
-              <div className="space-y-2">
-                {materia.materiales.map((m, i) => (
-                  <a
-                    key={i}
-                    href={m.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2 p-3 bg-gray-800 rounded-lg hover:bg-gray-750 transition-colors group"
-                  >
-                    <TipoIcon tipo={m.tipo} />
-                    <span className="text-sm text-gray-300 group-hover:text-white transition-colors">
-                      {m.nombre}
-                    </span>
-                  </a>
-                ))}
-              </div>
-            )}
-          </div>
-        )}
 
         {tab === "avisos" && (
           <div>

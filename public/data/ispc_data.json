@@ -38,23 +38,30 @@
           "nombre": "Evidencias de Aprendizajes",
           "url": "https://acceso.ispc.edu.ar/course/section.php?id=27750",
           "fecha_entrega": null,
-          "estado": "pendiente"
+          "estado": "pendiente",
+          "descripcion": "",
+          "seccion": ""
         },
         {
           "nombre": "Proyecto ABP",
           "url": "https://acceso.ispc.edu.ar/course/section.php?id=27751",
           "fecha_entrega": null,
-          "estado": "pendiente"
+          "estado": "pendiente",
+          "descripcion": "",
+          "seccion": ""
         },
         {
           "nombre": "Coloquio - Promoción",
           "url": "https://acceso.ispc.edu.ar/course/section.php?id=27752",
           "fecha_entrega": null,
-          "estado": "pendiente"
+          "estado": "pendiente",
+          "descripcion": "",
+          "seccion": ""
         }
       ],
       "materiales": [],
-      "ultima_actualizacion": "2026-03-18T20:13:41.536323"
+      "ultima_actualizacion": "2026-03-18T20:13:41.536323",
+      "unidades": []
     },
     {
       "nombre": "Ciencia de Datos",
@@ -78,23 +85,30 @@
           "nombre": "Evidencias de Aprendizajes",
           "url": "https://acceso.ispc.edu.ar/course/section.php?id=27910",
           "fecha_entrega": null,
-          "estado": "pendiente"
+          "estado": "pendiente",
+          "descripcion": "",
+          "seccion": ""
         },
         {
           "nombre": "Proyecto ABP",
           "url": "https://acceso.ispc.edu.ar/course/section.php?id=27911",
           "fecha_entrega": null,
-          "estado": "pendiente"
+          "estado": "pendiente",
+          "descripcion": "",
+          "seccion": ""
         },
         {
           "nombre": "Coloquio - Promoción",
           "url": "https://acceso.ispc.edu.ar/course/section.php?id=27912",
           "fecha_entrega": null,
-          "estado": "pendiente"
+          "estado": "pendiente",
+          "descripcion": "",
+          "seccion": ""
         }
       ],
       "materiales": [],
-      "ultima_actualizacion": "2026-03-18T20:13:49.915080"
+      "ultima_actualizacion": "2026-03-18T20:13:49.915080",
+      "unidades": []
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -132,23 +146,30 @@
           "nombre": "Evidencias de Aprendizajes",
           "url": "https://acceso.ispc.edu.ar/course/section.php?id=27726",
           "fecha_entrega": null,
-          "estado": "pendiente"
+          "estado": "pendiente",
+          "descripcion": "",
+          "seccion": ""
         },
         {
           "nombre": "Proyecto ABP",
           "url": "https://acceso.ispc.edu.ar/course/section.php?id=27727",
           "fecha_entrega": null,
-          "estado": "pendiente"
+          "estado": "pendiente",
+          "descripcion": "",
+          "seccion": ""
         },
         {
           "nombre": "Coloquio - Promoción",
           "url": "https://acceso.ispc.edu.ar/course/section.php?id=27728",
           "fecha_entrega": null,
-          "estado": "pendiente"
+          "estado": "pendiente",
+          "descripcion": "",
+          "seccion": ""
         }
       ],
       "materiales": [],
-      "ultima_actualizacion": "2026-03-18T20:13:58.738065"
+      "ultima_actualizacion": "2026-03-18T20:13:58.738065",
+      "unidades": []
     }
   ]
 }

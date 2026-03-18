@@ -221,6 +221,109 @@ async def extract_avisos(page, context) -> list[dict]:
     return avisos
 
 
+SECCIONES_ACTIVIDAD = ["evidencias de aprendizajes", "proyecto abp", "coloquio", "coloquio - promoción"]
+SECCIONES_CONTENIDO = ["contenidos", "ciencia de datos", "programación", "interfaz", "ingeniería",
+                       "gestión", "práctica", "estadística", "procesamiento", "tecnología",
+                       "inglés", "ciberseguridad"]
+
+
+async def extract_sections(page, context, course_name: str) -> tuple[list[dict], list[dict]]:
+    """
+    Extrae unidades de contenido y actividades de las secciones del curso.
+    Retorna (unidades, tareas_con_detalle)
+    """
+    unidades = []
+    tareas_detalle = []
+
+    # Las secciones son cards con links a /course/section.php?id=...
+    section_links = await page.query_selector_all("a[href*='section.php']")
+    log(f"    [SECCIONES] Encontradas: {len(section_links)}")
+
+    for sec_link in section_links:
+        sec_text = (await sec_link.inner_text()).strip()
+        sec_href = await sec_link.get_attribute("href") or ""
+        if not sec_href:
+            continue
+
+        sec_lower = sec_text.lower()
+        log(f"    [SECCION] '{sec_text}' → {sec_href}")
+
+        is_actividad = any(k in sec_lower for k in SECCIONES_ACTIVIDAD)
+        is_contenido = any(k in sec_lower for k in SECCIONES_CONTENIDO) or \
+                       course_name.lower().split()[0] in sec_lower
+
+        if not is_actividad and not is_contenido:
+            continue
+
+        try:
+            sec_page = await context.new_page()
+            await sec_page.goto(sec_href, wait_until="networkidle", timeout=20000)
+
+            if is_contenido:
+                # Extraer unidades (links con "unidad" en el texto)
+                all_links = await sec_page.query_selector_all("a")
+                for link in all_links:
+                    text = (await link.inner_text()).strip()
+                    href = await link.get_attribute("href") or ""
+                    if "unidad" in text.lower() and href:
+                        log(f"    [UNIDAD] {text}")
+                        unidades.append({"nombre": text, "url": href, "descripcion": ""})
+
+            if is_actividad:
+                # Buscar assignments reales dentro de la sección
+                assign_links = await sec_page.query_selector_all("a[href*='assign'], a[href*='quiz'], a[href*='workshop']")
+                for a_link in assign_links:
+                    a_text = (await a_link.inner_text()).strip()
+                    a_href = await a_link.get_attribute("href") or ""
+                    if not a_text or not a_href:
+                        continue
+
+                    # Entrar a la actividad para buscar descripción y fecha límite
+                    fecha = None
+                    descripcion = ""
+                    try:
+                        act_page = await context.new_page()
+                        await act_page.goto(a_href, wait_until="networkidle", timeout=15000)
+
+                        # Descripción
+                        desc_el = await act_page.query_selector(".activity-description, .box.generalbox, #intro")
+                        if desc_el:
+                            descripcion = (await desc_el.inner_text()).strip()[:500]
+
+                        # Fecha límite
+                        for selector in [".submissionstatustable td", "time", ".due-date", "[data-region='activity-due-date']"]:
+                            el = await act_page.query_selector(selector)
+                            if el:
+                                t = (await el.inner_text()).strip()
+                                if t and any(c.isdigit() for c in t):
+                                    fecha = t
+                                    break
+
+                        await act_page.close()
+                    except Exception as e:
+                        log(f"    [ERROR-ACT] {e}")
+                        try: await act_page.close()
+                        except: pass
+
+                    log(f"    [ACTIVIDAD] '{a_text}' | fecha={fecha} | seccion={sec_text}")
+                    tareas_detalle.append({
+                        "nombre": a_text,
+                        "url": a_href,
+                        "fecha_entrega": fecha,
+                        "estado": "pendiente",
+                        "descripcion": descripcion,
+                        "seccion": sec_text,
+                    })
+
+            await sec_page.close()
+        except Exception as e:
+            log(f"    [ERROR-SECCION] '{sec_text}': {e}")
+            try: await sec_page.close()
+            except: pass
+
+    return unidades, tareas_detalle
+
+
 async def extract_programa(page) -> str:
     log("    → Buscando programa...")
     links = await page.query_selector_all("a")
@@ -259,6 +362,7 @@ async def extract_course(page, course: dict) -> dict:
     log(f"  URL real: {page.url}")
 
     result = _empty_result(course)
+    result["unidades"] = []
 
     region = await page.query_selector("#region-main")
     if not region:
@@ -301,6 +405,10 @@ async def extract_course(page, course: dict) -> dict:
 
     result["programa"] = await extract_programa(page)
     result["avisos"] = await extract_avisos(page, page.context)
+    unidades, tareas_detalle = await extract_sections(page, page.context, course["nombre"])
+    result["unidades"] = unidades
+    if tareas_detalle:
+        result["tareas"] = tareas_detalle  # Reemplazar con datos enriquecidos
 
     # Fechas de tareas
     for tarea in result["tareas"]:
@@ -331,6 +439,7 @@ def _empty_result(course: dict) -> dict:
         "programa": "",
         "criterios": "",
         "avisos": [],
+        "unidades": [],
         "tareas": [],
         "materiales": [],
         "ultima_actualizacion": datetime.now().isoformat(),

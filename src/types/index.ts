@@ -3,6 +3,14 @@ export interface Tarea {
   url: string;
   fecha_entrega: string | null;
   estado: "pendiente" | "entregada" | "vencida";
+  descripcion?: string;
+  seccion?: string; // "Evidencias de Aprendizajes" | "Proyecto ABP" | "Coloquio - Promoción"
+}
+
+export interface Unidad {
+  nombre: string;
+  url: string;
+  descripcion?: string;
 }
 
 export interface Material {
@@ -28,6 +36,7 @@ export interface Materia {
   programa: string;
   criterios: string;
   avisos: Aviso[];
+  unidades: Unidad[];
   tareas: Tarea[];
   materiales: Material[];
   ultima_actualizacion: string;
