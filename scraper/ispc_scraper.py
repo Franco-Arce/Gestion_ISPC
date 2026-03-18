@@ -44,35 +44,39 @@ KEYWORDS = {
 
 def match_materia(course_name: str) -> tuple[str | None, dict | None]:
     name_lower = course_name.lower()
-    for carrera, materias in MATERIAS_2026.items():
-        for m in materias:
-            keywords = m["nombre"].lower().split()
-            # Necesita al menos 2 palabras clave para matchear
-            matches = sum(1 for k in keywords if k in name_lower and len(k) > 3)
-            if matches >= 2:
-                return carrera, m
+
+    # Detectar carrera directamente desde el nombre del curso
+    if "- tsds -" in name_lower:
+        detected_carrera = "TSDS"
+    elif "- tscdia -" in name_lower:
+        detected_carrera = "TSCDIA"
+    else:
+        return None, None
+
+    # Buscar la materia con mayor coincidencia de palabras dentro de la carrera
+    best_match = None
+    best_score = 0
+    for m in MATERIAS_2026[detected_carrera]:
+        keywords = [k for k in m["nombre"].lower().split() if len(k) > 2]
+        score = sum(1 for k in keywords if k in name_lower)
+        if score > best_score:
+            best_score = score
+            best_match = m
+
+    if best_score >= 1:
+        return detected_carrera, best_match
     return None, None
 
 
 async def login(page, username: str, password: str):
     print("→ Login...")
     await page.goto(f"{BASE_URL}/login/index.php", wait_until="networkidle")
-    print(f"  URL: {page.url}")
-    # Debug: mostrar inputs disponibles
-    inputs = await page.query_selector_all("input")
-    for inp in inputs:
-        id_ = await inp.get_attribute("id")
-        name = await inp.get_attribute("name")
-        type_ = await inp.get_attribute("type")
-        print(f"  input: id={id_} name={name} type={type_}")
     await page.fill("#username", username)
     await page.fill("#password", password)
     await page.click("#loginbtn")
     await page.wait_for_load_state("networkidle")
-    print(f"  URL post-login: {page.url}")
     if "login" in page.url:
-        await page.screenshot(path="login_error.png")
-        raise Exception("Login fallido. Verificar credenciales y selectores del formulario.")
+        raise Exception("Login fallido. Verificar credenciales.")
     print("✓ Login OK")
 
 
