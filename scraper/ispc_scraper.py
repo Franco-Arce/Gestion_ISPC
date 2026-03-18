@@ -89,7 +89,8 @@ async def get_courses(page) -> list[dict]:
         if "/course/view.php" not in href or href in seen:
             continue
         name = (await link.inner_text()).strip()
-        if "2026" not in name:
+        # TSDS arrancó en 2024, TSCDIA en 2025
+        if "2024" not in name and "2025" not in name:
             continue
         seen.add(href)
         carrera, materia_info = match_materia(name)
