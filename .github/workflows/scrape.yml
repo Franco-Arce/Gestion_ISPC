@@ -5,6 +5,9 @@ on:
     - cron: "0 10 * * *" # Todos los días a las 10:00 UTC (07:00 ARG)
   workflow_dispatch: # Permite correrlo manualmente desde GitHub
 
+permissions:
+  contents: write
+
 jobs:
   scrape:
     runs-on: ubuntu-latest

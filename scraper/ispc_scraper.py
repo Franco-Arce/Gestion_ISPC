@@ -95,13 +95,25 @@ async def get_courses(page) -> list[dict]:
     await page.goto(f"{BASE_URL}/my/courses.php", wait_until="networkidle")
     log(f"  URL cursos: {page.url}")
 
+    # Scroll para cargar todos los cursos (Moodle usa carga lazy/AJAX)
+    prev_count = 0
+    for i in range(10):
+        await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+        await page.wait_for_timeout(1500)
+        links_now = await page.query_selector_all("a[href*='/course/view.php']")
+        log(f"  [SCROLL {i+1}] Links de cursos visibles: {len(links_now)}")
+        if len(links_now) == prev_count:
+            log(f"  [SCROLL] No hay más cursos, deteniendo scroll")
+            break
+        prev_count = len(links_now)
+
     courses = []
     links = await page.query_selector_all("a")
     seen = set()
     total_links = 0
     filtered_year = 0
 
-    log(f"  Total links en página: {len(links)}")
+    log(f"  Total links en página tras scroll: {len(links)}")
 
     for link in links:
         href = await link.get_attribute("href") or ""
