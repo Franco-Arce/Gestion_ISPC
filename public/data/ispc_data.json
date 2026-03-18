@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-03-18T20:14:07.772663",
+  "generado_el": "2026-03-18T20:52:56.960606",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -12,56 +12,575 @@
       "criterios": "• Sistema de Acreditación - Espacios curriculares Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
         {
-          "titulo": "Aviso",
-          "autor": "",
-          "fecha": "",
-          "mensaje": "Avisos",
-          "url": ""
+          "titulo": "Avisos",
+          "autor": "Carolina AHUMADA",
+          "fecha": "2026-03-18T10:40:55-03:00",
+          "mensaje": "Escenario:\n\nUna pequeña empresa implementa antivirus, firewall y realiza copias de seguridad periódicas. Sin embargo, un día uno de sus empleados recibe un correo electrónico que aparenta ser del banco, hace clic en un enlace y completa sus datos de acceso.\n\nHoras después, la empresa sufre un acceso no autorizado a sus sistemas y pérdida de información sensible.\n\nA partir de este escenario, debatamos lo siguiente:\n\nAnálisis inicial: ¿Cómo pudo ocurrir el incidente si la empresa contaba con medidas de seguridad técnicas?\nFactor humano: ¿Qué rol juega el usuario en la seguridad de la información? ¿Es realmente el “eslabón más débil”?\nTipos de ataque: ¿Qué tipo de ataque se evidencia en el escenario? ¿Cómo lo identificarías?\nPrevención: ¿Qué acciones podrían haberse implementado para evitar esta situación?\nReflexión: ¿Creés que la ciberseguridad depende más de la tecnología o de las personas? Justificá tu respuesta.\n\nEspero sus respuestas!!! 😄Comenzamos el debate!!!💪",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
         },
         {
-          "titulo": "Aviso",
-          "autor": "",
-          "fecha": "",
-          "mensaje": "Avisos COM A",
-          "url": ""
+          "titulo": "Avisos",
+          "autor": "Carolina AHUMADA",
+          "fecha": "2026-03-18T10:40:55-03:00",
+          "mensaje": "Escenario:\n\nUna pequeña empresa implementa antivirus, firewall y realiza copias de seguridad periódicas. Sin embargo, un día uno de sus empleados recibe un correo electrónico que aparenta ser del banco, hace clic en un enlace y completa sus datos de acceso.\n\nHoras después, la empresa sufre un acceso no autorizado a sus sistemas y pérdida de información sensible.\n\nA partir de este escenario, debatamos lo siguiente:\n\nAnálisis inicial: ¿Cómo pudo ocurrir el incidente si la empresa contaba con medidas de seguridad técnicas?\nFactor humano: ¿Qué rol juega el usuario en la seguridad de la información? ¿Es realmente el “eslabón más débil”?\nTipos de ataque: ¿Qué tipo de ataque se evidencia en el escenario? ¿Cómo lo identificarías?\nPrevención: ¿Qué acciones podrían haberse implementado para evitar esta situación?\nReflexión: ¿Creés que la ciberseguridad depende más de la tecnología o de las personas? Justificá tu respuesta.\n\nEspero sus respuestas!!! 😄Comenzamos el debate!!!💪",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
         },
         {
-          "titulo": "Aviso",
-          "autor": "",
-          "fecha": "",
-          "mensaje": "Avisos COM B",
-          "url": ""
+          "titulo": "Avisos",
+          "autor": "Santiago Andres ORTEGA",
+          "fecha": "2026-03-18T11:09:29-03:00",
+          "mensaje": "La implementación de medidas técnicas escindidas de una correcta formación de los individuos que trabajan en la empresa solo resulta efectiva a medias, protegiendo pero solo de modo parcial y contra tipos específicos de ataque.\nCreo que las personas somos el eslabón más débil, siempre y cuando las medidas técnicas sean implementadas de la mejor manera posible. Por ejemplo, nuestra tendencia a utilizar contraseñas simples de recordar tiende a hacer que utilicemos la misma para varias plataformas, con lo cual una vez que la obtienen pueden ingresar a todo nuestro universo digital.\nMe parece que el tipo de ataque podría ser encasillado como phishing, ya que mediante la personificación de una entidad que no le es ajena al usuario, se logró hacer que facilite datos sensibles (usuario y contraseña).\nLa empresa podría gestionar la asignación de claves y usuarios a nivel interno, de modo tal que esos datos no sean los pares de usuario:clave que el empleado tiende a utilizar en su vida privada.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Santiago Andres ORTEGA",
+          "fecha": "2026-03-18T11:09:29-03:00",
+          "mensaje": "La implementación de medidas técnicas escindidas de una correcta formación de los individuos que trabajan en la empresa solo resulta efectiva a medias, protegiendo pero solo de modo parcial y contra tipos específicos de ataque.\nCreo que las personas somos el eslabón más débil, siempre y cuando las medidas técnicas sean implementadas de la mejor manera posible. Por ejemplo, nuestra tendencia a utilizar contraseñas simples de recordar tiende a hacer que utilicemos la misma para varias plataformas, con lo cual una vez que la obtienen pueden ingresar a todo nuestro universo digital.\nMe parece que el tipo de ataque podría ser encasillado como phishing, ya que mediante la personificación de una entidad que no le es ajena al usuario, se logró hacer que facilite datos sensibles (usuario y contraseña).\nLa empresa podría gestionar la asignación de claves y usuarios a nivel interno, de modo tal que esos datos no sean los pares de usuario:clave que el empleado tiende a utilizar en su vida privada.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Mariano Sebastián MELCHIORRE",
+          "fecha": "2026-03-18T11:12:27-03:00",
+          "mensaje": "Analisis inicial: Las medidas implementadas por la empresa son de seguridad y prevencion de datos en caso de un ataque, pero no tiene planteada como política de Ciberseguridad la capacitación del personal y otros metodos que impidan el ciberataque.\nFactor humano: El objetivo del ataque fue el empleado, él falló pero no hubo otro mecanismo que frenara el ataque.\nTipos de ataque: Phishing\nPrevención: Capacitación, asignación de privilegios necesarios a cada usuario, y autenticación multifactor.\nReflexión: Creo que depende de todos pero debe haber un encargado de seguridad que diseñe protocolos a seguir y metodos de seguridad automaticos.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Mariano Sebastián MELCHIORRE",
+          "fecha": "2026-03-18T11:12:27-03:00",
+          "mensaje": "Analisis inicial: Las medidas implementadas por la empresa son de seguridad y prevencion de datos en caso de un ataque, pero no tiene planteada como política de Ciberseguridad la capacitación del personal y otros metodos que impidan el ciberataque.\nFactor humano: El objetivo del ataque fue el empleado, él falló pero no hubo otro mecanismo que frenara el ataque.\nTipos de ataque: Phishing\nPrevención: Capacitación, asignación de privilegios necesarios a cada usuario, y autenticación multifactor.\nReflexión: Creo que depende de todos pero debe haber un encargado de seguridad que diseñe protocolos a seguir y metodos de seguridad automaticos.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Julieta GOMEZ ALVAREZ",
+          "fecha": "2026-03-18T11:17:39-03:00",
+          "mensaje": "Creo que el incidente ocurrió porque, aunque la empresa tenía medidas técnicas, el ataque no fue directo al sistema sino al usuario. El empleado fue engañado y terminó entregando sus propios datos, lo que hizo que el acceso pareciera “legítimo”.\nEsto muestra lo importante que es el factor humano. Muchas veces se dice que es el eslabón más débil, pero en realidad depende de la capacitación que tenga. Un usuario informado puede detectar este tipo de situaciones y evitar el problema.\nEn este caso se trata de un ataque de phishing, ya que el correo simula ser del banco para generar confianza y hacer que la persona ingrese sus datos en un sitio falso.\nPara prevenirlo, no alcanza solo con herramientas técnicas: también es clave capacitar a los empleados, implementar autenticación en dos factores y generar conciencia sobre este tipo de engaños.\nPersonalmente, creo que la ciberseguridad es un equilibrio entre tecnología y personas, pero sin usuarios capacitados, cualquier sistema puede fallar.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Julieta GOMEZ ALVAREZ",
+          "fecha": "2026-03-18T11:17:39-03:00",
+          "mensaje": "Creo que el incidente ocurrió porque, aunque la empresa tenía medidas técnicas, el ataque no fue directo al sistema sino al usuario. El empleado fue engañado y terminó entregando sus propios datos, lo que hizo que el acceso pareciera “legítimo”.\nEsto muestra lo importante que es el factor humano. Muchas veces se dice que es el eslabón más débil, pero en realidad depende de la capacitación que tenga. Un usuario informado puede detectar este tipo de situaciones y evitar el problema.\nEn este caso se trata de un ataque de phishing, ya que el correo simula ser del banco para generar confianza y hacer que la persona ingrese sus datos en un sitio falso.\nPara prevenirlo, no alcanza solo con herramientas técnicas: también es clave capacitar a los empleados, implementar autenticación en dos factores y generar conciencia sobre este tipo de engaños.\nPersonalmente, creo que la ciberseguridad es un equilibrio entre tecnología y personas, pero sin usuarios capacitados, cualquier sistema puede fallar.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Paola Susana GARCIA",
+          "fecha": "2026-03-18T11:38:45-03:00",
+          "mensaje": "Análisis inicial\nAunque la empresa tenía antivirus, firewall y copias de seguridad, estas herramientas protegen contra malware, accesos externos no autorizados y pérdida de datos por fallos técnicos. Sin embargo, el ataque se produjo a través de ingeniería social: el empleado entregó voluntariamente sus credenciales en un sitio falso.\nEn este caso, las defensas técnicas no detectaron nada porque no hubo un virus ni un exploit directo, sino un engaño al usuario.\n\nEl usuario es clave en la seguridad. Se suele decir que es el “eslabón más débil”, pero en realidad es el punto más expuesto:\n• Los sistemas pueden estar blindados, pero si alguien entrega sus claves, se abre la puerta desde adentro.\n• Más que “débil”, el usuario necesita formación y concientización para reconocer riesgos.\n• La seguridad no es solo tecnología: es también cultura organizacional.\n\nLo que ocurrió es un phishing:\n• Un correo electrónico que imita al banco.\n• Un enlace a una página falsa.\n• Robo de credenciales medi",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Paola Susana GARCIA",
+          "fecha": "2026-03-18T11:38:45-03:00",
+          "mensaje": "Análisis inicial\nAunque la empresa tenía antivirus, firewall y copias de seguridad, estas herramientas protegen contra malware, accesos externos no autorizados y pérdida de datos por fallos técnicos. Sin embargo, el ataque se produjo a través de ingeniería social: el empleado entregó voluntariamente sus credenciales en un sitio falso.\nEn este caso, las defensas técnicas no detectaron nada porque no hubo un virus ni un exploit directo, sino un engaño al usuario.\n\nEl usuario es clave en la seguridad. Se suele decir que es el “eslabón más débil”, pero en realidad es el punto más expuesto:\n• Los sistemas pueden estar blindados, pero si alguien entrega sus claves, se abre la puerta desde adentro.\n• Más que “débil”, el usuario necesita formación y concientización para reconocer riesgos.\n• La seguridad no es solo tecnología: es también cultura organizacional.\n\nLo que ocurrió es un phishing:\n• Un correo electrónico que imita al banco.\n• Un enlace a una página falsa.\n• Robo de credenciales medi",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Mariela Lucrecia YACCI",
+          "fecha": "2026-03-18T11:50:44-03:00",
+          "mensaje": "Las medidas de seguridad suelen quedar obsoletas en relacion a la velocidad en la que los ciberataques mejoran \"sus habilidades\".\nEl factor humano siempre es el mas debil, ya que por desconocimiento o distracción, suele cometer errores como el que menciona el caso propuestos\nentiendo que cuando el ataque es via mail se llama phishing, pero no estoy tan segura\nPara prevenir, hay que mejorar permanentemente los sistemas de seguridad y en la misma medida, capacitar a todos los usuarios del sistema\nLa ciberseguridad es un combo, si no capacitamos a las personas, la tecnologia puede ser de punta, pero ineficaz.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Mariela Lucrecia YACCI",
+          "fecha": "2026-03-18T11:50:44-03:00",
+          "mensaje": "Las medidas de seguridad suelen quedar obsoletas en relacion a la velocidad en la que los ciberataques mejoran \"sus habilidades\".\nEl factor humano siempre es el mas debil, ya que por desconocimiento o distracción, suele cometer errores como el que menciona el caso propuestos\nentiendo que cuando el ataque es via mail se llama phishing, pero no estoy tan segura\nPara prevenir, hay que mejorar permanentemente los sistemas de seguridad y en la misma medida, capacitar a todos los usuarios del sistema\nLa ciberseguridad es un combo, si no capacitamos a las personas, la tecnologia puede ser de punta, pero ineficaz.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Lucas GONELLA",
+          "fecha": "2026-03-18T12:09:11-03:00",
+          "mensaje": "El eslabón mas débil fue el diseño de ciberseguridad de la empresa.\nLas medidas implementadas son eficientes contra ataques \"directos\" de software maliciosos y en caso de que suceda, contar con las copias de seguridad para la recuperación.\n\nSi los empleados tuviese las herramientas y capacitaciones para identificar amenazas, como el ataque tipo Phishing (tipo ataque que sucedió), el sistema de ciberseguridad seria mucho mas completo, ya que integra todos los eslabones de la cadena.\nLa tecnología definitivamente tiene un gran papel en la ciberseguridad, pero así como son personas que realizan los ataques, son personas quienes tienen la primera o ultima instancia de defensa. Una tecnología robusta sin usuarios capacitados, es tan eficiente como usuarios capacitados sin la tecnología adecuada.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Lucas GONELLA",
+          "fecha": "2026-03-18T12:09:11-03:00",
+          "mensaje": "El eslabón mas débil fue el diseño de ciberseguridad de la empresa.\nLas medidas implementadas son eficientes contra ataques \"directos\" de software maliciosos y en caso de que suceda, contar con las copias de seguridad para la recuperación.\n\nSi los empleados tuviese las herramientas y capacitaciones para identificar amenazas, como el ataque tipo Phishing (tipo ataque que sucedió), el sistema de ciberseguridad seria mucho mas completo, ya que integra todos los eslabones de la cadena.\nLa tecnología definitivamente tiene un gran papel en la ciberseguridad, pero así como son personas que realizan los ataques, son personas quienes tienen la primera o ultima instancia de defensa. Una tecnología robusta sin usuarios capacitados, es tan eficiente como usuarios capacitados sin la tecnología adecuada.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Leandro Elias CABRAL",
+          "fecha": "2026-03-18T12:18:18-03:00",
+          "mensaje": "- Analisis inicial: Las medidas de seguridad técnicas no influyeron en esta situación porque no se atacó al sistema, se atacó a un usuario.\n\n- Factor humano: El usuario juega un papel importantisimo en la seguridad porque es quien dispone de la información y debe decidir todo el tiempo de forma responsable que hacer con ella, es el eslabón más débil por que puede tener más vulnerabilidades que un sistema.\n\n- Tipos de ataque: El tipo de ataque es conocido como Phishing, un trabajo de ingenieria social donde se busca extraer información valiosa del usuario para incidir en el sistema.\n\n- Prevención: Capacitar a los usuarios sobre este tipo de ataques para que tengan conocimientos para detectarlas y como accionar ante ellas.\n\n- Reflexión: Pienso que van de la mano porque ya sea mediante habilidades tecnicas o sociales un atacante puede lograr su cometido, como en este caso donde se implementaron medidas de seguridad tecnicas pero fue el usuario quien proporcionó su información para que lle",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Leandro Elias CABRAL",
+          "fecha": "2026-03-18T12:18:18-03:00",
+          "mensaje": "- Analisis inicial: Las medidas de seguridad técnicas no influyeron en esta situación porque no se atacó al sistema, se atacó a un usuario.\n\n- Factor humano: El usuario juega un papel importantisimo en la seguridad porque es quien dispone de la información y debe decidir todo el tiempo de forma responsable que hacer con ella, es el eslabón más débil por que puede tener más vulnerabilidades que un sistema.\n\n- Tipos de ataque: El tipo de ataque es conocido como Phishing, un trabajo de ingenieria social donde se busca extraer información valiosa del usuario para incidir en el sistema.\n\n- Prevención: Capacitar a los usuarios sobre este tipo de ataques para que tengan conocimientos para detectarlas y como accionar ante ellas.\n\n- Reflexión: Pienso que van de la mano porque ya sea mediante habilidades tecnicas o sociales un atacante puede lograr su cometido, como en este caso donde se implementaron medidas de seguridad tecnicas pero fue el usuario quien proporcionó su información para que lle",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Sabrina Elizabeth MALDONADO",
+          "fecha": "2026-03-18T12:38:19-03:00",
+          "mensaje": "Análisis inicial: ¿Cómo pudo ocurrir el incidente si la empresa contaba con medidas de seguridad técnicas? Las herramientas técnicas protegen contra ataques automatizados (virus, hackeos directos), pero no pueden detener una acción que el usuario realiza voluntariamente bajo engaño.\nFactor humano: ¿Qué rol juega el usuario en la seguridad de la información? ¿Es realmente el “eslabón más débil”? Sí, el usuario suele ser el punto más flojo porque las máquinas no tienen sentimientos, pero las personas sí. El atacante usa el miedo (\"te van a cerrar la cuenta\") o la curiosidad para que bajemos la guardia. Si el empleado no sabe reconocer un engaño, ninguna tecnología lo puede salvar.\nTipos de ataque: ¿Qué tipo de ataque se evidencia en el escenario? ¿Cómo lo identificarías? Se llama Phishing, el link te lleva a una página que se ve igual a la del banco, pero la dirección web es extraña.\nPrevención: ¿Qué acciones podrían haberse implementado para evitar esta situación?\nDoble verificación: Es",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Sabrina Elizabeth MALDONADO",
+          "fecha": "2026-03-18T12:38:19-03:00",
+          "mensaje": "Análisis inicial: ¿Cómo pudo ocurrir el incidente si la empresa contaba con medidas de seguridad técnicas? Las herramientas técnicas protegen contra ataques automatizados (virus, hackeos directos), pero no pueden detener una acción que el usuario realiza voluntariamente bajo engaño.\nFactor humano: ¿Qué rol juega el usuario en la seguridad de la información? ¿Es realmente el “eslabón más débil”? Sí, el usuario suele ser el punto más flojo porque las máquinas no tienen sentimientos, pero las personas sí. El atacante usa el miedo (\"te van a cerrar la cuenta\") o la curiosidad para que bajemos la guardia. Si el empleado no sabe reconocer un engaño, ninguna tecnología lo puede salvar.\nTipos de ataque: ¿Qué tipo de ataque se evidencia en el escenario? ¿Cómo lo identificarías? Se llama Phishing, el link te lleva a una página que se ve igual a la del banco, pero la dirección web es extraña.\nPrevención: ¿Qué acciones podrían haberse implementado para evitar esta situación?\nDoble verificación: Es",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Matias Salvador ROVARETTI",
+          "fecha": "2026-03-18T12:44:31-03:00",
+          "mensaje": "Análisis inicial: ¿Cómo pudo ocurrir el incidente si la empresa contaba con medidas de seguridad técnicas?\n\nse debe a que por mas que la empresa tenga implementado antivirus, firewall y realiza copias de seguridad periódicas, el mail es algo ajeno a lo que pueden prevenir ese tipo de implementaciones y por eso es que el mail no fue detectado como algo maligno\n\nFactor humano: ¿Qué rol juega el usuario en la seguridad de la información? ¿Es realmente el “eslabón más débil”?\nel usuario juega un rol muy importante en la seguridad de la informacion ya que es el que siempre esta expuesto a entregar informacion a personas o entidades a las cuales no se les deberia facilitar cierta informacion, yo creo que una vez que la empresa aplica toda las medidas de seguridad que debe aplicar para tener un sistema seguro, el usuario pasa a ser claramente el “eslabón más débil”, ya que no puede evitar que el usuario tenga errores o confusiones que expongan cierta informacion\n\nTipos de ataque: ¿Qué tipo de",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Matias Salvador ROVARETTI",
+          "fecha": "2026-03-18T12:44:31-03:00",
+          "mensaje": "Análisis inicial: ¿Cómo pudo ocurrir el incidente si la empresa contaba con medidas de seguridad técnicas?\n\nse debe a que por mas que la empresa tenga implementado antivirus, firewall y realiza copias de seguridad periódicas, el mail es algo ajeno a lo que pueden prevenir ese tipo de implementaciones y por eso es que el mail no fue detectado como algo maligno\n\nFactor humano: ¿Qué rol juega el usuario en la seguridad de la información? ¿Es realmente el “eslabón más débil”?\nel usuario juega un rol muy importante en la seguridad de la informacion ya que es el que siempre esta expuesto a entregar informacion a personas o entidades a las cuales no se les deberia facilitar cierta informacion, yo creo que una vez que la empresa aplica toda las medidas de seguridad que debe aplicar para tener un sistema seguro, el usuario pasa a ser claramente el “eslabón más débil”, ya que no puede evitar que el usuario tenga errores o confusiones que expongan cierta informacion\n\nTipos de ataque: ¿Qué tipo de",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Luis Alberto LAGGER",
+          "fecha": "2026-03-18T13:26:23-03:00",
+          "mensaje": "¡Hola, Profe Carolina y compañeros de Comisión! Muy interesante el escenario planteado.\nAporto mi visión desde mi experiencia como Analista y lo que estamos estudiando actualmente:\n• Análisis inicial: El incidente ocurrió porque la seguridad técnica (antivirus, firewall) protege la puerta de acceso a la empresa, pero el ataque no intentó romper la puerta, sino que engañó a quien tiene la llave. Las medidas técnicas suelen ser insuficientes ante ataques que manipulan al operador humano.\n• Factor humano: El usuario es, sin dudas, el eslabón más débil porque es el único componente del sistema que tiene subjetividad. Un firewall no tiene \"curiosidad\" ni \"miedo\", pero un empleado puede ser manipulado mediante urgencia, por confianza o distracción.\n• Tipos de ataque: Estamos ante un caso claro de Phishing (una variante de la Ingeniería Social). Se identifica por la suplantación de identidad (el correo desde el banco) y el uso de un enlace malicioso para el robo de credenciales.\n• Prevención:",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Luis Alberto LAGGER",
+          "fecha": "2026-03-18T13:26:23-03:00",
+          "mensaje": "¡Hola, Profe Carolina y compañeros de Comisión! Muy interesante el escenario planteado.\nAporto mi visión desde mi experiencia como Analista y lo que estamos estudiando actualmente:\n• Análisis inicial: El incidente ocurrió porque la seguridad técnica (antivirus, firewall) protege la puerta de acceso a la empresa, pero el ataque no intentó romper la puerta, sino que engañó a quien tiene la llave. Las medidas técnicas suelen ser insuficientes ante ataques que manipulan al operador humano.\n• Factor humano: El usuario es, sin dudas, el eslabón más débil porque es el único componente del sistema que tiene subjetividad. Un firewall no tiene \"curiosidad\" ni \"miedo\", pero un empleado puede ser manipulado mediante urgencia, por confianza o distracción.\n• Tipos de ataque: Estamos ante un caso claro de Phishing (una variante de la Ingeniería Social). Se identifica por la suplantación de identidad (el correo desde el banco) y el uso de un enlace malicioso para el robo de credenciales.\n• Prevención:",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Rocio Ayelen FISCHER",
+          "fecha": "2026-03-18T13:56:30-03:00",
+          "mensaje": "Analisis inicial: ¿Porque ocurrió el incidente?\n\nEl usuario fue atacado por una empresa falta, al entregar datos SIN tener un factor doble de autenticación (2FA) fue fácil el acceso al sistema  si se implemanta el 2FA el acceso es más difícil. Este ataque llamado phising, no rompe un firewall, si no que engaña al usuario robando los datos para entrar al sistema. \n\nFactor humano : El usuario tiene el papel de proteger datos de la empresa contra software maliciosos, pero a la vez la empresa queda vulnerable si no hay experiencia previa o capacitación sobre el resguardo de los datos tanto de usuarios como de la empresa, o actualizaciones de software de empresa o detección de correos falsos. Estoy puede llegar al cierre de una empresa. \n\nTipos de ataque: Phishing: el uso de un enlace falso que interactuar con el usuario con correos.\n\nPerdida de información: es un acceso no autorizado donde los falsos comprometen la confidencialidad de una empresa y sus datos.\n\nPrevención: políticas estrict",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Rocio Ayelen FISCHER",
+          "fecha": "2026-03-18T13:56:30-03:00",
+          "mensaje": "Analisis inicial: ¿Porque ocurrió el incidente?\n\nEl usuario fue atacado por una empresa falta, al entregar datos SIN tener un factor doble de autenticación (2FA) fue fácil el acceso al sistema  si se implemanta el 2FA el acceso es más difícil. Este ataque llamado phising, no rompe un firewall, si no que engaña al usuario robando los datos para entrar al sistema. \n\nFactor humano : El usuario tiene el papel de proteger datos de la empresa contra software maliciosos, pero a la vez la empresa queda vulnerable si no hay experiencia previa o capacitación sobre el resguardo de los datos tanto de usuarios como de la empresa, o actualizaciones de software de empresa o detección de correos falsos. Estoy puede llegar al cierre de una empresa. \n\nTipos de ataque: Phishing: el uso de un enlace falso que interactuar con el usuario con correos.\n\nPerdida de información: es un acceso no autorizado donde los falsos comprometen la confidencialidad de una empresa y sus datos.\n\nPrevención: políticas estrict",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Marcelo CORVALAN",
+          "fecha": "2026-03-18T13:57:18-03:00",
+          "mensaje": "Buen día y gracias por la propuesta.\n\nAnálisis inicial: La empresa contaba con las medidas de seguridad técnicas que parecen ser adecuadas, pero el ataque no ocurrió por el lado técnico así que no se pueden reportar como en falla.\n\nFactor humano: Se lo suele indicar como el \"más débil\" porque es el único capaz de cometer errores. Los sistemas programables siguen instrucciones creadas por un operador. Si funciona, funciona como el operador indica. Y en ultima instancia si se produjeran errores serian errores atribuibles al operador. Ademas solo los humanos puede estar \"asustados\", \"distraídos\", \"cansados\" u otras condiciones similares.\n\nTipos de ataque: Como indicaron los compañeros fue un ataque tipo phishing, de suplantación de identidad. Un engaño para que el operario entregue sus credenciales a una fuente supuestamente confiable.\n\nPrevención: Para evitar estos incidentes se puede capacitar al personal, aumentar la segurar interna con métodos de autenticación de múltiples pasos, y el",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Marcelo CORVALAN",
+          "fecha": "2026-03-18T13:57:18-03:00",
+          "mensaje": "Buen día y gracias por la propuesta.\n\nAnálisis inicial: La empresa contaba con las medidas de seguridad técnicas que parecen ser adecuadas, pero el ataque no ocurrió por el lado técnico así que no se pueden reportar como en falla.\n\nFactor humano: Se lo suele indicar como el \"más débil\" porque es el único capaz de cometer errores. Los sistemas programables siguen instrucciones creadas por un operador. Si funciona, funciona como el operador indica. Y en ultima instancia si se produjeran errores serian errores atribuibles al operador. Ademas solo los humanos puede estar \"asustados\", \"distraídos\", \"cansados\" u otras condiciones similares.\n\nTipos de ataque: Como indicaron los compañeros fue un ataque tipo phishing, de suplantación de identidad. Un engaño para que el operario entregue sus credenciales a una fuente supuestamente confiable.\n\nPrevención: Para evitar estos incidentes se puede capacitar al personal, aumentar la segurar interna con métodos de autenticación de múltiples pasos, y el",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Julieta STRADA",
+          "fecha": "2026-03-18T15:13:05-03:00",
+          "mensaje": "Buenas!!\nBueno veo que muchos de mis compañeros están más afilados en el tema!! así que les cuento lo que sucede en la empresa que trabajo actualmente: primero que todo, TODOS los mails de remitentes externos salen con un cartel de advertencia, esto hace que antes de abrirlos debas autorizarlo como remitente seguro. En segundo lugar han implementado campañas de prevención en las cuáles mandan mails a propósito para agarrarnos desprevenidos y ver cuan vulnerables somos y por último se hacen capacitaciones respecto al tema. Eso no quiere decir que sumados todos los esfuerzos una empresa sea inmune a un ciberataque pero cada pequeña acción suma.\n\nTener backup de la información y una protección especial para información sensible me parece fundamental en los tiempos que nos tocan en que todo pasa por una computadora.\n\nReflexión: Creo que la ciberseguridad depende 100% de las personas ya que son ellas las creadoras, administradoras y usuarios de la tecnología, sin la intervención del hombre ",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Julieta STRADA",
+          "fecha": "2026-03-18T15:13:05-03:00",
+          "mensaje": "Buenas!!\nBueno veo que muchos de mis compañeros están más afilados en el tema!! así que les cuento lo que sucede en la empresa que trabajo actualmente: primero que todo, TODOS los mails de remitentes externos salen con un cartel de advertencia, esto hace que antes de abrirlos debas autorizarlo como remitente seguro. En segundo lugar han implementado campañas de prevención en las cuáles mandan mails a propósito para agarrarnos desprevenidos y ver cuan vulnerables somos y por último se hacen capacitaciones respecto al tema. Eso no quiere decir que sumados todos los esfuerzos una empresa sea inmune a un ciberataque pero cada pequeña acción suma.\n\nTener backup de la información y una protección especial para información sensible me parece fundamental en los tiempos que nos tocan en que todo pasa por una computadora.\n\nReflexión: Creo que la ciberseguridad depende 100% de las personas ya que son ellas las creadoras, administradoras y usuarios de la tecnología, sin la intervención del hombre ",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Maria Laura ROSANO",
+          "fecha": "2026-03-18T15:26:46-03:00",
+          "mensaje": "Hola! Comparto mi análisis sobre el escenario:\nAnálisis inicial: El incidente pudo ocurrir porque, aunque la empresa contaba con medidas técnicas, estas no fueron suficientes para evitar el ataque. Puede deberse a que eran básicas o a que el phishing estaba bien diseñado. Por otro lado, el usuario debería haber contado con capacitación que le permita advertir este tipo de amenazas.\nFactor humano: El usuario tiene un rol clave en la seguridad de la información, ya que es quien puede “abrirle la puerta” a un ataque. Se lo suele considerar el “eslabón más débil” porque, más allá de la capacitación y el acompañamiento, sus acciones son determinantes. Por ejemplo, si actúa en modo automático, puede no detectar señales de alerta en un correo sospechoso.\nTipos de ataque: Se trata de un caso de phishing, donde se simula ser una entidad confiable (como un banco) para engañar al usuario y obtener sus credenciales. Generalmente se presenta a través de correos con enlaces sospechosos o mensajes qu",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Maria Laura ROSANO",
+          "fecha": "2026-03-18T15:26:46-03:00",
+          "mensaje": "Hola! Comparto mi análisis sobre el escenario:\nAnálisis inicial: El incidente pudo ocurrir porque, aunque la empresa contaba con medidas técnicas, estas no fueron suficientes para evitar el ataque. Puede deberse a que eran básicas o a que el phishing estaba bien diseñado. Por otro lado, el usuario debería haber contado con capacitación que le permita advertir este tipo de amenazas.\nFactor humano: El usuario tiene un rol clave en la seguridad de la información, ya que es quien puede “abrirle la puerta” a un ataque. Se lo suele considerar el “eslabón más débil” porque, más allá de la capacitación y el acompañamiento, sus acciones son determinantes. Por ejemplo, si actúa en modo automático, puede no detectar señales de alerta en un correo sospechoso.\nTipos de ataque: Se trata de un caso de phishing, donde se simula ser una entidad confiable (como un banco) para engañar al usuario y obtener sus credenciales. Generalmente se presenta a través de correos con enlaces sospechosos o mensajes qu",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Fabricio Andrés COCCONI",
+          "fecha": "2026-03-18T15:46:48-03:00",
+          "mensaje": "Analisis inicial:\nPaso porque el ataque no fue tecnico, sino que engañaron a una persona. Las herramientas estaban, pero no pueden evitar que alguien entregue sus datos.\n\nFactor humano:\nEl usuario tiene mucho peso. No diria que es “debil”, pero si es el punto donde mas facil pueden atacar porque todo pasa por decisiones humanas.\n\nTipo de ataque:\nEs phishing, porque usan un mail falso para hacer que la persona confie y ponga sus datos.\n\nPrevencion:\nCapacitaciones simples, avisar sobre este tipo de estafas y usar doble verificacion ayudarian bastante.\n\nReflexion:\nPara mi no depende solo de la tecnologia. Si la persona no esta atenta, igual puede fallar todo. Tiene que haber un poco de las dos cosas.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Fabricio Andrés COCCONI",
+          "fecha": "2026-03-18T15:46:48-03:00",
+          "mensaje": "Analisis inicial:\nPaso porque el ataque no fue tecnico, sino que engañaron a una persona. Las herramientas estaban, pero no pueden evitar que alguien entregue sus datos.\n\nFactor humano:\nEl usuario tiene mucho peso. No diria que es “debil”, pero si es el punto donde mas facil pueden atacar porque todo pasa por decisiones humanas.\n\nTipo de ataque:\nEs phishing, porque usan un mail falso para hacer que la persona confie y ponga sus datos.\n\nPrevencion:\nCapacitaciones simples, avisar sobre este tipo de estafas y usar doble verificacion ayudarian bastante.\n\nReflexion:\nPara mi no depende solo de la tecnologia. Si la persona no esta atenta, igual puede fallar todo. Tiene que haber un poco de las dos cosas.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Valeria Soledad CORTEZ",
+          "fecha": "2026-03-18T15:48:56-03:00",
+          "mensaje": "Análisis inicial:\nEntiendo que, pese a las herramientas disponibles, el factor humano debe considerarse como una de las “capas” que una solución de seguridad debe asesorar/capacitar.\n\nFactor humano:\nEl ser humano, a pesar de sus innatas capacidades y aquellas que desarrolla para la vida y en particular para aquello a lo que será su ocupación, tiene un margen de error que lo convierte, no diría en el eslabón más débil, pero si en una instancia en la que debe tener especial cuidado.\n\nTipos de ataque:\nConsidero que corresponde al ciberdelito/ciberestafa.\n\n\nPrevención:\nSe podría haber verificado si el Banco en cuestión ha emitido alguna circular de advertencia sobre su sistema de verificación de datos. Si esa nota explica que nunca contactaran a los clientes vía email, teléfono, redes sociales y otros medios, la persona podría haber estado prevenida. Por otro lado, al tratarse de una empresa que se dedica a la seguridad de podrían preparar capacitaciones y sistemas que hagan más sólidos lo",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Valeria Soledad CORTEZ",
+          "fecha": "2026-03-18T15:48:56-03:00",
+          "mensaje": "Análisis inicial:\nEntiendo que, pese a las herramientas disponibles, el factor humano debe considerarse como una de las “capas” que una solución de seguridad debe asesorar/capacitar.\n\nFactor humano:\nEl ser humano, a pesar de sus innatas capacidades y aquellas que desarrolla para la vida y en particular para aquello a lo que será su ocupación, tiene un margen de error que lo convierte, no diría en el eslabón más débil, pero si en una instancia en la que debe tener especial cuidado.\n\nTipos de ataque:\nConsidero que corresponde al ciberdelito/ciberestafa.\n\n\nPrevención:\nSe podría haber verificado si el Banco en cuestión ha emitido alguna circular de advertencia sobre su sistema de verificación de datos. Si esa nota explica que nunca contactaran a los clientes vía email, teléfono, redes sociales y otros medios, la persona podría haber estado prevenida. Por otro lado, al tratarse de una empresa que se dedica a la seguridad de podrían preparar capacitaciones y sistemas que hagan más sólidos lo",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Virginia Del Carmen BARBOZA",
+          "fecha": "2026-03-18T16:00:14-03:00",
+          "mensaje": "1. El incidente pudo ocurrir más allá de las medidas por un error humano, descuido o hasta voluntariamente ( sin querer queriendo), por parte del operador.\n2. El rol que cumple el usuario considero que es fundamental en estos casos, como es fundamental su capacitación y atención en los procedimientos para evitar este tipo de situaciones. El empleado es el más expuesto, pero con conocimiento e instrucción puede pasar de ser el más débil a fortalecerse.\n3. Este proceder es phishing, es lo que suele usarse par alas estafas, ya que simula ser el portal de una entidad reconocida y segura.\n4. Capacitación / talleres prácticos al personal expuesto. Quizás algún tipo de barrera informática que avise el riesgo de estos mails, es decir que actúen como filtro para que no ingresen a la bandeja.\n5. Creo que depende de ambas. Tanto las medidas de seguridad como de las personas. Hago la analogía de los elementos de seguridad, si están pero no hay conciencia de su uso o instrucción de porque, a como y",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Virginia Del Carmen BARBOZA",
+          "fecha": "2026-03-18T16:00:14-03:00",
+          "mensaje": "1. El incidente pudo ocurrir más allá de las medidas por un error humano, descuido o hasta voluntariamente ( sin querer queriendo), por parte del operador.\n2. El rol que cumple el usuario considero que es fundamental en estos casos, como es fundamental su capacitación y atención en los procedimientos para evitar este tipo de situaciones. El empleado es el más expuesto, pero con conocimiento e instrucción puede pasar de ser el más débil a fortalecerse.\n3. Este proceder es phishing, es lo que suele usarse par alas estafas, ya que simula ser el portal de una entidad reconocida y segura.\n4. Capacitación / talleres prácticos al personal expuesto. Quizás algún tipo de barrera informática que avise el riesgo de estos mails, es decir que actúen como filtro para que no ingresen a la bandeja.\n5. Creo que depende de ambas. Tanto las medidas de seguridad como de las personas. Hago la analogía de los elementos de seguridad, si están pero no hay conciencia de su uso o instrucción de porque, a como y",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Julio Cesar ORJINDO",
+          "fecha": "2026-03-18T17:18:36-03:00",
+          "mensaje": "Análisis inicial: Creo que pasó porque las medidas que tenía la empresa no alcanzan si alguien entrega sus datos sin darse cuenta. La seguridad no sirve de mucho si uno mismo abre la puerta.\nFactor humano: El usuario es clave. Sí, muchas veces es el eslabón más débil, pero no por culpa suya, sino porque puede ser engañado. Todos podemos caer si no estamos atentos.\nTipos de ataque: Es un engaño por correo (phishing). Se nota porque el mensaje se hace pasar por algo confiable, como un banco, y te apura a hacer clic y poner datos.\nPrevención: Capacitar a los empleados, desconfiar de correos raros, no hacer clic en cualquier enlace y verificar siempre antes de ingresar datos. También seria importante contar con un área de seguridad con personal especifico.\nReflexión: Para mí depende más de las personas. La tecnología ayuda, pero si alguien comete un error, todo lo demás puede fallar.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Julio Cesar ORJINDO",
+          "fecha": "2026-03-18T17:18:36-03:00",
+          "mensaje": "Análisis inicial: Creo que pasó porque las medidas que tenía la empresa no alcanzan si alguien entrega sus datos sin darse cuenta. La seguridad no sirve de mucho si uno mismo abre la puerta.\nFactor humano: El usuario es clave. Sí, muchas veces es el eslabón más débil, pero no por culpa suya, sino porque puede ser engañado. Todos podemos caer si no estamos atentos.\nTipos de ataque: Es un engaño por correo (phishing). Se nota porque el mensaje se hace pasar por algo confiable, como un banco, y te apura a hacer clic y poner datos.\nPrevención: Capacitar a los empleados, desconfiar de correos raros, no hacer clic en cualquier enlace y verificar siempre antes de ingresar datos. También seria importante contar con un área de seguridad con personal especifico.\nReflexión: Para mí depende más de las personas. La tecnología ayuda, pero si alguien comete un error, todo lo demás puede fallar.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Camila BOZZOLETTI",
+          "fecha": "2026-03-18T17:32:21-03:00",
+          "mensaje": "Considero que, aunque la empresa contaba con medidas de seguridad técnicas, el incidente pudo ocurrir debido al factor humano y a la falta de capacitación para identificar posibles ciberdelitos. Si bien no estoy completamente segura, parece tratarse de un caso de phishing, ya que se observa una suplantación de entidades confiables con el objetivo de acceder a información sensible o confidencial.\nEl usuario es un eslabón tan importante como el desarrollo de medidas de seguridad robustas, por lo que invertir en su capacitación continua es fundamental para prevenir posibles ataques como el del ejemplo y reducir los riesgos. Es por esto que, en mi opinión, la ciberseguridad es un conjunto de varias aristas: aunque contar con herramientas tecnológicas avanzadas es esencial, su efectividad se maximiza cuando los usuarios están preparados y capacitados ante posibles amenazas.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Camila BOZZOLETTI",
+          "fecha": "2026-03-18T17:32:21-03:00",
+          "mensaje": "Considero que, aunque la empresa contaba con medidas de seguridad técnicas, el incidente pudo ocurrir debido al factor humano y a la falta de capacitación para identificar posibles ciberdelitos. Si bien no estoy completamente segura, parece tratarse de un caso de phishing, ya que se observa una suplantación de entidades confiables con el objetivo de acceder a información sensible o confidencial.\nEl usuario es un eslabón tan importante como el desarrollo de medidas de seguridad robustas, por lo que invertir en su capacitación continua es fundamental para prevenir posibles ataques como el del ejemplo y reducir los riesgos. Es por esto que, en mi opinión, la ciberseguridad es un conjunto de varias aristas: aunque contar con herramientas tecnológicas avanzadas es esencial, su efectividad se maximiza cuando los usuarios están preparados y capacitados ante posibles amenazas.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Veronica LIGUORI",
+          "fecha": "2026-03-18T17:40:38-03:00",
+          "mensaje": "1. Análisis inicial: Ocurrió el incidente en la empresa porque contaba con medidas de seguridad técnico con antivirus y firewall, pero le falta protección de accesos y protección de datos.\n\n2. Factor humano: El factor humano cumple un rol fundamental y resulta ser el eslabón más débil sino está capacitado.\n\n3. Tipos de ataque: El tipo de ataque es Phishing, suplantación de identidad y lo identificaría porque el correo aparenta ser de una entidad confiable (el banco), incluye un enlace falso y busca robar credenciales.\n\n4. Prevención: Las acciones que podrían haberse realizado sería a nivel técnico: bloqueo de accesos desde ubicaciones sospechosas, a nivel organizacional: capacitación en ciberseguridad, simulación de phishing y a nivel usuario, concientizar que se debe verificar remite real y no hacer clic en enlaces sospechosos.\n\n5. Reflexión: Considero que la ciberseguridad depende de una combinación de los dos elementos: la tecnología y el factor humano, para que todo funcione tiene ",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Veronica LIGUORI",
+          "fecha": "2026-03-18T17:40:38-03:00",
+          "mensaje": "1. Análisis inicial: Ocurrió el incidente en la empresa porque contaba con medidas de seguridad técnico con antivirus y firewall, pero le falta protección de accesos y protección de datos.\n\n2. Factor humano: El factor humano cumple un rol fundamental y resulta ser el eslabón más débil sino está capacitado.\n\n3. Tipos de ataque: El tipo de ataque es Phishing, suplantación de identidad y lo identificaría porque el correo aparenta ser de una entidad confiable (el banco), incluye un enlace falso y busca robar credenciales.\n\n4. Prevención: Las acciones que podrían haberse realizado sería a nivel técnico: bloqueo de accesos desde ubicaciones sospechosas, a nivel organizacional: capacitación en ciberseguridad, simulación de phishing y a nivel usuario, concientizar que se debe verificar remite real y no hacer clic en enlaces sospechosos.\n\n5. Reflexión: Considero que la ciberseguridad depende de una combinación de los dos elementos: la tecnología y el factor humano, para que todo funcione tiene ",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Veronica LIGUORI",
+          "fecha": "2026-03-18T17:40:38-03:00",
+          "mensaje": "1. Análisis inicial: Ocurrió el incidente en la empresa porque contaba con medidas de seguridad técnico con antivirus y firewall, pero le falta protección de accesos y protección de datos.\n\n2. Factor humano: El factor humano cumple un rol fundamental y resulta ser el eslabón más débil sino está capacitado.\n\n3. Tipos de ataque: El tipo de ataque es Phishing, suplantación de identidad y lo identificaría porque el correo aparenta ser de una entidad confiable (el banco), incluye un enlace falso y busca robar credenciales.\n\n4. Prevención: Las acciones que podrían haberse realizado sería a nivel técnico: bloqueo de accesos desde ubicaciones sospechosas, a nivel organizacional: capacitación en ciberseguridad, simulación de phishing y a nivel usuario, concientizar que se debe verificar remite real y no hacer clic en enlaces sospechosos.\n\n5. Reflexión: Considero que la ciberseguridad depende de una combinación de los dos elementos: la tecnología y el factor humano, para que todo funcione tiene ",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398&parent=192688"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Veronica LIGUORI",
+          "fecha": "2026-03-18T17:40:38-03:00",
+          "mensaje": "1. Análisis inicial: Ocurrió el incidente en la empresa porque contaba con medidas de seguridad técnico con antivirus y firewall, pero le falta protección de accesos y protección de datos.\n\n2. Factor humano: El factor humano cumple un rol fundamental y resulta ser el eslabón más débil sino está capacitado.\n\n3. Tipos de ataque: El tipo de ataque es Phishing, suplantación de identidad y lo identificaría porque el correo aparenta ser de una entidad confiable (el banco), incluye un enlace falso y busca robar credenciales.\n\n4. Prevención: Las acciones que podrían haberse realizado sería a nivel técnico: bloqueo de accesos desde ubicaciones sospechosas, a nivel organizacional: capacitación en ciberseguridad, simulación de phishing y a nivel usuario, concientizar que se debe verificar remite real y no hacer clic en enlaces sospechosos.\n\n5. Reflexión: Considero que la ciberseguridad depende de una combinación de los dos elementos: la tecnología y el factor humano, para que todo funcione tiene ",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398&parent=192688"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Carolina AHUMADA",
+          "fecha": "2026-03-18T10:13:09-03:00",
+          "mensaje": "BIENVENIDOS\n\n😊¡Estimado estudiante!\n\nMe complace darte la bienvenida a este mundo fascinante de la seguridad, que lo experimentarán a través del trayecto de “Ciberseguridad”!.  Espero sea el inicio de muchos éxitos, logros y satisfacciones, que enriquezcan tu espíritu y crecimiento personal. Estoy encantada de poder ayudarte a extender tus límites y a crecer más allá de lo que jamás soñaste que fuera posible. \n\nSaludos Cordiales.\n\nProf.  Carolina Ahumada\n\n\nAntes de continuar hablando sobre mí, les comparto algunas novedades sobre este trayecto:\n\n✳️Duración: 4 meses\n\n\n✳️¿Qué caminos recorreremos? Vamos a emprender un recorrido para conocer y aprender sobre SEGURIDAD en todo ámbito, y no solo será teórico, también podrán aplicar el conocimiento a situaciones PRÁCTICAS.  \n\n⚠️Algunos consejos para el recorrido...\n\n 🔶Motor siempre ENCENDIDO. (Un motor que no funciona o funciona a medias no los conducirá  a ningún destino).\n\n 🔶Mucha CURIOSIDAD, hay mucho por conocer y descubrir.\n\n🔶PERDER el ",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85392"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Carolina AHUMADA",
+          "fecha": "2026-03-18T10:13:09-03:00",
+          "mensaje": "BIENVENIDOS\n\n😊¡Estimado estudiante!\n\nMe complace darte la bienvenida a este mundo fascinante de la seguridad, que lo experimentarán a través del trayecto de “Ciberseguridad”!.  Espero sea el inicio de muchos éxitos, logros y satisfacciones, que enriquezcan tu espíritu y crecimiento personal. Estoy encantada de poder ayudarte a extender tus límites y a crecer más allá de lo que jamás soñaste que fuera posible. \n\nSaludos Cordiales.\n\nProf.  Carolina Ahumada\n\n\nAntes de continuar hablando sobre mí, les comparto algunas novedades sobre este trayecto:\n\n✳️Duración: 4 meses\n\n\n✳️¿Qué caminos recorreremos? Vamos a emprender un recorrido para conocer y aprender sobre SEGURIDAD en todo ámbito, y no solo será teórico, también podrán aplicar el conocimiento a situaciones PRÁCTICAS.  \n\n⚠️Algunos consejos para el recorrido...\n\n 🔶Motor siempre ENCENDIDO. (Un motor que no funciona o funciona a medias no los conducirá  a ningún destino).\n\n 🔶Mucha CURIOSIDAD, hay mucho por conocer y descubrir.\n\n🔶PERDER el ",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85392"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Mariela Lucrecia YACCI",
+          "fecha": "2026-03-18T11:43:47-03:00",
+          "mensaje": "Hola Profe, buen dia!\nMe llamo Mariela, trabajo en una Fintech como directora de operaciones. En el mundo de transacciones on line, atravesamos situaciones de riesgo, desde operaciones fraudulentas hasta intentos de ataques.\nMe interesa muchismo conocer sobre Ciberseguridad y todo lo que pueda aportar en mi dia a dia.\nA nivel personal, me gusta mucho la lectura, es mi hobby preferido. Hago actividad fisica porque no me queda otra.\nNos vemos en la cursada!\nSaludos!\nMariela",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85392"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Mariela Lucrecia YACCI",
+          "fecha": "2026-03-18T11:43:47-03:00",
+          "mensaje": "Hola Profe, buen dia!\nMe llamo Mariela, trabajo en una Fintech como directora de operaciones. En el mundo de transacciones on line, atravesamos situaciones de riesgo, desde operaciones fraudulentas hasta intentos de ataques.\nMe interesa muchismo conocer sobre Ciberseguridad y todo lo que pueda aportar en mi dia a dia.\nA nivel personal, me gusta mucho la lectura, es mi hobby preferido. Hago actividad fisica porque no me queda otra.\nNos vemos en la cursada!\nSaludos!\nMariela",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85392"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Julieta GOMEZ ALVAREZ",
+          "fecha": "2026-03-18T11:46:47-03:00",
+          "mensaje": "Hola profe Caro, un gusto !!! Mi nombre es Julieta y tengo 26 años. Soy del interior de Cordoba, de Almafuerte. Este ultimo tiempo empecé a sentir curiosidad por la Ciberseguridad y estuve haciendo un curso sobre ella. Mis preguntas para vos son:\n1. Dentro de ciberseguridad, qué áreas consideras que tienen más proyección hoy (pentesting, blue team, cloud, etc.)?\n2. Qué habilidades prácticas considerás indispensables para alguien que recién empieza y quiere insertarse laboralmente?\n3. Qué plataformas o entornos recomendás para practicar de forma realista (tipo labs, CTF, etc.)?\n4. Qué certificaciones considerás más valiosas para alguien sin experiencia?\nMuchas gracias por tu tiempo profe !!!",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85392"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Julieta GOMEZ ALVAREZ",
+          "fecha": "2026-03-18T11:46:47-03:00",
+          "mensaje": "Hola profe Caro, un gusto !!! Mi nombre es Julieta y tengo 26 años. Soy del interior de Cordoba, de Almafuerte. Este ultimo tiempo empecé a sentir curiosidad por la Ciberseguridad y estuve haciendo un curso sobre ella. Mis preguntas para vos son:\n1. Dentro de ciberseguridad, qué áreas consideras que tienen más proyección hoy (pentesting, blue team, cloud, etc.)?\n2. Qué habilidades prácticas considerás indispensables para alguien que recién empieza y quiere insertarse laboralmente?\n3. Qué plataformas o entornos recomendás para practicar de forma realista (tipo labs, CTF, etc.)?\n4. Qué certificaciones considerás más valiosas para alguien sin experiencia?\nMuchas gracias por tu tiempo profe !!!",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85392"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Luis Alberto LAGGER",
+          "fecha": "2026-03-18T12:48:42-03:00",
+          "mensaje": "¡Hola, Profe Carolina! Un placer saludarla.\nMuchas gracias por los consejos y ese despliegue de energía tan contagioso.\nCoincido totalmente en mantener el \"motor encendido\" y la curiosidad es clave para no quedarnos atrás con la tecnología, que como bien dice, evoluciona todo el tiempo.\nPara responder a algunas de sus preguntas guía:\n• ¿Quién soy? Me llamo Luis Alberto Lagger\n• ¿De dónde provengo? Nací y crecí en la Ciudad de Córdoba, donde estudié y me formé como informático, a través de mi desarrollo profesional desempeñé diversas actividades, relacionadas o no con la informática, actualmente tengo 60 años y estoy intentando el regreso triunfal a la tecnología de estos tiempos, para insertarme de lleno en la actividad privada.\n• ¿Dónde vivo actualmente? Vivo en la ciudad de La Calera, cerquita de Córdoba.\n• Mis conocimientos previos: Soy un Analista de Sistemas de la vieja escuela, recibido en los 80s y hace un año he regresado a la vida formal de estudiante, concretamente en la carr",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85392"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Luis Alberto LAGGER",
+          "fecha": "2026-03-18T12:48:42-03:00",
+          "mensaje": "¡Hola, Profe Carolina! Un placer saludarla.\nMuchas gracias por los consejos y ese despliegue de energía tan contagioso.\nCoincido totalmente en mantener el \"motor encendido\" y la curiosidad es clave para no quedarnos atrás con la tecnología, que como bien dice, evoluciona todo el tiempo.\nPara responder a algunas de sus preguntas guía:\n• ¿Quién soy? Me llamo Luis Alberto Lagger\n• ¿De dónde provengo? Nací y crecí en la Ciudad de Córdoba, donde estudié y me formé como informático, a través de mi desarrollo profesional desempeñé diversas actividades, relacionadas o no con la informática, actualmente tengo 60 años y estoy intentando el regreso triunfal a la tecnología de estos tiempos, para insertarme de lleno en la actividad privada.\n• ¿Dónde vivo actualmente? Vivo en la ciudad de La Calera, cerquita de Córdoba.\n• Mis conocimientos previos: Soy un Analista de Sistemas de la vieja escuela, recibido en los 80s y hace un año he regresado a la vida formal de estudiante, concretamente en la carr",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85392"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Veronica LIGUORI",
+          "fecha": "2026-03-18T13:33:03-03:00",
+          "mensaje": "¡Hola a todos! Muchas gracias por los consejos profe Carolina, me motiva mucho para iniciar el recorrido de estos cuatro meses.\nMi nombre es Verónica, no tengo conocimientos previos en ciberseguridad, pero me parece sumamente interesante y fundamental interiorizarme, ¡este año es la oportunidad!\nVivo en la ciudad de Córdoba y provengo de formación académica de ciencias sociales, licenciada en comunicación institucional, pero mi oficio y experiencia laboral siempre estuvo ligada a la administración y comunicación en las empresas.\nDentro de mis habilidades me considero con capacidad analítica, por eso elegí ciencias de datos, para seguir desarrollarme profesionalmente.\nComo proyecto personal siempre me gusta ayudar, acompañar a las empresas, instituciones para la toma de decisiones, por eso veo a la ciencia de datos, un pilar fundamental para ello, me gustaría avanzar con perfil de asesora.\nMi pasatiempo es disfrutar con mi familia de paseos y hacer deporte, como gimnasia o andar en bici",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85392"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Veronica LIGUORI",
+          "fecha": "2026-03-18T13:33:03-03:00",
+          "mensaje": "¡Hola a todos! Muchas gracias por los consejos profe Carolina, me motiva mucho para iniciar el recorrido de estos cuatro meses.\nMi nombre es Verónica, no tengo conocimientos previos en ciberseguridad, pero me parece sumamente interesante y fundamental interiorizarme, ¡este año es la oportunidad!\nVivo en la ciudad de Córdoba y provengo de formación académica de ciencias sociales, licenciada en comunicación institucional, pero mi oficio y experiencia laboral siempre estuvo ligada a la administración y comunicación en las empresas.\nDentro de mis habilidades me considero con capacidad analítica, por eso elegí ciencias de datos, para seguir desarrollarme profesionalmente.\nComo proyecto personal siempre me gusta ayudar, acompañar a las empresas, instituciones para la toma de decisiones, por eso veo a la ciencia de datos, un pilar fundamental para ello, me gustaría avanzar con perfil de asesora.\nMi pasatiempo es disfrutar con mi familia de paseos y hacer deporte, como gimnasia o andar en bici",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85392"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Julieta STRADA",
+          "fecha": "2026-03-18T14:51:07-03:00",
+          "mensaje": "Hola profe! un gusto saludarte , mi nombre es Julieta Strada, soy ingeniera agrónoma y estoy en Córdoba capital. No tengo conocimientos previos en ciberseguridad así que es un mundo nuevo para mí! Soy una persona muy organizada y ordenada para trabajar, me gusta anticiparme a posibles escenarios que puedan ocurrir. Proyecto personal, tal vez desarrollar alguna startup agropecuaria aplicando conocimientos de IA para el desarrollo de nuevas tecnologías para el agro. Pasatiempos: estudiar ajajajaja!\n\nSaludos!",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85392"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Julieta STRADA",
+          "fecha": "2026-03-18T14:51:07-03:00",
+          "mensaje": "Hola profe! un gusto saludarte , mi nombre es Julieta Strada, soy ingeniera agrónoma y estoy en Córdoba capital. No tengo conocimientos previos en ciberseguridad así que es un mundo nuevo para mí! Soy una persona muy organizada y ordenada para trabajar, me gusta anticiparme a posibles escenarios que puedan ocurrir. Proyecto personal, tal vez desarrollar alguna startup agropecuaria aplicando conocimientos de IA para el desarrollo de nuevas tecnologías para el agro. Pasatiempos: estudiar ajajajaja!\n\nSaludos!",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85392"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Maria Laura ROSANO",
+          "fecha": "2026-03-18T15:50:09-03:00",
+          "mensaje": "Buenas tardes!\nMi nombre es Laura, soy de Córdoba y actualmente me desempeño en calidad de experiencia del cliente.\nRespecto de conocimientos previos en ciberseguridad, tengo una base general adquirida mayormente a través de capacitaciones del trabajo, donde se abordan temáticas como buenas prácticas en el manejo de la información, detección de correos sospechosos y prevención de fraudes. Me interesa en especial poder aprender sobre cómo utilizar herramientas de IA de forma segura, ya que muchas veces se aplican sobre información sensible, como bases de datos o interacciones con clientes.\n\nEs un gusto compartir este espacio con ustedes!",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85392"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Maria Laura ROSANO",
+          "fecha": "2026-03-18T15:50:09-03:00",
+          "mensaje": "Buenas tardes!\nMi nombre es Laura, soy de Córdoba y actualmente me desempeño en calidad de experiencia del cliente.\nRespecto de conocimientos previos en ciberseguridad, tengo una base general adquirida mayormente a través de capacitaciones del trabajo, donde se abordan temáticas como buenas prácticas en el manejo de la información, detección de correos sospechosos y prevención de fraudes. Me interesa en especial poder aprender sobre cómo utilizar herramientas de IA de forma segura, ya que muchas veces se aplican sobre información sensible, como bases de datos o interacciones con clientes.\n\nEs un gusto compartir este espacio con ustedes!",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85392"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Virginia Del Carmen BARBOZA",
+          "fecha": "2026-03-18T16:09:58-03:00",
+          "mensaje": ", 3:46 PM\nBuenas tardes Profe!! Soy Virginia de Córdoba Capital, soy Ing. Industrial y también dedicada a la docencia, me interesa actualizarme en estas nuevas tecnologías, poder manejarlas y aplicarlas en proyectos propios. En ratos libres me gusta salir a la plaza o pasear con mis hijos. Ansiosa de conocer más de este apacionante mundo. Saludos!",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85392"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Virginia Del Carmen BARBOZA",
+          "fecha": "2026-03-18T16:09:58-03:00",
+          "mensaje": ", 3:46 PM\nBuenas tardes Profe!! Soy Virginia de Córdoba Capital, soy Ing. Industrial y también dedicada a la docencia, me interesa actualizarme en estas nuevas tecnologías, poder manejarlas y aplicarlas en proyectos propios. En ratos libres me gusta salir a la plaza o pasear con mis hijos. Ansiosa de conocer más de este apacionante mundo. Saludos!",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85392"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Paola Susana GARCIA",
+          "fecha": "2026-03-18T16:50:42-03:00",
+          "mensaje": "Mi nombre es Paola García, tengo 42 años y vivo en Córdoba Capital, aunque siempre me identifico con mis raíces en Berrotarán, el lugar donde crecí y que me acompaña en mi manera de ver el mundo. Soy analista de sistemas y también docente, lo que me permite unir la experiencia técnica con la vocación de enseñar y acompañar procesos de aprendizaje. Desde hace más de diez años trabajo en soporte del sistema de gestión Tango, un recorrido que me ha dado la oportunidad de enfrentar desafíos cotidianos, resolver problemas prácticos y comprender en profundidad cómo funcionan las organizaciones. Al mismo tiempo, sigo apostando a mi formación: actualmente soy estudiante en el ISPC, donde curso la Tecnicatura en Ciencias de Datos e Inteligencia Artificial, un campo que me entusiasma porque abre nuevas posibilidades de innovación en educación y gestión institucional.\nProvengo de un entorno que combina lo urbano con lo rural, lo que me ha dado flexibilidad para adaptarme a distintos contextos y v",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85392"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Paola Susana GARCIA",
+          "fecha": "2026-03-18T16:50:42-03:00",
+          "mensaje": "Mi nombre es Paola García, tengo 42 años y vivo en Córdoba Capital, aunque siempre me identifico con mis raíces en Berrotarán, el lugar donde crecí y que me acompaña en mi manera de ver el mundo. Soy analista de sistemas y también docente, lo que me permite unir la experiencia técnica con la vocación de enseñar y acompañar procesos de aprendizaje. Desde hace más de diez años trabajo en soporte del sistema de gestión Tango, un recorrido que me ha dado la oportunidad de enfrentar desafíos cotidianos, resolver problemas prácticos y comprender en profundidad cómo funcionan las organizaciones. Al mismo tiempo, sigo apostando a mi formación: actualmente soy estudiante en el ISPC, donde curso la Tecnicatura en Ciencias de Datos e Inteligencia Artificial, un campo que me entusiasma porque abre nuevas posibilidades de innovación en educación y gestión institucional.\nProvengo de un entorno que combina lo urbano con lo rural, lo que me ha dado flexibilidad para adaptarme a distintos contextos y v",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85392"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Camila BOZZOLETTI",
+          "fecha": "2026-03-18T16:54:08-03:00",
+          "mensaje": "Hola profe! Hola compañeros!\n\nMi nombre es Camila, soy de Córdoba Capital y provengo del campo de las Ciencias Sociales. No tengo conocimientos previos en ciberseguridad, pero considero que es una disciplina fundamental en la era digital, donde es necesario contar con herramientas y conocimientos específicos para trabajar correctamente y de manera segura con sistemas y datos. Por eso, siento que aprenderé muchísimo de esta asignatura.\n\nMe considero una persona analítica, organizada y detallista; en mi tiempo libre disfruto de escuchar música, ver películas y hacer arreglos en el jardín.\n\nA futuro, me gustaría poder aplicar estos conocimientos en proyectos vinculados al análisis de datos, incorporando buenas prácticas de seguridad en el manejo de la información.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85392"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Camila BOZZOLETTI",
+          "fecha": "2026-03-18T16:54:08-03:00",
+          "mensaje": "Hola profe! Hola compañeros!\n\nMi nombre es Camila, soy de Córdoba Capital y provengo del campo de las Ciencias Sociales. No tengo conocimientos previos en ciberseguridad, pero considero que es una disciplina fundamental en la era digital, donde es necesario contar con herramientas y conocimientos específicos para trabajar correctamente y de manera segura con sistemas y datos. Por eso, siento que aprenderé muchísimo de esta asignatura.\n\nMe considero una persona analítica, organizada y detallista; en mi tiempo libre disfruto de escuchar música, ver películas y hacer arreglos en el jardín.\n\nA futuro, me gustaría poder aplicar estos conocimientos en proyectos vinculados al análisis de datos, incorporando buenas prácticas de seguridad en el manejo de la información.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85392"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Julio Cesar ORJINDO",
+          "fecha": "2026-03-18T17:08:37-03:00",
+          "mensaje": "Buenas tardes Profe, me llamo Julio, tengo 47 años, vivo en Villa Santa Rosa (Cuna de nuestro Santo Cura Brochero del que además soy devoto) trabajo en la Policía de Cordobá hace 17 años, en este momento hace como 6 meses estoy como Agente Pastoral en el Depto. de Capellanía Policial. Entre en esta tecnicatura con el propósito de aportar algo a mi trabajo y además porque me gustan las materias relacionadas con las ciencias exactas, otras son nuevas para mi pero me gustan. En este momento estoy realizando cursos de Cba Crea Futuro y hay temas relacionados a ciberseguridad, espero poder aportar algo de lo que voy aprendiendo. Me gusta leer, andar en bici, de vez en cuando me pongo a tocar la guitarra y me gusta mucho cocinar de todo. Saludos y nos vemos en el próximo encuentro.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85392"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Julio Cesar ORJINDO",
+          "fecha": "2026-03-18T17:08:37-03:00",
+          "mensaje": "Buenas tardes Profe, me llamo Julio, tengo 47 años, vivo en Villa Santa Rosa (Cuna de nuestro Santo Cura Brochero del que además soy devoto) trabajo en la Policía de Cordobá hace 17 años, en este momento hace como 6 meses estoy como Agente Pastoral en el Depto. de Capellanía Policial. Entre en esta tecnicatura con el propósito de aportar algo a mi trabajo y además porque me gustan las materias relacionadas con las ciencias exactas, otras son nuevas para mi pero me gustan. En este momento estoy realizando cursos de Cba Crea Futuro y hay temas relacionados a ciberseguridad, espero poder aportar algo de lo que voy aprendiendo. Me gusta leer, andar en bici, de vez en cuando me pongo a tocar la guitarra y me gusta mucho cocinar de todo. Saludos y nos vemos en el próximo encuentro.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85392"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Yanina María Eva ROLDAN",
+          "fecha": "2026-03-18T17:35:23-03:00",
+          "mensaje": "Hola profe, buenas tardes! Soy Yanina Roldan, tengo 37 años y soy de Colonia Caroya. Soy ama de casa y mamá x4 por lo que abarco un montón de otros perfiles profesionales que vienen por defecto, jaja! En mi deseo de, a pesar del tiempo, encontrar mi perfil laboral llegué hasta aquí. Debo reconocer que es todo nuevo pero apasionante para mi. Ansío empezar este nuevo año y seguir aprendiendo cada día un poquito más de este inmenso mundo.. Mi pasatiempo es estudiar!",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85392"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Yanina María Eva ROLDAN",
+          "fecha": "2026-03-18T17:35:23-03:00",
+          "mensaje": "Hola profe, buenas tardes! Soy Yanina Roldan, tengo 37 años y soy de Colonia Caroya. Soy ama de casa y mamá x4 por lo que abarco un montón de otros perfiles profesionales que vienen por defecto, jaja! En mi deseo de, a pesar del tiempo, encontrar mi perfil laboral llegué hasta aquí. Debo reconocer que es todo nuevo pero apasionante para mi. Ansío empezar este nuevo año y seguir aprendiendo cada día un poquito más de este inmenso mundo.. Mi pasatiempo es estudiar!",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85392"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Yanina María Eva ROLDAN",
+          "fecha": "2026-03-18T17:35:23-03:00",
+          "mensaje": "Hola profe, buenas tardes! Soy Yanina Roldan, tengo 37 años y soy de Colonia Caroya. Soy ama de casa y mamá x4 por lo que abarco un montón de otros perfiles profesionales que vienen por defecto, jaja! En mi deseo de, a pesar del tiempo, encontrar mi perfil laboral llegué hasta aquí. Debo reconocer que es todo nuevo pero apasionante para mi. Ansío empezar este nuevo año y seguir aprendiendo cada día un poquito más de este inmenso mundo.. Mi pasatiempo es estudiar!",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85392&parent=192687"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Yanina María Eva ROLDAN",
+          "fecha": "2026-03-18T17:35:23-03:00",
+          "mensaje": "Hola profe, buenas tardes! Soy Yanina Roldan, tengo 37 años y soy de Colonia Caroya. Soy ama de casa y mamá x4 por lo que abarco un montón de otros perfiles profesionales que vienen por defecto, jaja! En mi deseo de, a pesar del tiempo, encontrar mi perfil laboral llegué hasta aquí. Debo reconocer que es todo nuevo pero apasionante para mi. Ansío empezar este nuevo año y seguir aprendiendo cada día un poquito más de este inmenso mundo.. Mi pasatiempo es estudiar!",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85392&parent=192687"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Tatiana MANZANELLI",
+          "fecha": "2026-03-12T20:52:19-03:00",
+          "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85229"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Tatiana MANZANELLI",
+          "fecha": "2026-03-12T20:52:19-03:00",
+          "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85229"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Tatiana MANZANELLI",
+          "fecha": "2026-03-12T20:52:19-03:00",
+          "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85229&parent=192195"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Tatiana MANZANELLI",
+          "fecha": "2026-03-12T20:52:19-03:00",
+          "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85229&parent=192195"
+        },
+        {
+          "titulo": "Avisos Com A",
+          "autor": "Carolina AHUMADA",
+          "fecha": "2026-03-18T10:28:53-03:00",
+          "mensaje": "Muy buenos días estudiantes!!! es un placer compartir este espacio con ustedes😀. La clase de esta primer semana será asincrónica(NO DEBEN CONECTARSE AL MEET). Voy a dejar una actividad planteada en el foro para que vayan participando.! Los estaré leyendo y respondiendo. A animarse y participar!!!💪         \n\nCariños Profe Carolina",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85394"
+        },
+        {
+          "titulo": "Avisos Com A",
+          "autor": "Carolina AHUMADA",
+          "fecha": "2026-03-18T10:28:53-03:00",
+          "mensaje": "Muy buenos días estudiantes!!! es un placer compartir este espacio con ustedes😀. La clase de esta primer semana será asincrónica(NO DEBEN CONECTARSE AL MEET). Voy a dejar una actividad planteada en el foro para que vayan participando.! Los estaré leyendo y respondiendo. A animarse y participar!!!💪         \n\nCariños Profe Carolina",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85394"
+        },
+        {
+          "titulo": "Avisos Com A",
+          "autor": "Carolina AHUMADA",
+          "fecha": "2026-03-18T10:28:53-03:00",
+          "mensaje": "Muy buenos días estudiantes!!! es un placer compartir este espacio con ustedes😀. La clase de esta primer semana será asincrónica(NO DEBEN CONECTARSE AL MEET). Voy a dejar una actividad planteada en el foro para que vayan participando.! Los estaré leyendo y respondiendo. A animarse y participar!!!💪         \n\nCariños Profe Carolina",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85394&parent=192545"
+        },
+        {
+          "titulo": "Avisos Com A",
+          "autor": "Carolina AHUMADA",
+          "fecha": "2026-03-18T10:28:53-03:00",
+          "mensaje": "Muy buenos días estudiantes!!! es un placer compartir este espacio con ustedes😀. La clase de esta primer semana será asincrónica(NO DEBEN CONECTARSE AL MEET). Voy a dejar una actividad planteada en el foro para que vayan participando.! Los estaré leyendo y respondiendo. A animarse y participar!!!💪         \n\nCariños Profe Carolina",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85394&parent=192545"
         }
       ],
+      "unidades": [],
       "tareas": [
         {
           "nombre": "Evidencias de Aprendizajes",
           "url": "https://acceso.ispc.edu.ar/course/section.php?id=27750",
           "fecha_entrega": null,
-          "estado": "pendiente",
-          "descripcion": "",
-          "seccion": ""
+          "estado": "pendiente"
         },
         {
           "nombre": "Proyecto ABP",
           "url": "https://acceso.ispc.edu.ar/course/section.php?id=27751",
           "fecha_entrega": null,
-          "estado": "pendiente",
-          "descripcion": "",
-          "seccion": ""
+          "estado": "pendiente"
         },
         {
           "nombre": "Coloquio - Promoción",
           "url": "https://acceso.ispc.edu.ar/course/section.php?id=27752",
           "fecha_entrega": null,
-          "estado": "pendiente",
-          "descripcion": "",
-          "seccion": ""
+          "estado": "pendiente"
         }
       ],
       "materiales": [],
-      "ultima_actualizacion": "2026-03-18T20:13:41.536323",
-      "unidades": []
+      "ultima_actualizacion": "2026-03-18T20:50:46.786996"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -73,11 +592,59 @@
       "criterios": "• Sistema de Acreditación - Espacios curriculares Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
         {
-          "titulo": "Aviso",
-          "autor": "",
-          "fecha": "",
-          "mensaje": "Avisos",
-          "url": ""
+          "titulo": "Avisos",
+          "autor": "Tatiana MANZANELLI",
+          "fecha": "2026-03-12T19:41:22-03:00",
+          "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85225"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Tatiana MANZANELLI",
+          "fecha": "2026-03-12T19:41:22-03:00",
+          "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85225"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Tatiana MANZANELLI",
+          "fecha": "2026-03-12T19:41:22-03:00",
+          "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85225&parent=192190"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Tatiana MANZANELLI",
+          "fecha": "2026-03-12T19:41:22-03:00",
+          "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85225&parent=192190"
+        }
+      ],
+      "unidades": [
+        {
+          "nombre": "Unidad 1: Introducción a la Ciencia de Datos",
+          "url": "https://acceso.ispc.edu.ar/mod/book/view.php?id=112947",
+          "descripcion": ""
+        },
+        {
+          "nombre": "Unidad 2: Las organizaciones y los procesos",
+          "url": "https://acceso.ispc.edu.ar/mod/book/view.php?id=112944",
+          "descripcion": ""
+        },
+        {
+          "nombre": "Unidad 3: Organización, limpieza y herramientas",
+          "url": "https://acceso.ispc.edu.ar/mod/book/view.php?id=112941",
+          "descripcion": ""
+        },
+        {
+          "nombre": "Unidad 4: Análisis exploratorio de datos (EDA)",
+          "url": "https://acceso.ispc.edu.ar/mod/book/view.php?id=112951",
+          "descripcion": ""
+        },
+        {
+          "nombre": "Unidad 5: Visualización de datos",
+          "url": "https://acceso.ispc.edu.ar/mod/book/view.php?id=112950",
+          "descripcion": ""
         }
       ],
       "tareas": [
@@ -85,30 +652,23 @@
           "nombre": "Evidencias de Aprendizajes",
           "url": "https://acceso.ispc.edu.ar/course/section.php?id=27910",
           "fecha_entrega": null,
-          "estado": "pendiente",
-          "descripcion": "",
-          "seccion": ""
+          "estado": "pendiente"
         },
         {
           "nombre": "Proyecto ABP",
           "url": "https://acceso.ispc.edu.ar/course/section.php?id=27911",
           "fecha_entrega": null,
-          "estado": "pendiente",
-          "descripcion": "",
-          "seccion": ""
+          "estado": "pendiente"
         },
         {
           "nombre": "Coloquio - Promoción",
           "url": "https://acceso.ispc.edu.ar/course/section.php?id=27912",
           "fecha_entrega": null,
-          "estado": "pendiente",
-          "descripcion": "",
-          "seccion": ""
+          "estado": "pendiente"
         }
       ],
       "materiales": [],
-      "ultima_actualizacion": "2026-03-18T20:13:49.915080",
-      "unidades": []
+      "ultima_actualizacion": "2026-03-18T20:51:30.855169"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -120,56 +680,203 @@
       "criterios": "• Criterios de evaluación\n• Sistema de Acreditación - Espacios curriculares Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
         {
-          "titulo": "Aviso",
-          "autor": "",
-          "fecha": "",
-          "mensaje": "Avisos",
-          "url": ""
+          "titulo": "Avisos",
+          "autor": "Carlos Ignacio CHARLETTI",
+          "fecha": "2026-03-17T17:45:24-03:00",
+          "mensaje": "Buenas tardes, \n\nEl sincrónico de esta tarde se encuentra cancelado. Esto es porque esta primer semana no tendrán clases sincrónicas. \n\nSaludos.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85362"
         },
         {
-          "titulo": "Aviso",
-          "autor": "",
-          "fecha": "",
-          "mensaje": "Avisos COM A",
-          "url": ""
+          "titulo": "Avisos",
+          "autor": "Carlos Ignacio CHARLETTI",
+          "fecha": "2026-03-17T17:45:24-03:00",
+          "mensaje": "Buenas tardes, \n\nEl sincrónico de esta tarde se encuentra cancelado. Esto es porque esta primer semana no tendrán clases sincrónicas. \n\nSaludos.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85362"
         },
         {
-          "titulo": "Aviso",
-          "autor": "",
-          "fecha": "",
-          "mensaje": "Avisos COM B",
-          "url": ""
+          "titulo": "Avisos",
+          "autor": "Luis Alberto LAGGER",
+          "fecha": "2026-03-17T18:18:18-03:00",
+          "mensaje": "Hoola Profesor, muchas gracias por avisar, que bueno leerlo, saludos cordiales, nos veremos pronto …",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85362"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Luis Alberto LAGGER",
+          "fecha": "2026-03-17T18:18:18-03:00",
+          "mensaje": "Hoola Profesor, muchas gracias por avisar, que bueno leerlo, saludos cordiales, nos veremos pronto …",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85362"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Luis Alberto LAGGER",
+          "fecha": "2026-03-17T18:18:18-03:00",
+          "mensaje": "Hoola Profesor, muchas gracias por avisar, que bueno leerlo, saludos cordiales, nos veremos pronto …",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85362&parent=192459"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Luis Alberto LAGGER",
+          "fecha": "2026-03-17T18:18:18-03:00",
+          "mensaje": "Hoola Profesor, muchas gracias por avisar, que bueno leerlo, saludos cordiales, nos veremos pronto …",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85362&parent=192459"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Tatiana MANZANELLI",
+          "fecha": "2026-03-12T20:35:47-03:00",
+          "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85226"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Tatiana MANZANELLI",
+          "fecha": "2026-03-12T20:35:47-03:00",
+          "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85226"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Tatiana MANZANELLI",
+          "fecha": "2026-03-12T20:35:47-03:00",
+          "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85226&parent=192192"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Tatiana MANZANELLI",
+          "fecha": "2026-03-12T20:35:47-03:00",
+          "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85226&parent=192192"
+        },
+        {
+          "titulo": "Avisos Com A",
+          "autor": "Cynthia CORSO",
+          "fecha": "2026-03-18T10:29:18-03:00",
+          "mensaje": "Estimados, les comparto el link con el material que les comenté previamente para esta semana.\n\nhttps://acceso.ispc.edu.ar/mod/folder/view.php?id=112924\n\nSaludos\n\nProf. Corso Cynthia.-",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85395"
+        },
+        {
+          "titulo": "Avisos Com A",
+          "autor": "Cynthia CORSO",
+          "fecha": "2026-03-18T10:29:18-03:00",
+          "mensaje": "Estimados, les comparto el link con el material que les comenté previamente para esta semana.\n\nhttps://acceso.ispc.edu.ar/mod/folder/view.php?id=112924\n\nSaludos\n\nProf. Corso Cynthia.-",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85395"
+        },
+        {
+          "titulo": "Avisos Com A",
+          "autor": "Cynthia CORSO",
+          "fecha": "2026-03-18T10:29:18-03:00",
+          "mensaje": "Estimados, les comparto el link con el material que les comenté previamente para esta semana.\n\nhttps://acceso.ispc.edu.ar/mod/folder/view.php?id=112924\n\nSaludos\n\nProf. Corso Cynthia.-",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85395&parent=192546"
+        },
+        {
+          "titulo": "Avisos Com A",
+          "autor": "Cynthia CORSO",
+          "fecha": "2026-03-18T10:29:18-03:00",
+          "mensaje": "Estimados, les comparto el link con el material que les comenté previamente para esta semana.\n\nhttps://acceso.ispc.edu.ar/mod/folder/view.php?id=112924\n\nSaludos\n\nProf. Corso Cynthia.-",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85395&parent=192546"
+        },
+        {
+          "titulo": "Avisos Com A",
+          "autor": "Cynthia CORSO",
+          "fecha": "2026-03-18T07:12:20-03:00",
+          "mensaje": "Estimados/as estudiantes:\n\nMi nombre es Cynthia Corso y este año seré la profesora de la Comisión A en la asignatura Ciencia de Datos I. ¡Es un gusto acompañarlos en este recorrido!\n\nLes comento que, por esta semana, el encuentro de hoy día miércoles 18/03 se realizará de manera asincrónica. La próxima semana retomaremos las clases en modalidad sincrónica, en el horario habitual (Miércoles 15:40 a 16:40).\n\nPara iniciar este recorrido de formación, en el transcurso del día les dejaré una actividad en el aula virtual, que consiste en la lectura de material y la realización de una propuesta simple. La idea es que puedan tener un primer acercamiento a los contenidos de la materia y que podamos discutirla en el encuentro de la semana que viene.\n\n¡Nos vemos muy pronto! 😊",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85385"
+        },
+        {
+          "titulo": "Avisos Com A",
+          "autor": "Cynthia CORSO",
+          "fecha": "2026-03-18T07:12:20-03:00",
+          "mensaje": "Estimados/as estudiantes:\n\nMi nombre es Cynthia Corso y este año seré la profesora de la Comisión A en la asignatura Ciencia de Datos I. ¡Es un gusto acompañarlos en este recorrido!\n\nLes comento que, por esta semana, el encuentro de hoy día miércoles 18/03 se realizará de manera asincrónica. La próxima semana retomaremos las clases en modalidad sincrónica, en el horario habitual (Miércoles 15:40 a 16:40).\n\nPara iniciar este recorrido de formación, en el transcurso del día les dejaré una actividad en el aula virtual, que consiste en la lectura de material y la realización de una propuesta simple. La idea es que puedan tener un primer acercamiento a los contenidos de la materia y que podamos discutirla en el encuentro de la semana que viene.\n\n¡Nos vemos muy pronto! 😊",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85385"
+        },
+        {
+          "titulo": "Avisos Com A",
+          "autor": "Cynthia CORSO",
+          "fecha": "2026-03-18T07:12:20-03:00",
+          "mensaje": "Estimados/as estudiantes:\n\nMi nombre es Cynthia Corso y este año seré la profesora de la Comisión A en la asignatura Ciencia de Datos I. ¡Es un gusto acompañarlos en este recorrido!\n\nLes comento que, por esta semana, el encuentro de hoy día miércoles 18/03 se realizará de manera asincrónica. La próxima semana retomaremos las clases en modalidad sincrónica, en el horario habitual (Miércoles 15:40 a 16:40).\n\nPara iniciar este recorrido de formación, en el transcurso del día les dejaré una actividad en el aula virtual, que consiste en la lectura de material y la realización de una propuesta simple. La idea es que puedan tener un primer acercamiento a los contenidos de la materia y que podamos discutirla en el encuentro de la semana que viene.\n\n¡Nos vemos muy pronto! 😊",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85385&parent=192529"
+        },
+        {
+          "titulo": "Avisos Com A",
+          "autor": "Cynthia CORSO",
+          "fecha": "2026-03-18T07:12:20-03:00",
+          "mensaje": "Estimados/as estudiantes:\n\nMi nombre es Cynthia Corso y este año seré la profesora de la Comisión A en la asignatura Ciencia de Datos I. ¡Es un gusto acompañarlos en este recorrido!\n\nLes comento que, por esta semana, el encuentro de hoy día miércoles 18/03 se realizará de manera asincrónica. La próxima semana retomaremos las clases en modalidad sincrónica, en el horario habitual (Miércoles 15:40 a 16:40).\n\nPara iniciar este recorrido de formación, en el transcurso del día les dejaré una actividad en el aula virtual, que consiste en la lectura de material y la realización de una propuesta simple. La idea es que puedan tener un primer acercamiento a los contenidos de la materia y que podamos discutirla en el encuentro de la semana que viene.\n\n¡Nos vemos muy pronto! 😊",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85385&parent=192529"
+        }
+      ],
+      "unidades": [
+        {
+          "nombre": "Unidad 1: Introducción a la Ciencia de Datos",
+          "url": "https://acceso.ispc.edu.ar/mod/book/view.php?id=112704",
+          "descripcion": ""
+        },
+        {
+          "nombre": "Unidad 2: Las organizaciones y los procesos",
+          "url": "https://acceso.ispc.edu.ar/mod/book/view.php?id=112752",
+          "descripcion": ""
+        },
+        {
+          "nombre": "Unidad 3: Organización, limpieza y herramientas",
+          "url": "https://acceso.ispc.edu.ar/mod/book/view.php?id=112911",
+          "descripcion": ""
+        },
+        {
+          "nombre": "Unidad 4: Análisis exploratorio de datos (EDA)",
+          "url": "https://acceso.ispc.edu.ar/mod/book/view.php?id=112912",
+          "descripcion": ""
+        },
+        {
+          "nombre": "Unidad 5: Visualización de datos",
+          "url": "https://acceso.ispc.edu.ar/mod/book/view.php?id=112913",
+          "descripcion": ""
         }
       ],
       "tareas": [
         {
-          "nombre": "Evidencias de Aprendizajes",
-          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27726",
-          "fecha_entrega": null,
+          "nombre": "Entrega 1 – Comprensión del problema y datos",
+          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=112918",
+          "fecha_entrega": "Todavía no se han realizado envíos",
           "estado": "pendiente",
-          "descripcion": "",
-          "seccion": ""
+          "descripcion": "Objetivo: entender el problema y explorar los datos.\n\nIncluye:\n\ndescripción del problema\n\nidentificación de fuentes\n\nprimer análisis del dataset",
+          "seccion": "Evidencias de Aprendizajes"
         },
         {
-          "nombre": "Proyecto ABP",
-          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27727",
-          "fecha_entrega": null,
+          "nombre": "Entrega 2 – Limpieza y transformación",
+          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=112919",
+          "fecha_entrega": "Todavía no se han realizado envíos",
           "estado": "pendiente",
-          "descripcion": "",
-          "seccion": ""
+          "descripcion": "Objetivo: preparar los datos.\n\nIncluye:\n\nlimpieza de datos\n\nestandarización\n\ndataset final",
+          "seccion": "Evidencias de Aprendizajes"
         },
         {
-          "nombre": "Coloquio - Promoción",
-          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27728",
-          "fecha_entrega": null,
+          "nombre": "Entrega 3 – Análisis exploratorio",
+          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=112920",
+          "fecha_entrega": "Todavía no se han realizado envíos",
           "estado": "pendiente",
-          "descripcion": "",
-          "seccion": ""
+          "descripcion": "Objetivo: obtener información.\n\nIncluye:\n\nanálisis descriptivo\n\ndetección de patrones\n\nprimeras conclusiones",
+          "seccion": "Evidencias de Aprendizajes"
+        },
+        {
+          "nombre": "Actividades de la Unidad 2",
+          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=112796",
+          "fecha_entrega": "Todavía no se han realizado envíos",
+          "estado": "pendiente",
+          "descripcion": "Optativas.",
+          "seccion": "Evidencias de Aprendizajes"
+        },
+        {
+          "nombre": "Entrega final – Visualización y comunicación",
+          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=112917",
+          "fecha_entrega": "Todavía no se han realizado envíos",
+          "estado": "pendiente",
+          "descripcion": "Fecha limite: 08/06\n\nObjetivo: comunicar resultados.\n\nIncluye:\n\ngráficos\n\ndashboard (opcional)\n\ninforme final\n\npresentación",
+          "seccion": "Proyecto ABP"
         }
       ],
       "materiales": [],
-      "ultima_actualizacion": "2026-03-18T20:13:58.738065",
-      "unidades": []
+      "ultima_actualizacion": "2026-03-18T20:51:55.216251"
     }
   ]
 }
