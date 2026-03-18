@@ -24,7 +24,7 @@ export const SCHEDULE: CourseEvent[] = [
   { nombre: "Procesamiento de Datos",          dia: "Martes",    inicio: "15:40", fin: "18:00", carrera: "TSCDIA", meet: MEET_TSCDIA },
   // MIÉRCOLES — TSDS
   { nombre: "Práctica Profesionalizante II",   dia: "Miércoles", inicio: "18:20", fin: "19:20", carrera: "TSDS",   meet: MEET_TSDS },
-  { nombre: "Ciencia de Datos",               dia: "Miércoles", inicio: "19:40", fin: "20:40", carrera: "TSDS",   meet: MEET_TSDS },
+  { nombre: "Ciencia de Datos",               dia: "Miércoles", inicio: "19:40", fin: "20:40", carrera: "TSDS",   meet: "https://meet.google.com/tcn-vkoy-uhb" },
   // MIÉRCOLES — TSCDIA
   { nombre: "Ciencia de Datos I",              dia: "Miércoles", inicio: "15:40", fin: "16:40", carrera: "TSCDIA", meet: MEET_TSCDIA },
   { nombre: "Tecnología y Sociedad",           dia: "Miércoles", inicio: "17:00", fin: "18:00", carrera: "TSCDIA", meet: MEET_TSCDIA },
