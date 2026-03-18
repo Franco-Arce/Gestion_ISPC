@@ -236,8 +236,9 @@ function CarreraGrid({
         {materias.map((m) => (
           <button
             key={m.nombre}
+            title={m.nombre}
             onClick={() => setFilter(filter === m.nombre ? null : m.nombre)}
-            className={`flex-shrink-0 px-4 py-2 rounded-xl text-sm font-semibold transition-all ${
+            className={`flex-shrink-0 max-w-[160px] truncate px-4 py-2 rounded-xl text-sm font-semibold transition-all ${
               filter === m.nombre
                 ? "bg-indigo-500 text-white shadow-lg shadow-indigo-500/20"
                 : "bg-slate-900/50 border border-white/5 text-slate-400 hover:text-white hover:bg-slate-800"
