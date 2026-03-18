@@ -20,9 +20,11 @@ function fmtFecha(iso: string) {
 export default function InicioPanel({
   materias,
   onSelectMateria,
+  onVerHistorial,
 }: {
   materias: Materia[];
   onSelectMateria: (nombre: string, carrera: "TSDS" | "TSCDIA") => void;
+  onVerHistorial: () => void;
 }) {
   const todayDia = DOW_TO_DIA[new Date().getDay()];
 
@@ -147,7 +149,7 @@ export default function InicioPanel({
             </div>
           ) : (
             <div className="space-y-4">
-              {paraRevisar.map(({ m, aviso, evidencia }, i) => {
+              {paraRevisar.slice(0, 5).map(({ m, aviso, evidencia }, i) => {
                 const fechaEv =
                   evidencia?.fecha_entrega && !isNaN(new Date(evidencia.fecha_entrega).getTime())
                     ? fmtFecha(evidencia.fecha_entrega)
@@ -201,7 +203,15 @@ export default function InicioPanel({
             </div>
           )}
 
-          <button className="w-full mt-6 py-2.5 rounded-xl border border-slate-700 text-slate-500 hover:text-white hover:bg-slate-800 transition-colors text-sm font-medium flex items-center justify-center gap-2">
+          {paraRevisar.length > 5 && (
+            <p className="text-center text-[11px] text-slate-600 mt-3">
+              +{paraRevisar.length - 5} más
+            </p>
+          )}
+          <button
+            onClick={onVerHistorial}
+            className="w-full mt-4 py-2.5 rounded-xl border border-slate-700 text-slate-500 hover:text-white hover:bg-slate-800 transition-colors text-sm font-medium flex items-center justify-center gap-2"
+          >
             Ver historial completo
           </button>
         </div>

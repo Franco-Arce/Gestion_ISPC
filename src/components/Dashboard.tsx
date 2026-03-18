@@ -13,8 +13,9 @@ import { ISPCData } from "@/types";
 import MateriaCard from "./MateriaCard";
 import WeeklyCalendar from "./WeeklyCalendar";
 import InicioPanel from "./InicioPanel";
+import HistorialPanel from "./HistorialPanel";
 
-type MainTab = "inicio" | "calendario" | "TSDS" | "TSCDIA";
+type MainTab = "inicio" | "calendario" | "historial" | "TSDS" | "TSCDIA";
 
 const CARRERA_LABELS: Record<string, string> = {
   TSDS: "Tecnicatura en Desarrollo de Software",
@@ -85,7 +86,7 @@ export default function Dashboard({ data }: { data: ISPCData }) {
 
   const tabBadge = (tab: MainTab) => {
     if (tab === "inicio") return avisosHoy || null;
-    if (tab === "calendario") return null;
+    if (tab === "calendario" || tab === "historial") return null;
     return pendientesPorCarrera(tab) || null;
   };
 
@@ -121,11 +122,14 @@ export default function Dashboard({ data }: { data: ISPCData }) {
 
       {/* ── Nav tabs ── */}
       <nav className="max-w-7xl mx-auto flex gap-6 border-b border-slate-800 mb-8 overflow-x-auto pb-px">
-        {(["inicio", "calendario", "TSDS", "TSCDIA"] as MainTab[]).map((tab) => {
+        {(["inicio", "calendario", "historial", "TSDS", "TSCDIA"] as MainTab[]).map((tab) => {
           const isActive = mainTab === tab;
           const badge = tabBadge(tab);
           const label =
-            tab === "inicio" ? "Inicio" : tab === "calendario" ? "Calendario" : tab;
+            tab === "inicio" ? "Inicio"
+            : tab === "calendario" ? "Calendario"
+            : tab === "historial" ? "Historial"
+            : tab;
           return (
             <button
               key={tab}
@@ -159,11 +163,18 @@ export default function Dashboard({ data }: { data: ISPCData }) {
 
         {/* ══ INICIO ══ */}
         {mainTab === "inicio" && (
-          <InicioPanel materias={materias} onSelectMateria={handleSelectMateria} />
+          <InicioPanel
+            materias={materias}
+            onSelectMateria={handleSelectMateria}
+            onVerHistorial={() => handleTabChange("historial")}
+          />
         )}
 
         {/* ══ CALENDARIO ══ */}
         {mainTab === "calendario" && <WeeklyCalendar />}
+
+        {/* ══ HISTORIAL ══ */}
+        {mainTab === "historial" && <HistorialPanel materias={materias} />}
 
         {/* ══ CARRERA ══ */}
         {carreraActiva && (
