@@ -1,10 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, Video } from "lucide-react";
 import { SCHEDULE, DOW_TO_DIA, toMin, type CourseEvent } from "@/lib/schedule";
 
-const DIAS = ["Martes", "Miércoles", "Jueves"] as const;
+const DIAS = ["Lunes", "Martes", "Miércoles", "Jueves"] as const;
 const HOUR_START = 14;
 const HOUR_END = 21;
 const HOURS = Array.from({ length: HOUR_END - HOUR_START + 1 }, (_, i) => HOUR_START + i);
@@ -46,7 +46,6 @@ function layoutDay(events: CourseEvent[]): LayoutEvent[] {
   ];
 }
 
-// Full name list grouped by día
 const SCHEDULE_BY_DIA = DIAS.map((dia) => ({
   dia,
   events: SCHEDULE.filter((e) => e.dia === dia).sort(
@@ -66,7 +65,7 @@ export default function WeeklyCalendar() {
           <p className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-0.5">
             Horario semanal
           </p>
-          <p className="text-sm text-slate-200">Martes · Miércoles · Jueves</p>
+          <p className="text-sm text-slate-200">Lunes · Martes · Miércoles · Jueves</p>
         </div>
         <div className="flex items-center gap-4">
           <span className="flex items-center gap-1.5 text-xs text-rose-400/80">
@@ -80,7 +79,7 @@ export default function WeeklyCalendar() {
 
       {/* Grid */}
       <div className="overflow-x-auto">
-        <div className="min-w-[520px] p-5 pb-4">
+        <div className="min-w-[640px] p-5 pb-4">
           {/* Day headers */}
           <div className="flex mb-1 ml-12">
             {DIAS.map((d) => (
@@ -141,11 +140,13 @@ export default function WeeklyCalendar() {
                       ? "bg-rose-950/80 border-rose-800/50 text-rose-200"
                       : "bg-emerald-950/80 border-emerald-800/50 text-emerald-200";
                     const dot = isTs ? "bg-rose-500" : "bg-emerald-500";
+                    const meetCls = isTs
+                      ? "bg-rose-900/60 hover:bg-rose-800/80 text-rose-300"
+                      : "bg-emerald-900/60 hover:bg-emerald-800/80 text-emerald-300";
 
                     return (
                       <div
                         key={i}
-                        title={`${ev.nombre} · ${ev.inicio}–${ev.fin}`}
                         className={`absolute border rounded-lg overflow-hidden px-2 py-1.5 ${cls}`}
                         style={{
                           top: top + 1,
@@ -156,13 +157,26 @@ export default function WeeklyCalendar() {
                       >
                         <div className="flex items-center gap-1 mb-0.5">
                           <span className={`w-1.5 h-1.5 rounded-full flex-shrink-0 ${dot}`} />
-                          <p className="text-[11px] font-semibold leading-tight truncate">
+                          <p className="text-[11px] font-semibold leading-tight truncate" title={ev.nombre}>
                             {ev.nombre}
                           </p>
                         </div>
                         <p className="text-[10px] opacity-40 leading-tight pl-2.5">
                           {ev.inicio}–{ev.fin}
                         </p>
+                        {ev.meet && height >= 52 && (
+                          <a
+                            href={ev.meet}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            onClick={(e) => e.stopPropagation()}
+                            title="Unirse al Meet"
+                            className={`mt-1 ml-2.5 inline-flex items-center gap-1 text-[10px] font-semibold px-1.5 py-0.5 rounded transition-colors ${meetCls}`}
+                          >
+                            <Video size={9} />
+                            Meet
+                          </a>
+                        )}
                       </div>
                     );
                   })}
@@ -187,7 +201,7 @@ export default function WeeklyCalendar() {
         </button>
 
         {legendOpen && (
-          <div className="px-6 pb-6 grid grid-cols-1 sm:grid-cols-3 gap-6">
+          <div className="px-6 pb-6 grid grid-cols-2 sm:grid-cols-4 gap-6">
             {SCHEDULE_BY_DIA.map(({ dia, events }) => (
               <div key={dia}>
                 <p
@@ -198,7 +212,7 @@ export default function WeeklyCalendar() {
                   {dia}
                   {dia === todayDia && " · hoy"}
                 </p>
-                <div className="space-y-2">
+                <div className="space-y-3">
                   {events.map((ev, i) => {
                     const isTs = ev.carrera === "TSDS";
                     return (
@@ -213,6 +227,17 @@ export default function WeeklyCalendar() {
                           <p className="text-[11px] text-slate-600 font-mono">
                             {ev.inicio}–{ev.fin}
                           </p>
+                          {ev.meet && (
+                            <a
+                              href={ev.meet}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-flex items-center gap-1 mt-1 text-[11px] text-indigo-400 hover:text-indigo-300 transition-colors"
+                            >
+                              <Video size={10} />
+                              Unirse al Meet
+                            </a>
+                          )}
                         </div>
                       </div>
                     );

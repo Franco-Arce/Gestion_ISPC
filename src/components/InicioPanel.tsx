@@ -1,6 +1,6 @@
 "use client";
 
-import { Clock, FileText, ChevronRight } from "lucide-react";
+import { Clock, FileText, ChevronRight, Video } from "lucide-react";
 import { Materia } from "@/types";
 import { SCHEDULE, DOW_TO_DIA, toMin } from "@/lib/schedule";
 
@@ -112,6 +112,18 @@ export default function InicioPanel({
                       <span className="text-indigo-400 font-medium font-mono">
                         {clase.inicio}–{clase.fin}
                       </span>
+                      {clase.meet && (
+                        <a
+                          href={clase.meet}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          onClick={(e) => e.stopPropagation()}
+                          className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-indigo-600/20 border border-indigo-500/30 text-indigo-300 hover:bg-indigo-600/40 hover:text-white transition-colors text-xs font-semibold"
+                        >
+                          <Video size={12} />
+                          Unirse
+                        </a>
+                      )}
                     </div>
                   </div>
 
