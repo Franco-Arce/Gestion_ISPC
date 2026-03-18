@@ -1,162 +1,112 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-03-18T00:00:00",
+  "generado_el": "2026-03-18T20:14:07.772663",
   "materias": [
     {
-      "nombre": "Programación III",
-      "carrera": "TSDS",
-      "horario": "Martes 18:20–20:40",
-      "comision": "Única",
-      "url_campus": "",
-      "programa": "Sin datos aún. Ejecutar scraper.",
-      "criterios": "",
-      "avisos": [],
-      "tareas": [],
-      "materiales": [],
-      "ultima_actualizacion": "2026-03-18T00:00:00"
-    },
-    {
-      "nombre": "Interfaz de Usuario",
-      "carrera": "TSDS",
-      "horario": "Martes 18:20–20:40",
-      "comision": "Única",
-      "url_campus": "",
+      "nombre": "Ciberseguridad",
+      "carrera": "TSCDIA",
+      "horario": "Jueves 15:40–16:40",
+      "comision": "A (tarde)",
+      "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4270",
       "programa": "",
-      "criterios": "",
-      "avisos": [],
-      "tareas": [],
+      "criterios": "• Sistema de Acreditación - Espacios curriculares Cuatrimestrales\n• Régimen Académico Institucional\n",
+      "avisos": [
+        "Avisos",
+        "Avisos COM A",
+        "Avisos COM B"
+      ],
+      "tareas": [
+        {
+          "nombre": "Evidencias de Aprendizajes",
+          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27750",
+          "fecha_entrega": null,
+          "estado": "pendiente"
+        },
+        {
+          "nombre": "Proyecto ABP",
+          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27751",
+          "fecha_entrega": null,
+          "estado": "pendiente"
+        },
+        {
+          "nombre": "Coloquio - Promoción",
+          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27752",
+          "fecha_entrega": null,
+          "estado": "pendiente"
+        }
+      ],
       "materiales": [],
-      "ultima_actualizacion": "2026-03-18T00:00:00"
-    },
-    {
-      "nombre": "Práctica Profesionalizante II",
-      "carrera": "TSDS",
-      "horario": "Miércoles 18:20–19:20",
-      "comision": "Única",
-      "url_campus": "",
-      "programa": "",
-      "criterios": "",
-      "avisos": [],
-      "tareas": [],
-      "materiales": [],
-      "ultima_actualizacion": "2026-03-18T00:00:00"
+      "ultima_actualizacion": "2026-03-18T20:13:41.536323"
     },
     {
       "nombre": "Ciencia de Datos",
       "carrera": "TSDS",
       "horario": "Miércoles 19:40–20:40",
       "comision": "Única",
-      "url_campus": "",
+      "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4290",
       "programa": "",
-      "criterios": "",
-      "avisos": [],
-      "tareas": [],
+      "criterios": "• Sistema de Acreditación - Espacios curriculares Cuatrimestrales\n• Régimen Académico Institucional\n",
+      "avisos": [
+        "Avisos"
+      ],
+      "tareas": [
+        {
+          "nombre": "Evidencias de Aprendizajes",
+          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27910",
+          "fecha_entrega": null,
+          "estado": "pendiente"
+        },
+        {
+          "nombre": "Proyecto ABP",
+          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27911",
+          "fecha_entrega": null,
+          "estado": "pendiente"
+        },
+        {
+          "nombre": "Coloquio - Promoción",
+          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27912",
+          "fecha_entrega": null,
+          "estado": "pendiente"
+        }
+      ],
       "materiales": [],
-      "ultima_actualizacion": "2026-03-18T00:00:00"
-    },
-    {
-      "nombre": "Ingeniería de Software",
-      "carrera": "TSDS",
-      "horario": "Jueves 18:20–19:20",
-      "comision": "Única",
-      "url_campus": "",
-      "programa": "",
-      "criterios": "",
-      "avisos": [],
-      "tareas": [],
-      "materiales": [],
-      "ultima_actualizacion": "2026-03-18T00:00:00"
-    },
-    {
-      "nombre": "Gestión de Proyectos",
-      "carrera": "TSDS",
-      "horario": "Jueves 19:40–20:40",
-      "comision": "Única",
-      "url_campus": "",
-      "programa": "",
-      "criterios": "",
-      "avisos": [],
-      "tareas": [],
-      "materiales": [],
-      "ultima_actualizacion": "2026-03-18T00:00:00"
-    },
-    {
-      "nombre": "Estadística y Exploración de Datos I",
-      "carrera": "TSCDIA",
-      "horario": "Martes 15:40–18:00",
-      "comision": "A (tarde)",
-      "url_campus": "",
-      "programa": "",
-      "criterios": "",
-      "avisos": [],
-      "tareas": [],
-      "materiales": [],
-      "ultima_actualizacion": "2026-03-18T00:00:00"
-    },
-    {
-      "nombre": "Procesamiento de Datos",
-      "carrera": "TSCDIA",
-      "horario": "Martes 15:40–18:00",
-      "comision": "A (tarde)",
-      "url_campus": "",
-      "programa": "",
-      "criterios": "",
-      "avisos": [],
-      "tareas": [],
-      "materiales": [],
-      "ultima_actualizacion": "2026-03-18T00:00:00"
+      "ultima_actualizacion": "2026-03-18T20:13:49.915080"
     },
     {
       "nombre": "Ciencia de Datos I",
       "carrera": "TSCDIA",
       "horario": "Miércoles 15:40–16:40",
       "comision": "A (tarde)",
-      "url_campus": "",
-      "programa": "",
-      "criterios": "",
-      "avisos": [],
-      "tareas": [],
+      "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4267",
+      "programa": "Requisitos de finalización\nHaga clic en el enlace Programa para abrir el recurso.",
+      "criterios": "• Criterios de evaluación\n• Sistema de Acreditación - Espacios curriculares Cuatrimestrales\n• Régimen Académico Institucional\n",
+      "avisos": [
+        "Avisos",
+        "Avisos COM A",
+        "Avisos COM B"
+      ],
+      "tareas": [
+        {
+          "nombre": "Evidencias de Aprendizajes",
+          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27726",
+          "fecha_entrega": null,
+          "estado": "pendiente"
+        },
+        {
+          "nombre": "Proyecto ABP",
+          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27727",
+          "fecha_entrega": null,
+          "estado": "pendiente"
+        },
+        {
+          "nombre": "Coloquio - Promoción",
+          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27728",
+          "fecha_entrega": null,
+          "estado": "pendiente"
+        }
+      ],
       "materiales": [],
-      "ultima_actualizacion": "2026-03-18T00:00:00"
-    },
-    {
-      "nombre": "Tecnología y Sociedad",
-      "carrera": "TSCDIA",
-      "horario": "Miércoles 17:00–18:00",
-      "comision": "A (tarde)",
-      "url_campus": "",
-      "programa": "",
-      "criterios": "",
-      "avisos": [],
-      "tareas": [],
-      "materiales": [],
-      "ultima_actualizacion": "2026-03-18T00:00:00"
-    },
-    {
-      "nombre": "Inglés II",
-      "carrera": "TSCDIA",
-      "horario": "Jueves 14:20–15:20",
-      "comision": "A (tarde)",
-      "url_campus": "",
-      "programa": "",
-      "criterios": "",
-      "avisos": [],
-      "tareas": [],
-      "materiales": [],
-      "ultima_actualizacion": "2026-03-18T00:00:00"
-    },
-    {
-      "nombre": "Ciberseguridad",
-      "carrera": "TSCDIA",
-      "horario": "Jueves 15:40–16:40",
-      "comision": "A (tarde)",
-      "url_campus": "",
-      "programa": "",
-      "criterios": "",
-      "avisos": [],
-      "tareas": [],
-      "materiales": [],
-      "ultima_actualizacion": "2026-03-18T00:00:00"
+      "ultima_actualizacion": "2026-03-18T20:13:58.738065"
     }
   ]
 }
