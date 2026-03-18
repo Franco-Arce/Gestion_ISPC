@@ -179,19 +179,35 @@ async def extract_avisos(page, context) -> list[dict]:
                     await thread_page.goto(thread_href, wait_until="networkidle", timeout=20000)
 
                     # Extraer posts del thread
-                    posts = await thread_page.query_selector_all(".forumpost, .post")
+                    posts = await thread_page.query_selector_all(".forumpost, .post, [data-region='post']")
                     for post in posts:
-                        # Autor
-                        autor_el = await post.query_selector(".author, .username, [data-region='author-name']")
-                        autor = (await autor_el.inner_text()).strip() if autor_el else "Desconocido"
+                        # Autor — probar varios selectores por versión de Moodle
+                        autor = "Desconocido"
+                        for sel in [
+                            "[data-region='author-name']",
+                            ".author a",
+                            ".author",
+                            ".username",
+                            ".h6.mb-0 a",
+                            ".post-author-name",
+                            "a[href*='user/view']",
+                        ]:
+                            autor_el = await post.query_selector(sel)
+                            if autor_el:
+                                t = (await autor_el.inner_text()).strip()
+                                if t:
+                                    autor = t
+                                    break
 
-                        # Fecha
-                        fecha_el = await post.query_selector(".postdate, time, .date")
-                        fecha = (await fecha_el.inner_text()).strip() if fecha_el else ""
-                        if not fecha:
-                            fecha_el = await post.query_selector("time")
+                        # Fecha — probar varios selectores
+                        fecha = ""
+                        for sel in ["time[datetime]", ".postdate", ".date", "time", ".post-date"]:
+                            fecha_el = await post.query_selector(sel)
                             if fecha_el:
-                                fecha = await fecha_el.get_attribute("datetime") or (await fecha_el.inner_text()).strip()
+                                t = await fecha_el.get_attribute("datetime") or (await fecha_el.inner_text()).strip()
+                                if t:
+                                    fecha = t
+                                    break
 
                         # Mensaje
                         msg_el = await post.query_selector(".posting, .post-content-container, [data-region='post-content']")
