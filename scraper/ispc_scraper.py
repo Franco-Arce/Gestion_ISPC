@@ -202,15 +202,22 @@ async def extract_course(page, course: dict) -> dict:
 async def main():
     username = os.environ.get("ISPC_USER", "")
     password = os.environ.get("ISPC_PASSWORD", "")
+    is_ci = os.environ.get("CI", "false").lower() == "true"
 
-    # Si no hay vars de entorno, pedir interactivamente (uso local)
-    if not username:
-        username = input("Usuario ISPC: ").strip()
-    if not password:
-        import getpass
-        password = getpass.getpass("Contraseña ISPC: ")
+    # En CI, fallar si no hay credenciales
+    if is_ci:
+        if not username or not password:
+            print("ERROR: ISPC_USER y/o ISPC_PASSWORD no están definidos en los secrets de GitHub.")
+            sys.exit(1)
+    else:
+        # Uso local: pedir interactivamente si faltan
+        if not username:
+            username = input("Usuario ISPC: ").strip()
+        if not password:
+            import getpass
+            password = getpass.getpass("Contraseña ISPC: ")
 
-    headless = os.environ.get("CI", "false").lower() == "true"
+    headless = is_ci
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=headless)
