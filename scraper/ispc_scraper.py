@@ -91,61 +91,59 @@ async def login(page, username: str, password: str):
 
 
 async def get_courses(page) -> list[dict]:
-    log("→ Obteniendo lista de cursos...")
-    await page.goto(f"{BASE_URL}/my/courses.php", wait_until="networkidle")
-    log(f"  URL cursos: {page.url}")
-
-    # Scroll para cargar todos los cursos (Moodle usa carga lazy/AJAX)
-    prev_count = 0
-    for i in range(10):
-        await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-        await page.wait_for_timeout(1500)
-        links_now = await page.query_selector_all("a[href*='/course/view.php']")
-        log(f"  [SCROLL {i+1}] Links de cursos visibles: {len(links_now)}")
-        if len(links_now) == prev_count:
-            log(f"  [SCROLL] No hay más cursos, deteniendo scroll")
-            break
-        prev_count = len(links_now)
+    log("→ Obteniendo lista de cursos (todas las páginas)...")
 
     courses = []
-    links = await page.query_selector_all("a")
     seen = set()
-    total_links = 0
-    filtered_year = 0
+    page_num = 1
 
-    log(f"  Total links en página tras scroll: {len(links)}")
+    while True:
+        url = f"{BASE_URL}/my/courses.php?page={page_num - 1}"
+        log(f"  → Página {page_num}: {url}")
+        await page.goto(url, wait_until="networkidle")
 
-    for link in links:
-        href = await link.get_attribute("href") or ""
-        if "/course/view.php" not in href or href in seen:
-            continue
-        total_links += 1
-        name = (await link.inner_text()).strip()
-        seen.add(href)
+        links = await page.query_selector_all("a")
+        found_this_page = 0
 
-        log(f"  [CURSO] '{name}' → {href}")
+        for link in links:
+            href = await link.get_attribute("href") or ""
+            if "/course/view.php" not in href or href in seen:
+                continue
+            found_this_page += 1
+            name = (await link.inner_text()).strip()
+            seen.add(href)
 
-        # TSDS arrancó en 2024, TSCDIA en 2025
-        if "2024" not in name and "2025" not in name:
-            log(f"  [SKIP-AÑO] '{name}'")
-            continue
-        filtered_year += 1
+            log(f"  [CURSO] '{name}' → {href}")
 
-        carrera, materia_info = match_materia(name)
-        if carrera and materia_info:
-            courses.append({
-                "nombre": materia_info["nombre"],
-                "carrera": carrera,
-                "horario": materia_info["horario"],
-                "comision": materia_info["comision"],
-                "url_campus": href,
-                "nombre_campus": name,
-            })
-            log(f"  ✓ MATCH: '{name}' → {materia_info['nombre']} ({carrera})")
+            if "2024" not in name and "2025" not in name:
+                log(f"  [SKIP-AÑO] '{name}'")
+                continue
 
-    log(f"  Links de cursos encontrados: {total_links}")
-    log(f"  Con año 2024/2025: {filtered_year}")
-    log(f"  Materias matcheadas: {len(courses)}")
+            carrera, materia_info = match_materia(name)
+            if carrera and materia_info:
+                courses.append({
+                    "nombre": materia_info["nombre"],
+                    "carrera": carrera,
+                    "horario": materia_info["horario"],
+                    "comision": materia_info["comision"],
+                    "url_campus": href,
+                    "nombre_campus": name,
+                })
+                log(f"  ✓ MATCH: '{name}' → {materia_info['nombre']} ({carrera})")
+
+        log(f"  Cursos en página {page_num}: {found_this_page}")
+
+        # Verificar si hay página siguiente
+        next_btn = await page.query_selector("a[aria-label='Siguiente']")
+        if not next_btn and not await page.query_selector(f"a[aria-label='Página {page_num + 1}']"):
+            log(f"  → No hay más páginas, terminando en página {page_num}")
+            break
+
+        page_num += 1
+        if page_num > 10:  # Límite de seguridad
+            break
+
+    log(f"  Total materias matcheadas: {len(courses)}")
     return courses
 
 
