@@ -84,15 +84,6 @@ export default function AvisosPanel({ materias }: { materias: Materia[] }) {
                     <p className="text-sm text-gray-200 leading-relaxed whitespace-pre-wrap">
                       {aviso.mensaje}
                     </p>
-                    <a
-                      href={aviso.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-xs text-yellow-500 hover:underline mt-2 inline-block"
-                      onClick={(e) => e.stopPropagation()}
-                    >
-                      Ver en campus →
-                    </a>
                   </div>
                 ) : (
                   <p className="text-xs text-gray-500 mt-1 truncate">

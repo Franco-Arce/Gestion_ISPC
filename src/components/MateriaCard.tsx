@@ -184,10 +184,6 @@ export default function MateriaCard({
                       <span className="text-xs text-yellow-600">{a.fecha}</span>
                     </div>
                     <p className="text-sm text-yellow-100 leading-relaxed whitespace-pre-wrap">{a.mensaje}</p>
-                    <a href={a.url} target="_blank" rel="noopener noreferrer"
-                      className="text-xs text-yellow-500 hover:underline mt-2 inline-block">
-                      Ver en campus →
-                    </a>
                   </div>
                 ))}
               </div>
