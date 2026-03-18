@@ -11,16 +11,42 @@ const HOURS = Array.from({ length: HOUR_END - HOUR_START + 1 }, (_, i) => HOUR_S
 const HOUR_PX = 64;
 const TOTAL_HEIGHT = (HOUR_END - HOUR_START) * HOUR_PX;
 
-type LayoutEvent = CourseEvent & { left: number; width: number };
+// Events that share the exact same (inicio, fin, carrera) get merged into one block
+type MergedEvent = Omit<CourseEvent, "nombre"> & {
+  nombre: string;      // combined "A / B"
+  nombres: string[];   // original names for tooltip
+};
+
+function mergeBySlot(events: CourseEvent[]): MergedEvent[] {
+  const map = new Map<string, CourseEvent[]>();
+  for (const ev of events) {
+    const key = `${ev.carrera}|${ev.inicio}|${ev.fin}`;
+    if (!map.has(key)) map.set(key, []);
+    map.get(key)!.push(ev);
+  }
+  const result: MergedEvent[] = [];
+  for (const group of map.values()) {
+    const base = group[0];
+    result.push({
+      ...base,
+      nombre: group.map((e) => e.nombre).join(" / "),
+      nombres: group.map((e) => e.nombre),
+    });
+  }
+  return result;
+}
+
+type LayoutEvent = MergedEvent & { left: number; width: number };
 
 function layoutDay(events: CourseEvent[]): LayoutEvent[] {
-  const tsdsEvs = events.filter((e) => e.carrera === "TSDS");
-  const tscdiaEvs = events.filter((e) => e.carrera === "TSCDIA");
+  const merged = mergeBySlot(events);
+  const tsdsEvs = merged.filter((e) => e.carrera === "TSDS");
+  const tscdiaEvs = merged.filter((e) => e.carrera === "TSCDIA");
   const hasBoth = tsdsEvs.length > 0 && tscdiaEvs.length > 0;
 
-  function layoutGroup(grp: CourseEvent[], [start, end]: [number, number]): LayoutEvent[] {
+  function layoutGroup(grp: MergedEvent[], [start, end]: [number, number]): LayoutEvent[] {
     const sorted = [...grp].sort((a, b) => toMin(a.inicio) - toMin(b.inicio));
-    const cols: CourseEvent[][] = [];
+    const cols: MergedEvent[][] = [];
     for (const ev of sorted) {
       let placed = false;
       for (const col of cols) {
@@ -147,6 +173,7 @@ export default function WeeklyCalendar() {
                     return (
                       <div
                         key={i}
+                        title={ev.nombres.join("\n") + `\n${ev.inicio}–${ev.fin}`}
                         className={`absolute border rounded-lg overflow-hidden px-2 py-1.5 ${cls}`}
                         style={{
                           top: top + 1,
@@ -155,11 +182,15 @@ export default function WeeklyCalendar() {
                           width: `${ev.width - 1}%`,
                         }}
                       >
-                        <div className="flex items-center gap-1 mb-0.5">
-                          <span className={`w-1.5 h-1.5 rounded-full flex-shrink-0 ${dot}`} />
-                          <p className="text-[11px] font-semibold leading-tight truncate" title={ev.nombre}>
-                            {ev.nombre}
-                          </p>
+                        <div className="flex items-start gap-1 mb-0.5">
+                          <span className={`w-1.5 h-1.5 rounded-full flex-shrink-0 mt-0.5 ${dot}`} />
+                          <div className="min-w-0">
+                            {ev.nombres.map((n, ni) => (
+                              <p key={ni} className="text-[11px] font-semibold leading-tight truncate">
+                                {n}
+                              </p>
+                            ))}
+                          </div>
                         </div>
                         <p className="text-[10px] opacity-40 leading-tight pl-2.5">
                           {ev.inicio}–{ev.fin}
