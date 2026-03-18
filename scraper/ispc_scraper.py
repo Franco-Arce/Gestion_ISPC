@@ -57,12 +57,22 @@ def match_materia(course_name: str) -> tuple[str | None, dict | None]:
 async def login(page, username: str, password: str):
     print("→ Login...")
     await page.goto(f"{BASE_URL}/login/index.php", wait_until="networkidle")
+    print(f"  URL: {page.url}")
+    # Debug: mostrar inputs disponibles
+    inputs = await page.query_selector_all("input")
+    for inp in inputs:
+        id_ = await inp.get_attribute("id")
+        name = await inp.get_attribute("name")
+        type_ = await inp.get_attribute("type")
+        print(f"  input: id={id_} name={name} type={type_}")
     await page.fill("#username", username)
     await page.fill("#password", password)
     await page.click("#loginbtn")
     await page.wait_for_load_state("networkidle")
+    print(f"  URL post-login: {page.url}")
     if "login" in page.url:
-        raise Exception("Login fallido. Verificar credenciales.")
+        await page.screenshot(path="login_error.png")
+        raise Exception("Login fallido. Verificar credenciales y selectores del formulario.")
     print("✓ Login OK")
 
 

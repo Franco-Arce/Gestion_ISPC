@@ -30,6 +30,13 @@ jobs:
           CI: "true"
         run: python scraper/ispc_scraper.py
 
+      - name: Upload debug screenshot
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: login-error-screenshot
+          path: login_error.png
+
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
