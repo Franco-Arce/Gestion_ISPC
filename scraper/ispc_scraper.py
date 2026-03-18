@@ -179,7 +179,10 @@ async def extract_avisos(page, context) -> list[dict]:
                     await thread_page.goto(thread_href, wait_until="networkidle", timeout=20000)
 
                     # Extraer posts del thread
-                    posts = await thread_page.query_selector_all(".forumpost, .post, [data-region='post']")
+                    all_posts = await thread_page.query_selector_all(".forumpost, .post, [data-region='post']")
+                    # Solo el post original (OP), no las respuestas
+                    posts = all_posts[:1] if all_posts else []
+                    log(f"    [THREAD] {len(all_posts)} posts encontrados, procesando solo el OP")
                     for post in posts:
                         # Autor — probar varios selectores por versión de Moodle
                         autor = "Desconocido"
@@ -199,15 +202,19 @@ async def extract_avisos(page, context) -> list[dict]:
                                     autor = t
                                     break
 
-                        # Fecha — probar varios selectores
+                        # Fecha — preferir atributo datetime (ISO) sobre texto en español
                         fecha = ""
-                        for sel in ["time[datetime]", ".postdate", ".date", "time", ".post-date"]:
-                            fecha_el = await post.query_selector(sel)
-                            if fecha_el:
-                                t = await fecha_el.get_attribute("datetime") or (await fecha_el.inner_text()).strip()
-                                if t:
-                                    fecha = t
-                                    break
+                        time_el = await post.query_selector("time[datetime]")
+                        if time_el:
+                            fecha = await time_el.get_attribute("datetime") or ""
+                        if not fecha:
+                            for sel in [".postdate", ".date", "time", ".post-date"]:
+                                fecha_el = await post.query_selector(sel)
+                                if fecha_el:
+                                    t = (await fecha_el.inner_text()).strip()
+                                    if t:
+                                        fecha = t
+                                        break
 
                         # Mensaje
                         msg_el = await post.query_selector(".posting, .post-content-container, [data-region='post-content']")
@@ -306,14 +313,18 @@ async def extract_sections(page, context, course_name: str) -> tuple[list[dict],
                         if desc_el:
                             descripcion = (await desc_el.inner_text()).strip()[:500]
 
-                        # Fecha límite
-                        for selector in [".submissionstatustable td", "time", ".due-date", "[data-region='activity-due-date']"]:
-                            el = await act_page.query_selector(selector)
-                            if el:
-                                t = (await el.inner_text()).strip()
-                                if t and any(c.isdigit() for c in t):
-                                    fecha = t
-                                    break
+                        # Fecha límite — preferir datetime ISO de <time>, fallback texto
+                        time_el = await act_page.query_selector(".submissionstatustable time[datetime], time[datetime]")
+                        if time_el:
+                            fecha = await time_el.get_attribute("datetime") or ""
+                        if not fecha:
+                            for selector in [".submissionstatustable td", ".due-date", "[data-region='activity-due-date']"]:
+                                el = await act_page.query_selector(selector)
+                                if el:
+                                    t = (await el.inner_text()).strip()
+                                    if t and any(c.isdigit() for c in t):
+                                        fecha = t
+                                        break
 
                         await act_page.close()
                     except Exception as e:
@@ -428,15 +439,20 @@ async def extract_course(page, course: dict) -> dict:
 
     # Fechas de tareas
     for tarea in result["tareas"]:
+        if tarea.get("fecha_entrega"):
+            continue  # Ya tiene fecha del extract_sections
         try:
             t_page = await page.context.new_page()
             await t_page.goto(tarea["url"], wait_until="networkidle", timeout=15000)
-            fecha_el = await t_page.query_selector(".submissionstatustable td")
-            if fecha_el:
-                fecha_text = (await fecha_el.inner_text()).strip()
-                if fecha_text:
-                    tarea["fecha_entrega"] = fecha_text
-                    log(f"    [FECHA] {tarea['nombre']}: {fecha_text}")
+            # Preferir datetime ISO de <time>
+            time_el = await t_page.query_selector(".submissionstatustable time[datetime]")
+            if time_el:
+                tarea["fecha_entrega"] = await time_el.get_attribute("datetime") or None
+            else:
+                fecha_el = await t_page.query_selector(".submissionstatustable td")
+                if fecha_el:
+                    tarea["fecha_entrega"] = (await fecha_el.inner_text()).strip() or None
+            log(f"    [FECHA] {tarea['nombre']}: {tarea['fecha_entrega']}")
             await t_page.close()
         except Exception as e:
             log(f"    [ERROR-FECHA] {tarea['nombre']}: {e}")

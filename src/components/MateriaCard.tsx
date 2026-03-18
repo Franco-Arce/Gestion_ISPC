@@ -22,9 +22,9 @@ export default function MateriaCard({
   const [tab, setTab] = useState<Tab>("contenido");
 
   const activeClass =
-    color === "blue"
-      ? "border-blue-500 text-blue-300"
-      : "border-violet-500 text-violet-300";
+    color === "red"
+      ? "border-red-500 text-red-300"
+      : "border-green-500 text-green-300";
 
   const pendientes = materia.tareas.filter((t) => t.estado === "pendiente").length;
   const conFecha = materia.tareas.filter((t) => t.fecha_entrega).length;
@@ -95,7 +95,7 @@ export default function MateriaCard({
                 {materia.unidades.map((u, i) => (
                   <a key={i} href={u.url} target="_blank" rel="noopener noreferrer"
                     className="flex items-center gap-3 p-3 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors group">
-                    <span className="w-6 h-6 rounded-full bg-blue-900 text-blue-300 text-xs flex items-center justify-center flex-shrink-0 font-medium">
+                    <span className="w-6 h-6 rounded-full bg-gray-700 text-gray-400 text-xs flex items-center justify-center flex-shrink-0 font-medium">
                       {i + 1}
                     </span>
                     <span className="text-sm text-gray-300 group-hover:text-white transition-colors">

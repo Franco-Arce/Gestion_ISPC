@@ -60,8 +60,8 @@ export default function AvisosPanel({ materias }: { materias: Materia[] }) {
               <span
                 className={`mt-0.5 flex-shrink-0 text-xs px-2 py-0.5 rounded-full ${
                   aviso.carrera === "TSDS"
-                    ? "bg-blue-900 text-blue-300"
-                    : "bg-violet-900 text-violet-300"
+                    ? "bg-red-900/60 text-red-300"
+                    : "bg-green-900/60 text-green-300"
                 }`}
               >
                 {aviso.carrera}
