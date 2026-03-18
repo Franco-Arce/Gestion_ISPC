@@ -94,24 +94,24 @@ async def get_courses(page) -> list[dict]:
     log("→ Obteniendo lista de cursos (todas las páginas)...")
 
     courses = []
-    seen = set()
-    page_num = 1
+    seen_hrefs = set()
 
-    while True:
-        url = f"{BASE_URL}/my/courses.php?page={page_num - 1}"
-        log(f"  → Página {page_num}: {url}")
+    # Iterar páginas (0-based) hasta que una no tenga cursos nuevos
+    for page_idx in range(10):
+        url = f"{BASE_URL}/my/courses.php?page={page_idx}"
+        log(f"  → Página {page_idx + 1}: {url}")
         await page.goto(url, wait_until="networkidle")
 
-        links = await page.query_selector_all("a")
-        found_this_page = 0
+        links = await page.query_selector_all("a[href*='/course/view.php']")
+        new_this_page = 0
 
         for link in links:
             href = await link.get_attribute("href") or ""
-            if "/course/view.php" not in href or href in seen:
+            if not href or href in seen_hrefs:
                 continue
-            found_this_page += 1
+            seen_hrefs.add(href)
+            new_this_page += 1
             name = (await link.inner_text()).strip()
-            seen.add(href)
 
             log(f"  [CURSO] '{name}' → {href}")
 
@@ -131,16 +131,9 @@ async def get_courses(page) -> list[dict]:
                 })
                 log(f"  ✓ MATCH: '{name}' → {materia_info['nombre']} ({carrera})")
 
-        log(f"  Cursos en página {page_num}: {found_this_page}")
-
-        # Verificar si hay página siguiente
-        next_btn = await page.query_selector("a[aria-label='Siguiente']")
-        if not next_btn and not await page.query_selector(f"a[aria-label='Página {page_num + 1}']"):
-            log(f"  → No hay más páginas, terminando en página {page_num}")
-            break
-
-        page_num += 1
-        if page_num > 10:  # Límite de seguridad
+        log(f"  Cursos nuevos en página {page_idx + 1}: {new_this_page}")
+        if new_this_page == 0:
+            log(f"  → Página vacía, fin de paginación")
             break
 
     log(f"  Total materias matcheadas: {len(courses)}")
@@ -166,12 +159,22 @@ async def extract_avisos(page, context) -> list[dict]:
             foro_page = await context.new_page()
             await foro_page.goto(foro_url, wait_until="networkidle", timeout=20000)
 
-            # Listar threads del foro
-            thread_links = await foro_page.query_selector_all("a[href*='discuss.php']")
-            log(f"    [FORO] '{foro_nombre}': {len(thread_links)} threads")
+            # Listar threads del foro — deduplicar por ID de discusión
+            import re as _re
+            raw_links = await foro_page.query_selector_all("a[href*='discuss.php']")
+            seen_threads: set[str] = set()
+            thread_hrefs: list[str] = []
+            for tl in raw_links:
+                href = await tl.get_attribute("href") or ""
+                m = _re.search(r"discuss\.php\?d=(\d+)", href)
+                if m:
+                    canonical = f"{BASE_URL}/mod/forum/discuss.php?d={m.group(1)}"
+                    if canonical not in seen_threads:
+                        seen_threads.add(canonical)
+                        thread_hrefs.append(canonical)
+            log(f"    [FORO] '{foro_nombre}': {len(thread_hrefs)} threads únicos")
 
-            for thread_link in thread_links:
-                thread_href = await thread_link.get_attribute("href") or ""
+            for thread_href in thread_hrefs:
                 if not thread_href:
                     continue
                 try:
