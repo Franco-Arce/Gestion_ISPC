@@ -12,6 +12,29 @@ const TAB_LABELS: Record<Tab, string> = {
   avisos: "Avisos",
 };
 
+function fmtFecha(iso: string) {
+  const d = new Date(iso);
+  if (isNaN(d.getTime())) return null;
+  return d.toLocaleDateString("es-AR", { day: "2-digit", month: "2-digit", year: "numeric" });
+}
+
+function fmtFechaHora(iso: string) {
+  const d = new Date(iso);
+  if (isNaN(d.getTime())) return iso;
+  return d.toLocaleString("es-AR", {
+    day: "2-digit",
+    month: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+}
+
+function daysUntil(iso: string): number | null {
+  const d = new Date(iso);
+  if (isNaN(d.getTime())) return null;
+  return Math.ceil((d.getTime() - Date.now()) / 86400000);
+}
+
 export default function MateriaCard({
   materia,
   color,
@@ -21,27 +44,20 @@ export default function MateriaCard({
 }) {
   const [tab, setTab] = useState<Tab>("contenido");
 
-  const accentActive =
-    color === "red"
-      ? "border-red-500 text-red-400"
-      : "border-green-500 text-green-400";
-
-  const accentDot = color === "red" ? "bg-red-500" : "bg-green-500";
-
-  const pendientes = materia.tareas.filter((t) => t.estado === "pendiente").length;
+  const accentBorder = color === "red" ? "border-red-500 text-red-400" : "border-green-500 text-green-400";
+  const accentDot    = color === "red" ? "bg-red-500"   : "bg-green-500";
+  const pendientes   = materia.tareas.filter((t) => t.estado === "pendiente").length;
 
   return (
-    <div className="bg-[#111] border border-[#1e1e1e] rounded-2xl overflow-hidden">
+    <div className="bg-[#0e0e1a] border border-violet-900/25 rounded-2xl overflow-hidden">
       {/* Header */}
-      <div className="px-6 py-5 border-b border-[#1a1a1a]">
+      <div className="px-6 py-5 border-b border-violet-900/20">
         <div className="flex items-start justify-between gap-4">
           <div className="flex items-start gap-3">
             <span className={`w-2 h-2 rounded-full mt-2 flex-shrink-0 ${accentDot}`} />
             <div>
-              <h2 className="text-base font-semibold text-white leading-tight">
-                {materia.nombre}
-              </h2>
-              <p className="text-xs text-zinc-600 mt-1">
+              <h2 className="text-base font-semibold text-white leading-tight">{materia.nombre}</h2>
+              <p className="text-xs text-violet-600 mt-1">
                 {materia.horario} · Com. {materia.comision}
               </p>
             </div>
@@ -51,11 +67,12 @@ export default function MateriaCard({
               href={materia.url_campus}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-xs text-zinc-600 hover:text-zinc-300 transition-colors flex-shrink-0 flex items-center gap-1"
+              className="text-[11px] text-violet-700 hover:text-violet-400 transition-colors flex-shrink-0 flex items-center gap-1"
             >
               Campus
               <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
               </svg>
             </a>
           )}
@@ -63,13 +80,13 @@ export default function MateriaCard({
       </div>
 
       {/* Tabs */}
-      <div className="flex border-b border-[#1a1a1a] px-2">
+      <div className="flex border-b border-violet-900/20 px-2">
         {(Object.keys(TAB_LABELS) as Tab[]).map((t) => (
           <button
             key={t}
             onClick={() => setTab(t)}
             className={`px-4 py-3 text-sm font-medium border-b-2 transition-all ${
-              tab === t ? accentActive : "border-transparent text-zinc-600 hover:text-zinc-400"
+              tab === t ? accentBorder : "border-transparent text-violet-700 hover:text-violet-400"
             }`}
           >
             {TAB_LABELS[t]}
@@ -87,162 +104,177 @@ export default function MateriaCard({
         ))}
       </div>
 
-      {/* Content */}
-      <div className="p-6 min-h-48">
+      {/* ── CONTENIDO ── */}
+      {tab === "contenido" && (
+        <div className="p-6">
+          {materia.unidades.length === 0 ? (
+            <EmptyState mensaje="El contenido aún no está publicado en el campus." />
+          ) : (
+            <div className="space-y-2">
+              <p className="text-[10px] text-violet-700 uppercase tracking-widest mb-4">
+                {materia.unidades.length} unidades
+              </p>
+              {materia.unidades.map((u, i) => (
+                <div key={i} className="flex items-start gap-3 p-4 rounded-xl bg-violet-950/20 border border-violet-900/20">
+                  <span className="w-6 h-6 rounded-lg bg-violet-900/40 text-violet-400 text-[11px] flex items-center justify-center flex-shrink-0 font-mono mt-0.5">
+                    {i + 1}
+                  </span>
+                  <div className="flex-1 min-w-0">
+                    <p className="text-sm text-violet-100 leading-snug">{u.nombre}</p>
+                    {u.descripcion && (
+                      <p className="text-xs text-violet-500 mt-1 leading-relaxed">{u.descripcion}</p>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+      )}
 
-        {/* Contenido */}
-        {tab === "contenido" && (
-          <div>
-            {materia.unidades.length === 0 ? (
-              <EmptyState mensaje="El contenido aún no está publicado en el campus." />
-            ) : (
-              <div className="space-y-1.5">
-                <p className="text-[10px] text-zinc-700 uppercase tracking-widest mb-3">
-                  {materia.unidades.length} unidades
-                </p>
-                {materia.unidades.map((u, i) => (
-                  <a
+      {/* ── ACTIVIDADES ── */}
+      {tab === "actividades" && (
+        <div className="p-6">
+          {materia.tareas.length === 0 ? (
+            <EmptyState mensaje="Sin actividades publicadas por el momento." />
+          ) : (
+            <div className="space-y-3">
+              {materia.tareas.map((t, i) => {
+                const dias = t.fecha_entrega ? daysUntil(t.fecha_entrega) : null;
+                const fechaFmt = t.fecha_entrega ? fmtFecha(t.fecha_entrega) : null;
+                const urgent = dias !== null && dias <= 7 && dias >= 0;
+                const vencida = dias !== null && dias < 0;
+
+                return (
+                  <div
                     key={i}
-                    href={u.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-3 p-3 rounded-xl bg-[#161616] hover:bg-[#1c1c1c] transition-colors group"
+                    className="rounded-xl bg-violet-950/20 border border-violet-900/20 overflow-hidden"
                   >
-                    <span className="w-5 h-5 rounded-lg bg-[#222] text-zinc-600 text-xs flex items-center justify-center flex-shrink-0 font-mono">
-                      {i + 1}
-                    </span>
-                    <span className="text-sm text-zinc-400 group-hover:text-zinc-200 transition-colors">
-                      {u.nombre}
-                    </span>
-                  </a>
-                ))}
-              </div>
-            )}
-          </div>
-        )}
-
-        {/* Actividades */}
-        {tab === "actividades" && (
-          <div>
-            {materia.tareas.length === 0 ? (
-              <EmptyState mensaje="Sin actividades publicadas por el momento." />
-            ) : (
-              <div className="space-y-2">
-                {materia.tareas.map((t, i) => (
-                  <div key={i} className="rounded-xl bg-[#161616] overflow-hidden">
                     <div className="p-4">
+                      {/* Nombre + estado */}
                       <div className="flex items-start justify-between gap-3 mb-2">
-                        <a
-                          href={t.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-sm font-medium text-zinc-200 hover:text-white transition-colors"
-                        >
-                          {t.nombre}
-                        </a>
+                        <p className="text-sm font-medium text-violet-100 leading-snug">{t.nombre}</p>
                         <StatusDot estado={t.estado} />
                       </div>
+
+                      {/* Sección */}
                       {t.seccion && (
-                        <span className="text-[11px] text-zinc-600 bg-[#222] px-2 py-0.5 rounded-full">
+                        <span className="inline-block text-[11px] text-violet-600 bg-violet-900/30 px-2 py-px rounded-full mb-2">
                           {t.seccion}
                         </span>
                       )}
+
+                      {/* Descripción */}
                       {t.descripcion && (
-                        <p className="text-xs text-zinc-600 mt-2 leading-relaxed line-clamp-2">
+                        <p className="text-xs text-violet-400/70 leading-relaxed mt-1 mb-3 border-l-2 border-violet-800/40 pl-3">
                           {t.descripcion}
                         </p>
                       )}
-                      {t.fecha_entrega && (
-                        <div className="mt-3 flex items-center gap-1.5">
-                          <svg className="w-3 h-3 text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+
+                      {/* Fecha de entrega */}
+                      {fechaFmt && (
+                        <div
+                          className={`flex items-center gap-2 mt-2 px-3 py-2 rounded-lg ${
+                            vencida
+                              ? "bg-red-950/40 border border-red-900/30"
+                              : urgent
+                              ? "bg-amber-950/40 border border-amber-900/30"
+                              : "bg-violet-950/30 border border-violet-900/20"
+                          }`}
+                        >
+                          <svg
+                            className={`w-3.5 h-3.5 flex-shrink-0 ${
+                              vencida ? "text-red-500" : urgent ? "text-amber-400" : "text-violet-600"
+                            }`}
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                          >
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                              d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                           </svg>
-                          <span className="text-xs text-red-400 font-medium">
-                            {(() => {
-                              const d = new Date(t.fecha_entrega);
-                              return isNaN(d.getTime())
-                                ? t.fecha_entrega
-                                : d.toLocaleDateString("es-AR", {
-                                    day: "2-digit",
-                                    month: "2-digit",
-                                    year: "numeric",
-                                  });
-                            })()}
+                          <span
+                            className={`text-xs font-medium ${
+                              vencida ? "text-red-400" : urgent ? "text-amber-300" : "text-violet-400"
+                            }`}
+                          >
+                            {vencida
+                              ? `Vencida el ${fechaFmt}`
+                              : dias === 0
+                              ? `Vence hoy · ${fechaFmt}`
+                              : dias !== null
+                              ? `Vence en ${dias} días · ${fechaFmt}`
+                              : `Entrega: ${fechaFmt}`}
                           </span>
                         </div>
                       )}
+
+                      {!fechaFmt && t.estado === "pendiente" && (
+                        <p className="text-[11px] text-violet-800 mt-2">Sin fecha asignada aún</p>
+                      )}
                     </div>
                   </div>
-                ))}
-              </div>
-            )}
-          </div>
-        )}
+                );
+              })}
+            </div>
+          )}
+        </div>
+      )}
 
-        {/* Programa */}
-        {tab === "programa" && (
-          <div>
-            {materia.programa ? (
-              <pre className="whitespace-pre-wrap text-sm text-zinc-400 font-sans leading-relaxed">
-                {materia.programa}
+      {/* ── PROGRAMA ── */}
+      {tab === "programa" && (
+        <div className="p-6">
+          {materia.programa ? (
+            <pre className="whitespace-pre-wrap text-sm text-violet-200/70 font-sans leading-relaxed">
+              {materia.programa}
+            </pre>
+          ) : (
+            <EmptyState mensaje="El programa aún no está disponible en el campus." />
+          )}
+          {materia.criterios && (
+            <div className="mt-6 pt-6 border-t border-violet-900/20">
+              <p className="text-[10px] text-violet-700 uppercase tracking-widest mb-3">
+                Criterios de evaluación
+              </p>
+              <pre className="whitespace-pre-wrap text-sm text-violet-400/60 font-sans leading-relaxed">
+                {materia.criterios}
               </pre>
-            ) : (
-              <EmptyState mensaje="El programa aún no está disponible en el campus." />
-            )}
-            {materia.criterios && (
-              <div className="mt-5 pt-5 border-t border-[#1a1a1a]">
-                <p className="text-[10px] text-zinc-700 uppercase tracking-widest mb-3">
-                  Criterios de evaluación
-                </p>
-                <pre className="whitespace-pre-wrap text-sm text-zinc-500 font-sans leading-relaxed">
-                  {materia.criterios}
-                </pre>
-              </div>
-            )}
-          </div>
-        )}
+            </div>
+          )}
+        </div>
+      )}
 
-        {/* Avisos */}
-        {tab === "avisos" && (
-          <div>
-            {materia.avisos.length === 0 ? (
-              <EmptyState mensaje="Sin avisos por el momento." />
-            ) : (
-              <div className="space-y-2">
-                {materia.avisos.map((a, i) => {
-                  const fecha = (() => {
-                    const d = new Date(a.fecha);
-                    return isNaN(d.getTime())
-                      ? a.fecha
-                      : d.toLocaleDateString("es-AR", {
-                          day: "2-digit",
-                          month: "2-digit",
-                          hour: "2-digit",
-                          minute: "2-digit",
-                        });
-                  })();
-
-                  return (
-                    <div key={i} className="p-4 bg-[#161616] border border-[#222] rounded-xl">
-                      <div className="flex items-center justify-between mb-2">
-                        <span className="text-xs font-medium text-zinc-300">{a.autor}</span>
-                        <span className="text-[11px] text-zinc-700 font-mono">{fecha}</span>
-                      </div>
-                      <p className="text-sm text-zinc-500 leading-relaxed whitespace-pre-wrap">
-                        {a.mensaje}
-                      </p>
-                    </div>
-                  );
-                })}
-              </div>
-            )}
-          </div>
-        )}
-      </div>
+      {/* ── AVISOS ── */}
+      {tab === "avisos" && (
+        <div className="p-6">
+          {materia.avisos.length === 0 ? (
+            <EmptyState mensaje="Sin avisos por el momento." />
+          ) : (
+            <div className="space-y-3">
+              {materia.avisos.map((a, i) => (
+                <div
+                  key={i}
+                  className="p-4 bg-violet-950/20 border border-violet-900/20 rounded-xl"
+                >
+                  <div className="flex items-center justify-between mb-3">
+                    <span className="text-xs font-semibold text-violet-300">{a.autor}</span>
+                    <span className="text-[11px] text-violet-700 font-mono">
+                      {fmtFechaHora(a.fecha)}
+                    </span>
+                  </div>
+                  <p className="text-sm text-violet-300/60 leading-relaxed whitespace-pre-wrap">
+                    {a.mensaje}
+                  </p>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+      )}
 
       {/* Footer */}
-      <div className="px-6 py-3 border-t border-[#1a1a1a]">
-        <p className="text-[11px] text-zinc-800">
+      <div className="px-6 py-3 border-t border-violet-900/15">
+        <p className="text-[10px] text-violet-900">
           Scraped {new Date(materia.ultima_actualizacion).toLocaleString("es-AR")}
         </p>
       </div>
@@ -252,22 +284,22 @@ export default function MateriaCard({
 
 function EmptyState({ mensaje }: { mensaje: string }) {
   return (
-    <div className="flex items-center justify-center h-36 text-zinc-700 text-sm">
+    <div className="flex items-center justify-center h-36 text-violet-800 text-sm">
       {mensaje}
     </div>
   );
 }
 
 function StatusDot({ estado }: { estado: string }) {
-  const colors: Record<string, string> = {
+  const map: Record<string, string> = {
     pendiente: "bg-amber-400",
     entregada: "bg-green-500",
-    vencida: "bg-red-500",
+    vencida:   "bg-red-500",
   };
   return (
     <span
       title={estado}
-      className={`w-2 h-2 rounded-full flex-shrink-0 mt-1 ${colors[estado] ?? "bg-zinc-600"}`}
+      className={`w-2 h-2 rounded-full flex-shrink-0 mt-1.5 ${map[estado] ?? "bg-violet-700"}`}
     />
   );
 }
