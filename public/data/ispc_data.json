@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-03-19T10:58:31.310256",
+  "generado_el": "2026-03-19T22:25:41.494180",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -8,7 +8,6 @@
       "horario": "Jueves 15:40–16:40",
       "comision": "A (tarde)",
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4270",
-      "programa": "",
       "criterios": "• Sistema de Acreditación - Espacios curriculares Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
         {
@@ -62,7 +61,10 @@
         }
       ],
       "materiales": [],
-      "ultima_actualizacion": "2026-03-19T10:51:34.337115"
+      "meet_url": "http://meet.google.com/eps-eita-tks",
+      "programa_archivo": null,
+      "hoja_de_ruta_archivo": null,
+      "ultima_actualizacion": "2026-03-19T22:17:24.007184"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -70,7 +72,6 @@
       "horario": "Miércoles 19:40–20:40",
       "comision": "Única",
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4290",
-      "programa": "",
       "criterios": "• Sistema de Acreditación - Espacios curriculares Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
         {
@@ -129,7 +130,10 @@
         }
       ],
       "materiales": [],
-      "ultima_actualizacion": "2026-03-19T10:52:04.978941"
+      "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
+      "programa_archivo": null,
+      "hoja_de_ruta_archivo": null,
+      "ultima_actualizacion": "2026-03-19T22:18:01.023712"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -137,7 +141,6 @@
       "horario": "Miércoles 15:40–16:40",
       "comision": "A (tarde)",
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4267",
-      "programa": "Requisitos de finalización\nHaga clic en el enlace Programa para abrir el recurso.",
       "criterios": "• Criterios de evaluación\n• Sistema de Acreditación - Espacios curriculares Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
         {
@@ -239,7 +242,10 @@
         }
       ],
       "materiales": [],
-      "ultima_actualizacion": "2026-03-19T10:52:27.359405"
+      "meet_url": "http://meet.google.com/qma-wqxy-kwk",
+      "programa_archivo": null,
+      "hoja_de_ruta_archivo": null,
+      "ultima_actualizacion": "2026-03-19T22:18:29.416567"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -247,7 +253,6 @@
       "horario": "Jueves 19:40–20:40",
       "comision": "Única",
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4289",
-      "programa": "",
       "criterios": "• Sistema de Acreditación - Espacios curriculares Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
         {
@@ -287,7 +292,10 @@
         }
       ],
       "materiales": [],
-      "ultima_actualizacion": "2026-03-19T10:53:18.225593"
+      "meet_url": "http://meet.google.com/vts-ttna-wxs",
+      "programa_archivo": null,
+      "hoja_de_ruta_archivo": null,
+      "ultima_actualizacion": "2026-03-19T22:19:27.699165"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -295,9 +303,15 @@
       "horario": "Jueves 18:20–19:20",
       "comision": "Única",
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4287",
-      "programa": "",
       "criterios": "• Sistema de Acreditación - Espacios Curriculares Anuales\n• Régimen Académico Institucional\n",
       "avisos": [
+        {
+          "titulo": "Avisos",
+          "autor": "Laura Anahi ZAVIA",
+          "fecha": "2026-03-19T10:42:12-03:00",
+          "mensaje": "¡Hola! Es un gusto darles la bienvenida a este espacio curricular llamado Ingeniería de Software. Mi nombre es Laura Zavia y como facilitadora les acompañaré en este camino de aprendizaje y adaptación a los nuevos conocimientos que están por venir.\n\nPara ello, hoy jueves 19/03 a las 18:20hs, nos reuniremos para conocernos y organizar nuestra dinámica de trabajo a lo largo del año a través del enlace publicado en el bloque correspondiente. ¡Nos vemos adentro!",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85480"
+        },
         {
           "titulo": "Avisos",
           "autor": "Tatiana MANZANELLI",
@@ -328,7 +342,10 @@
         }
       ],
       "materiales": [],
-      "ultima_actualizacion": "2026-03-19T10:53:43.243750"
+      "meet_url": "http://meet.google.com/stm-stcr-std",
+      "programa_archivo": null,
+      "hoja_de_ruta_archivo": null,
+      "ultima_actualizacion": "2026-03-19T22:19:57.616162"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -336,7 +353,6 @@
       "horario": "Martes 15:40–18:00",
       "comision": "A (tarde)",
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4021",
-      "programa": "",
       "criterios": "• Criterios de evaluación\n• Sistema de Acreditación - Espacios curriculares/Módulos Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
         {
@@ -424,7 +440,7 @@
           "nombre": "Evidencia de Aprendizaje N° 2",
           "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=105496",
           "fecha_entrega": "Enviado para calificar",
-          "estado": "pendiente",
+          "estado": "entregada",
           "descripcion": "Estimados alumnos y alumnas\n\nPor medio del presente se les comunica que en el marco de la planificación del módulo \"Innovación y Gestión de Datos\", se ha dispuesto realizar una recolección de evidencia de aprendizaje.\n\nLa misma será implementada por medio del recurso “Proyecto - Trabajo Práctico”, y será habilitada en el módulo  \"Actividades integradoras del módulo\" respectivo de su tecnicatura, desde el día jueves, 11 de setiembre de 2025  08:00 hs hasta el miercoles, 17 de setiembre 2025  23:5",
           "seccion": "Evidencias de Aprendizajes"
         },
@@ -432,13 +448,16 @@
           "nombre": "Evidencia de Aprendizaje N° 3",
           "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=106223",
           "fecha_entrega": "Enviado para calificar",
-          "estado": "pendiente",
+          "estado": "entregada",
           "descripcion": "Estimados alumnos y alumnas\n\nPor medio del presente se les comunica que en el marco de la planificación del módulo \"Innovación y Gestión de Datos\", se ha dispuesto realizar una recolección de evidencia de aprendizaje.\n\nLa misma será implementada por medio del recurso “Proyecto - Trabajo Práctico”, y será habilitada en el módulo  \"Actividades integradoras del módulo\" respectivo de su tecnicatura, desde el día viernes, 03 de octubre de 2025  15:00 hs hasta el viernes, 19 de octubre 2025  23:59 hs.",
           "seccion": "Evidencias de Aprendizajes"
         }
       ],
       "materiales": [],
-      "ultima_actualizacion": "2026-03-19T10:54:05.051858"
+      "meet_url": "https://meet.google.com/cix-xjoi-iqh",
+      "programa_archivo": null,
+      "hoja_de_ruta_archivo": null,
+      "ultima_actualizacion": "2026-03-19T22:20:30.010493"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -446,7 +465,6 @@
       "horario": "Martes 15:40–18:00",
       "comision": "A (tarde)",
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4268",
-      "programa": "",
       "criterios": "• Sistema de Acreditación Módulos Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
         {
@@ -548,7 +566,10 @@
         }
       ],
       "materiales": [],
-      "ultima_actualizacion": "2026-03-19T10:54:53.370823"
+      "meet_url": "http://meet.google.com/qam-wget-kaq",
+      "programa_archivo": null,
+      "hoja_de_ruta_archivo": null,
+      "ultima_actualizacion": "2026-03-19T22:21:28.588467"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -556,7 +577,6 @@
       "horario": "Miércoles 18:20–19:20",
       "comision": "Única",
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=3832",
-      "programa": "",
       "criterios": "• Criterios de evaluación\n• Sistema de Acreditación de Práctica Profesionalizante/Proyecto Integrador/ Espacio Vincular - Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
         {
@@ -724,7 +744,10 @@
         }
       ],
       "materiales": [],
-      "ultima_actualizacion": "2026-03-19T10:55:36.298535"
+      "meet_url": null,
+      "programa_archivo": null,
+      "hoja_de_ruta_archivo": null,
+      "ultima_actualizacion": "2026-03-19T22:22:19.919494"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -732,7 +755,6 @@
       "horario": "Miércoles 18:20–19:20",
       "comision": "Única",
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4288",
-      "programa": "",
       "criterios": "• Sistema de Acreditación de Práctica Profesionalizante Anuales\n• Régimen Académico Institucional\n",
       "avisos": [
         {
@@ -772,7 +794,10 @@
         }
       ],
       "materiales": [],
-      "ultima_actualizacion": "2026-03-19T10:56:50.287343"
+      "meet_url": "http://meet.google.com/yww-aikn-asr",
+      "programa_archivo": null,
+      "hoja_de_ruta_archivo": null,
+      "ultima_actualizacion": "2026-03-19T22:23:44.739173"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -780,7 +805,6 @@
       "horario": "Miércoles 17:00–18:00",
       "comision": "A (tarde)",
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=3861",
-      "programa": "",
       "criterios": "• Criterios de evaluación\n• Sistema de Acreditación - Espacios curriculares/Módulos Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
         {
@@ -856,7 +880,10 @@
         }
       ],
       "materiales": [],
-      "ultima_actualizacion": "2026-03-19T10:57:16.267732"
+      "meet_url": null,
+      "programa_archivo": null,
+      "hoja_de_ruta_archivo": null,
+      "ultima_actualizacion": "2026-03-19T22:24:13.790496"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -864,7 +891,6 @@
       "horario": "Miércoles 17:00–18:00",
       "comision": "A (tarde)",
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4269",
-      "programa": "",
       "criterios": "• Sistema de Acreditación - Espacios curriculares Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
         {
@@ -911,7 +937,10 @@
         }
       ],
       "materiales": [],
-      "ultima_actualizacion": "2026-03-19T10:58:00.147701"
+      "meet_url": "http://meet.google.com/rgk-eexy-duc",
+      "programa_archivo": null,
+      "hoja_de_ruta_archivo": null,
+      "ultima_actualizacion": "2026-03-19T22:25:04.262415"
     }
   ]
 }
