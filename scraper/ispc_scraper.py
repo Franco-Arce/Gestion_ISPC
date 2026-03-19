@@ -49,10 +49,13 @@ RESOURCE_KEYWORDS = {
     "hoja_de_ruta":  ["hoja de ruta", "hoja de ruta de aprendizaje", "recorrido"],
 }
 
-SECCIONES_ACTIVIDAD = ["evidencias de aprendizajes", "proyecto abp", "coloquio", "coloquio - promoción"]
-SECCIONES_CONTENIDO = ["contenidos", "ciencia de datos", "programación", "interfaz", "ingeniería",
-                       "gestión", "práctica", "estadística", "procesamiento", "tecnología",
-                       "inglés", "ciberseguridad"]
+SECCIONES_ACTIVIDAD  = ["evidencias de aprendizajes", "proyecto abp", "coloquio", "coloquio - promoción"]
+SECCIONES_CONTENIDO  = ["contenidos", "ciencia de datos", "programación", "interfaz", "ingeniería",
+                        "gestión", "práctica", "estadística", "procesamiento", "tecnología",
+                        "inglés", "ciberseguridad"]
+SECCIONES_SINCRONICA = ["encuentros sincrónicos", "encuentros sincronicos", "sincrónicos", "sincronicos"]
+
+MEET_RE = re.compile(r"https?://meet\.google\.com/[a-z]{3}-[a-z]{4}-[a-z]{3}")
 
 
 # ─── Helpers ────────────────────────────────────────────────────────────────
@@ -423,19 +426,98 @@ async def extract_avisos(page, context, errores: list) -> list[dict]:
 
 # ─── Secciones (Unidades + Actividades) ─────────────────────────────────────
 
-async def extract_sections(page, context, course_name: str, errores: list) -> tuple[list[dict], list[dict]]:
+async def extract_meet_from_section(context, section_url: str, errores: list) -> str | None:
     """
-    Extrae unidades de contenido y actividades de las secciones del curso.
-    Retorna (unidades, tareas_con_detalle)
+    Entra a la sección 'Encuentros Sincrónicos', busca el link a 'Sala de Encuentro Sincrónico'
+    (un mod/page), navega a él y extrae la URL de Google Meet del contenido.
+    """
+    log("    [MEET] Entrando a sección Encuentros Sincrónicos...")
+    sec_page = await context.new_page()
+    try:
+        await sec_page.goto(section_url, wait_until="networkidle", timeout=20000)
+
+        # Buscar el link a "Sala de Encuentro Sincrónico" (mod/page)
+        sala_link = None
+        all_links = await sec_page.query_selector_all("a[href*='mod/page']")
+        for link in all_links:
+            text = (await link.inner_text()).strip().lower()
+            if "sala" in text or "encuentro sincrónico" in text or "encuentro sincroni" in text:
+                sala_link = await link.get_attribute("href")
+                log(f"    [MEET] Link de sala encontrado: texto='{text}' href={sala_link}")
+                break
+
+        if not sala_link:
+            # Listar todos los links de la sección para diagnóstico
+            todos = []
+            for link in await sec_page.query_selector_all("a[href]"):
+                t = (await link.inner_text()).strip()
+                h = await link.get_attribute("href")
+                todos.append(f"'{t}' → {h}")
+            msg = (
+                f"Meet: No se encontró 'Sala de Encuentro Sincrónico' (mod/page) en la sección.\n"
+                f"       Links encontrados en la sección: {todos[:8]}"
+            )
+            log(f"    [MEET] [WARN] {msg.splitlines()[0]}")
+            errores.append(msg)
+            await sec_page.close()
+            return None
+
+        await sec_page.close()
+
+        # Navegar a la página de la sala y extraer el Meet URL
+        sala_page = await context.new_page()
+        await sala_page.goto(sala_link, wait_until="networkidle", timeout=20000)
+        body_text = await sala_page.inner_text("body")
+
+        meet_match = MEET_RE.search(body_text)
+        if meet_match:
+            meet_url = meet_match.group(0)
+            log(f"    [MEET] [OK] URL extraída: {meet_url}")
+            await sala_page.close()
+            return meet_url
+
+        # No encontró Meet URL — loguear el contenido para diagnóstico
+        body_snippet = body_text[:400].replace("\n", " ").strip()
+        # Buscar cualquier link en la página
+        hrefs = [await l.get_attribute("href") for l in await sala_page.query_selector_all("a[href]")]
+        msg = (
+            f"Meet: Se abrió la Sala de Encuentro Sincrónico pero no se encontró URL meet.google.com.\n"
+            f"       URL de la sala: {sala_link}\n"
+            f"       Texto visible: \"{body_snippet}\"\n"
+            f"       Links en la página: {hrefs[:10]}\n"
+            f"       → Puede que el formato del link sea diferente o que no esté cargado aún."
+        )
+        log(f"    [MEET] [WARN] {msg.splitlines()[0]}")
+        errores.append(msg)
+        await sala_page.close()
+        return None
+
+    except Exception as e:
+        msg = (
+            f"Meet: Excepción al entrar a Encuentros Sincrónicos.\n"
+            f"       URL sección: {section_url}\n"
+            f"       Error: {type(e).__name__}: {e}"
+        )
+        log(f"    [MEET] [ERROR] {msg.splitlines()[0]}")
+        errores.append(msg)
+        try: await sec_page.close()
+        except Exception: pass
+        return None
+
+
+async def extract_sections(page, context, course_name: str, errores: list) -> tuple[list[dict], list[dict], str | None]:
+    """
+    Extrae unidades de contenido, actividades y el link de Meet de las secciones del curso.
+    Retorna (unidades, tareas_con_detalle, meet_url)
     """
     unidades = []
     tareas_detalle = []
+    meet_url = None
 
     section_links = await page.query_selector_all("a[href*='section.php']")
     log(f"    [SECCIONES] Encontradas: {len(section_links)}")
 
     if not section_links:
-        # Recopilar todos los links de la página para diagnóstico
         all_a = await page.query_selector_all("a[href]")
         hrefs_muestra = [await a.get_attribute("href") for a in all_a[:10]]
         msg = (
@@ -456,9 +538,16 @@ async def extract_sections(page, context, course_name: str, errores: list) -> tu
         sec_lower = sec_text.lower()
         log(f"    [SECCION] '{sec_text}' → {sec_href}")
 
-        is_actividad = any(k in sec_lower for k in SECCIONES_ACTIVIDAD)
-        is_contenido = any(k in sec_lower for k in SECCIONES_CONTENIDO) or \
-                       course_name.lower().split()[0] in sec_lower
+        is_sincronica = any(k in sec_lower for k in SECCIONES_SINCRONICA)
+        is_actividad  = any(k in sec_lower for k in SECCIONES_ACTIVIDAD)
+        is_contenido  = any(k in sec_lower for k in SECCIONES_CONTENIDO) or \
+                        course_name.lower().split()[0] in sec_lower
+
+        # Extraer Meet de Encuentros Sincrónicos (solo la primera vez)
+        if is_sincronica and meet_url is None:
+            log(f"    [SECCION] Detectada sección sincrónica: '{sec_text}'")
+            meet_url = await extract_meet_from_section(context, sec_href, errores)
+            continue
 
         if not is_actividad and not is_contenido:
             log(f"    [SECCION] [SKIP] '{sec_text}' no es actividad ni contenido conocido")
@@ -552,7 +641,12 @@ async def extract_sections(page, context, course_name: str, errores: list) -> tu
             try: await sec_page.close()
             except Exception: pass
 
-    return unidades, tareas_detalle
+    if meet_url:
+        log(f"    [MEET] [OK] Meet extraído: {meet_url}")
+    else:
+        log("    [MEET] No se pudo extraer el link de Meet")
+
+    return unidades, tareas_detalle, meet_url
 
 
 # ─── Extracción por curso ─────────────────────────────────────────────────────
@@ -618,8 +712,9 @@ async def extract_course(page, course: dict) -> dict:
     result["avisos"] = await extract_avisos(page, page.context, errores)
 
     # Secciones (unidades + actividades enriquecidas)
-    unidades, tareas_detalle = await extract_sections(page, page.context, course["nombre"], errores)
-    result["unidades"] = unidades
+    unidades, tareas_detalle, meet_url = await extract_sections(page, page.context, course["nombre"], errores)
+    result["unidades"]  = unidades
+    result["meet_url"]  = meet_url
     if tareas_detalle:
         log(f"  [INFO] Reemplazando tareas básicas ({len(result['tareas'])}) con tareas enriquecidas ({len(tareas_detalle)})")
         result["tareas"] = tareas_detalle
@@ -665,6 +760,7 @@ async def extract_course(page, course: dict) -> dict:
     log(f"     Tareas:        {len(result['tareas'])}")
     log(f"     Unidades:      {len(result['unidades'])}")
     log(f"     Materiales:    {len(result['materiales'])}")
+    log(f"     Meet:          {'✓ ' + result['meet_url'] if result['meet_url'] else '✗ no encontrado'}")
     log(f"     Programa:      {'✓ ' + result['programa_archivo'] if result['programa_archivo'] else '✗ no encontrado'}")
     log(f"     Hoja de Ruta:  {'✓ ' + result['hoja_de_ruta_archivo'] if result['hoja_de_ruta_archivo'] else '✗ no encontrada'}")
     if errores:
@@ -685,6 +781,7 @@ def _empty_result(course: dict) -> dict:
         "unidades":            [],
         "tareas":              [],
         "materiales":          [],
+        "meet_url":             None,
         "programa_archivo":     None,
         "hoja_de_ruta_archivo": None,
         "ultima_actualizacion": datetime.now().isoformat(),

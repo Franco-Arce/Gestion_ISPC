@@ -34,8 +34,9 @@ export interface Materia {
   comision: string;
   url_campus: string;
   criterios: string;
-  programa_archivo: string | null;    // ruta relativa al PDF descargado, ej: /data/files/...pdf
-  hoja_de_ruta_archivo: string | null; // ruta relativa al PDF descargado
+  meet_url: string | null;             // link de Google Meet extraído del campus
+  programa_archivo: string | null;     // ruta relativa al PDF descargado
+  hoja_de_ruta_archivo: string | null;
   avisos: Aviso[];
   unidades: Unidad[];
   tareas: Tarea[];

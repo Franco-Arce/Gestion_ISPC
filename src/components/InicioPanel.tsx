@@ -152,9 +152,9 @@ export default function InicioPanel({
                           <span className="text-slate-400 font-mono text-sm bg-slate-900/80 px-3 py-1 rounded-lg border border-white/5">
                             {clase.inicio}–{clase.fin}
                           </span>
-                          {clase.meet && (
+                          {(materia?.meet_url ?? clase.meet) && (
                             <a
-                              href={clase.meet}
+                              href={materia?.meet_url ?? clase.meet}
                               target="_blank"
                               rel="noopener noreferrer"
                               onClick={(e) => e.stopPropagation()}
