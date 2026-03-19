@@ -33,8 +33,9 @@ export interface Materia {
   horario: string;
   comision: string;
   url_campus: string;
-  programa: string;
   criterios: string;
+  programa_archivo: string | null;    // ruta relativa al PDF descargado, ej: /data/files/...pdf
+  hoja_de_ruta_archivo: string | null; // ruta relativa al PDF descargado
   avisos: Aviso[];
   unidades: Unidad[];
   tareas: Tarea[];

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Clock, ExternalLink } from "lucide-react";
+import { Clock, ExternalLink, FileDown } from "lucide-react";
 import { Materia } from "@/types";
 
 type Tab = "contenido" | "actividades" | "programa" | "avisos";
@@ -192,16 +192,55 @@ export default function MateriaCard({ materia, color }: { materia: Materia; colo
 
       {/* ── PROGRAMA ── */}
       {tab === "programa" && (
-        <div className="p-6">
-          {materia.programa ? (
-            <pre className="whitespace-pre-wrap text-sm text-slate-400 font-sans leading-relaxed">
-              {materia.programa}
-            </pre>
+        <div className="p-6 space-y-4">
+
+          {/* Programa PDF */}
+          {materia.programa_archivo ? (
+            <a
+              href={materia.programa_archivo}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 px-4 py-3 rounded-xl bg-indigo-500/10 border border-indigo-500/20 text-indigo-300 hover:bg-indigo-500/20 hover:text-white transition-all"
+            >
+              <FileDown size={18} className="flex-shrink-0" />
+              <div>
+                <p className="text-sm font-semibold">Programa de la materia</p>
+                <p className="text-xs text-indigo-400/60 mt-0.5">Descargar PDF</p>
+              </div>
+              <ExternalLink size={13} className="ml-auto opacity-50" />
+            </a>
           ) : (
-            <EmptyState msg="El programa aún no está disponible en el campus." />
+            <div className="flex items-center gap-3 px-4 py-3 rounded-xl bg-slate-900/60 border border-slate-800/40 text-slate-600">
+              <FileDown size={16} className="flex-shrink-0" />
+              <p className="text-sm">Programa no disponible aún</p>
+            </div>
           )}
+
+          {/* Hoja de Ruta PDF */}
+          {materia.hoja_de_ruta_archivo ? (
+            <a
+              href={materia.hoja_de_ruta_archivo}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 px-4 py-3 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-300 hover:bg-emerald-500/20 hover:text-white transition-all"
+            >
+              <FileDown size={18} className="flex-shrink-0" />
+              <div>
+                <p className="text-sm font-semibold">Hoja de Ruta</p>
+                <p className="text-xs text-emerald-400/60 mt-0.5">Descargar PDF</p>
+              </div>
+              <ExternalLink size={13} className="ml-auto opacity-50" />
+            </a>
+          ) : (
+            <div className="flex items-center gap-3 px-4 py-3 rounded-xl bg-slate-900/60 border border-slate-800/40 text-slate-600">
+              <FileDown size={16} className="flex-shrink-0" />
+              <p className="text-sm">Hoja de Ruta no disponible aún</p>
+            </div>
+          )}
+
+          {/* Criterios */}
           {materia.criterios && (
-            <div className="mt-6 pt-6 border-t border-slate-800/60">
+            <div className="pt-4 border-t border-slate-800/60">
               <p className="text-[10px] text-slate-600 uppercase tracking-widest mb-3">
                 Criterios de evaluación
               </p>
@@ -209,6 +248,10 @@ export default function MateriaCard({ materia, color }: { materia: Materia; colo
                 {materia.criterios}
               </pre>
             </div>
+          )}
+
+          {!materia.programa_archivo && !materia.hoja_de_ruta_archivo && !materia.criterios && (
+            <EmptyState msg="El programa aún no está disponible en el campus." />
           )}
         </div>
       )}
