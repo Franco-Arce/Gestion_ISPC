@@ -49,7 +49,7 @@ RESOURCE_KEYWORDS = {
     "hoja_de_ruta":  ["hoja de ruta", "hoja de ruta de aprendizaje", "recorrido"],
 }
 
-SECCIONES_ACTIVIDAD  = ["evidencias de aprendizajes", "proyecto abp", "coloquio", "coloquio - promoción"]
+SECCIONES_ACTIVIDAD  = ["evidencias de aprendizaje", "evidencias de aprendizajes", "proyecto abp", "proyecto final abp", "coloquio", "coloquio - promoción"]
 SECCIONES_CONTENIDO  = ["contenidos", "ciencia de datos", "programación", "interfaz", "ingeniería",
                         "gestión", "práctica", "estadística", "procesamiento", "tecnología",
                         "inglés", "ciberseguridad"]
@@ -88,12 +88,19 @@ def match_materia(course_name: str) -> tuple[str | None, dict | None]:
     for m in MATERIAS_2026[detected_carrera]:
         keywords = [k for k in m["nombre"].lower().split() if len(k) > 2]
         score = sum(1 for k in keywords if k in name_lower)
-        log(f"  [MATCH] '{course_name}' vs '{m['nombre']}' → score={score}")
+        log(f"  [MATCH] '{course_name}' vs '{m['nombre']}' → score={score}/{len(keywords)}")
         if score > best_score:
             best_score = score
             best_match = m
 
     if best_score >= 1:
+        # Para materias con ≥ 2 keywords, exigir score ≥ 2 para evitar falsos positivos
+        # (ej: "Innovación de Datos" no debe matchear "Estadística y Exploración de Datos I")
+        keywords_needed = [k for k in best_match["nombre"].lower().split() if len(k) > 2]
+        min_score = 2 if len(keywords_needed) >= 2 else 1
+        if best_score < min_score:
+            log(f"  [SKIP] Score insuficiente ({best_score}/{len(keywords_needed)}) para '{best_match['nombre']}' — posible falso positivo")
+            return None, None
         log(f"  [OK] Match: '{course_name}' → '{best_match['nombre']}' ({detected_carrera})")
         return detected_carrera, best_match
 
@@ -149,14 +156,30 @@ async def get_courses(page) -> list[dict]:
 
             carrera, materia_info = match_materia(name)
             if carrera and materia_info:
-                courses.append({
+                nuevo = {
                     "nombre":        materia_info["nombre"],
                     "carrera":       carrera,
                     "horario":       materia_info["horario"],
                     "comision":      materia_info["comision"],
                     "url_campus":    href,
                     "nombre_campus": name,
-                })
+                }
+                # Deduplicar: si ya existe esta materia+carrera, quedarse con el curso de ID más alto (más reciente)
+                dup_idx = next(
+                    (i for i, c in enumerate(courses)
+                     if c["nombre"] == nuevo["nombre"] and c["carrera"] == carrera),
+                    -1
+                )
+                if dup_idx >= 0:
+                    existing_id = int(re.search(r"id=(\d+)", courses[dup_idx]["url_campus"]).group(1))
+                    new_id      = int(re.search(r"id=(\d+)", href).group(1))
+                    if new_id > existing_id:
+                        log(f"  [DEDUP] Reemplazando id={existing_id} con id={new_id} para '{nuevo['nombre']}'")
+                        courses[dup_idx] = nuevo
+                    else:
+                        log(f"  [DEDUP] Ignorando id={new_id} — ya tenemos id={existing_id} para '{nuevo['nombre']}'")
+                else:
+                    courses.append(nuevo)
 
         log(f"  [CURSOS] Cursos nuevos en página {page_idx + 1}: {new_this_page}")
         if new_this_page == 0:
@@ -173,92 +196,120 @@ async def download_resource_file(
     context, resource_url: str, save_path: Path, label: str, errores: list
 ) -> str | None:
     """
-    Descarga un archivo de un mod/resource de Moodle.
+    Descarga un archivo de un mod/resource (o mod/url) de Moodle.
+    Usa context.request.get() directamente para evitar el error
+    "Page.goto: Download is starting" de Playwright.
     Devuelve la ruta relativa web (ej: '/data/files/foo.pdf') o None si falló.
-    Agrega a `errores` el motivo exacto del fallo para el resumen final.
     """
-    log(f"    [{label}] Navegando a recurso: {resource_url}")
-    res_page = await context.new_page()
-
+    log(f"    [{label}] Descargando: {resource_url}")
     try:
-        await res_page.goto(resource_url, wait_until="networkidle", timeout=20000)
-        current_url = res_page.url
-        log(f"    [{label}] URL tras navegar: {current_url}")
+        resp = await context.request.get(resource_url, timeout=30000)
+        ct = resp.headers.get("content-type", "")
+        final_url = resp.url
+        log(f"    [{label}] status={resp.status} | ct={ct[:60]} | url_final={final_url[:80]}")
 
-        file_url = None
-
-        # Caso 1: Moodle redirigió directamente al archivo (pluginfile.php)
-        if "pluginfile.php" in current_url:
-            file_url = current_url
-            log(f"    [{label}] Redirección directa a pluginfile detectada")
-
-        # Caso 2: La página tiene un link a pluginfile.php
-        if not file_url:
-            pf_link = await res_page.query_selector("a[href*='pluginfile.php']")
-            if pf_link:
-                file_url = await pf_link.get_attribute("href")
-                log(f"    [{label}] Link pluginfile encontrado: {file_url[:80]}...")
-            else:
-                page_text = (await res_page.inner_text("body"))[:200].replace("\n", " ").strip()
-                all_links = await res_page.query_selector_all("a[href]")
-                hrefs = [await l.get_attribute("href") for l in all_links[:8]]
-                msg = (
-                    f"{label}: pluginfile.php no encontrado en la página del recurso.\n"
-                    f"         URL final tras navegar: {current_url}\n"
-                    f"         Texto visible: \"{page_text}\"\n"
-                    f"         Links en página: {hrefs}"
-                )
-                log(f"    [{label}] [WARN] {msg.splitlines()[0]}")
-                errores.append(msg)
-                await res_page.close()
-                return None
-
-        await res_page.close()
-
-        log(f"    [{label}] Descargando archivo desde: {file_url[:80]}...")
-        response = await context.request.get(file_url, timeout=30000)
-
-        if not response.ok:
+        if not resp.ok:
             msg = (
-                f"{label}: HTTP {response.status} al descargar el archivo.\n"
-                f"         URL intentada: {file_url}"
+                f"{label}: HTTP {resp.status} al intentar descargar.\n"
+                f"         URL: {resource_url}"
             )
             log(f"    [{label}] [ERROR] {msg.splitlines()[0]}")
             errores.append(msg)
             return None
 
-        content = await response.body()
-        content_type = response.headers.get("content-type", "")
-        log(f"    [{label}] Respuesta OK | content-type: {content_type} | tamaño: {len(content):,} bytes")
+        # Caso feliz: respuesta no-HTML → es el archivo directamente (redirect a pluginfile.php)
+        if "text/html" not in ct:
+            content = await resp.body()
+            if len(content) < 500:
+                msg = (
+                    f"{label}: Respuesta no-HTML pero muy pequeña ({len(content)} bytes).\n"
+                    f"         content-type: {ct} | URL final: {final_url}"
+                )
+                errores.append(msg)
+                return None
+            FILES_DIR.mkdir(parents=True, exist_ok=True)
+            save_path.write_bytes(content)
+            rel = f"/data/files/{save_path.name}"
+            log(f"    [{label}] [OK] {rel} ({len(content):,} bytes)")
+            return rel
 
-        if len(content) < 100:
-            msg = (
-                f"{label}: Archivo descargado demasiado pequeño ({len(content)} bytes) — no es el PDF real.\n"
-                f"         content-type recibido: {content_type}\n"
-                f"         URL: {file_url}"
+        # Respuesta HTML — necesitamos parsear
+        html = await resp.text()
+
+        # Caso mod/url: buscar URL externa (fuera del dominio del campus)
+        if "mod/url" in resource_url or "mod/url" in final_url:
+            ext_match = re.search(
+                r'href="(https?://(?!acceso\.ispc\.edu\.ar)[^"]{10,})"', html
             )
-            log(f"    [{label}] [WARN] {msg.splitlines()[0]}")
+            if ext_match:
+                ext_url = ext_match.group(1)
+                log(f"    [{label}] mod/url → URL externa: {ext_url[:80]}")
+                # Intentar descargar si parece un PDF
+                if ".pdf" in ext_url.lower():
+                    ext_resp = await context.request.get(ext_url, timeout=30000)
+                    ext_ct = ext_resp.headers.get("content-type", "")
+                    if ext_resp.ok and "text/html" not in ext_ct:
+                        content = await ext_resp.body()
+                        if len(content) >= 500:
+                            FILES_DIR.mkdir(parents=True, exist_ok=True)
+                            save_path.write_bytes(content)
+                            rel = f"/data/files/{save_path.name}"
+                            log(f"    [{label}] [OK] {rel} ({len(content):,} bytes)")
+                            return rel
+                msg = (
+                    f"{label}: mod/url apunta a recurso externo (no es un PDF subido al campus).\n"
+                    f"         URL externa: {ext_url}\n"
+                    f"         → Es un link externo, no un archivo del campus."
+                )
+                log(f"    [{label}] [WARN] {msg.splitlines()[0]}")
+                errores.append(msg)
+                return None
+            snippet = html[:300].replace('\n', ' ').strip()
+            msg = (
+                f"{label}: mod/url sin URL externa detectable en el HTML.\n"
+                f"         URL: {resource_url}\n"
+                f"         Snippet: \"{snippet}\""
+            )
             errores.append(msg)
             return None
 
-        FILES_DIR.mkdir(parents=True, exist_ok=True)
-        save_path.write_bytes(content)
-        rel_path = f"/data/files/{save_path.name}"
-        log(f"    [{label}] [OK] Guardado → {rel_path}")
-        return rel_path
+        # Caso mod/resource o mod/page: buscar pluginfile.php en el HTML
+        pf_match = re.search(r'"(https?://acceso\.ispc\.edu\.ar[^"]*pluginfile\.php[^"]*)"', html)
+        if pf_match:
+            file_url = pf_match.group(1)
+            log(f"    [{label}] pluginfile en HTML: {file_url[:80]}")
+            file_resp = await context.request.get(file_url, timeout=30000)
+            file_ct = file_resp.headers.get("content-type", "")
+            if file_resp.ok and "text/html" not in file_ct:
+                content = await file_resp.body()
+                if len(content) >= 500:
+                    FILES_DIR.mkdir(parents=True, exist_ok=True)
+                    save_path.write_bytes(content)
+                    rel = f"/data/files/{save_path.name}"
+                    log(f"    [{label}] [OK] {rel} ({len(content):,} bytes)")
+                    return rel
+
+        snippet = html[:300].replace('\n', ' ').strip()
+        links = re.findall(r'href="([^"]{15,100})"', html)[:6]
+        msg = (
+            f"{label}: No se pudo obtener el archivo desde la página.\n"
+            f"         URL recurso: {resource_url}\n"
+            f"         URL final: {final_url}\n"
+            f"         Snippet HTML: \"{snippet}\"\n"
+            f"         Links en HTML: {links}"
+        )
+        log(f"    [{label}] [WARN] {msg.splitlines()[0]}")
+        errores.append(msg)
+        return None
 
     except Exception as e:
         msg = (
-            f"{label}: Excepción inesperada al descargar recurso.\n"
-            f"         URL recurso: {resource_url}\n"
+            f"{label}: Excepción al descargar recurso.\n"
+            f"         URL: {resource_url}\n"
             f"         Error: {type(e).__name__}: {e}"
         )
-        log(f"    [{label}] [ERROR] {msg.splitlines()[0]}")
+        log(f"    [{label}] [ERROR] {type(e).__name__}: {e}")
         errores.append(msg)
-        try:
-            await res_page.close()
-        except Exception:
-            pass
         return None
 
 
