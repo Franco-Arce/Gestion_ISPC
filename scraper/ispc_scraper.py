@@ -166,16 +166,13 @@ async def get_courses(page) -> list[dict]:
 
 # ─── Descarga de archivos (Programa / Hoja de Ruta) ─────────────────────────
 
-async def download_resource_file(context, resource_url: str, save_path: Path, label: str) -> str | None:
+async def download_resource_file(
+    context, resource_url: str, save_path: Path, label: str, errores: list
+) -> str | None:
     """
     Descarga un archivo de un mod/resource de Moodle.
     Devuelve la ruta relativa web (ej: '/data/files/foo.pdf') o None si falló.
-
-    Flujo:
-    1. Navega a la página del recurso (mod/resource/view.php?id=...)
-    2. Busca el link a pluginfile.php (la URL real del archivo)
-    3. Descarga el contenido con context.request (hereda las cookies de sesión)
-    4. Guarda en FILES_DIR y retorna la ruta relativa
+    Agrega a `errores` el motivo exacto del fallo para el resumen final.
     """
     log(f"    [{label}] Navegando a recurso: {resource_url}")
     res_page = await context.new_page()
@@ -185,8 +182,9 @@ async def download_resource_file(context, resource_url: str, save_path: Path, la
         current_url = res_page.url
         log(f"    [{label}] URL tras navegar: {current_url}")
 
-        # Caso 1: Moodle redirigió directamente al archivo (pluginfile.php)
         file_url = None
+
+        # Caso 1: Moodle redirigió directamente al archivo (pluginfile.php)
         if "pluginfile.php" in current_url:
             file_url = current_url
             log(f"    [{label}] Redirección directa a pluginfile detectada")
@@ -196,44 +194,64 @@ async def download_resource_file(context, resource_url: str, save_path: Path, la
             pf_link = await res_page.query_selector("a[href*='pluginfile.php']")
             if pf_link:
                 file_url = await pf_link.get_attribute("href")
-                log(f"    [{label}] Link pluginfile encontrado en página: {file_url[:80]}...")
+                log(f"    [{label}] Link pluginfile encontrado: {file_url[:80]}...")
             else:
-                # Loguear qué hay en la página para diagnosticar
-                page_text = (await res_page.inner_text("body"))[:300].replace("\n", " ")
+                page_text = (await res_page.inner_text("body"))[:200].replace("\n", " ").strip()
                 all_links = await res_page.query_selector_all("a[href]")
-                hrefs = [await l.get_attribute("href") for l in all_links[:10]]
-                log(f"    [{label}] [WARN] No se encontró pluginfile.php")
-                log(f"    [{label}] [WARN] Texto visible: {page_text}")
-                log(f"    [{label}] [WARN] Links en página: {hrefs}")
+                hrefs = [await l.get_attribute("href") for l in all_links[:8]]
+                msg = (
+                    f"{label}: pluginfile.php no encontrado en la página del recurso.\n"
+                    f"         URL final tras navegar: {current_url}\n"
+                    f"         Texto visible: \"{page_text}\"\n"
+                    f"         Links en página: {hrefs}"
+                )
+                log(f"    [{label}] [WARN] {msg.splitlines()[0]}")
+                errores.append(msg)
                 await res_page.close()
                 return None
 
         await res_page.close()
 
-        # Descargar el archivo usando las cookies de sesión del contexto
-        log(f"    [{label}] Descargando archivo...")
+        log(f"    [{label}] Descargando archivo desde: {file_url[:80]}...")
         response = await context.request.get(file_url, timeout=30000)
 
         if not response.ok:
-            log(f"    [{label}] [ERROR] HTTP {response.status} al descargar {file_url[:80]}")
+            msg = (
+                f"{label}: HTTP {response.status} al descargar el archivo.\n"
+                f"         URL intentada: {file_url}"
+            )
+            log(f"    [{label}] [ERROR] {msg.splitlines()[0]}")
+            errores.append(msg)
             return None
 
         content = await response.body()
         content_type = response.headers.get("content-type", "")
-        log(f"    [{label}] Respuesta: {response.status} | content-type: {content_type} | tamaño: {len(content)} bytes")
+        log(f"    [{label}] Respuesta OK | content-type: {content_type} | tamaño: {len(content):,} bytes")
 
         if len(content) < 100:
-            log(f"    [{label}] [WARN] Archivo muy pequeño ({len(content)} bytes) — probablemente no es el PDF real")
+            msg = (
+                f"{label}: Archivo descargado demasiado pequeño ({len(content)} bytes) — no es el PDF real.\n"
+                f"         content-type recibido: {content_type}\n"
+                f"         URL: {file_url}"
+            )
+            log(f"    [{label}] [WARN] {msg.splitlines()[0]}")
+            errores.append(msg)
             return None
 
         FILES_DIR.mkdir(parents=True, exist_ok=True)
         save_path.write_bytes(content)
         rel_path = f"/data/files/{save_path.name}"
-        log(f"    [{label}] [OK] Guardado en {save_path} → {rel_path}")
+        log(f"    [{label}] [OK] Guardado → {rel_path}")
         return rel_path
 
     except Exception as e:
-        log(f"    [{label}] [ERROR] Excepción al descargar recurso: {e}")
+        msg = (
+            f"{label}: Excepción inesperada al descargar recurso.\n"
+            f"         URL recurso: {resource_url}\n"
+            f"         Error: {type(e).__name__}: {e}"
+        )
+        log(f"    [{label}] [ERROR] {msg.splitlines()[0]}")
+        errores.append(msg)
         try:
             await res_page.close()
         except Exception:
@@ -241,64 +259,83 @@ async def download_resource_file(context, resource_url: str, save_path: Path, la
         return None
 
 
-async def extract_resource_link(page, keywords: list[str], label: str) -> str | None:
+async def extract_resource_link(page, keywords: list[str], label: str, errores: list) -> str | None:
     """
-    Busca en la página un link cuyo texto coincida con los keywords dados.
-    Devuelve el href o None.
+    Busca en la página un link cuyo texto coincida exactamente con alguno de los keywords.
+    Si no lo encuentra, registra en errores los textos de links cercanos para ayudar a diagnosticar.
     """
     links = await page.query_selector_all("a")
+    textos_vistos = []
     for link in links:
-        text = (await link.inner_text()).strip().lower()
-        if text in keywords:
+        text = (await link.inner_text()).strip()
+        text_lower = text.lower()
+        textos_vistos.append(text_lower)
+        if text_lower in keywords:
             href = await link.get_attribute("href") or ""
             if href:
                 log(f"    [{label}] Link encontrado: texto='{text}' href={href}")
                 return href
-    log(f"    [{label}] [WARN] No se encontró ningún link con texto en {keywords}")
+
+    # No encontrado — buscar cuáles links de la zona de presentación podrían ser relevantes
+    candidatos = [t for t in textos_vistos if any(k[:4] in t for k in keywords) and t][:8]
+    msg = (
+        f"{label}: No se encontró link con texto {keywords}.\n"
+        f"         Links similares encontrados en la página: {candidatos if candidatos else '(ninguno)'}\n"
+        f"         → Puede que tenga otro nombre en el campus o que aún no esté publicado."
+    )
+    log(f"    [{label}] [WARN] {msg.splitlines()[0]}")
+    errores.append(msg)
     return None
 
 
-async def extract_programa(page, context, materia_nombre: str) -> str | None:
+async def extract_programa(page, context, materia_nombre: str, errores: list) -> str | None:
     """Busca el link 'Programa' y descarga el archivo. Retorna ruta relativa o None."""
     log("    → [PROGRAMA] Buscando...")
-    href = await extract_resource_link(page, RESOURCE_KEYWORDS["programa"], "PROGRAMA")
+    href = await extract_resource_link(page, RESOURCE_KEYWORDS["programa"], "PROGRAMA", errores)
     if not href:
         return None
-
     fname = safe_filename(materia_nombre)
     save_path = FILES_DIR / f"{fname}_programa.pdf"
-    return await download_resource_file(context, href, save_path, "PROGRAMA")
+    return await download_resource_file(context, href, save_path, "PROGRAMA", errores)
 
 
-async def extract_hoja_de_ruta(page, context, materia_nombre: str) -> str | None:
+async def extract_hoja_de_ruta(page, context, materia_nombre: str, errores: list) -> str | None:
     """Busca el link 'Hoja de Ruta' y descarga el archivo. Retorna ruta relativa o None."""
     log("    → [HOJA_RUTA] Buscando...")
-    href = await extract_resource_link(page, RESOURCE_KEYWORDS["hoja_de_ruta"], "HOJA_RUTA")
+    href = await extract_resource_link(page, RESOURCE_KEYWORDS["hoja_de_ruta"], "HOJA_RUTA", errores)
     if not href:
         return None
-
     fname = safe_filename(materia_nombre)
     save_path = FILES_DIR / f"{fname}_hoja_de_ruta.pdf"
-    return await download_resource_file(context, href, save_path, "HOJA_RUTA")
+    return await download_resource_file(context, href, save_path, "HOJA_RUTA", errores)
 
 
 # ─── Avisos ──────────────────────────────────────────────────────────────────
 
-async def extract_avisos(page, context) -> list[dict]:
+async def extract_avisos(page, context, errores: list) -> list[dict]:
     """Encuentra foros de Avisos en la página del curso y extrae todos los mensajes."""
     avisos = []
 
     links = await page.query_selector_all("a")
     foro_urls = []
+    todos_foros = []
     for link in links:
         text = (await link.inner_text()).strip().lower()
         href = await link.get_attribute("href") or ""
+        if "forum" in href:
+            todos_foros.append(f"'{text}' → {href}")
         if "forum" in href and text in ("avisos", "avisos com a", "avisos com b", "avisos generales"):
             foro_urls.append((text, href))
             log(f"    [FORO] Encontrado: '{text}' → {href}")
 
     if not foro_urls:
-        log("    [FORO] [WARN] No se encontraron foros de avisos en esta materia")
+        msg = (
+            f"Avisos: No se encontró ningún foro con nombre 'avisos' / 'avisos com a' / 'avisos com b'.\n"
+            f"         Foros con href*='forum' encontrados en la página: {todos_foros[:6] if todos_foros else '(ninguno)'}\n"
+            f"         → ¿El foro tiene otro nombre? Revisar el selector de texto en extract_avisos."
+        )
+        log(f"    [FORO] [WARN] {msg.splitlines()[0]}")
+        errores.append(msg)
 
     for foro_nombre, foro_url in foro_urls:
         try:
@@ -386,7 +423,7 @@ async def extract_avisos(page, context) -> list[dict]:
 
 # ─── Secciones (Unidades + Actividades) ─────────────────────────────────────
 
-async def extract_sections(page, context, course_name: str) -> tuple[list[dict], list[dict]]:
+async def extract_sections(page, context, course_name: str, errores: list) -> tuple[list[dict], list[dict]]:
     """
     Extrae unidades de contenido y actividades de las secciones del curso.
     Retorna (unidades, tareas_con_detalle)
@@ -398,7 +435,17 @@ async def extract_sections(page, context, course_name: str) -> tuple[list[dict],
     log(f"    [SECCIONES] Encontradas: {len(section_links)}")
 
     if not section_links:
-        log("    [SECCIONES] [WARN] No se encontraron secciones (a[href*='section.php'])")
+        # Recopilar todos los links de la página para diagnóstico
+        all_a = await page.query_selector_all("a[href]")
+        hrefs_muestra = [await a.get_attribute("href") for a in all_a[:10]]
+        msg = (
+            f"Secciones: No se encontraron links a[href*='section.php'] en la página.\n"
+            f"           URL actual: {page.url}\n"
+            f"           Primeros 10 hrefs en la página: {hrefs_muestra}\n"
+            f"           → La materia puede estar vacía, usar otro layout, o necesitar login renovado."
+        )
+        log(f"    [SECCIONES] [WARN] {msg.splitlines()[0]}")
+        errores.append(msg)
 
     for sec_link in section_links:
         sec_text = (await sec_link.inner_text()).strip()
@@ -561,23 +608,38 @@ async def extract_course(page, course: dict) -> dict:
             log(f"    [MATERIAL] {text} ({tipo})")
             result["materiales"].append({"nombre": text, "url": href, "tipo": tipo})
 
+    errores: list[str] = []
+
     # Programa y Hoja de Ruta
-    result["programa_archivo"]     = await extract_programa(page, page.context, course["nombre"])
-    result["hoja_de_ruta_archivo"] = await extract_hoja_de_ruta(page, page.context, course["nombre"])
+    result["programa_archivo"]      = await extract_programa(page, page.context, course["nombre"], errores)
+    result["hoja_de_ruta_archivo"]  = await extract_hoja_de_ruta(page, page.context, course["nombre"], errores)
 
     # Avisos
-    result["avisos"] = await extract_avisos(page, page.context)
+    result["avisos"] = await extract_avisos(page, page.context, errores)
 
     # Secciones (unidades + actividades enriquecidas)
-    unidades, tareas_detalle = await extract_sections(page, page.context, course["nombre"])
+    unidades, tareas_detalle = await extract_sections(page, page.context, course["nombre"], errores)
     result["unidades"] = unidades
     if tareas_detalle:
         log(f"  [INFO] Reemplazando tareas básicas ({len(result['tareas'])}) con tareas enriquecidas ({len(tareas_detalle)})")
         result["tareas"] = tareas_detalle
 
+    # Advertencias si quedaron vacíos después de procesar todo
+    if not result["unidades"]:
+        errores.append(
+            "Unidades: 0 unidades extraídas tras procesar todas las secciones.\n"
+            "           → Revisar SECCIONES_CONTENIDO o que las secciones de contenido tengan links con 'unidad' en el texto."
+        )
+    if not result["tareas"]:
+        errores.append(
+            "Tareas: 0 tareas encontradas. No hay secciones de actividades o no tienen assigns/quizzes aún.\n"
+            "        → Puede ser normal al inicio del cuatrimestre si el docente no cargó las actividades todavía."
+        )
+
     # Fechas para tareas sin fecha (fallback)
     sin_fecha = [t for t in result["tareas"] if not t.get("fecha_entrega")]
-    log(f"  [FECHAS] {len(sin_fecha)} tareas sin fecha — intentando extraer...")
+    if sin_fecha:
+        log(f"  [FECHAS] {len(sin_fecha)} tareas sin fecha — intentando extraer...")
     for tarea in sin_fecha:
         try:
             t_page = await page.context.new_page()
@@ -596,13 +658,17 @@ async def extract_course(page, course: dict) -> dict:
         except Exception as e:
             log(f"    [FECHA] [ERROR] '{tarea['nombre']}': {e}")
 
+    result["_errores"] = errores
+
     log(f"\n  ── Resumen {course['nombre']} ──")
-    log(f"     Tareas:        {len(result['tareas'])}")
-    log(f"     Materiales:    {len(result['materiales'])}")
-    log(f"     Unidades:      {len(result['unidades'])}")
     log(f"     Avisos:        {len(result['avisos'])}")
+    log(f"     Tareas:        {len(result['tareas'])}")
+    log(f"     Unidades:      {len(result['unidades'])}")
+    log(f"     Materiales:    {len(result['materiales'])}")
     log(f"     Programa:      {'✓ ' + result['programa_archivo'] if result['programa_archivo'] else '✗ no encontrado'}")
     log(f"     Hoja de Ruta:  {'✓ ' + result['hoja_de_ruta_archivo'] if result['hoja_de_ruta_archivo'] else '✗ no encontrada'}")
+    if errores:
+        log(f"     Errores:       {len(errores)} problema(s) registrado(s)")
 
     return result
 
@@ -619,9 +685,10 @@ def _empty_result(course: dict) -> dict:
         "unidades":            [],
         "tareas":              [],
         "materiales":          [],
-        "programa_archivo":    None,   # ruta relativa al PDF (/data/files/...)
-        "hoja_de_ruta_archivo": None,  # ruta relativa al PDF (/data/files/...)
+        "programa_archivo":     None,
+        "hoja_de_ruta_archivo": None,
         "ultima_actualizacion": datetime.now().isoformat(),
+        "_errores":             [],    # se elimina antes de guardar el JSON
     }
 
 
@@ -683,58 +750,63 @@ async def main():
         "materias":    materias_data,
     }
 
+    # Extraer errores antes de serializar (no van al JSON)
+    errores_por_materia = {m["nombre"]: m.pop("_errores", []) for m in materias_data}
+
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
 
     # ── Resumen final ────────────────────────────────────────────────────────
-    COL = 32  # ancho columna nombre
+    COL = 32
     log(f"\n{'═'*72}")
     log(f"  RESUMEN FINAL — {datetime.now().strftime('%d/%m/%Y %H:%M')}")
     log(f"{'═'*72}")
-    log(f"  {'MATERIA':<{COL}} {'AVI':>3} {'TAR':>3} {'UNI':>3} {'MAT':>3}  {'PROG':>6}  {'RUTA':>6}")
-    log(f"  {'─'*COL} {'───':>3} {'───':>3} {'───':>3} {'───':>3}  {'──────':>6}  {'──────':>6}")
+    log(f"  {'MATERIA':<{COL}} {'AVI':>3} {'TAR':>3} {'UNI':>3} {'MAT':>3}  {'PROG':>6}  {'RUTA':>6}  {'ERR':>3}")
+    log(f"  {'─'*COL} {'───':>3} {'───':>3} {'───':>3} {'───':>3}  {'──────':>6}  {'──────':>6}  {'───':>3}")
 
-    errores = []
     for m in materias_data:
-        prog = "✓" if m.get("programa_archivo") else "✗"
-        ruta = "✓" if m.get("hoja_de_ruta_archivo") else "✗"
-        nombre = m["nombre"][:COL]
-        avi = len(m.get("avisos", []))
-        tar = len(m.get("tareas", []))
-        uni = len(m.get("unidades", []))
-        mat = len(m.get("materiales", []))
-        log(f"  {nombre:<{COL}} {avi:>3} {tar:>3} {uni:>3} {mat:>3}  {prog:>6}  {ruta:>6}")
+        prog  = "✓" if m.get("programa_archivo")     else "✗"
+        ruta  = "✓" if m.get("hoja_de_ruta_archivo") else "✗"
+        n_err = len(errores_por_materia.get(m["nombre"], []))
+        err_s = str(n_err) if n_err else "─"
+        log(
+            f"  {m['nombre'][:COL]:<{COL}} "
+            f"{len(m.get('avisos', [])):>3} "
+            f"{len(m.get('tareas', [])):>3} "
+            f"{len(m.get('unidades', [])):>3} "
+            f"{len(m.get('materiales', [])):>3}  "
+            f"{prog:>6}  {ruta:>6}  {err_s:>3}"
+        )
 
-        # Acumular problemas para mostrarlos abajo
-        if prog == "✗":
-            errores.append(f"    ✗ Programa no encontrado:      {m['nombre']}")
-        if ruta == "✗":
-            errores.append(f"    ✗ Hoja de Ruta no encontrada:  {m['nombre']}")
-        if uni == 0:
-            errores.append(f"    ✗ Sin unidades extraídas:      {m['nombre']}")
-        if tar == 0:
-            errores.append(f"    ✗ Sin tareas encontradas:      {m['nombre']}")
-        if avi == 0:
-            errores.append(f"    ✗ Sin avisos encontrados:      {m['nombre']}")
+    log(f"  {'─'*COL} {'───':>3} {'───':>3} {'───':>3} {'───':>3}  {'──────':>6}  {'──────':>6}  {'───':>3}")
+    log(
+        f"  {'TOTALES':<{COL}} "
+        f"{sum(len(m.get('avisos',[]))    for m in materias_data):>3} "
+        f"{sum(len(m.get('tareas',[]))    for m in materias_data):>3} "
+        f"{sum(len(m.get('unidades',[]))  for m in materias_data):>3} "
+        f"{sum(len(m.get('materiales',[]))for m in materias_data):>3}  "
+        f"{sum(1 for m in materias_data if m.get('programa_archivo')):>5}✓  "
+        f"{sum(1 for m in materias_data if m.get('hoja_de_ruta_archivo')):>5}✓  "
+        f"{sum(len(v) for v in errores_por_materia.values()):>3}"
+    )
+    log(f"\n  Leyenda: AVI=avisos  TAR=tareas  UNI=unidades  MAT=materiales  PROG=programa  RUTA=hoja de ruta  ERR=errores")
 
-    log(f"  {'─'*COL} {'───':>3} {'───':>3} {'───':>3} {'───':>3}  {'──────':>6}  {'──────':>6}")
-    totales = {
-        "avisos":    sum(len(m.get("avisos", []))    for m in materias_data),
-        "tareas":    sum(len(m.get("tareas", []))    for m in materias_data),
-        "unidades":  sum(len(m.get("unidades", []))  for m in materias_data),
-        "materiales":sum(len(m.get("materiales", []))for m in materias_data),
-        "programas": sum(1 for m in materias_data if m.get("programa_archivo")),
-        "rutas":     sum(1 for m in materias_data if m.get("hoja_de_ruta_archivo")),
-    }
-    log(f"  {'TOTALES':<{COL}} {totales['avisos']:>3} {totales['tareas']:>3} {totales['unidades']:>3} {totales['materiales']:>3}  {totales['programas']:>5}✓  {totales['rutas']:>5}✓")
-    log(f"\n  Leyenda: AVI=avisos  TAR=tareas  UNI=unidades  MAT=materiales  PROG=programa  RUTA=hoja de ruta")
-
-    if errores:
-        log(f"\n  ⚠ Lo que NO se pudo extraer ({len(errores)} problemas):")
-        for e in errores:
-            log(e)
+    # ── Detalle de errores por materia ───────────────────────────────────────
+    materias_con_error = [(n, errs) for n, errs in errores_por_materia.items() if errs]
+    if materias_con_error:
+        log(f"\n{'─'*72}")
+        log(f"  ⚠  ERRORES DETALLADOS ({sum(len(e) for _,e in materias_con_error)} problemas en {len(materias_con_error)} materias)")
+        log(f"{'─'*72}")
+        for nombre, errs in materias_con_error:
+            log(f"\n  ▶ {nombre}")
+            for i, err in enumerate(errs, 1):
+                # Indentar cada línea del error
+                lines = err.splitlines()
+                log(f"    {i}. {lines[0]}")
+                for line in lines[1:]:
+                    log(f"       {line}")
     else:
-        log(f"\n  ✅ Todo extraído correctamente en todas las materias")
+        log(f"\n  ✅ Sin errores — todo extraído correctamente en todas las materias")
 
     archivos_pdf = list(FILES_DIR.glob("*.pdf")) if FILES_DIR.exists() else []
     log(f"\n  PDFs descargados: {len(archivos_pdf)}")
