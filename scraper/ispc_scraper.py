@@ -686,14 +686,63 @@ async def main():
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    log(f"\n{'='*60}")
-    log(f"  ✅ JSON guardado: {OUTPUT_PATH}")
-    log(f"  Materias procesadas: {len(materias_data)}")
-    archivos = list(FILES_DIR.glob("*.pdf")) if FILES_DIR.exists() else []
-    log(f"  Archivos descargados: {len(archivos)}")
-    for f in archivos:
-        log(f"    - {f.name} ({f.stat().st_size} bytes)")
-    log(f"{'='*60}")
+    # ── Resumen final ────────────────────────────────────────────────────────
+    COL = 32  # ancho columna nombre
+    log(f"\n{'═'*72}")
+    log(f"  RESUMEN FINAL — {datetime.now().strftime('%d/%m/%Y %H:%M')}")
+    log(f"{'═'*72}")
+    log(f"  {'MATERIA':<{COL}} {'AVI':>3} {'TAR':>3} {'UNI':>3} {'MAT':>3}  {'PROG':>6}  {'RUTA':>6}")
+    log(f"  {'─'*COL} {'───':>3} {'───':>3} {'───':>3} {'───':>3}  {'──────':>6}  {'──────':>6}")
+
+    errores = []
+    for m in materias_data:
+        prog = "✓" if m.get("programa_archivo") else "✗"
+        ruta = "✓" if m.get("hoja_de_ruta_archivo") else "✗"
+        nombre = m["nombre"][:COL]
+        avi = len(m.get("avisos", []))
+        tar = len(m.get("tareas", []))
+        uni = len(m.get("unidades", []))
+        mat = len(m.get("materiales", []))
+        log(f"  {nombre:<{COL}} {avi:>3} {tar:>3} {uni:>3} {mat:>3}  {prog:>6}  {ruta:>6}")
+
+        # Acumular problemas para mostrarlos abajo
+        if prog == "✗":
+            errores.append(f"    ✗ Programa no encontrado:      {m['nombre']}")
+        if ruta == "✗":
+            errores.append(f"    ✗ Hoja de Ruta no encontrada:  {m['nombre']}")
+        if uni == 0:
+            errores.append(f"    ✗ Sin unidades extraídas:      {m['nombre']}")
+        if tar == 0:
+            errores.append(f"    ✗ Sin tareas encontradas:      {m['nombre']}")
+        if avi == 0:
+            errores.append(f"    ✗ Sin avisos encontrados:      {m['nombre']}")
+
+    log(f"  {'─'*COL} {'───':>3} {'───':>3} {'───':>3} {'───':>3}  {'──────':>6}  {'──────':>6}")
+    totales = {
+        "avisos":    sum(len(m.get("avisos", []))    for m in materias_data),
+        "tareas":    sum(len(m.get("tareas", []))    for m in materias_data),
+        "unidades":  sum(len(m.get("unidades", []))  for m in materias_data),
+        "materiales":sum(len(m.get("materiales", []))for m in materias_data),
+        "programas": sum(1 for m in materias_data if m.get("programa_archivo")),
+        "rutas":     sum(1 for m in materias_data if m.get("hoja_de_ruta_archivo")),
+    }
+    log(f"  {'TOTALES':<{COL}} {totales['avisos']:>3} {totales['tareas']:>3} {totales['unidades']:>3} {totales['materiales']:>3}  {totales['programas']:>5}✓  {totales['rutas']:>5}✓")
+    log(f"\n  Leyenda: AVI=avisos  TAR=tareas  UNI=unidades  MAT=materiales  PROG=programa  RUTA=hoja de ruta")
+
+    if errores:
+        log(f"\n  ⚠ Lo que NO se pudo extraer ({len(errores)} problemas):")
+        for e in errores:
+            log(e)
+    else:
+        log(f"\n  ✅ Todo extraído correctamente en todas las materias")
+
+    archivos_pdf = list(FILES_DIR.glob("*.pdf")) if FILES_DIR.exists() else []
+    log(f"\n  PDFs descargados: {len(archivos_pdf)}")
+    for f in archivos_pdf:
+        log(f"    ✓ {f.name}  ({f.stat().st_size:,} bytes)")
+
+    log(f"\n  ✅ JSON guardado: {OUTPUT_PATH}")
+    log(f"{'═'*72}")
 
 
 if __name__ == "__main__":
