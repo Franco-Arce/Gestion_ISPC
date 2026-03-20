@@ -50,6 +50,20 @@ RESOURCE_KEYWORDS = {
 }
 
 SECCIONES_ACTIVIDAD  = ["evidencias de aprendizaje", "evidencias de aprendizajes", "proyecto abp", "proyecto final abp", "coloquio", "coloquio - promoción"]
+
+# Cursos cuyo nombre en el campus no coincide con el nombre de la materia.
+# Substring del nombre campus (lowercase) → lista de (carrera, nombre_materia).
+# Estos bypasean el filtro de año y el matching automático.
+COURSE_OVERRIDES: dict[str, list[tuple[str, str]]] = {
+    # TSDS: Programación III e Interfaz de Usuario están dentro del módulo Full Stack II
+    "módulo: full stack ii":     [("TSDS", "Programación III"),
+                                  ("TSDS", "Interfaz de Usuario")],
+    # TSCDIA: Estadística y Procesamiento de Datos están dentro del módulo Analista de Datos I
+    "módulo: analista de datos": [("TSCDIA", "Estadística y Exploración de Datos I"),
+                                  ("TSCDIA", "Procesamiento de Datos")],
+    # Inglés II: el campus usa el año actual (2026) en lugar del año de ingreso
+    "inglés ii":                  [("TSCDIA", "Inglés II")],
+}
 SECCIONES_CONTENIDO  = ["contenidos", "ciencia de datos", "programación", "interfaz", "ingeniería",
                         "gestión", "práctica", "estadística", "procesamiento", "tecnología",
                         "inglés", "ciberseguridad"]
@@ -150,6 +164,43 @@ async def get_courses(page) -> list[dict]:
 
             log(f"  [CURSO] '{name}' → {href}")
 
+            # ── Override explícito (bypass filtro de año y matching automático) ──
+            override_key = next((k for k in COURSE_OVERRIDES if k in name.lower()), None)
+            if override_key:
+                for carrera, nombre_materia in COURSE_OVERRIDES[override_key]:
+                    materia_info = next(
+                        (m for m in MATERIAS_2026.get(carrera, []) if m["nombre"] == nombre_materia),
+                        None
+                    )
+                    if not materia_info:
+                        continue
+                    nuevo = {
+                        "nombre":        materia_info["nombre"],
+                        "carrera":       carrera,
+                        "horario":       materia_info["horario"],
+                        "comision":      materia_info["comision"],
+                        "url_campus":    href,
+                        "nombre_campus": name,
+                    }
+                    dup_idx = next(
+                        (i for i, c in enumerate(courses)
+                         if c["nombre"] == nuevo["nombre"] and c["carrera"] == carrera),
+                        -1
+                    )
+                    if dup_idx >= 0:
+                        existing_id = int(re.search(r"id=(\d+)", courses[dup_idx]["url_campus"]).group(1))
+                        new_id      = int(re.search(r"id=(\d+)", href).group(1))
+                        if new_id > existing_id:
+                            log(f"  [DEDUP] Override: id={existing_id}→{new_id} para '{nombre_materia}'")
+                            courses[dup_idx] = nuevo
+                        else:
+                            log(f"  [DEDUP] Override: ignorando id={new_id} para '{nombre_materia}'")
+                    else:
+                        log(f"  [OVERRIDE] '{name}' → '{nombre_materia}' ({carrera})")
+                        courses.append(nuevo)
+                continue  # no aplicar filtro de año ni match_materia normal
+
+            # ── Filtro de año de ingreso ──
             if "2024" not in name and "2025" not in name:
                 log(f"  [SKIP] Año de ingreso no reconocido en '{name}' (esperado 2024 o 2025)")
                 continue
