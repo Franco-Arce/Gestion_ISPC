@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-03-20T10:54:20.747952",
+  "generado_el": "2026-03-21T10:43:10.113373",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -64,7 +64,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-20T10:47:30.013931"
+      "ultima_actualizacion": "2026-03-21T10:35:27.593527"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -133,7 +133,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-20T10:48:04.753853"
+      "ultima_actualizacion": "2026-03-21T10:36:07.198310"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -245,7 +245,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-20T10:48:30.905281"
+      "ultima_actualizacion": "2026-03-21T10:36:36.346438"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -295,7 +295,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/gestion_de_proyectos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-20T10:49:24.511083"
+      "ultima_actualizacion": "2026-03-21T10:37:35.959862"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -345,7 +345,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingenieria_de_software_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-20T10:49:54.680344"
+      "ultima_actualizacion": "2026-03-21T10:38:08.955999"
     },
     {
       "nombre": "Inglés II",
@@ -359,7 +359,7 @@
           "titulo": "Avisos",
           "autor": "Carolina BERTUZZI",
           "fecha": "2026-03-15T14:57:46-03:00",
-          "mensaje": "Estimado/a estudiante,\n\n¡Te damos la bienvenida a Inglés II!\n\nMi nombre es Carolina y soy la coordinadora del Departamento de Inglés. Junto con el equipo docente, te acompañaremos a lo largo de este ciclo lectivo. Estoy disponible para brindarte asesoramiento y responder tus consultas sobre este espacio curricular. \n\nA continuación, te comparto información importante para estas primeras semanas:\n\n📌 Inicio de clases:\n\nLas clases inician la semana del 16 de marzo con actividades asincrónicas \n\nLos encuentros sincrónicos comienzan el lunes 30 de marzo.\n\n📌 Publicación de horarios:\n  A partir del 25 de marzo se publicará el listado con los horarios de las diferentes comisiones de Inglés II. Podrás encontrarlos en el aula virtual, dentro de la sección \"Comisiones de Inglés II\", donde estará disponible el cronograma de encuentros sincrónicos de cada tecnicatura superior.\n\n💡Aclaración: los estudiantes que cursaron Inglés I en comisiones de Nivel  B1/B2 recibirán un correo electrónico donde se ",
+          "mensaje": "Estimado/a estudiante,\n\n¡Te damos la bienvenida a Inglés II!\n\nMi nombre es Carolina y soy la coordinadora del Departamento de Inglés. Junto con el equipo docente, te acompañaremos a lo largo de este ciclo lectivo. Estoy disponible para brindarte asesoramiento y responder tus consultas sobre este espacio curricular. \n\nA continuación, te comparto información importante para estas primeras semanas:\n\n📌 Inicio de clases:\n\nLas clases inician la semana del 16 de marzo con actividades asincrónicas \n\nLos encuentros sincrónicos comienzan en abril\n\n📌 Publicación de horarios:\n  A partir del 25 de marzo se publicará el listado con los horarios de las diferentes comisiones de Inglés II. Podrás encontrarlos en el aula virtual, dentro de la sección \"Comisiones de Inglés II\", donde estará disponible el cronograma de encuentros sincrónicos de cada tecnicatura superior.\n\n💡Aclaración: los estudiantes que cursaron Inglés I en comisiones de Nivel  B1/B2 recibirán un correo electrónico donde se detallará la ",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85261"
         }
       ],
@@ -375,8 +375,8 @@
       "materiales": [],
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
-      "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-20T10:50:26.119980"
+      "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
+      "ultima_actualizacion": "2026-03-21T10:38:42.834314"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -384,7 +384,7 @@
       "horario": "Martes 15:40–18:00",
       "comision": "A (tarde)",
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4268",
-      "criterios": "• Sistema de Acreditación Módulos Cuatrimestrales\n• Régimen Académico Institucional\n",
+      "criterios": "• Criterios de evaluación\n• Sistema de Acreditación Módulos Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
         {
           "titulo": "Avisos",
@@ -486,9 +486,9 @@
       ],
       "materiales": [],
       "meet_url": "http://meet.google.com/qam-wget-kaq",
-      "programa_archivo": null,
-      "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-20T10:50:39.103466"
+      "programa_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_programa.pdf",
+      "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
+      "ultima_actualizacion": "2026-03-21T10:38:57.536437"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -496,7 +496,7 @@
       "horario": "Martes 15:40–18:00",
       "comision": "A (tarde)",
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4268",
-      "criterios": "• Sistema de Acreditación Módulos Cuatrimestrales\n• Régimen Académico Institucional\n",
+      "criterios": "• Criterios de evaluación\n• Sistema de Acreditación Módulos Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
         {
           "titulo": "Avisos",
@@ -598,9 +598,9 @@
       ],
       "materiales": [],
       "meet_url": "http://meet.google.com/qam-wget-kaq",
-      "programa_archivo": null,
-      "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-20T10:51:26.365330"
+      "programa_archivo": "/data/files/procesamiento_de_datos_programa.pdf",
+      "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
+      "ultima_actualizacion": "2026-03-21T10:39:54.512430"
     },
     {
       "nombre": "Programación III",
@@ -657,7 +657,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-20T10:52:13.276830"
+      "ultima_actualizacion": "2026-03-21T10:40:51.973445"
     },
     {
       "nombre": "Interfaz de Usuario",
@@ -714,7 +714,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-20T10:52:45.406552"
+      "ultima_actualizacion": "2026-03-21T10:41:27.419983"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -764,7 +764,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-20T10:53:18.965186"
+      "ultima_actualizacion": "2026-03-21T10:42:02.438909"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -821,7 +821,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-20T10:53:47.555894"
+      "ultima_actualizacion": "2026-03-21T10:42:34.855250"
     }
   ]
 }
