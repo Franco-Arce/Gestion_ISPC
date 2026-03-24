@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-03-23T11:06:43.487712",
+  "generado_el": "2026-03-24T11:05:38.899466",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -13,16 +13,16 @@
         {
           "titulo": "Avisos",
           "autor": "Carolina AHUMADA",
-          "fecha": "2026-03-18T10:13:09-03:00",
-          "mensaje": "BIENVENIDOS\n\n😊¡Estimado estudiante!\n\nMe complace darte la bienvenida a este mundo fascinante de la seguridad, que lo experimentarán a través del trayecto de “Ciberseguridad”!.  Espero sea el inicio de muchos éxitos, logros y satisfacciones, que enriquezcan tu espíritu y crecimiento personal. Estoy encantada de poder ayudarte a extender tus límites y a crecer más allá de lo que jamás soñaste que fuera posible. \n\nSaludos Cordiales.\n\nProf.  Carolina Ahumada\n\n\nAntes de continuar hablando sobre mí, les comparto algunas novedades sobre este trayecto:\n\n✳️Duración: 4 meses\n\n\n✳️¿Qué caminos recorreremos? Vamos a emprender un recorrido para conocer y aprender sobre SEGURIDAD en todo ámbito, y no solo será teórico, también podrán aplicar el conocimiento a situaciones PRÁCTICAS.  \n\n⚠️Algunos consejos para el recorrido...\n\n 🔶Motor siempre ENCENDIDO. (Un motor que no funciona o funciona a medias no los conducirá  a ningún destino).\n\n 🔶Mucha CURIOSIDAD, hay mucho por conocer y descubrir.\n\n🔶PERDER el ",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85392"
+          "fecha": "2026-03-18T10:40:55-03:00",
+          "mensaje": "Escenario:\n\nUna pequeña empresa implementa antivirus, firewall y realiza copias de seguridad periódicas. Sin embargo, un día uno de sus empleados recibe un correo electrónico que aparenta ser del banco, hace clic en un enlace y completa sus datos de acceso.\n\nHoras después, la empresa sufre un acceso no autorizado a sus sistemas y pérdida de información sensible.\n\nA partir de este escenario, debatamos lo siguiente:\n\nAnálisis inicial: ¿Cómo pudo ocurrir el incidente si la empresa contaba con medidas de seguridad técnicas?\nFactor humano: ¿Qué rol juega el usuario en la seguridad de la información? ¿Es realmente el “eslabón más débil”?\nTipos de ataque: ¿Qué tipo de ataque se evidencia en el escenario? ¿Cómo lo identificarías?\nPrevención: ¿Qué acciones podrían haberse implementado para evitar esta situación?\nReflexión: ¿Creés que la ciberseguridad depende más de la tecnología o de las personas? Justificá tu respuesta.\n\nEspero sus respuestas!!! 😄Comenzamos el debate!!!💪",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
         },
         {
           "titulo": "Avisos",
           "autor": "Carolina AHUMADA",
-          "fecha": "2026-03-18T10:40:55-03:00",
-          "mensaje": "Escenario:\n\nUna pequeña empresa implementa antivirus, firewall y realiza copias de seguridad periódicas. Sin embargo, un día uno de sus empleados recibe un correo electrónico que aparenta ser del banco, hace clic en un enlace y completa sus datos de acceso.\n\nHoras después, la empresa sufre un acceso no autorizado a sus sistemas y pérdida de información sensible.\n\nA partir de este escenario, debatamos lo siguiente:\n\nAnálisis inicial: ¿Cómo pudo ocurrir el incidente si la empresa contaba con medidas de seguridad técnicas?\nFactor humano: ¿Qué rol juega el usuario en la seguridad de la información? ¿Es realmente el “eslabón más débil”?\nTipos de ataque: ¿Qué tipo de ataque se evidencia en el escenario? ¿Cómo lo identificarías?\nPrevención: ¿Qué acciones podrían haberse implementado para evitar esta situación?\nReflexión: ¿Creés que la ciberseguridad depende más de la tecnología o de las personas? Justificá tu respuesta.\n\nEspero sus respuestas!!! 😄Comenzamos el debate!!!💪",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+          "fecha": "2026-03-18T10:13:09-03:00",
+          "mensaje": "BIENVENIDOS\n\n😊¡Estimado estudiante!\n\nMe complace darte la bienvenida a este mundo fascinante de la seguridad, que lo experimentarán a través del trayecto de “Ciberseguridad”!.  Espero sea el inicio de muchos éxitos, logros y satisfacciones, que enriquezcan tu espíritu y crecimiento personal. Estoy encantada de poder ayudarte a extender tus límites y a crecer más allá de lo que jamás soñaste que fuera posible. \n\nSaludos Cordiales.\n\nProf.  Carolina Ahumada\n\n\nAntes de continuar hablando sobre mí, les comparto algunas novedades sobre este trayecto:\n\n✳️Duración: 4 meses\n\n\n✳️¿Qué caminos recorreremos? Vamos a emprender un recorrido para conocer y aprender sobre SEGURIDAD en todo ámbito, y no solo será teórico, también podrán aplicar el conocimiento a situaciones PRÁCTICAS.  \n\n⚠️Algunos consejos para el recorrido...\n\n 🔶Motor siempre ENCENDIDO. (Un motor que no funciona o funciona a medias no los conducirá  a ningún destino).\n\n 🔶Mucha CURIOSIDAD, hay mucho por conocer y descubrir.\n\n🔶PERDER el ",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85392"
         },
         {
           "titulo": "Avisos",
@@ -64,7 +64,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-23T10:59:18.877200"
+      "ultima_actualizacion": "2026-03-24T10:58:15.628717"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -133,7 +133,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-23T10:59:54.263070"
+      "ultima_actualizacion": "2026-03-24T10:58:52.273831"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -245,7 +245,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-23T11:00:23.577622"
+      "ultima_actualizacion": "2026-03-24T10:59:19.605386"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -295,7 +295,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/gestion_de_proyectos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-23T11:01:19.942091"
+      "ultima_actualizacion": "2026-03-24T11:00:17.738461"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -345,7 +345,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingenieria_de_software_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-23T11:01:50.754476"
+      "ultima_actualizacion": "2026-03-24T11:00:49.721660"
     },
     {
       "nombre": "Inglés II",
@@ -376,7 +376,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-23T11:02:26.463837"
+      "ultima_actualizacion": "2026-03-24T11:01:22.300969"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -488,7 +488,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-23T11:02:40.644915"
+      "ultima_actualizacion": "2026-03-24T11:01:36.468482"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -600,7 +600,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": "/data/files/procesamiento_de_datos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-23T11:03:37.027846"
+      "ultima_actualizacion": "2026-03-24T11:02:34.791453"
     },
     {
       "nombre": "Programación III",
@@ -612,13 +612,6 @@
       "avisos": [
         {
           "titulo": "Avisos",
-          "autor": "Maria Florencia GARCIA ZAVIA",
-          "fecha": "2026-03-18T21:53:46-03:00",
-          "mensaje": "INSTITUTO SUPERIOR POLITÉCNICO CÓRDOBA\nTecnicatura Superior en Desarrollo de Software\n\n● Módulo Full Stack II · 2026\n\nEncuesta de inicio de año\n\nFue un gusto conocerlos el día de ayer y conversar sobre el camino a recorrer este año. Considerando los temas que surgieron en la clase, con el profe Ramiro elaboramos esta encuesta para conocer la opinión de todo el grupo.\n\nEsta encuesta es anónima y no lleva nota. Sus respuestas nos ayudan a planificar las clases y mejorar la experiencia del grupo.\n\nLes pedimos que por favor la completen esta semana. No lleva más de 10 minutos.\n\n⏱ 10 minutos    |    👤 Anónima    |    🔒 Sin nota\n\n\n\nFECHA LÍMITE\nLunes 23 de marzo\tCompletar encuesta →\n\nDocentes Florencia García y Ramiro Ceballes\nMódulo Full Stack II · Instituto Superior Politécnico Córdoba",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85474"
-        },
-        {
-          "titulo": "Avisos",
           "autor": "Ramiro Adrian CEBALLES",
           "fecha": "2026-03-16T18:09:08-03:00",
           "mensaje": "¡Hola a todos/as!\n\nEs un gusto darles la bienvenida a este tercer año y, específicamente, al módulo Full Stack II.\n\nEste es el tramo final de su formación en la Tecnicatura, el espacio donde convergen la lógica robusta del Backend (Programación III) y la experiencia estratégica del usuario (Interfaz de Usuario). Queremos recordarles que mañana daremos inicio a nuestra primera clase, y los esperamos con mucha energía para empezar a trabajar en lo que será su trampolín hacia el ámbito laboral.\n\nEstamos aquí para acompañarlos y verlos transformarse en colegas listos para integrarse con éxito en la industria tecnológica.\n\n¡Muchos éxitos en este ciclo lectivo! Nos vemos mañana en el aula.\n\nSaludos cordiales,\n\nTec. Sup. Ramiro Adrián Ceballes & Lic. María Florencia García Zavia",
@@ -657,7 +650,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-23T11:04:30.969044"
+      "ultima_actualizacion": "2026-03-24T11:03:29.938430"
     },
     {
       "nombre": "Interfaz de Usuario",
@@ -669,13 +662,6 @@
       "avisos": [
         {
           "titulo": "Avisos",
-          "autor": "Maria Florencia GARCIA ZAVIA",
-          "fecha": "2026-03-18T21:53:46-03:00",
-          "mensaje": "INSTITUTO SUPERIOR POLITÉCNICO CÓRDOBA\nTecnicatura Superior en Desarrollo de Software\n\n● Módulo Full Stack II · 2026\n\nEncuesta de inicio de año\n\nFue un gusto conocerlos el día de ayer y conversar sobre el camino a recorrer este año. Considerando los temas que surgieron en la clase, con el profe Ramiro elaboramos esta encuesta para conocer la opinión de todo el grupo.\n\nEsta encuesta es anónima y no lleva nota. Sus respuestas nos ayudan a planificar las clases y mejorar la experiencia del grupo.\n\nLes pedimos que por favor la completen esta semana. No lleva más de 10 minutos.\n\n⏱ 10 minutos    |    👤 Anónima    |    🔒 Sin nota\n\n\n\nFECHA LÍMITE\nLunes 23 de marzo\tCompletar encuesta →\n\nDocentes Florencia García y Ramiro Ceballes\nMódulo Full Stack II · Instituto Superior Politécnico Córdoba",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85474"
-        },
-        {
-          "titulo": "Avisos",
           "autor": "Ramiro Adrian CEBALLES",
           "fecha": "2026-03-16T18:09:08-03:00",
           "mensaje": "¡Hola a todos/as!\n\nEs un gusto darles la bienvenida a este tercer año y, específicamente, al módulo Full Stack II.\n\nEste es el tramo final de su formación en la Tecnicatura, el espacio donde convergen la lógica robusta del Backend (Programación III) y la experiencia estratégica del usuario (Interfaz de Usuario). Queremos recordarles que mañana daremos inicio a nuestra primera clase, y los esperamos con mucha energía para empezar a trabajar en lo que será su trampolín hacia el ámbito laboral.\n\nEstamos aquí para acompañarlos y verlos transformarse en colegas listos para integrarse con éxito en la industria tecnológica.\n\n¡Muchos éxitos en este ciclo lectivo! Nos vemos mañana en el aula.\n\nSaludos cordiales,\n\nTec. Sup. Ramiro Adrián Ceballes & Lic. María Florencia García Zavia",
@@ -714,7 +700,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-23T11:05:04.110099"
+      "ultima_actualizacion": "2026-03-24T11:04:00.973793"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -764,7 +750,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-23T11:05:39.524797"
+      "ultima_actualizacion": "2026-03-24T11:04:33.627380"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -821,7 +807,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-23T11:06:09.482178"
+      "ultima_actualizacion": "2026-03-24T11:05:03.036964"
     }
   ]
 }
