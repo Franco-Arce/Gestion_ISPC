@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-03-24T11:05:38.899466",
+  "generado_el": "2026-03-25T11:03:05.242577",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -13,16 +13,16 @@
         {
           "titulo": "Avisos",
           "autor": "Carolina AHUMADA",
-          "fecha": "2026-03-18T10:40:55-03:00",
-          "mensaje": "Escenario:\n\nUna pequeña empresa implementa antivirus, firewall y realiza copias de seguridad periódicas. Sin embargo, un día uno de sus empleados recibe un correo electrónico que aparenta ser del banco, hace clic en un enlace y completa sus datos de acceso.\n\nHoras después, la empresa sufre un acceso no autorizado a sus sistemas y pérdida de información sensible.\n\nA partir de este escenario, debatamos lo siguiente:\n\nAnálisis inicial: ¿Cómo pudo ocurrir el incidente si la empresa contaba con medidas de seguridad técnicas?\nFactor humano: ¿Qué rol juega el usuario en la seguridad de la información? ¿Es realmente el “eslabón más débil”?\nTipos de ataque: ¿Qué tipo de ataque se evidencia en el escenario? ¿Cómo lo identificarías?\nPrevención: ¿Qué acciones podrían haberse implementado para evitar esta situación?\nReflexión: ¿Creés que la ciberseguridad depende más de la tecnología o de las personas? Justificá tu respuesta.\n\nEspero sus respuestas!!! 😄Comenzamos el debate!!!💪",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+          "fecha": "2026-03-18T10:13:09-03:00",
+          "mensaje": "BIENVENIDOS\n\n😊¡Estimado estudiante!\n\nMe complace darte la bienvenida a este mundo fascinante de la seguridad, que lo experimentarán a través del trayecto de “Ciberseguridad”!.  Espero sea el inicio de muchos éxitos, logros y satisfacciones, que enriquezcan tu espíritu y crecimiento personal. Estoy encantada de poder ayudarte a extender tus límites y a crecer más allá de lo que jamás soñaste que fuera posible. \n\nSaludos Cordiales.\n\nProf.  Carolina Ahumada\n\n\nAntes de continuar hablando sobre mí, les comparto algunas novedades sobre este trayecto:\n\n✳️Duración: 4 meses\n\n\n✳️¿Qué caminos recorreremos? Vamos a emprender un recorrido para conocer y aprender sobre SEGURIDAD en todo ámbito, y no solo será teórico, también podrán aplicar el conocimiento a situaciones PRÁCTICAS.  \n\n⚠️Algunos consejos para el recorrido...\n\n 🔶Motor siempre ENCENDIDO. (Un motor que no funciona o funciona a medias no los conducirá  a ningún destino).\n\n 🔶Mucha CURIOSIDAD, hay mucho por conocer y descubrir.\n\n🔶PERDER el ",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85392"
         },
         {
           "titulo": "Avisos",
           "autor": "Carolina AHUMADA",
-          "fecha": "2026-03-18T10:13:09-03:00",
-          "mensaje": "BIENVENIDOS\n\n😊¡Estimado estudiante!\n\nMe complace darte la bienvenida a este mundo fascinante de la seguridad, que lo experimentarán a través del trayecto de “Ciberseguridad”!.  Espero sea el inicio de muchos éxitos, logros y satisfacciones, que enriquezcan tu espíritu y crecimiento personal. Estoy encantada de poder ayudarte a extender tus límites y a crecer más allá de lo que jamás soñaste que fuera posible. \n\nSaludos Cordiales.\n\nProf.  Carolina Ahumada\n\n\nAntes de continuar hablando sobre mí, les comparto algunas novedades sobre este trayecto:\n\n✳️Duración: 4 meses\n\n\n✳️¿Qué caminos recorreremos? Vamos a emprender un recorrido para conocer y aprender sobre SEGURIDAD en todo ámbito, y no solo será teórico, también podrán aplicar el conocimiento a situaciones PRÁCTICAS.  \n\n⚠️Algunos consejos para el recorrido...\n\n 🔶Motor siempre ENCENDIDO. (Un motor que no funciona o funciona a medias no los conducirá  a ningún destino).\n\n 🔶Mucha CURIOSIDAD, hay mucho por conocer y descubrir.\n\n🔶PERDER el ",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85392"
+          "fecha": "2026-03-18T10:40:55-03:00",
+          "mensaje": "Escenario:\n\nUna pequeña empresa implementa antivirus, firewall y realiza copias de seguridad periódicas. Sin embargo, un día uno de sus empleados recibe un correo electrónico que aparenta ser del banco, hace clic en un enlace y completa sus datos de acceso.\n\nHoras después, la empresa sufre un acceso no autorizado a sus sistemas y pérdida de información sensible.\n\nA partir de este escenario, debatamos lo siguiente:\n\nAnálisis inicial: ¿Cómo pudo ocurrir el incidente si la empresa contaba con medidas de seguridad técnicas?\nFactor humano: ¿Qué rol juega el usuario en la seguridad de la información? ¿Es realmente el “eslabón más débil”?\nTipos de ataque: ¿Qué tipo de ataque se evidencia en el escenario? ¿Cómo lo identificarías?\nPrevención: ¿Qué acciones podrían haberse implementado para evitar esta situación?\nReflexión: ¿Creés que la ciberseguridad depende más de la tecnología o de las personas? Justificá tu respuesta.\n\nEspero sus respuestas!!! 😄Comenzamos el debate!!!💪",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
         },
         {
           "titulo": "Avisos",
@@ -64,7 +64,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-24T10:58:15.628717"
+      "ultima_actualizacion": "2026-03-25T10:55:47.234940"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -133,7 +133,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-24T10:58:52.273831"
+      "ultima_actualizacion": "2026-03-25T10:56:23.241818"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -245,7 +245,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-24T10:59:19.605386"
+      "ultima_actualizacion": "2026-03-25T10:56:49.000747"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -295,7 +295,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/gestion_de_proyectos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-24T11:00:17.738461"
+      "ultima_actualizacion": "2026-03-25T10:57:43.513056"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -345,7 +345,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingenieria_de_software_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-24T11:00:49.721660"
+      "ultima_actualizacion": "2026-03-25T10:58:14.587557"
     },
     {
       "nombre": "Inglés II",
@@ -376,7 +376,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-24T11:01:22.300969"
+      "ultima_actualizacion": "2026-03-25T10:58:45.069811"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -488,7 +488,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-24T11:01:36.468482"
+      "ultima_actualizacion": "2026-03-25T10:58:58.644962"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -600,7 +600,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": "/data/files/procesamiento_de_datos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-24T11:02:34.791453"
+      "ultima_actualizacion": "2026-03-25T10:59:57.088973"
     },
     {
       "nombre": "Programación III",
@@ -650,7 +650,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-24T11:03:29.938430"
+      "ultima_actualizacion": "2026-03-25T11:00:56.546579"
     },
     {
       "nombre": "Interfaz de Usuario",
@@ -700,7 +700,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-24T11:04:00.973793"
+      "ultima_actualizacion": "2026-03-25T11:01:27.946095"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -750,7 +750,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-24T11:04:33.627380"
+      "ultima_actualizacion": "2026-03-25T11:01:59.224826"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -766,6 +766,13 @@
           "fecha": "2026-03-12T20:45:39-03:00",
           "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85228"
+        },
+        {
+          "titulo": "Avisos Com A",
+          "autor": "Ana FARIAS",
+          "fecha": "2026-03-25T01:53:43-03:00",
+          "mensaje": "¡Buen día a todos! Espero que estén bien. Les comparto la Actividad Integradora Nro. 2 de Tecnología y Sociedad, que van a trabajar a partir de lo que vimos en la clase de hoy.\nComo repasamos recién, esta clase giró en torno a tres ejes: la dataficación de la sociedad, la relación entre tecnología y los Objetivos de Desarrollo Sostenible, y la ética y responsabilidad que tenemos como profesionales de datos. Estos tres ejes no son independientes entre sí, sino que se conectan directamente con el proyecto integrador que van a desarrollar a lo largo de toda la materia.\nLa actividad que les adjunto tiene cuatro momentos. Primero, necesitan conformar equipos de 3 a 5 personas, elegir un nombre para el grupo y designar un coordinador o coordinadora (LIDER DE PROYECTO) que será el nexo  . Segundo, y esto es lo más importante, van a hacer un ejercicio de observación de su comunidad: su barrio, su ciudad, su entorno cercano. La idea es que identifiquen una problemática real que afecte a persona",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85703"
         },
         {
           "titulo": "Avisos Com A",
@@ -807,7 +814,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-24T11:05:03.036964"
+      "ultima_actualizacion": "2026-03-25T11:02:29.837136"
     }
   ]
 }
