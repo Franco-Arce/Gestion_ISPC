@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-03-25T11:03:05.242577",
+  "generado_el": "2026-03-26T11:07:56.262608",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -63,8 +63,8 @@
       "materiales": [],
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": null,
-      "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-25T10:55:47.234940"
+      "hoja_de_ruta_archivo": "/data/files/ciberseguridad_hoja_de_ruta.pdf",
+      "ultima_actualizacion": "2026-03-26T11:00:02.451957"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -72,7 +72,7 @@
       "horario": "Miércoles 19:40–20:40",
       "comision": "Única",
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4290",
-      "criterios": "• Sistema de Acreditación - Espacios curriculares Cuatrimestrales\n• Régimen Académico Institucional\n",
+      "criterios": "• Criterios de evaluación\n• Sistema de Acreditación - Espacios curriculares Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
         {
           "titulo": "Avisos",
@@ -111,29 +111,51 @@
       ],
       "tareas": [
         {
-          "nombre": "Evidencias de Aprendizajes",
-          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27910",
-          "fecha_entrega": null,
-          "estado": "pendiente"
+          "nombre": "Entrega 1 – Comprensión del problema y datos",
+          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=113248",
+          "fecha_entrega": "Todavía no se han realizado envíos",
+          "estado": "pendiente",
+          "descripcion": "Objetivo: entender el problema y explorar los datos.\n\nIncluye:\n\ndescripción del problema\n\nidentificación de fuentes\n\nprimer análisis del dataset",
+          "seccion": "Evidencias de Aprendizajes"
         },
         {
-          "nombre": "Proyecto ABP",
-          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27911",
-          "fecha_entrega": null,
-          "estado": "pendiente"
+          "nombre": "Entrega 2 – Limpieza y transformación",
+          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=113249",
+          "fecha_entrega": "Todavía no se han realizado envíos",
+          "estado": "pendiente",
+          "descripcion": "Objetivo: preparar los datos.\n\nIncluye:\n\nlimpieza de datos\n\nestandarización\n\ndataset final",
+          "seccion": "Evidencias de Aprendizajes"
         },
         {
-          "nombre": "Coloquio - Promoción",
-          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27912",
-          "fecha_entrega": null,
-          "estado": "pendiente"
+          "nombre": "Entrega 3 – Análisis exploratorio",
+          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=113250",
+          "fecha_entrega": "Todavía no se han realizado envíos",
+          "estado": "pendiente",
+          "descripcion": "Objetivo: obtener información.\n\nIncluye:\n\nanálisis descriptivo\n\ndetección de patrones\n\nprimeras conclusiones",
+          "seccion": "Evidencias de Aprendizajes"
+        },
+        {
+          "nombre": "Actividades de la Unidad 2",
+          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=113247",
+          "fecha_entrega": "Todavía no se han realizado envíos",
+          "estado": "pendiente",
+          "descripcion": "Optativas.",
+          "seccion": "Evidencias de Aprendizajes"
+        },
+        {
+          "nombre": "Entrega final – Visualización y comunicación",
+          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=113253",
+          "fecha_entrega": "Todavía no se han realizado envíos",
+          "estado": "pendiente",
+          "descripcion": "Fecha limite: 08/06\n\nObjetivo: comunicar resultados.\n\nIncluye:\n\ngráficos\n\ndashboard (opcional)\n\ninforme final\n\npresentación",
+          "seccion": "Proyecto ABP"
         }
       ],
       "materiales": [],
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-25T10:56:23.241818"
+      "ultima_actualizacion": "2026-03-26T11:00:44.367496"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -245,7 +267,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-25T10:56:49.000747"
+      "ultima_actualizacion": "2026-03-26T11:01:29.346720"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -295,7 +317,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/gestion_de_proyectos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-25T10:57:43.513056"
+      "ultima_actualizacion": "2026-03-26T11:02:26.327542"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -345,7 +367,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingenieria_de_software_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-25T10:58:14.587557"
+      "ultima_actualizacion": "2026-03-26T11:02:57.869162"
     },
     {
       "nombre": "Inglés II",
@@ -376,7 +398,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-25T10:58:45.069811"
+      "ultima_actualizacion": "2026-03-26T11:03:30.791675"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -488,7 +510,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-25T10:58:58.644962"
+      "ultima_actualizacion": "2026-03-26T11:03:45.363230"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -600,7 +622,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": "/data/files/procesamiento_de_datos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-25T10:59:57.088973"
+      "ultima_actualizacion": "2026-03-26T11:04:43.772025"
     },
     {
       "nombre": "Programación III",
@@ -650,7 +672,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-25T11:00:56.546579"
+      "ultima_actualizacion": "2026-03-26T11:05:45.115012"
     },
     {
       "nombre": "Interfaz de Usuario",
@@ -700,7 +722,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-25T11:01:27.946095"
+      "ultima_actualizacion": "2026-03-26T11:06:17.253722"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -750,7 +772,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-25T11:01:59.224826"
+      "ultima_actualizacion": "2026-03-26T11:06:49.048803"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -814,7 +836,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-25T11:02:29.837136"
+      "ultima_actualizacion": "2026-03-26T11:07:20.072472"
     }
   ]
 }
