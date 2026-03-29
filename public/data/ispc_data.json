@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-03-28T10:47:12.433420",
+  "generado_el": "2026-03-29T10:49:54.418697",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -64,7 +64,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/ciberseguridad_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-28T10:39:35.374652"
+      "ultima_actualizacion": "2026-03-29T10:42:07.922615"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -162,7 +162,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-28T10:40:17.567281"
+      "ultima_actualizacion": "2026-03-29T10:42:49.756400"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -274,7 +274,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-28T10:41:04.238304"
+      "ultima_actualizacion": "2026-03-29T10:43:36.897558"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -324,7 +324,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/gestion_de_proyectos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-28T10:41:59.955294"
+      "ultima_actualizacion": "2026-03-29T10:44:32.604785"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -374,7 +374,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingenieria_de_software_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-28T10:42:32.602889"
+      "ultima_actualizacion": "2026-03-29T10:45:04.899359"
     },
     {
       "nombre": "Inglés II",
@@ -405,7 +405,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-28T10:43:04.734252"
+      "ultima_actualizacion": "2026-03-29T10:45:37.516736"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -442,6 +442,13 @@
           "fecha": "2026-03-12T20:40:46-03:00",
           "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85227"
+        },
+        {
+          "titulo": "Avisos Com B",
+          "autor": "Nahuel PRATTA",
+          "fecha": "2026-03-18T19:20:11-03:00",
+          "mensaje": "Actividad: Los Cimientos de los Datos\n\nMateria: Estadística y Exploración de Datos 1\n\nObjetivo: Validar la capacidad de identificar tipos de variables y su representación gráfica ideal.\n\nIntroducción: En nuestra primera clase exploramos cómo los datos no son solo números, sino información con diferentes naturalezas. Como futuros Científicos de Datos, el primer gran desafío es saber \"leer\" qué nos dice cada variable para elegir la herramienta visual correcta. Un gráfico mal elegido puede ocultar la verdad o confundir al usuario final.\n\nInstrucciones:\n\nIngresen al link que se encuentra debajo.\n\nEncontrarán un cuestionario interactivo de 10 preguntas sobre clasificación de variables y selección de gráficos.\n\nLean atentamente cada escenario; algunos incluyen pequeñas \"trampas\" comunes en el análisis real.\n\nAl finalizar, el sistema les dará una retroalimentación inmediata sobre sus respuestas.\n\nConsigna de Cierre: No se preocupen por el puntaje final, sino por el razonamiento. Si fallan en ",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85442"
         }
       ],
       "unidades": [
@@ -510,7 +517,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-28T10:43:20.164262"
+      "ultima_actualizacion": "2026-03-29T10:45:51.665309"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -547,6 +554,13 @@
           "fecha": "2026-03-12T20:40:46-03:00",
           "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85227"
+        },
+        {
+          "titulo": "Avisos Com B",
+          "autor": "Nahuel PRATTA",
+          "fecha": "2026-03-18T19:20:11-03:00",
+          "mensaje": "Actividad: Los Cimientos de los Datos\n\nMateria: Estadística y Exploración de Datos 1\n\nObjetivo: Validar la capacidad de identificar tipos de variables y su representación gráfica ideal.\n\nIntroducción: En nuestra primera clase exploramos cómo los datos no son solo números, sino información con diferentes naturalezas. Como futuros Científicos de Datos, el primer gran desafío es saber \"leer\" qué nos dice cada variable para elegir la herramienta visual correcta. Un gráfico mal elegido puede ocultar la verdad o confundir al usuario final.\n\nInstrucciones:\n\nIngresen al link que se encuentra debajo.\n\nEncontrarán un cuestionario interactivo de 10 preguntas sobre clasificación de variables y selección de gráficos.\n\nLean atentamente cada escenario; algunos incluyen pequeñas \"trampas\" comunes en el análisis real.\n\nAl finalizar, el sistema les dará una retroalimentación inmediata sobre sus respuestas.\n\nConsigna de Cierre: No se preocupen por el puntaje final, sino por el razonamiento. Si fallan en ",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85442"
         }
       ],
       "unidades": [
@@ -615,7 +629,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": "/data/files/procesamiento_de_datos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-28T10:44:09.041105"
+      "ultima_actualizacion": "2026-03-29T10:46:46.899180"
     },
     {
       "nombre": "Programación III",
@@ -672,7 +686,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-28T10:44:57.822077"
+      "ultima_actualizacion": "2026-03-29T10:47:42.663934"
     },
     {
       "nombre": "Interfaz de Usuario",
@@ -729,7 +743,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-28T10:45:32.737152"
+      "ultima_actualizacion": "2026-03-29T10:48:15.914538"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -779,7 +793,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-28T10:46:06.038983"
+      "ultima_actualizacion": "2026-03-29T10:48:49.184271"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -843,7 +857,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-28T10:46:36.431123"
+      "ultima_actualizacion": "2026-03-29T10:49:19.042149"
     }
   ]
 }
