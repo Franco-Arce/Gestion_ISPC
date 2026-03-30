@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-03-29T10:49:54.418697",
+  "generado_el": "2026-03-30T11:17:42.969936",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -13,16 +13,16 @@
         {
           "titulo": "Avisos",
           "autor": "Carolina AHUMADA",
-          "fecha": "2026-03-18T10:13:09-03:00",
-          "mensaje": "BIENVENIDOS\n\n😊¡Estimado estudiante!\n\nMe complace darte la bienvenida a este mundo fascinante de la seguridad, que lo experimentarán a través del trayecto de “Ciberseguridad”!.  Espero sea el inicio de muchos éxitos, logros y satisfacciones, que enriquezcan tu espíritu y crecimiento personal. Estoy encantada de poder ayudarte a extender tus límites y a crecer más allá de lo que jamás soñaste que fuera posible. \n\nSaludos Cordiales.\n\nProf.  Carolina Ahumada\n\n\nAntes de continuar hablando sobre mí, les comparto algunas novedades sobre este trayecto:\n\n✳️Duración: 4 meses\n\n\n✳️¿Qué caminos recorreremos? Vamos a emprender un recorrido para conocer y aprender sobre SEGURIDAD en todo ámbito, y no solo será teórico, también podrán aplicar el conocimiento a situaciones PRÁCTICAS.  \n\n⚠️Algunos consejos para el recorrido...\n\n 🔶Motor siempre ENCENDIDO. (Un motor que no funciona o funciona a medias no los conducirá  a ningún destino).\n\n 🔶Mucha CURIOSIDAD, hay mucho por conocer y descubrir.\n\n🔶PERDER el ",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85392"
+          "fecha": "2026-03-18T10:40:55-03:00",
+          "mensaje": "Escenario:\n\nUna pequeña empresa implementa antivirus, firewall y realiza copias de seguridad periódicas. Sin embargo, un día uno de sus empleados recibe un correo electrónico que aparenta ser del banco, hace clic en un enlace y completa sus datos de acceso.\n\nHoras después, la empresa sufre un acceso no autorizado a sus sistemas y pérdida de información sensible.\n\nA partir de este escenario, debatamos lo siguiente:\n\nAnálisis inicial: ¿Cómo pudo ocurrir el incidente si la empresa contaba con medidas de seguridad técnicas?\nFactor humano: ¿Qué rol juega el usuario en la seguridad de la información? ¿Es realmente el “eslabón más débil”?\nTipos de ataque: ¿Qué tipo de ataque se evidencia en el escenario? ¿Cómo lo identificarías?\nPrevención: ¿Qué acciones podrían haberse implementado para evitar esta situación?\nReflexión: ¿Creés que la ciberseguridad depende más de la tecnología o de las personas? Justificá tu respuesta.\n\nEspero sus respuestas!!! 😄Comenzamos el debate!!!💪",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
         },
         {
           "titulo": "Avisos",
           "autor": "Carolina AHUMADA",
-          "fecha": "2026-03-18T10:40:55-03:00",
-          "mensaje": "Escenario:\n\nUna pequeña empresa implementa antivirus, firewall y realiza copias de seguridad periódicas. Sin embargo, un día uno de sus empleados recibe un correo electrónico que aparenta ser del banco, hace clic en un enlace y completa sus datos de acceso.\n\nHoras después, la empresa sufre un acceso no autorizado a sus sistemas y pérdida de información sensible.\n\nA partir de este escenario, debatamos lo siguiente:\n\nAnálisis inicial: ¿Cómo pudo ocurrir el incidente si la empresa contaba con medidas de seguridad técnicas?\nFactor humano: ¿Qué rol juega el usuario en la seguridad de la información? ¿Es realmente el “eslabón más débil”?\nTipos de ataque: ¿Qué tipo de ataque se evidencia en el escenario? ¿Cómo lo identificarías?\nPrevención: ¿Qué acciones podrían haberse implementado para evitar esta situación?\nReflexión: ¿Creés que la ciberseguridad depende más de la tecnología o de las personas? Justificá tu respuesta.\n\nEspero sus respuestas!!! 😄Comenzamos el debate!!!💪",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+          "fecha": "2026-03-18T10:13:09-03:00",
+          "mensaje": "BIENVENIDOS\n\n😊¡Estimado estudiante!\n\nMe complace darte la bienvenida a este mundo fascinante de la seguridad, que lo experimentarán a través del trayecto de “Ciberseguridad”!.  Espero sea el inicio de muchos éxitos, logros y satisfacciones, que enriquezcan tu espíritu y crecimiento personal. Estoy encantada de poder ayudarte a extender tus límites y a crecer más allá de lo que jamás soñaste que fuera posible. \n\nSaludos Cordiales.\n\nProf.  Carolina Ahumada\n\n\nAntes de continuar hablando sobre mí, les comparto algunas novedades sobre este trayecto:\n\n✳️Duración: 4 meses\n\n\n✳️¿Qué caminos recorreremos? Vamos a emprender un recorrido para conocer y aprender sobre SEGURIDAD en todo ámbito, y no solo será teórico, también podrán aplicar el conocimiento a situaciones PRÁCTICAS.  \n\n⚠️Algunos consejos para el recorrido...\n\n 🔶Motor siempre ENCENDIDO. (Un motor que no funciona o funciona a medias no los conducirá  a ningún destino).\n\n 🔶Mucha CURIOSIDAD, hay mucho por conocer y descubrir.\n\n🔶PERDER el ",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85392"
         },
         {
           "titulo": "Avisos",
@@ -64,7 +64,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/ciberseguridad_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-29T10:42:07.922615"
+      "ultima_actualizacion": "2026-03-30T11:09:54.032524"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -162,7 +162,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-29T10:42:49.756400"
+      "ultima_actualizacion": "2026-03-30T11:10:35.676289"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -274,7 +274,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-29T10:43:36.897558"
+      "ultima_actualizacion": "2026-03-30T11:11:21.824810"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -324,7 +324,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/gestion_de_proyectos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-29T10:44:32.604785"
+      "ultima_actualizacion": "2026-03-30T11:12:16.805549"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -374,7 +374,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingenieria_de_software_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-29T10:45:04.899359"
+      "ultima_actualizacion": "2026-03-30T11:12:47.691447"
     },
     {
       "nombre": "Inglés II",
@@ -390,6 +390,13 @@
           "fecha": "2026-03-15T14:57:46-03:00",
           "mensaje": "Estimado/a estudiante,\n\n¡Te damos la bienvenida a Inglés II!\n\nMi nombre es Carolina y soy la coordinadora del Departamento de Inglés. Junto con el equipo docente, te acompañaremos a lo largo de este ciclo lectivo. Estoy disponible para brindarte asesoramiento y responder tus consultas sobre este espacio curricular. \n\nA continuación, te comparto información importante para estas primeras semanas:\n\n📌 Inicio de clases:\n\nLas clases inician la semana del 16 de marzo con actividades asincrónicas \n\nLos encuentros sincrónicos comienzan en abril\n\n📌 Publicación de horarios:\n  A partir del 25 de marzo se publicará el listado con los horarios de las diferentes comisiones de Inglés II. Podrás encontrarlos en el aula virtual, dentro de la sección \"Comisiones de Inglés II\", donde estará disponible el cronograma de encuentros sincrónicos de cada tecnicatura superior.\n\n💡Aclaración: los estudiantes que cursaron Inglés I en comisiones de Nivel  B1/B2 recibirán un correo electrónico donde se detallará la ",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85261"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "María Ximena MENDONCA",
+          "fecha": "2026-03-29T19:36:57-03:00",
+          "mensaje": "Mi nombre es Ximena Mendonça, soy Profesora y Magíster en Inglés 👩‍🏫 y durante este año voy a acompañarlos/as en el espacio curricular Inglés II.\nEste espacio forma parte de su trayectoria formativa y busca aportar herramientas para el desarrollo de sus habilidades comunicativas en inglés 🗣️✍️, especialmente vinculadas con sus futuras prácticas profesionales y su inserción en el mundo laboral.\nNuestros encuentros sincrónicos serán los miércoles de 14:20 a 15:20 hs 🗓️, a partir de la semana del 6 de abril. En esos encuentros vamos a poder intercambiar ideas, profundizar contenidos del idioma y generar espacios de práctica tanto oral como escrita.\nAdemás de las clases, también vamos a mantenernos en contacto a través del foro y la mensajería interna del aula virtual 💬, que serán otros espacios para consultas, intercambios y acompañamiento.\nLa participación en los encuentros es fundamental, ya que nos permitirá compartir experiencias y construir espacios de aprendizaje colaborativo 🤝 que ",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85927"
         }
       ],
       "unidades": [],
@@ -405,7 +412,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-29T10:45:37.516736"
+      "ultima_actualizacion": "2026-03-30T11:13:18.822790"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -517,7 +524,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-29T10:45:51.665309"
+      "ultima_actualizacion": "2026-03-30T11:13:35.014322"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -629,7 +636,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": "/data/files/procesamiento_de_datos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-29T10:46:46.899180"
+      "ultima_actualizacion": "2026-03-30T11:14:33.752934"
     },
     {
       "nombre": "Programación III",
@@ -686,7 +693,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-29T10:47:42.663934"
+      "ultima_actualizacion": "2026-03-30T11:15:30.144005"
     },
     {
       "nombre": "Interfaz de Usuario",
@@ -743,7 +750,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-29T10:48:15.914538"
+      "ultima_actualizacion": "2026-03-30T11:16:02.836833"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -793,7 +800,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-29T10:48:49.184271"
+      "ultima_actualizacion": "2026-03-30T11:16:36.862183"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -857,7 +864,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-29T10:49:19.042149"
+      "ultima_actualizacion": "2026-03-30T11:17:06.632609"
     }
   ]
 }
