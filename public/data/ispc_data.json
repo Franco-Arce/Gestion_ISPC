@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-03-30T11:17:42.969936",
+  "generado_el": "2026-03-31T11:08:50.641414",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -64,7 +64,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/ciberseguridad_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-30T11:09:54.032524"
+      "ultima_actualizacion": "2026-03-31T11:00:53.295106"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -162,7 +162,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-30T11:10:35.676289"
+      "ultima_actualizacion": "2026-03-31T11:01:35.486833"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -185,6 +185,20 @@
           "fecha": "2026-03-12T20:35:47-03:00",
           "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85226"
+        },
+        {
+          "titulo": "Avisos Com A",
+          "autor": "Cynthia CORSO",
+          "fecha": "2026-03-30T15:20:57-03:00",
+          "mensaje": "Estimados/as estudiantes:\n\nPara el próximo encuentro, les sugiero realizar la lectura de la Unidad 1 completa y de una parte de la Unidad 2 del material del módulo.\n\nSe recomienda poner especial énfasis en los siguientes temas:\n\n🔹 Unidad 1 (lectura completa)\n\nRoles en Ciencia de Datos\nÉtica y aplicaciones\n\n🔹 Unidad 2 (lectura parcial)\n\nEstructura organizacional y organigramas\nLos procesos: el motor de la organización\n\nEstos contenidos serán trabajados y discutidos en la próxima clase, por lo que es importante que puedan abordarlos previamente para aprovechar mejor el espacio de intercambio.\n\nAnte cualquier duda, pueden consultarla por este medio.\n\nSaludos!",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85960"
+        },
+        {
+          "titulo": "Avisos Com A",
+          "autor": "Cynthia CORSO",
+          "fecha": "2026-03-30T14:08:43-03:00",
+          "mensaje": "Estimados/as estudiantes:\n\nLos invito a completar una encuesta diagnóstica que nos permitirá conocer su punto de partida y acompañar mejor su proceso de aprendizaje a lo largo de este módulo.\n\nLa encuesta es breve y no tiene respuestas correctas ni incorrectas. Su participación es muy importante.\n\nPueden acceder desde el siguiente enlace: \n\n🔗 https://forms.gle/eivP3DurMhPh7xBaA\n\nFecha límite: 10 abril (18:00 hs)\n\nMuchas gracias!",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85955"
         },
         {
           "titulo": "Avisos Com A",
@@ -274,7 +288,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-30T11:11:21.824810"
+      "ultima_actualizacion": "2026-03-31T11:02:21.968321"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -324,7 +338,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/gestion_de_proyectos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-30T11:12:16.805549"
+      "ultima_actualizacion": "2026-03-31T11:03:21.075772"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -374,7 +388,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingenieria_de_software_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-30T11:12:47.691447"
+      "ultima_actualizacion": "2026-03-31T11:03:51.832094"
     },
     {
       "nombre": "Inglés II",
@@ -390,13 +404,6 @@
           "fecha": "2026-03-15T14:57:46-03:00",
           "mensaje": "Estimado/a estudiante,\n\n¡Te damos la bienvenida a Inglés II!\n\nMi nombre es Carolina y soy la coordinadora del Departamento de Inglés. Junto con el equipo docente, te acompañaremos a lo largo de este ciclo lectivo. Estoy disponible para brindarte asesoramiento y responder tus consultas sobre este espacio curricular. \n\nA continuación, te comparto información importante para estas primeras semanas:\n\n📌 Inicio de clases:\n\nLas clases inician la semana del 16 de marzo con actividades asincrónicas \n\nLos encuentros sincrónicos comienzan en abril\n\n📌 Publicación de horarios:\n  A partir del 25 de marzo se publicará el listado con los horarios de las diferentes comisiones de Inglés II. Podrás encontrarlos en el aula virtual, dentro de la sección \"Comisiones de Inglés II\", donde estará disponible el cronograma de encuentros sincrónicos de cada tecnicatura superior.\n\n💡Aclaración: los estudiantes que cursaron Inglés I en comisiones de Nivel  B1/B2 recibirán un correo electrónico donde se detallará la ",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85261"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "María Ximena MENDONCA",
-          "fecha": "2026-03-29T19:36:57-03:00",
-          "mensaje": "Mi nombre es Ximena Mendonça, soy Profesora y Magíster en Inglés 👩‍🏫 y durante este año voy a acompañarlos/as en el espacio curricular Inglés II.\nEste espacio forma parte de su trayectoria formativa y busca aportar herramientas para el desarrollo de sus habilidades comunicativas en inglés 🗣️✍️, especialmente vinculadas con sus futuras prácticas profesionales y su inserción en el mundo laboral.\nNuestros encuentros sincrónicos serán los miércoles de 14:20 a 15:20 hs 🗓️, a partir de la semana del 6 de abril. En esos encuentros vamos a poder intercambiar ideas, profundizar contenidos del idioma y generar espacios de práctica tanto oral como escrita.\nAdemás de las clases, también vamos a mantenernos en contacto a través del foro y la mensajería interna del aula virtual 💬, que serán otros espacios para consultas, intercambios y acompañamiento.\nLa participación en los encuentros es fundamental, ya que nos permitirá compartir experiencias y construir espacios de aprendizaje colaborativo 🤝 que ",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85927"
         }
       ],
       "unidades": [],
@@ -412,7 +419,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-30T11:13:18.822790"
+      "ultima_actualizacion": "2026-03-31T11:04:23.590444"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -524,7 +531,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-30T11:13:35.014322"
+      "ultima_actualizacion": "2026-03-31T11:04:38.151395"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -636,7 +643,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": "/data/files/procesamiento_de_datos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-30T11:14:33.752934"
+      "ultima_actualizacion": "2026-03-31T11:05:39.869545"
     },
     {
       "nombre": "Programación III",
@@ -693,7 +700,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-30T11:15:30.144005"
+      "ultima_actualizacion": "2026-03-31T11:06:37.889416"
     },
     {
       "nombre": "Interfaz de Usuario",
@@ -750,7 +757,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-30T11:16:02.836833"
+      "ultima_actualizacion": "2026-03-31T11:07:11.257309"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -800,7 +807,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-30T11:16:36.862183"
+      "ultima_actualizacion": "2026-03-31T11:07:44.615564"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -864,7 +871,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-30T11:17:06.632609"
+      "ultima_actualizacion": "2026-03-31T11:08:15.197900"
     }
   ]
 }
