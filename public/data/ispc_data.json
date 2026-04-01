@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-03-31T11:08:50.641414",
+  "generado_el": "2026-04-01T11:12:49.669562",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -13,16 +13,16 @@
         {
           "titulo": "Avisos",
           "autor": "Carolina AHUMADA",
-          "fecha": "2026-03-18T10:40:55-03:00",
-          "mensaje": "Escenario:\n\nUna pequeña empresa implementa antivirus, firewall y realiza copias de seguridad periódicas. Sin embargo, un día uno de sus empleados recibe un correo electrónico que aparenta ser del banco, hace clic en un enlace y completa sus datos de acceso.\n\nHoras después, la empresa sufre un acceso no autorizado a sus sistemas y pérdida de información sensible.\n\nA partir de este escenario, debatamos lo siguiente:\n\nAnálisis inicial: ¿Cómo pudo ocurrir el incidente si la empresa contaba con medidas de seguridad técnicas?\nFactor humano: ¿Qué rol juega el usuario en la seguridad de la información? ¿Es realmente el “eslabón más débil”?\nTipos de ataque: ¿Qué tipo de ataque se evidencia en el escenario? ¿Cómo lo identificarías?\nPrevención: ¿Qué acciones podrían haberse implementado para evitar esta situación?\nReflexión: ¿Creés que la ciberseguridad depende más de la tecnología o de las personas? Justificá tu respuesta.\n\nEspero sus respuestas!!! 😄Comenzamos el debate!!!💪",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
+          "fecha": "2026-03-18T10:13:09-03:00",
+          "mensaje": "BIENVENIDOS\n\n😊¡Estimado estudiante!\n\nMe complace darte la bienvenida a este mundo fascinante de la seguridad, que lo experimentarán a través del trayecto de “Ciberseguridad”!.  Espero sea el inicio de muchos éxitos, logros y satisfacciones, que enriquezcan tu espíritu y crecimiento personal. Estoy encantada de poder ayudarte a extender tus límites y a crecer más allá de lo que jamás soñaste que fuera posible. \n\nSaludos Cordiales.\n\nProf.  Carolina Ahumada\n\n\nAntes de continuar hablando sobre mí, les comparto algunas novedades sobre este trayecto:\n\n✳️Duración: 4 meses\n\n\n✳️¿Qué caminos recorreremos? Vamos a emprender un recorrido para conocer y aprender sobre SEGURIDAD en todo ámbito, y no solo será teórico, también podrán aplicar el conocimiento a situaciones PRÁCTICAS.  \n\n⚠️Algunos consejos para el recorrido...\n\n 🔶Motor siempre ENCENDIDO. (Un motor que no funciona o funciona a medias no los conducirá  a ningún destino).\n\n 🔶Mucha CURIOSIDAD, hay mucho por conocer y descubrir.\n\n🔶PERDER el ",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85392"
         },
         {
           "titulo": "Avisos",
           "autor": "Carolina AHUMADA",
-          "fecha": "2026-03-18T10:13:09-03:00",
-          "mensaje": "BIENVENIDOS\n\n😊¡Estimado estudiante!\n\nMe complace darte la bienvenida a este mundo fascinante de la seguridad, que lo experimentarán a través del trayecto de “Ciberseguridad”!.  Espero sea el inicio de muchos éxitos, logros y satisfacciones, que enriquezcan tu espíritu y crecimiento personal. Estoy encantada de poder ayudarte a extender tus límites y a crecer más allá de lo que jamás soñaste que fuera posible. \n\nSaludos Cordiales.\n\nProf.  Carolina Ahumada\n\n\nAntes de continuar hablando sobre mí, les comparto algunas novedades sobre este trayecto:\n\n✳️Duración: 4 meses\n\n\n✳️¿Qué caminos recorreremos? Vamos a emprender un recorrido para conocer y aprender sobre SEGURIDAD en todo ámbito, y no solo será teórico, también podrán aplicar el conocimiento a situaciones PRÁCTICAS.  \n\n⚠️Algunos consejos para el recorrido...\n\n 🔶Motor siempre ENCENDIDO. (Un motor que no funciona o funciona a medias no los conducirá  a ningún destino).\n\n 🔶Mucha CURIOSIDAD, hay mucho por conocer y descubrir.\n\n🔶PERDER el ",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85392"
+          "fecha": "2026-03-18T10:40:55-03:00",
+          "mensaje": "Escenario:\n\nUna pequeña empresa implementa antivirus, firewall y realiza copias de seguridad periódicas. Sin embargo, un día uno de sus empleados recibe un correo electrónico que aparenta ser del banco, hace clic en un enlace y completa sus datos de acceso.\n\nHoras después, la empresa sufre un acceso no autorizado a sus sistemas y pérdida de información sensible.\n\nA partir de este escenario, debatamos lo siguiente:\n\nAnálisis inicial: ¿Cómo pudo ocurrir el incidente si la empresa contaba con medidas de seguridad técnicas?\nFactor humano: ¿Qué rol juega el usuario en la seguridad de la información? ¿Es realmente el “eslabón más débil”?\nTipos de ataque: ¿Qué tipo de ataque se evidencia en el escenario? ¿Cómo lo identificarías?\nPrevención: ¿Qué acciones podrían haberse implementado para evitar esta situación?\nReflexión: ¿Creés que la ciberseguridad depende más de la tecnología o de las personas? Justificá tu respuesta.\n\nEspero sus respuestas!!! 😄Comenzamos el debate!!!💪",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
         },
         {
           "titulo": "Avisos",
@@ -64,7 +64,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/ciberseguridad_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-31T11:00:53.295106"
+      "ultima_actualizacion": "2026-04-01T11:05:24.816403"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -162,7 +162,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-31T11:01:35.486833"
+      "ultima_actualizacion": "2026-04-01T11:06:06.094540"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -288,7 +288,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-31T11:02:21.968321"
+      "ultima_actualizacion": "2026-04-01T11:06:52.903440"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -338,7 +338,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/gestion_de_proyectos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-31T11:03:21.075772"
+      "ultima_actualizacion": "2026-04-01T11:07:52.260396"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -388,7 +388,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingenieria_de_software_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-31T11:03:51.832094"
+      "ultima_actualizacion": "2026-04-01T11:08:25.048115"
     },
     {
       "nombre": "Inglés II",
@@ -419,7 +419,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-31T11:04:23.590444"
+      "ultima_actualizacion": "2026-04-01T11:08:55.969018"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -429,13 +429,6 @@
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4268",
       "criterios": "• Criterios de evaluación\n• Sistema de Acreditación Módulos Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
-        {
-          "titulo": "Avisos",
-          "autor": "Nahuel PRATTA",
-          "fecha": "2026-03-18T19:20:11-03:00",
-          "mensaje": "Actividad: Los Cimientos de los Datos\n\nMateria: Estadística y Exploración de Datos 1\n\nObjetivo: Validar la capacidad de identificar tipos de variables y su representación gráfica ideal.\n\nIntroducción: En nuestra primera clase exploramos cómo los datos no son solo números, sino información con diferentes naturalezas. Como futuros Científicos de Datos, el primer gran desafío es saber \"leer\" qué nos dice cada variable para elegir la herramienta visual correcta. Un gráfico mal elegido puede ocultar la verdad o confundir al usuario final.\n\nInstrucciones:\n\nIngresen al link que se encuentra debajo.\n\nEncontrarán un cuestionario interactivo de 10 preguntas sobre clasificación de variables y selección de gráficos.\n\nLean atentamente cada escenario; algunos incluyen pequeñas \"trampas\" comunes en el análisis real.\n\nAl finalizar, el sistema les dará una retroalimentación inmediata sobre sus respuestas.\n\nConsigna de Cierre: No se preocupen por el puntaje final, sino por el razonamiento. Si fallan en ",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85442"
-        },
         {
           "titulo": "Avisos",
           "autor": "Tatiana MANZANELLI",
@@ -456,13 +449,6 @@
           "fecha": "2026-03-12T20:40:46-03:00",
           "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85227"
-        },
-        {
-          "titulo": "Avisos Com B",
-          "autor": "Nahuel PRATTA",
-          "fecha": "2026-03-18T19:20:11-03:00",
-          "mensaje": "Actividad: Los Cimientos de los Datos\n\nMateria: Estadística y Exploración de Datos 1\n\nObjetivo: Validar la capacidad de identificar tipos de variables y su representación gráfica ideal.\n\nIntroducción: En nuestra primera clase exploramos cómo los datos no son solo números, sino información con diferentes naturalezas. Como futuros Científicos de Datos, el primer gran desafío es saber \"leer\" qué nos dice cada variable para elegir la herramienta visual correcta. Un gráfico mal elegido puede ocultar la verdad o confundir al usuario final.\n\nInstrucciones:\n\nIngresen al link que se encuentra debajo.\n\nEncontrarán un cuestionario interactivo de 10 preguntas sobre clasificación de variables y selección de gráficos.\n\nLean atentamente cada escenario; algunos incluyen pequeñas \"trampas\" comunes en el análisis real.\n\nAl finalizar, el sistema les dará una retroalimentación inmediata sobre sus respuestas.\n\nConsigna de Cierre: No se preocupen por el puntaje final, sino por el razonamiento. Si fallan en ",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85442"
         }
       ],
       "unidades": [
@@ -531,7 +517,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-31T11:04:38.151395"
+      "ultima_actualizacion": "2026-04-01T11:09:11.106147"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -541,13 +527,6 @@
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4268",
       "criterios": "• Criterios de evaluación\n• Sistema de Acreditación Módulos Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
-        {
-          "titulo": "Avisos",
-          "autor": "Nahuel PRATTA",
-          "fecha": "2026-03-18T19:20:11-03:00",
-          "mensaje": "Actividad: Los Cimientos de los Datos\n\nMateria: Estadística y Exploración de Datos 1\n\nObjetivo: Validar la capacidad de identificar tipos de variables y su representación gráfica ideal.\n\nIntroducción: En nuestra primera clase exploramos cómo los datos no son solo números, sino información con diferentes naturalezas. Como futuros Científicos de Datos, el primer gran desafío es saber \"leer\" qué nos dice cada variable para elegir la herramienta visual correcta. Un gráfico mal elegido puede ocultar la verdad o confundir al usuario final.\n\nInstrucciones:\n\nIngresen al link que se encuentra debajo.\n\nEncontrarán un cuestionario interactivo de 10 preguntas sobre clasificación de variables y selección de gráficos.\n\nLean atentamente cada escenario; algunos incluyen pequeñas \"trampas\" comunes en el análisis real.\n\nAl finalizar, el sistema les dará una retroalimentación inmediata sobre sus respuestas.\n\nConsigna de Cierre: No se preocupen por el puntaje final, sino por el razonamiento. Si fallan en ",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85442"
-        },
         {
           "titulo": "Avisos",
           "autor": "Tatiana MANZANELLI",
@@ -568,13 +547,6 @@
           "fecha": "2026-03-12T20:40:46-03:00",
           "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85227"
-        },
-        {
-          "titulo": "Avisos Com B",
-          "autor": "Nahuel PRATTA",
-          "fecha": "2026-03-18T19:20:11-03:00",
-          "mensaje": "Actividad: Los Cimientos de los Datos\n\nMateria: Estadística y Exploración de Datos 1\n\nObjetivo: Validar la capacidad de identificar tipos de variables y su representación gráfica ideal.\n\nIntroducción: En nuestra primera clase exploramos cómo los datos no son solo números, sino información con diferentes naturalezas. Como futuros Científicos de Datos, el primer gran desafío es saber \"leer\" qué nos dice cada variable para elegir la herramienta visual correcta. Un gráfico mal elegido puede ocultar la verdad o confundir al usuario final.\n\nInstrucciones:\n\nIngresen al link que se encuentra debajo.\n\nEncontrarán un cuestionario interactivo de 10 preguntas sobre clasificación de variables y selección de gráficos.\n\nLean atentamente cada escenario; algunos incluyen pequeñas \"trampas\" comunes en el análisis real.\n\nAl finalizar, el sistema les dará una retroalimentación inmediata sobre sus respuestas.\n\nConsigna de Cierre: No se preocupen por el puntaje final, sino por el razonamiento. Si fallan en ",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85442"
         }
       ],
       "unidades": [
@@ -643,7 +615,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": "/data/files/procesamiento_de_datos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-03-31T11:05:39.869545"
+      "ultima_actualizacion": "2026-04-01T11:09:52.892677"
     },
     {
       "nombre": "Programación III",
@@ -700,7 +672,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-31T11:06:37.889416"
+      "ultima_actualizacion": "2026-04-01T11:10:36.367364"
     },
     {
       "nombre": "Interfaz de Usuario",
@@ -757,7 +729,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-31T11:07:11.257309"
+      "ultima_actualizacion": "2026-04-01T11:11:10.249687"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -807,7 +779,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-31T11:07:44.615564"
+      "ultima_actualizacion": "2026-04-01T11:11:44.089801"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -871,7 +843,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-03-31T11:08:15.197900"
+      "ultima_actualizacion": "2026-04-01T11:12:14.284859"
     }
   ]
 }
