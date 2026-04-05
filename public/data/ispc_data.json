@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-04-04T10:48:27.156059",
+  "generado_el": "2026-04-05T10:50:10.942707",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -64,7 +64,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/ciberseguridad_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-04T10:40:59.642684"
+      "ultima_actualizacion": "2026-04-05T10:42:40.764327"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -162,7 +162,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-04T10:41:42.202245"
+      "ultima_actualizacion": "2026-04-05T10:43:22.378554"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -288,7 +288,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-04T10:42:29.304631"
+      "ultima_actualizacion": "2026-04-05T10:44:09.334740"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -338,7 +338,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/gestion_de_proyectos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-04T10:43:28.743729"
+      "ultima_actualizacion": "2026-04-05T10:45:10.440083"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -388,7 +388,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingenieria_de_software_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-04T10:43:59.644109"
+      "ultima_actualizacion": "2026-04-05T10:45:41.768184"
     },
     {
       "nombre": "Inglés II",
@@ -419,7 +419,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-04T10:44:31.703253"
+      "ultima_actualizacion": "2026-04-05T10:46:13.946192"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -517,7 +517,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-04T10:44:46.049804"
+      "ultima_actualizacion": "2026-04-05T10:46:28.744057"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -615,7 +615,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": "/data/files/procesamiento_de_datos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-04T10:45:28.203036"
+      "ultima_actualizacion": "2026-04-05T10:47:10.256420"
     },
     {
       "nombre": "Programación III",
@@ -628,16 +628,16 @@
         {
           "titulo": "Avisos",
           "autor": "Ramiro Adrian CEBALLES",
-          "fecha": "2026-04-03T18:49:32-03:00",
-          "mensaje": "INSTITUTO SUPERIOR POLITÉCNICO CÓRDOBA\nTecnicatura Superior en Desarrollo de Software\n\n● Módulo Full Stack II · Desarrollo de Sistemas de Autenticación\n\nManual de autentificación avanzada + Encuesta\n\nEstimados/as estudiantes, ya esta disponible el documento teórico de la semana, creo que este está mejor explicado que el anterior, vamos tratando de mejorar clase a clase, por eso hemos realizado una segunda encuesta, para saber que les pareció la clase, que mejorar, etc.\n\nPor otra parte, les comento que el material de estudio va a estar organizadamente presentado en la pestaña de cada materia, donde aparece semana a semana, como lo tenemos que hacer de cero vamos a demorar en generarlo, pero la idea es que tengan material dos semanas antes de la clase.\n\n Enlaces de interés:\nEncuesta: Encuesta\nDocumentación: Documento de apoyo\n\n\nNota: Estamos terminando la hoja de ruta con los temas que queremos dar y los que ud. nos dijeron que tenían flojos del año pasado. Falta poco para la primera evi",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86087"
+          "fecha": "2026-03-26T15:33:42-03:00",
+          "mensaje": "INSTITUTO SUPERIOR POLITÉCNICO CÓRDOBA\nTecnicatura Superior en Desarrollo de Software\n\n● Módulo Full Stack II · Desarrollo de Sistemas de Autenticación\n\nDesafío Técnico: Login & Seguridad\n\nEstimados futuros colegas, es momento de pasar de la teoría a la implementación. Esta actividad asíncrona está diseñada para profundizar en los flujos de seguridad de una aplicación real. Les dejo también el material teórico de que se hizo hasta acá a modo de consulta por dudas. El diablo duerme en los detalles, por ello es necesario que presten mucha atención a como funciona y se ve un login profesional que pueden encontrar en muchas páginas.\n\n\n\n\nRecuerden que seguimos en la etapa de diagnóstico, no se preocupen si les resulta muy complejo, pueden usar IA para solventar algún problema pero siempre aprendiendo qué estrategia usa y entendiendo bien qué hace el código creado por ella.\n\nEn dos semanas vemos los resultados finales en el sincrónico y los que no lleguen a presentar, crean una rama en el re",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85788"
         },
         {
           "titulo": "Avisos",
           "autor": "Ramiro Adrian CEBALLES",
-          "fecha": "2026-03-26T15:33:42-03:00",
-          "mensaje": "INSTITUTO SUPERIOR POLITÉCNICO CÓRDOBA\nTecnicatura Superior en Desarrollo de Software\n\n● Módulo Full Stack II · Desarrollo de Sistemas de Autenticación\n\nDesafío Técnico: Login & Seguridad\n\nEstimados futuros colegas, es momento de pasar de la teoría a la implementación. Esta actividad asíncrona está diseñada para profundizar en los flujos de seguridad de una aplicación real. Les dejo también el material teórico de que se hizo hasta acá a modo de consulta por dudas. El diablo duerme en los detalles, por ello es necesario que presten mucha atención a como funciona y se ve un login profesional que pueden encontrar en muchas páginas.\n\n\n\n\nRecuerden que seguimos en la etapa de diagnóstico, no se preocupen si les resulta muy complejo, pueden usar IA para solventar algún problema pero siempre aprendiendo qué estrategia usa y entendiendo bien qué hace el código creado por ella.\n\nEn dos semanas vemos los resultados finales en el sincrónico y los que no lleguen a presentar, crean una rama en el re",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85788"
+          "fecha": "2026-04-03T18:49:32-03:00",
+          "mensaje": "INSTITUTO SUPERIOR POLITÉCNICO CÓRDOBA\nTecnicatura Superior en Desarrollo de Software\n\n● Módulo Full Stack II · Desarrollo de Sistemas de Autenticación\n\nManual de autentificación avanzada + Encuesta\n\nEstimados/as estudiantes, ya esta disponible el documento teórico de la semana, creo que este está mejor explicado que el anterior, vamos tratando de mejorar clase a clase, por eso hemos realizado una segunda encuesta, para saber que les pareció la clase, que mejorar, etc.\n\nPor otra parte, les comento que el material de estudio va a estar organizadamente presentado en la pestaña de cada materia, donde aparece semana a semana, como lo tenemos que hacer de cero vamos a demorar en generarlo, pero la idea es que tengan material dos semanas antes de la clase.\n\n Enlaces de interés:\nEncuesta: Encuesta\nDocumentación: Documento de apoyo\n\n\nNota: Estamos terminando la hoja de ruta con los temas que queremos dar y los que ud. nos dijeron que tenían flojos del año pasado. Falta poco para la primera evi",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86087"
         },
         {
           "titulo": "Avisos",
@@ -679,7 +679,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-04T10:46:10.499739"
+      "ultima_actualizacion": "2026-04-05T10:47:51.929447"
     },
     {
       "nombre": "Interfaz de Usuario",
@@ -692,16 +692,16 @@
         {
           "titulo": "Avisos",
           "autor": "Ramiro Adrian CEBALLES",
-          "fecha": "2026-04-03T18:49:32-03:00",
-          "mensaje": "INSTITUTO SUPERIOR POLITÉCNICO CÓRDOBA\nTecnicatura Superior en Desarrollo de Software\n\n● Módulo Full Stack II · Desarrollo de Sistemas de Autenticación\n\nManual de autentificación avanzada + Encuesta\n\nEstimados/as estudiantes, ya esta disponible el documento teórico de la semana, creo que este está mejor explicado que el anterior, vamos tratando de mejorar clase a clase, por eso hemos realizado una segunda encuesta, para saber que les pareció la clase, que mejorar, etc.\n\nPor otra parte, les comento que el material de estudio va a estar organizadamente presentado en la pestaña de cada materia, donde aparece semana a semana, como lo tenemos que hacer de cero vamos a demorar en generarlo, pero la idea es que tengan material dos semanas antes de la clase.\n\n Enlaces de interés:\nEncuesta: Encuesta\nDocumentación: Documento de apoyo\n\n\nNota: Estamos terminando la hoja de ruta con los temas que queremos dar y los que ud. nos dijeron que tenían flojos del año pasado. Falta poco para la primera evi",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86087"
+          "fecha": "2026-03-26T15:33:42-03:00",
+          "mensaje": "INSTITUTO SUPERIOR POLITÉCNICO CÓRDOBA\nTecnicatura Superior en Desarrollo de Software\n\n● Módulo Full Stack II · Desarrollo de Sistemas de Autenticación\n\nDesafío Técnico: Login & Seguridad\n\nEstimados futuros colegas, es momento de pasar de la teoría a la implementación. Esta actividad asíncrona está diseñada para profundizar en los flujos de seguridad de una aplicación real. Les dejo también el material teórico de que se hizo hasta acá a modo de consulta por dudas. El diablo duerme en los detalles, por ello es necesario que presten mucha atención a como funciona y se ve un login profesional que pueden encontrar en muchas páginas.\n\n\n\n\nRecuerden que seguimos en la etapa de diagnóstico, no se preocupen si les resulta muy complejo, pueden usar IA para solventar algún problema pero siempre aprendiendo qué estrategia usa y entendiendo bien qué hace el código creado por ella.\n\nEn dos semanas vemos los resultados finales en el sincrónico y los que no lleguen a presentar, crean una rama en el re",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85788"
         },
         {
           "titulo": "Avisos",
           "autor": "Ramiro Adrian CEBALLES",
-          "fecha": "2026-03-26T15:33:42-03:00",
-          "mensaje": "INSTITUTO SUPERIOR POLITÉCNICO CÓRDOBA\nTecnicatura Superior en Desarrollo de Software\n\n● Módulo Full Stack II · Desarrollo de Sistemas de Autenticación\n\nDesafío Técnico: Login & Seguridad\n\nEstimados futuros colegas, es momento de pasar de la teoría a la implementación. Esta actividad asíncrona está diseñada para profundizar en los flujos de seguridad de una aplicación real. Les dejo también el material teórico de que se hizo hasta acá a modo de consulta por dudas. El diablo duerme en los detalles, por ello es necesario que presten mucha atención a como funciona y se ve un login profesional que pueden encontrar en muchas páginas.\n\n\n\n\nRecuerden que seguimos en la etapa de diagnóstico, no se preocupen si les resulta muy complejo, pueden usar IA para solventar algún problema pero siempre aprendiendo qué estrategia usa y entendiendo bien qué hace el código creado por ella.\n\nEn dos semanas vemos los resultados finales en el sincrónico y los que no lleguen a presentar, crean una rama en el re",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85788"
+          "fecha": "2026-04-03T18:49:32-03:00",
+          "mensaje": "INSTITUTO SUPERIOR POLITÉCNICO CÓRDOBA\nTecnicatura Superior en Desarrollo de Software\n\n● Módulo Full Stack II · Desarrollo de Sistemas de Autenticación\n\nManual de autentificación avanzada + Encuesta\n\nEstimados/as estudiantes, ya esta disponible el documento teórico de la semana, creo que este está mejor explicado que el anterior, vamos tratando de mejorar clase a clase, por eso hemos realizado una segunda encuesta, para saber que les pareció la clase, que mejorar, etc.\n\nPor otra parte, les comento que el material de estudio va a estar organizadamente presentado en la pestaña de cada materia, donde aparece semana a semana, como lo tenemos que hacer de cero vamos a demorar en generarlo, pero la idea es que tengan material dos semanas antes de la clase.\n\n Enlaces de interés:\nEncuesta: Encuesta\nDocumentación: Documento de apoyo\n\n\nNota: Estamos terminando la hoja de ruta con los temas que queremos dar y los que ud. nos dijeron que tenían flojos del año pasado. Falta poco para la primera evi",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86087"
         },
         {
           "titulo": "Avisos",
@@ -743,7 +743,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-04T10:46:45.187731"
+      "ultima_actualizacion": "2026-04-05T10:48:27.938881"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -793,7 +793,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-04T10:47:21.067029"
+      "ultima_actualizacion": "2026-04-05T10:49:04.214163"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -857,7 +857,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-04T10:47:50.498904"
+      "ultima_actualizacion": "2026-04-05T10:49:34.085915"
     }
   ]
 }
