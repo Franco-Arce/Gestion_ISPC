@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-04-07T11:12:33.424169",
+  "generado_el": "2026-04-08T11:13:07.955691",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -64,7 +64,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/ciberseguridad_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-07T11:04:41.636028"
+      "ultima_actualizacion": "2026-04-08T11:05:29.021687"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -162,7 +162,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-07T11:05:25.868872"
+      "ultima_actualizacion": "2026-04-08T11:06:10.368255"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -185,6 +185,13 @@
           "fecha": "2026-03-12T20:35:47-03:00",
           "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85226"
+        },
+        {
+          "titulo": "Avisos Com A",
+          "autor": "Cynthia CORSO",
+          "fecha": "2026-04-07T19:06:44-03:00",
+          "mensaje": "Estimados/as,\n\nLes comparto el enlace para que puedan registrar la conformación de grupos.\nLos grupos deberán estar integrados por 6 personas y conformados por estudiantes de la misma comisión.\n\nLink: https://docs.google.com/spreadsheets/d/1yznIRxZURw3F8djYwNai2l4WveW2CSMXLOPQmGMZsf0/edit?usp=sharing\n\nNos vemos en el próximo encuentro.\n\nSaludos cordiales,\nProf. Corso, Cynthia",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86223"
         },
         {
           "titulo": "Avisos Com A",
@@ -288,7 +295,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-07T11:06:14.961201"
+      "ultima_actualizacion": "2026-04-08T11:06:56.622459"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -338,7 +345,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/gestion_de_proyectos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-07T11:07:17.283058"
+      "ultima_actualizacion": "2026-04-08T11:07:58.666229"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -388,7 +395,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingenieria_de_software_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-07T11:07:49.925300"
+      "ultima_actualizacion": "2026-04-08T11:08:30.787495"
     },
     {
       "nombre": "Inglés II",
@@ -419,7 +426,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-07T11:08:23.702367"
+      "ultima_actualizacion": "2026-04-08T11:09:01.929943"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -517,7 +524,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-07T11:08:38.923645"
+      "ultima_actualizacion": "2026-04-08T11:09:18.002728"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -615,7 +622,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": "/data/files/procesamiento_de_datos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-07T11:09:23.921363"
+      "ultima_actualizacion": "2026-04-08T11:09:59.552555"
     },
     {
       "nombre": "Programación III",
@@ -634,6 +641,13 @@
         },
         {
           "titulo": "Avisos",
+          "autor": "Maria Florencia GARCIA ZAVIA",
+          "fecha": "2026-04-07T22:48:47-03:00",
+          "mensaje": "INSTITUTO SUPERIOR POLITÉCNICO CÓRDOBA\nTecnicatura Superior en Desarrollo de Software\n\n● Módulo Full Stack II · 2026\n\nTrabajo colaborativo - Login\n\nAdaptamos un login a los requerimientos de un proyecto en específico, basándonos en el desarrollo previo de un Login funcional en Django y Angular.\n\n\n\nVer proyectos →\n\nDocentes Florencia García y Ramiro Ceballes\nMódulo Full Stack II · Instituto Superior Politécnico Córdoba",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86230"
+        },
+        {
+          "titulo": "Avisos",
           "autor": "Ramiro Adrian CEBALLES",
           "fecha": "2026-04-03T18:49:32-03:00",
           "mensaje": "INSTITUTO SUPERIOR POLITÉCNICO CÓRDOBA\nTecnicatura Superior en Desarrollo de Software\n\n● Módulo Full Stack II · Desarrollo de Sistemas de Autenticación\n\nManual de autentificación avanzada + Encuesta\n\nEstimados/as estudiantes, ya esta disponible el documento teórico de la semana, creo que este está mejor explicado que el anterior, vamos tratando de mejorar clase a clase, por eso hemos realizado una segunda encuesta, para saber que les pareció la clase, que mejorar, etc.\n\nPor otra parte, les comento que el material de estudio va a estar organizadamente presentado en la pestaña de cada materia, donde aparece semana a semana, como lo tenemos que hacer de cero vamos a demorar en generarlo, pero la idea es que tengan material dos semanas antes de la clase.\n\n Enlaces de interés:\nEncuesta: Encuesta\nDocumentación: Documento de apoyo\n\n\nNota: Estamos terminando la hoja de ruta con los temas que queremos dar y los que ud. nos dijeron que tenían flojos del año pasado. Falta poco para la primera evi",
@@ -679,7 +693,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-07T11:10:08.755726"
+      "ultima_actualizacion": "2026-04-08T11:10:45.065423"
     },
     {
       "nombre": "Interfaz de Usuario",
@@ -698,6 +712,13 @@
         },
         {
           "titulo": "Avisos",
+          "autor": "Maria Florencia GARCIA ZAVIA",
+          "fecha": "2026-04-07T22:48:47-03:00",
+          "mensaje": "INSTITUTO SUPERIOR POLITÉCNICO CÓRDOBA\nTecnicatura Superior en Desarrollo de Software\n\n● Módulo Full Stack II · 2026\n\nTrabajo colaborativo - Login\n\nAdaptamos un login a los requerimientos de un proyecto en específico, basándonos en el desarrollo previo de un Login funcional en Django y Angular.\n\n\n\nVer proyectos →\n\nDocentes Florencia García y Ramiro Ceballes\nMódulo Full Stack II · Instituto Superior Politécnico Córdoba",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86230"
+        },
+        {
+          "titulo": "Avisos",
           "autor": "Ramiro Adrian CEBALLES",
           "fecha": "2026-04-03T18:49:32-03:00",
           "mensaje": "INSTITUTO SUPERIOR POLITÉCNICO CÓRDOBA\nTecnicatura Superior en Desarrollo de Software\n\n● Módulo Full Stack II · Desarrollo de Sistemas de Autenticación\n\nManual de autentificación avanzada + Encuesta\n\nEstimados/as estudiantes, ya esta disponible el documento teórico de la semana, creo que este está mejor explicado que el anterior, vamos tratando de mejorar clase a clase, por eso hemos realizado una segunda encuesta, para saber que les pareció la clase, que mejorar, etc.\n\nPor otra parte, les comento que el material de estudio va a estar organizadamente presentado en la pestaña de cada materia, donde aparece semana a semana, como lo tenemos que hacer de cero vamos a demorar en generarlo, pero la idea es que tengan material dos semanas antes de la clase.\n\n Enlaces de interés:\nEncuesta: Encuesta\nDocumentación: Documento de apoyo\n\n\nNota: Estamos terminando la hoja de ruta con los temas que queremos dar y los que ud. nos dijeron que tenían flojos del año pasado. Falta poco para la primera evi",
@@ -743,7 +764,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-07T11:10:46.573821"
+      "ultima_actualizacion": "2026-04-08T11:11:23.960633"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -793,7 +814,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-07T11:11:24.947857"
+      "ultima_actualizacion": "2026-04-08T11:12:02.047034"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -857,7 +878,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-07T11:11:54.830766"
+      "ultima_actualizacion": "2026-04-08T11:12:31.861663"
     }
   ]
 }
