@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-04-08T11:13:07.955691",
+  "generado_el": "2026-04-09T11:13:54.245047",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -64,7 +64,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/ciberseguridad_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-08T11:05:29.021687"
+      "ultima_actualizacion": "2026-04-09T11:06:17.051373"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -162,7 +162,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-08T11:06:10.368255"
+      "ultima_actualizacion": "2026-04-09T11:06:58.562847"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -185,6 +185,13 @@
           "fecha": "2026-03-12T20:35:47-03:00",
           "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85226"
+        },
+        {
+          "titulo": "Avisos Com A",
+          "autor": "Cynthia CORSO",
+          "fecha": "2026-04-08T17:43:13-03:00",
+          "mensaje": "Estimados/as:\n\nA pedido de algunos/as estudiantes, les informo que en el mosaico de Ciencia de Datos I encontrarán una carpeta denominada “Recursos Adicionales – Comisión A”, donde se encuentra el material que se ha ido compartiendo durante los encuentros síncronos.\n\nSaludos cordiales,\nProf. Corso Cynthia",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86268"
         },
         {
           "titulo": "Avisos Com A",
@@ -295,7 +302,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-08T11:06:56.622459"
+      "ultima_actualizacion": "2026-04-09T11:07:45.361243"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -345,7 +352,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/gestion_de_proyectos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-08T11:07:58.666229"
+      "ultima_actualizacion": "2026-04-09T11:08:48.943174"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -395,7 +402,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingenieria_de_software_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-08T11:08:30.787495"
+      "ultima_actualizacion": "2026-04-09T11:09:20.425675"
     },
     {
       "nombre": "Inglés II",
@@ -426,7 +433,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-08T11:09:01.929943"
+      "ultima_actualizacion": "2026-04-09T11:09:51.194723"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -524,7 +531,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-08T11:09:18.002728"
+      "ultima_actualizacion": "2026-04-09T11:10:06.790511"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -622,7 +629,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": "/data/files/procesamiento_de_datos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-08T11:09:59.552555"
+      "ultima_actualizacion": "2026-04-09T11:10:49.417365"
     },
     {
       "nombre": "Programación III",
@@ -693,7 +700,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-08T11:10:45.065423"
+      "ultima_actualizacion": "2026-04-09T11:11:32.931726"
     },
     {
       "nombre": "Interfaz de Usuario",
@@ -764,7 +771,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-08T11:11:23.960633"
+      "ultima_actualizacion": "2026-04-09T11:12:11.128211"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -814,7 +821,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-08T11:12:02.047034"
+      "ultima_actualizacion": "2026-04-09T11:12:49.043870"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -878,7 +885,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-08T11:12:31.861663"
+      "ultima_actualizacion": "2026-04-09T11:13:18.788679"
     }
   ]
 }
