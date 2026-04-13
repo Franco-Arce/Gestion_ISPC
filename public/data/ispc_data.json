@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-04-12T10:56:51.781313",
+  "generado_el": "2026-04-13T11:31:35.330740",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -64,7 +64,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/ciberseguridad_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-12T10:47:32.952945"
+      "ultima_actualizacion": "2026-04-13T11:22:22.526629"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -162,7 +162,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-12T10:48:24.975188"
+      "ultima_actualizacion": "2026-04-13T11:23:12.459871"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -309,7 +309,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-12T10:49:20.605231"
+      "ultima_actualizacion": "2026-04-13T11:24:08.944221"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -359,7 +359,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/gestion_de_proyectos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-12T10:50:42.511486"
+      "ultima_actualizacion": "2026-04-13T11:25:25.056664"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -409,7 +409,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingenieria_de_software_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-12T10:51:21.400869"
+      "ultima_actualizacion": "2026-04-13T11:26:02.538103"
     },
     {
       "nombre": "Inglés II",
@@ -440,7 +440,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-12T10:52:00.140641"
+      "ultima_actualizacion": "2026-04-13T11:26:42.687561"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -538,7 +538,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-12T10:52:18.362260"
+      "ultima_actualizacion": "2026-04-13T11:27:00.949369"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -636,7 +636,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": "/data/files/procesamiento_de_datos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-12T10:53:08.275511"
+      "ultima_actualizacion": "2026-04-13T11:27:54.730374"
     },
     {
       "nombre": "Programación III",
@@ -644,7 +644,7 @@
       "horario": "Martes 18:20–20:40",
       "comision": "Única",
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4286",
-      "criterios": "• Sistema de Acreditación - Módulos Anuales\n• Régimen Académico Institucional\n",
+      "criterios": "• Criterios de evaluación\n• Sistema de Acreditación - Módulos Anuales\n• Régimen Académico Institucional\n",
       "avisos": [
         {
           "titulo": "Avisos",
@@ -707,7 +707,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-12T10:53:58.444968"
+      "ultima_actualizacion": "2026-04-13T11:28:44.802136"
     },
     {
       "nombre": "Interfaz de Usuario",
@@ -715,7 +715,7 @@
       "horario": "Martes 18:20–20:40",
       "comision": "Única",
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4286",
-      "criterios": "• Sistema de Acreditación - Módulos Anuales\n• Régimen Académico Institucional\n",
+      "criterios": "• Criterios de evaluación\n• Sistema de Acreditación - Módulos Anuales\n• Régimen Académico Institucional\n",
       "avisos": [
         {
           "titulo": "Avisos",
@@ -778,7 +778,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-12T10:54:43.000405"
+      "ultima_actualizacion": "2026-04-13T11:29:29.412169"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -835,7 +835,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-12T10:55:30.825009"
+      "ultima_actualizacion": "2026-04-13T11:30:18.280032"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -899,7 +899,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-12T10:56:09.701859"
+      "ultima_actualizacion": "2026-04-13T11:30:53.219230"
     }
   ]
 }
