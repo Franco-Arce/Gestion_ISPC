@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-04-17T11:11:26.302184",
+  "generado_el": "2026-04-18T10:57:35.105787",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -64,7 +64,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/ciberseguridad_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-17T11:04:01.758473"
+      "ultima_actualizacion": "2026-04-18T10:49:54.176261"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -162,7 +162,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-17T11:04:42.926251"
+      "ultima_actualizacion": "2026-04-18T10:50:36.544298"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -309,7 +309,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-17T11:05:28.279807"
+      "ultima_actualizacion": "2026-04-18T10:51:22.350937"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -359,7 +359,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/gestion_de_proyectos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-17T11:06:31.675323"
+      "ultima_actualizacion": "2026-04-18T10:52:27.470418"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -409,7 +409,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingenieria_de_software_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-17T11:07:01.982051"
+      "ultima_actualizacion": "2026-04-18T10:52:58.153227"
     },
     {
       "nombre": "Inglés II",
@@ -440,7 +440,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-17T11:07:33.057494"
+      "ultima_actualizacion": "2026-04-18T10:53:30.183976"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -538,7 +538,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-17T11:07:46.894575"
+      "ultima_actualizacion": "2026-04-18T10:53:44.783191"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -636,7 +636,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": "/data/files/procesamiento_de_datos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-17T11:08:27.180483"
+      "ultima_actualizacion": "2026-04-18T10:54:26.465349"
     },
     {
       "nombre": "Programación III",
@@ -649,6 +649,13 @@
         {
           "titulo": "Avisos",
           "autor": "Ramiro Adrian CEBALLES",
+          "fecha": "2026-04-17T18:23:34-03:00",
+          "mensaje": "Buenas tardes estudiantes, lo prometido es deuda asi que generé los manuales hasta la semana 10 según la hoja de ruta, estamos terminando la semana 5 para ubicarlos temporalmente.\n\nEl martes vimos el material que correspondía a la semana 6, por lo que para la siguiente clase vean el material de la semana 5. Se preguntarán ¿Por qué no los doy vuelta y listo? Para que coincidan con la hoja de ruta, entonces en la semana 7 ya va a ir todo en orden, y cuando quieran ir para atrás en el material para repasar estará ordenado.\n\nSin más que agregar les deseo un buen fin de semana!",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86779"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Ramiro Adrian CEBALLES",
           "fecha": "2026-03-26T15:33:42-03:00",
           "mensaje": "INSTITUTO SUPERIOR POLITÉCNICO CÓRDOBA\nTecnicatura Superior en Desarrollo de Software\n\n● Módulo Full Stack II · Desarrollo de Sistemas de Autenticación\n\nDesafío Técnico: Login & Seguridad\n\nEstimados futuros colegas, es momento de pasar de la teoría a la implementación. Esta actividad asíncrona está diseñada para profundizar en los flujos de seguridad de una aplicación real. Les dejo también el material teórico de que se hizo hasta acá a modo de consulta por dudas. El diablo duerme en los detalles, por ello es necesario que presten mucha atención a como funciona y se ve un login profesional que pueden encontrar en muchas páginas.\n\n\n\n\nRecuerden que seguimos en la etapa de diagnóstico, no se preocupen si les resulta muy complejo, pueden usar IA para solventar algún problema pero siempre aprendiendo qué estrategia usa y entendiendo bien qué hace el código creado por ella.\n\nEn dos semanas vemos los resultados finales en el sincrónico y los que no lleguen a presentar, crean una rama en el re",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85788"
@@ -707,7 +714,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-17T11:09:07.414563"
+      "ultima_actualizacion": "2026-04-18T10:55:08.183160"
     },
     {
       "nombre": "Interfaz de Usuario",
@@ -720,6 +727,13 @@
         {
           "titulo": "Avisos",
           "autor": "Ramiro Adrian CEBALLES",
+          "fecha": "2026-04-17T18:23:34-03:00",
+          "mensaje": "Buenas tardes estudiantes, lo prometido es deuda asi que generé los manuales hasta la semana 10 según la hoja de ruta, estamos terminando la semana 5 para ubicarlos temporalmente.\n\nEl martes vimos el material que correspondía a la semana 6, por lo que para la siguiente clase vean el material de la semana 5. Se preguntarán ¿Por qué no los doy vuelta y listo? Para que coincidan con la hoja de ruta, entonces en la semana 7 ya va a ir todo en orden, y cuando quieran ir para atrás en el material para repasar estará ordenado.\n\nSin más que agregar les deseo un buen fin de semana!",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86779"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Ramiro Adrian CEBALLES",
           "fecha": "2026-03-26T15:33:42-03:00",
           "mensaje": "INSTITUTO SUPERIOR POLITÉCNICO CÓRDOBA\nTecnicatura Superior en Desarrollo de Software\n\n● Módulo Full Stack II · Desarrollo de Sistemas de Autenticación\n\nDesafío Técnico: Login & Seguridad\n\nEstimados futuros colegas, es momento de pasar de la teoría a la implementación. Esta actividad asíncrona está diseñada para profundizar en los flujos de seguridad de una aplicación real. Les dejo también el material teórico de que se hizo hasta acá a modo de consulta por dudas. El diablo duerme en los detalles, por ello es necesario que presten mucha atención a como funciona y se ve un login profesional que pueden encontrar en muchas páginas.\n\n\n\n\nRecuerden que seguimos en la etapa de diagnóstico, no se preocupen si les resulta muy complejo, pueden usar IA para solventar algún problema pero siempre aprendiendo qué estrategia usa y entendiendo bien qué hace el código creado por ella.\n\nEn dos semanas vemos los resultados finales en el sincrónico y los que no lleguen a presentar, crean una rama en el re",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85788"
@@ -778,7 +792,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-17T11:09:45.014931"
+      "ultima_actualizacion": "2026-04-18T10:55:48.732091"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -788,6 +802,13 @@
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4288",
       "criterios": "• Sistema de Acreditación de Práctica Profesionalizante Anuales\n• Régimen Académico Institucional\n",
       "avisos": [
+        {
+          "titulo": "Avisos",
+          "autor": "Ramiro Adrian CEBALLES",
+          "fecha": "2026-04-17T18:41:59-03:00",
+          "mensaje": "Buenas tardes estudiantes, ¿cómo están?\n\nLes comento que la evidencia uno va a ser sobre la guía de GitHub y de Scrum que vieron el año pasado, dejo los enlaces a esos textos para que repasen si no recuerdan donde encontrarlos:\n\nhttps://drive.google.com/file/d/15kMN6GC6onH28bh6Bf_FJVjTn397ocup/view?usp=sharing\nhttps://drive.google.com/file/d/13FCJq25Oypn7UFzKhJq4jCsqqiM-MHxr/view?usp=sharing\n\nRecuerden que la primera evidencia normalmente es diagnóstica y niveladora, sumado a que no tiempo de iniciar nuevos temas aún.\n\nPor otro lado quiero comentarles que estoy avanzando en el tema pasantías, pero estas cuestiones van lentas, mientras tanto vamos a ver temas como curriculum vitae, ATS, entrevistas laborales, sitios de trabajo Freelance, cuestiones legales y laborales como monotributo, aportes, etc.\n\nLes deseo un buen fin de semana, en el transcurso de la misma les subiré el material teórico de las siguientes clases.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86782"
+        },
         {
           "titulo": "Avisos",
           "autor": "Ramiro Adrian CEBALLES",
@@ -813,29 +834,19 @@
       "unidades": [],
       "tareas": [
         {
-          "nombre": "Evidencias de Aprendizaje",
-          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27894",
+          "nombre": "Evidencia uno",
+          "url": "https://acceso.ispc.edu.ar/mod/quiz/view.php?id=114841",
           "fecha_entrega": null,
-          "estado": "pendiente"
-        },
-        {
-          "nombre": "Proyecto ABP",
-          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27895",
-          "fecha_entrega": null,
-          "estado": "pendiente"
-        },
-        {
-          "nombre": "Coloquio - Promoción",
-          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27896",
-          "fecha_entrega": null,
-          "estado": "pendiente"
+          "estado": "pendiente",
+          "descripcion": "",
+          "seccion": "Evidencias de Aprendizaje"
         }
       ],
       "materiales": [],
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-17T11:10:22.773816"
+      "ultima_actualizacion": "2026-04-18T10:56:29.378109"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -889,7 +900,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-17T11:10:52.375607"
+      "ultima_actualizacion": "2026-04-18T10:57:00.158266"
     }
   ]
 }
