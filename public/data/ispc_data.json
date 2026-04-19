@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-04-18T10:57:35.105787",
+  "generado_el": "2026-04-19T10:56:47.573691",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -64,7 +64,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/ciberseguridad_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-18T10:49:54.176261"
+      "ultima_actualizacion": "2026-04-19T10:49:06.534381"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -162,7 +162,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-18T10:50:36.544298"
+      "ultima_actualizacion": "2026-04-19T10:49:48.054460"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -309,7 +309,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-18T10:51:22.350937"
+      "ultima_actualizacion": "2026-04-19T10:50:35.441441"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -359,7 +359,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/gestion_de_proyectos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-18T10:52:27.470418"
+      "ultima_actualizacion": "2026-04-19T10:51:42.040876"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -409,7 +409,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingenieria_de_software_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-18T10:52:58.153227"
+      "ultima_actualizacion": "2026-04-19T10:52:14.437896"
     },
     {
       "nombre": "Inglés II",
@@ -440,7 +440,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-18T10:53:30.183976"
+      "ultima_actualizacion": "2026-04-19T10:52:46.418730"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -516,29 +516,19 @@
       ],
       "tareas": [
         {
-          "nombre": "Evidencias de Aprendizajes",
-          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27734",
-          "fecha_entrega": null,
-          "estado": "pendiente"
-        },
-        {
-          "nombre": "Proyecto ABP",
-          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27735",
-          "fecha_entrega": null,
-          "estado": "pendiente"
-        },
-        {
-          "nombre": "Coloquio - Promoción",
-          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27736",
-          "fecha_entrega": null,
-          "estado": "pendiente"
+          "nombre": "Evidencia 1 ABP",
+          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=114896",
+          "fecha_entrega": "Todavía no se han realizado envíos",
+          "estado": "pendiente",
+          "descripcion": "En base a lo conversado en clases, deberán tener en cuenta los siguientes puntos para esta 1° evidencia, teniendo en cuenta la idea pensada para el EC Proyecto Integrador.\n\n1- Crear grupos de 6 estudiantes (de la misma comisión). Poner un nombre. Subir un documento en pdf en la plataforma, en el cual figuren los nombres de los participantes y el link al repositorio que se detalla en el siguiente punto. IMPORTANTE, cada estudiante debe hacerlo (si no se considera como Ausente la entrega). También",
+          "seccion": "Evidencias de Aprendizajes"
         }
       ],
       "materiales": [],
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-18T10:53:44.783191"
+      "ultima_actualizacion": "2026-04-19T10:53:01.567857"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -614,29 +604,19 @@
       ],
       "tareas": [
         {
-          "nombre": "Evidencias de Aprendizajes",
-          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27734",
-          "fecha_entrega": null,
-          "estado": "pendiente"
-        },
-        {
-          "nombre": "Proyecto ABP",
-          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27735",
-          "fecha_entrega": null,
-          "estado": "pendiente"
-        },
-        {
-          "nombre": "Coloquio - Promoción",
-          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27736",
-          "fecha_entrega": null,
-          "estado": "pendiente"
+          "nombre": "Evidencia 1 ABP",
+          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=114896",
+          "fecha_entrega": "Todavía no se han realizado envíos",
+          "estado": "pendiente",
+          "descripcion": "En base a lo conversado en clases, deberán tener en cuenta los siguientes puntos para esta 1° evidencia, teniendo en cuenta la idea pensada para el EC Proyecto Integrador.\n\n1- Crear grupos de 6 estudiantes (de la misma comisión). Poner un nombre. Subir un documento en pdf en la plataforma, en el cual figuren los nombres de los participantes y el link al repositorio que se detalla en el siguiente punto. IMPORTANTE, cada estudiante debe hacerlo (si no se considera como Ausente la entrega). También",
+          "seccion": "Evidencias de Aprendizajes"
         }
       ],
       "materiales": [],
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": "/data/files/procesamiento_de_datos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-18T10:54:26.465349"
+      "ultima_actualizacion": "2026-04-19T10:53:41.689043"
     },
     {
       "nombre": "Programación III",
@@ -714,7 +694,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-18T10:55:08.183160"
+      "ultima_actualizacion": "2026-04-19T10:54:22.392048"
     },
     {
       "nombre": "Interfaz de Usuario",
@@ -792,7 +772,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-18T10:55:48.732091"
+      "ultima_actualizacion": "2026-04-19T10:55:01.806761"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -846,7 +826,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-18T10:56:29.378109"
+      "ultima_actualizacion": "2026-04-19T10:55:42.479970"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -900,7 +880,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-18T10:57:00.158266"
+      "ultima_actualizacion": "2026-04-19T10:56:13.964140"
     }
   ]
 }
