@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-04-19T10:56:47.573691",
+  "generado_el": "2026-04-20T11:31:14.715262",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -42,29 +42,19 @@
       "unidades": [],
       "tareas": [
         {
-          "nombre": "Evidencias de Aprendizajes",
-          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27750",
+          "nombre": "Cuestionario - Primera Evidencia",
+          "url": "https://acceso.ispc.edu.ar/mod/quiz/view.php?id=114959",
           "fecha_entrega": null,
-          "estado": "pendiente"
-        },
-        {
-          "nombre": "Proyecto ABP",
-          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27751",
-          "fecha_entrega": null,
-          "estado": "pendiente"
-        },
-        {
-          "nombre": "Coloquio - Promoción",
-          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27752",
-          "fecha_entrega": null,
-          "estado": "pendiente"
+          "estado": "pendiente",
+          "descripcion": "En este cuestionario deben cargar, los datos de Número de grupo, Integrantes y el link del grupo. Recuerden hacerlo luego de subir el documento a Drive. Muchas Suerte! Carolina",
+          "seccion": "Evidencias de Aprendizajes"
         }
       ],
       "materiales": [],
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/ciberseguridad_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-19T10:49:06.534381"
+      "ultima_actualizacion": "2026-04-20T11:23:32.997182"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -120,8 +110,8 @@
         {
           "nombre": "Entrega 1 – Comprensión del problema y datos",
           "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=113248",
-          "fecha_entrega": "Todavía no se han realizado envíos",
-          "estado": "pendiente",
+          "fecha_entrega": "Enviado para calificar",
+          "estado": "entregada",
           "descripcion": "Objetivo: entender el problema y explorar los datos.\n\nIncluye:\n\ndescripción del problema\n\nidentificación de fuentes\n\nprimer análisis del dataset",
           "seccion": "Evidencias de Aprendizajes"
         },
@@ -162,7 +152,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-19T10:49:48.054460"
+      "ultima_actualizacion": "2026-04-20T11:24:12.155642"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -309,7 +299,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-19T10:50:35.441441"
+      "ultima_actualizacion": "2026-04-20T11:24:57.651533"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -337,29 +327,19 @@
       "unidades": [],
       "tareas": [
         {
-          "nombre": "Evidencias de Aprendizajes",
-          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27902",
+          "nombre": "Evidencia 1: Fundamentos y Planificación en la Gestión de Proyectos",
+          "url": "https://acceso.ispc.edu.ar/mod/quiz/view.php?id=114891",
           "fecha_entrega": null,
-          "estado": "pendiente"
-        },
-        {
-          "nombre": "Proyecto ABP",
-          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27903",
-          "fecha_entrega": null,
-          "estado": "pendiente"
-        },
-        {
-          "nombre": "Coloquio - Promoción",
-          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27904",
-          "fecha_entrega": null,
-          "estado": "pendiente"
+          "estado": "pendiente",
+          "descripcion": "El siguiente cuestionario forma parte de la Evidencia 1 de este espacio curricular.\n\n¡Éxitos para tod@s!",
+          "seccion": "Evidencias de Aprendizajes"
         }
       ],
       "materiales": [],
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/gestion_de_proyectos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-19T10:51:42.040876"
+      "ultima_actualizacion": "2026-04-20T11:26:02.920422"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -409,7 +389,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingenieria_de_software_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-19T10:52:14.437896"
+      "ultima_actualizacion": "2026-04-20T11:26:33.370887"
     },
     {
       "nombre": "Inglés II",
@@ -440,7 +420,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-19T10:52:46.418730"
+      "ultima_actualizacion": "2026-04-20T11:27:04.038338"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -528,7 +508,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-19T10:53:01.567857"
+      "ultima_actualizacion": "2026-04-20T11:27:19.805403"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -616,7 +596,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": "/data/files/procesamiento_de_datos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-19T10:53:41.689043"
+      "ultima_actualizacion": "2026-04-20T11:27:59.114024"
     },
     {
       "nombre": "Programación III",
@@ -629,6 +609,13 @@
         {
           "titulo": "Avisos",
           "autor": "Ramiro Adrian CEBALLES",
+          "fecha": "2026-04-19T20:08:27-03:00",
+          "mensaje": "Buenas noches estudiantes, en la sección de material complementario encontrarán todo lo necesario para desarollar la parte de front e integración full stack de lo que se va viendo de backend en la parte obligatoria.\nNo deja de ser obligatorio, pero no quería mezclarlo con lo de backend, ya veo como lo reestructuro a los títulos de las secciones.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86895"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Ramiro Adrian CEBALLES",
           "fecha": "2026-04-17T18:23:34-03:00",
           "mensaje": "Buenas tardes estudiantes, lo prometido es deuda asi que generé los manuales hasta la semana 10 según la hoja de ruta, estamos terminando la semana 5 para ubicarlos temporalmente.\n\nEl martes vimos el material que correspondía a la semana 6, por lo que para la siguiente clase vean el material de la semana 5. Se preguntarán ¿Por qué no los doy vuelta y listo? Para que coincidan con la hoja de ruta, entonces en la semana 7 ya va a ir todo en orden, y cuando quieran ir para atrás en el material para repasar estará ordenado.\n\nSin más que agregar les deseo un buen fin de semana!",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86779"
@@ -694,7 +681,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-19T10:54:22.392048"
+      "ultima_actualizacion": "2026-04-20T11:28:40.344044"
     },
     {
       "nombre": "Interfaz de Usuario",
@@ -707,6 +694,13 @@
         {
           "titulo": "Avisos",
           "autor": "Ramiro Adrian CEBALLES",
+          "fecha": "2026-04-19T20:08:27-03:00",
+          "mensaje": "Buenas noches estudiantes, en la sección de material complementario encontrarán todo lo necesario para desarollar la parte de front e integración full stack de lo que se va viendo de backend en la parte obligatoria.\nNo deja de ser obligatorio, pero no quería mezclarlo con lo de backend, ya veo como lo reestructuro a los títulos de las secciones.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86895"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Ramiro Adrian CEBALLES",
           "fecha": "2026-04-17T18:23:34-03:00",
           "mensaje": "Buenas tardes estudiantes, lo prometido es deuda asi que generé los manuales hasta la semana 10 según la hoja de ruta, estamos terminando la semana 5 para ubicarlos temporalmente.\n\nEl martes vimos el material que correspondía a la semana 6, por lo que para la siguiente clase vean el material de la semana 5. Se preguntarán ¿Por qué no los doy vuelta y listo? Para que coincidan con la hoja de ruta, entonces en la semana 7 ya va a ir todo en orden, y cuando quieran ir para atrás en el material para repasar estará ordenado.\n\nSin más que agregar les deseo un buen fin de semana!",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86779"
@@ -772,7 +766,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-19T10:55:01.806761"
+      "ultima_actualizacion": "2026-04-20T11:29:23.648305"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -826,7 +820,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-19T10:55:42.479970"
+      "ultima_actualizacion": "2026-04-20T11:30:06.848789"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -880,7 +874,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-19T10:56:13.964140"
+      "ultima_actualizacion": "2026-04-20T11:30:39.287736"
     }
   ]
 }
