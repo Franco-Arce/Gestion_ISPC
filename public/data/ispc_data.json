@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-04-20T11:31:14.715262",
+  "generado_el": "2026-04-21T11:22:55.682115",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -54,7 +54,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/ciberseguridad_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-20T11:23:32.997182"
+      "ultima_actualizacion": "2026-04-21T11:15:05.212640"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -152,7 +152,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-20T11:24:12.155642"
+      "ultima_actualizacion": "2026-04-21T11:15:45.672639"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -299,7 +299,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-20T11:24:57.651533"
+      "ultima_actualizacion": "2026-04-21T11:16:31.857089"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -339,7 +339,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/gestion_de_proyectos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-20T11:26:02.920422"
+      "ultima_actualizacion": "2026-04-21T11:17:37.639870"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -389,7 +389,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingenieria_de_software_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-20T11:26:33.370887"
+      "ultima_actualizacion": "2026-04-21T11:18:07.499028"
     },
     {
       "nombre": "Inglés II",
@@ -420,7 +420,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-20T11:27:04.038338"
+      "ultima_actualizacion": "2026-04-21T11:18:39.659192"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -430,6 +430,13 @@
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4268",
       "criterios": "• Criterios de evaluación\n• Sistema de Acreditación Módulos Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
+        {
+          "titulo": "Avisos",
+          "autor": "Yamil SALOMON",
+          "fecha": "2026-04-20T20:36:39-03:00",
+          "mensaje": "Espero que se encuentren bien...\nA lo largo de esta cursada vamos a trabajar con herramientas y enfoques que les permitirán comprender, interpretar y transformar datos en información valiosa para la toma de decisiones. No se trata solo de manejar software, sino de desarrollar una mirada analítica que les permita hacerse buenas preguntas, identificar patrones y proponer soluciones fundamentadas.\n\nRecuerden que su base de datos deben tener:\n\n- Registro duplicados \n- Datos faltantes o nulos\n- formatos inconsistentes (fechas, unidades de medida, textos mayusculas / minusculas)\n- Errores de entrada (tipograficos o datos fuera de rango)\n \nA disposición.\n\nSaludos.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=87044"
+        },
         {
           "titulo": "Avisos",
           "autor": "Tatiana MANZANELLI",
@@ -508,7 +515,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-20T11:27:19.805403"
+      "ultima_actualizacion": "2026-04-21T11:18:54.069183"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -518,6 +525,13 @@
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4268",
       "criterios": "• Criterios de evaluación\n• Sistema de Acreditación Módulos Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
+        {
+          "titulo": "Avisos",
+          "autor": "Yamil SALOMON",
+          "fecha": "2026-04-20T20:36:39-03:00",
+          "mensaje": "Espero que se encuentren bien...\nA lo largo de esta cursada vamos a trabajar con herramientas y enfoques que les permitirán comprender, interpretar y transformar datos en información valiosa para la toma de decisiones. No se trata solo de manejar software, sino de desarrollar una mirada analítica que les permita hacerse buenas preguntas, identificar patrones y proponer soluciones fundamentadas.\n\nRecuerden que su base de datos deben tener:\n\n- Registro duplicados \n- Datos faltantes o nulos\n- formatos inconsistentes (fechas, unidades de medida, textos mayusculas / minusculas)\n- Errores de entrada (tipograficos o datos fuera de rango)\n \nA disposición.\n\nSaludos.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=87044"
+        },
         {
           "titulo": "Avisos",
           "autor": "Tatiana MANZANELLI",
@@ -596,7 +610,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": "/data/files/procesamiento_de_datos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-20T11:27:59.114024"
+      "ultima_actualizacion": "2026-04-21T11:19:37.103624"
     },
     {
       "nombre": "Programación III",
@@ -609,16 +623,16 @@
         {
           "titulo": "Avisos",
           "autor": "Ramiro Adrian CEBALLES",
-          "fecha": "2026-04-19T20:08:27-03:00",
-          "mensaje": "Buenas noches estudiantes, en la sección de material complementario encontrarán todo lo necesario para desarollar la parte de front e integración full stack de lo que se va viendo de backend en la parte obligatoria.\nNo deja de ser obligatorio, pero no quería mezclarlo con lo de backend, ya veo como lo reestructuro a los títulos de las secciones.",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86895"
+          "fecha": "2026-04-17T18:23:34-03:00",
+          "mensaje": "Buenas tardes estudiantes, lo prometido es deuda asi que generé los manuales hasta la semana 10 según la hoja de ruta, estamos terminando la semana 5 para ubicarlos temporalmente.\n\nEl martes vimos el material que correspondía a la semana 6, por lo que para la siguiente clase vean el material de la semana 5. Se preguntarán ¿Por qué no los doy vuelta y listo? Para que coincidan con la hoja de ruta, entonces en la semana 7 ya va a ir todo en orden, y cuando quieran ir para atrás en el material para repasar estará ordenado.\n\nSin más que agregar les deseo un buen fin de semana!",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86779"
         },
         {
           "titulo": "Avisos",
           "autor": "Ramiro Adrian CEBALLES",
-          "fecha": "2026-04-17T18:23:34-03:00",
-          "mensaje": "Buenas tardes estudiantes, lo prometido es deuda asi que generé los manuales hasta la semana 10 según la hoja de ruta, estamos terminando la semana 5 para ubicarlos temporalmente.\n\nEl martes vimos el material que correspondía a la semana 6, por lo que para la siguiente clase vean el material de la semana 5. Se preguntarán ¿Por qué no los doy vuelta y listo? Para que coincidan con la hoja de ruta, entonces en la semana 7 ya va a ir todo en orden, y cuando quieran ir para atrás en el material para repasar estará ordenado.\n\nSin más que agregar les deseo un buen fin de semana!",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86779"
+          "fecha": "2026-04-19T20:08:27-03:00",
+          "mensaje": "Buenas noches estudiantes, en la sección de material complementario encontrarán todo lo necesario para desarollar la parte de front e integración full stack de lo que se va viendo de backend en la parte obligatoria.\nNo deja de ser obligatorio, pero no quería mezclarlo con lo de backend, ya veo como lo reestructuro a los títulos de las secciones.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86895"
         },
         {
           "titulo": "Avisos",
@@ -681,7 +695,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-20T11:28:40.344044"
+      "ultima_actualizacion": "2026-04-21T11:20:21.622996"
     },
     {
       "nombre": "Interfaz de Usuario",
@@ -694,16 +708,16 @@
         {
           "titulo": "Avisos",
           "autor": "Ramiro Adrian CEBALLES",
-          "fecha": "2026-04-19T20:08:27-03:00",
-          "mensaje": "Buenas noches estudiantes, en la sección de material complementario encontrarán todo lo necesario para desarollar la parte de front e integración full stack de lo que se va viendo de backend en la parte obligatoria.\nNo deja de ser obligatorio, pero no quería mezclarlo con lo de backend, ya veo como lo reestructuro a los títulos de las secciones.",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86895"
+          "fecha": "2026-04-17T18:23:34-03:00",
+          "mensaje": "Buenas tardes estudiantes, lo prometido es deuda asi que generé los manuales hasta la semana 10 según la hoja de ruta, estamos terminando la semana 5 para ubicarlos temporalmente.\n\nEl martes vimos el material que correspondía a la semana 6, por lo que para la siguiente clase vean el material de la semana 5. Se preguntarán ¿Por qué no los doy vuelta y listo? Para que coincidan con la hoja de ruta, entonces en la semana 7 ya va a ir todo en orden, y cuando quieran ir para atrás en el material para repasar estará ordenado.\n\nSin más que agregar les deseo un buen fin de semana!",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86779"
         },
         {
           "titulo": "Avisos",
           "autor": "Ramiro Adrian CEBALLES",
-          "fecha": "2026-04-17T18:23:34-03:00",
-          "mensaje": "Buenas tardes estudiantes, lo prometido es deuda asi que generé los manuales hasta la semana 10 según la hoja de ruta, estamos terminando la semana 5 para ubicarlos temporalmente.\n\nEl martes vimos el material que correspondía a la semana 6, por lo que para la siguiente clase vean el material de la semana 5. Se preguntarán ¿Por qué no los doy vuelta y listo? Para que coincidan con la hoja de ruta, entonces en la semana 7 ya va a ir todo en orden, y cuando quieran ir para atrás en el material para repasar estará ordenado.\n\nSin más que agregar les deseo un buen fin de semana!",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86779"
+          "fecha": "2026-04-19T20:08:27-03:00",
+          "mensaje": "Buenas noches estudiantes, en la sección de material complementario encontrarán todo lo necesario para desarollar la parte de front e integración full stack de lo que se va viendo de backend en la parte obligatoria.\nNo deja de ser obligatorio, pero no quería mezclarlo con lo de backend, ya veo como lo reestructuro a los títulos de las secciones.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86895"
         },
         {
           "titulo": "Avisos",
@@ -766,7 +780,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-20T11:29:23.648305"
+      "ultima_actualizacion": "2026-04-21T11:21:04.258541"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -820,7 +834,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-20T11:30:06.848789"
+      "ultima_actualizacion": "2026-04-21T11:21:47.462139"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -828,7 +842,7 @@
       "horario": "Miércoles 17:00–18:00",
       "comision": "A (tarde)",
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4269",
-      "criterios": "• Sistema de Acreditación - Espacios curriculares Cuatrimestrales\n• Régimen Académico Institucional\n",
+      "criterios": "• Criterios de evaluación\n• Sistema de Acreditación - Espacios curriculares Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
         {
           "titulo": "Avisos",
@@ -872,9 +886,9 @@
       ],
       "materiales": [],
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
-      "programa_archivo": null,
+      "programa_archivo": "/data/files/tecnologia_y_sociedad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-20T11:30:39.287736"
+      "ultima_actualizacion": "2026-04-21T11:22:19.925207"
     }
   ]
 }
