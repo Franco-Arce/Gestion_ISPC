@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-04-21T11:22:55.682115",
+  "generado_el": "2026-04-22T11:21:25.331188",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -46,7 +46,7 @@
           "url": "https://acceso.ispc.edu.ar/mod/quiz/view.php?id=114959",
           "fecha_entrega": null,
           "estado": "pendiente",
-          "descripcion": "En este cuestionario deben cargar, los datos de Número de grupo, Integrantes y el link del grupo. Recuerden hacerlo luego de subir el documento a Drive. Muchas Suerte! Carolina",
+          "descripcion": "Este cuestionario corresponde a la Evidencia 1 y constituye un requisito indispensable para formalizar la entrega del proyecto.\n\nDebe completar el cuestionario únicamente el responsable del equipo, en representación de todos, cargando los datos, Número de grupo, Comisión, Integrantes del grupo y el link del mismo, garantizando que la información esté completa, precisa y actualizada. Recuerden que deben hacerlo inmediatamente, luego de subir el documento a Drive.  Muchas Suerte! Carolina",
           "seccion": "Evidencias de Aprendizajes"
         }
       ],
@@ -54,7 +54,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/ciberseguridad_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-21T11:15:05.212640"
+      "ultima_actualizacion": "2026-04-22T11:13:31.101159"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -152,7 +152,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-21T11:15:45.672639"
+      "ultima_actualizacion": "2026-04-22T11:14:10.399355"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -259,7 +259,7 @@
           "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=112918",
           "fecha_entrega": "Todavía no se han realizado envíos",
           "estado": "pendiente",
-          "descripcion": "Objetivo: entender el problema y explorar los datos.\n\nIncluye:\n\ndescripción del problema\n\nidentificación de fuentes\n\nprimer análisis del dataset",
+          "descripcion": "Objetivo: entender el problema y explorar los datos.\n\nIncluye:\n\ndescripción del problema\n\nidentificación de fuentes",
           "seccion": "Evidencias de Aprendizajes"
         },
         {
@@ -299,7 +299,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-21T11:16:31.857089"
+      "ultima_actualizacion": "2026-04-22T11:14:56.117928"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -339,7 +339,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/gestion_de_proyectos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-21T11:17:37.639870"
+      "ultima_actualizacion": "2026-04-22T11:16:02.122064"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -389,7 +389,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingenieria_de_software_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-21T11:18:07.499028"
+      "ultima_actualizacion": "2026-04-22T11:16:33.254381"
     },
     {
       "nombre": "Inglés II",
@@ -420,7 +420,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-21T11:18:39.659192"
+      "ultima_actualizacion": "2026-04-22T11:17:04.581198"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -505,8 +505,8 @@
         {
           "nombre": "Evidencia 1 ABP",
           "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=114896",
-          "fecha_entrega": "Todavía no se han realizado envíos",
-          "estado": "pendiente",
+          "fecha_entrega": "Enviado para calificar",
+          "estado": "entregada",
           "descripcion": "En base a lo conversado en clases, deberán tener en cuenta los siguientes puntos para esta 1° evidencia, teniendo en cuenta la idea pensada para el EC Proyecto Integrador.\n\n1- Crear grupos de 6 estudiantes (de la misma comisión). Poner un nombre. Subir un documento en pdf en la plataforma, en el cual figuren los nombres de los participantes y el link al repositorio que se detalla en el siguiente punto. IMPORTANTE, cada estudiante debe hacerlo (si no se considera como Ausente la entrega). También",
           "seccion": "Evidencias de Aprendizajes"
         }
@@ -515,7 +515,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-21T11:18:54.069183"
+      "ultima_actualizacion": "2026-04-22T11:17:21.195027"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -600,8 +600,8 @@
         {
           "nombre": "Evidencia 1 ABP",
           "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=114896",
-          "fecha_entrega": "Todavía no se han realizado envíos",
-          "estado": "pendiente",
+          "fecha_entrega": "Enviado para calificar",
+          "estado": "entregada",
           "descripcion": "En base a lo conversado en clases, deberán tener en cuenta los siguientes puntos para esta 1° evidencia, teniendo en cuenta la idea pensada para el EC Proyecto Integrador.\n\n1- Crear grupos de 6 estudiantes (de la misma comisión). Poner un nombre. Subir un documento en pdf en la plataforma, en el cual figuren los nombres de los participantes y el link al repositorio que se detalla en el siguiente punto. IMPORTANTE, cada estudiante debe hacerlo (si no se considera como Ausente la entrega). También",
           "seccion": "Evidencias de Aprendizajes"
         }
@@ -610,7 +610,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": "/data/files/procesamiento_de_datos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-21T11:19:37.103624"
+      "ultima_actualizacion": "2026-04-22T11:18:03.837191"
     },
     {
       "nombre": "Programación III",
@@ -695,7 +695,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-21T11:20:21.622996"
+      "ultima_actualizacion": "2026-04-22T11:18:47.402963"
     },
     {
       "nombre": "Interfaz de Usuario",
@@ -780,7 +780,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-21T11:21:04.258541"
+      "ultima_actualizacion": "2026-04-22T11:19:30.596351"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -790,6 +790,13 @@
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4288",
       "criterios": "• Sistema de Acreditación de Práctica Profesionalizante Anuales\n• Régimen Académico Institucional\n",
       "avisos": [
+        {
+          "titulo": "Avisos",
+          "autor": "Ramiro Adrian CEBALLES",
+          "fecha": "2026-04-21T11:26:32-03:00",
+          "mensaje": "Buen día estudiantes, paso a invitarlos a FliSol una especie de Nerdear.la más tranqui, que va a tener lugar en la biblioteca de ciencias económicas de la UNC, va a haber charlas, talleres y espacio de networking.\n\nhttps://flisol.info/\nPara anotarse:\nhttps://flisol.info/FLISOL2026/Argentina/Cordoba\n\nYo voy a ir, probablemente la profe García Zavia también así que a los que quieran sumarse los invitamos y esperamos verlos allá.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=87091"
+        },
         {
           "titulo": "Avisos",
           "autor": "Ramiro Adrian CEBALLES",
@@ -834,7 +841,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-21T11:21:47.462139"
+      "ultima_actualizacion": "2026-04-22T11:20:13.945415"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -878,8 +885,8 @@
         {
           "nombre": "EVIDENCIA DE APRENDIZAJE NRO 1 PRIMERA PARTE COMISION A",
           "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=114638",
-          "fecha_entrega": "Todavía no se han realizado envíos",
-          "estado": "pendiente",
+          "fecha_entrega": "Enviado para calificar",
+          "estado": "entregada",
           "descripcion": "Evidencia NRO 1 – Diagnóstico Digital + Project Charter del Proyecto\n\nFecha de entrega: 21/04/25\n\nEstimados/as estudiantes, la primera evidencia evaluativa integra dos componentes fundamentales trabajados en clase: el análisis de digitalización de una organización y la formulación inicial de un proyecto utilizando la metodología PMI.\n\nPARTE 1: Análisis del Estado Actual de Digitalización\n\nDeberán realizar un diagnóstico del nivel de digitalización de una empresa real o simulada, analizando cuatr",
           "seccion": "Evidencias de Aprendizajes"
         }
@@ -888,7 +895,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": "/data/files/tecnologia_y_sociedad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-21T11:22:19.925207"
+      "ultima_actualizacion": "2026-04-22T11:20:47.797697"
     }
   ]
 }
