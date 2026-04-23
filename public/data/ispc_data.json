@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-04-22T11:21:25.331188",
+  "generado_el": "2026-04-23T11:23:41.855217",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -52,9 +52,9 @@
       ],
       "materiales": [],
       "meet_url": "http://meet.google.com/eps-eita-tks",
-      "programa_archivo": null,
+      "programa_archivo": "/data/files/ciberseguridad_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ciberseguridad_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-22T11:13:31.101159"
+      "ultima_actualizacion": "2026-04-23T11:15:32.867389"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -112,7 +112,7 @@
           "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=113248",
           "fecha_entrega": "Enviado para calificar",
           "estado": "entregada",
-          "descripcion": "Objetivo: entender el problema y explorar los datos.\n\nIncluye:\n\ndescripción del problema\n\nidentificación de fuentes\n\nprimer análisis del dataset",
+          "descripcion": "Objetivo: entender el problema y explorar los datos.\n\nIncluye:\n\ndescripción del problema\n\nidentificación de fuentes",
           "seccion": "Evidencias de Aprendizajes"
         },
         {
@@ -152,7 +152,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-22T11:14:10.399355"
+      "ultima_actualizacion": "2026-04-23T11:16:15.265930"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -299,7 +299,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-22T11:14:56.117928"
+      "ultima_actualizacion": "2026-04-23T11:17:01.272667"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -339,7 +339,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/gestion_de_proyectos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-22T11:16:02.122064"
+      "ultima_actualizacion": "2026-04-23T11:18:09.177973"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -389,7 +389,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingenieria_de_software_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-22T11:16:33.254381"
+      "ultima_actualizacion": "2026-04-23T11:18:40.635777"
     },
     {
       "nombre": "Inglés II",
@@ -420,7 +420,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-22T11:17:04.581198"
+      "ultima_actualizacion": "2026-04-23T11:19:12.785093"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -515,7 +515,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-22T11:17:21.195027"
+      "ultima_actualizacion": "2026-04-23T11:19:27.772880"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -610,7 +610,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": "/data/files/procesamiento_de_datos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-22T11:18:03.837191"
+      "ultima_actualizacion": "2026-04-23T11:20:11.021466"
     },
     {
       "nombre": "Programación III",
@@ -623,16 +623,23 @@
         {
           "titulo": "Avisos",
           "autor": "Ramiro Adrian CEBALLES",
-          "fecha": "2026-04-17T18:23:34-03:00",
-          "mensaje": "Buenas tardes estudiantes, lo prometido es deuda asi que generé los manuales hasta la semana 10 según la hoja de ruta, estamos terminando la semana 5 para ubicarlos temporalmente.\n\nEl martes vimos el material que correspondía a la semana 6, por lo que para la siguiente clase vean el material de la semana 5. Se preguntarán ¿Por qué no los doy vuelta y listo? Para que coincidan con la hoja de ruta, entonces en la semana 7 ya va a ir todo en orden, y cuando quieran ir para atrás en el material para repasar estará ordenado.\n\nSin más que agregar les deseo un buen fin de semana!",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86779"
+          "fecha": "2026-04-19T20:08:27-03:00",
+          "mensaje": "Buenas noches estudiantes, en la sección de material complementario encontrarán todo lo necesario para desarollar la parte de front e integración full stack de lo que se va viendo de backend en la parte obligatoria.\nNo deja de ser obligatorio, pero no quería mezclarlo con lo de backend, ya veo como lo reestructuro a los títulos de las secciones.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86895"
         },
         {
           "titulo": "Avisos",
           "autor": "Ramiro Adrian CEBALLES",
-          "fecha": "2026-04-19T20:08:27-03:00",
-          "mensaje": "Buenas noches estudiantes, en la sección de material complementario encontrarán todo lo necesario para desarollar la parte de front e integración full stack de lo que se va viendo de backend en la parte obligatoria.\nNo deja de ser obligatorio, pero no quería mezclarlo con lo de backend, ya veo como lo reestructuro a los títulos de las secciones.",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86895"
+          "fecha": "2026-04-22T13:20:39-03:00",
+          "mensaje": "Buen día alumnos/as, ya se encuentra disponible la hoja de ruta.\n\nSepan que en material no obligatorio y en alguna clase hablaremos de temas que uds. fueron solicitado, como el manejo de la consola F12 para auditar páginas web, y temas que son interesantes pero no obligatorios.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=87189"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Ramiro Adrian CEBALLES",
+          "fecha": "2026-04-17T18:23:34-03:00",
+          "mensaje": "Buenas tardes estudiantes, lo prometido es deuda asi que generé los manuales hasta la semana 10 según la hoja de ruta, estamos terminando la semana 5 para ubicarlos temporalmente.\n\nEl martes vimos el material que correspondía a la semana 6, por lo que para la siguiente clase vean el material de la semana 5. Se preguntarán ¿Por qué no los doy vuelta y listo? Para que coincidan con la hoja de ruta, entonces en la semana 7 ya va a ir todo en orden, y cuando quieran ir para atrás en el material para repasar estará ordenado.\n\nSin más que agregar les deseo un buen fin de semana!",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86779"
         },
         {
           "titulo": "Avisos",
@@ -694,8 +701,8 @@
       "materiales": [],
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
-      "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-22T11:18:47.402963"
+      "hoja_de_ruta_archivo": "/data/files/programacion_iii_hoja_de_ruta.pdf",
+      "ultima_actualizacion": "2026-04-23T11:20:54.831045"
     },
     {
       "nombre": "Interfaz de Usuario",
@@ -708,16 +715,23 @@
         {
           "titulo": "Avisos",
           "autor": "Ramiro Adrian CEBALLES",
-          "fecha": "2026-04-17T18:23:34-03:00",
-          "mensaje": "Buenas tardes estudiantes, lo prometido es deuda asi que generé los manuales hasta la semana 10 según la hoja de ruta, estamos terminando la semana 5 para ubicarlos temporalmente.\n\nEl martes vimos el material que correspondía a la semana 6, por lo que para la siguiente clase vean el material de la semana 5. Se preguntarán ¿Por qué no los doy vuelta y listo? Para que coincidan con la hoja de ruta, entonces en la semana 7 ya va a ir todo en orden, y cuando quieran ir para atrás en el material para repasar estará ordenado.\n\nSin más que agregar les deseo un buen fin de semana!",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86779"
+          "fecha": "2026-04-19T20:08:27-03:00",
+          "mensaje": "Buenas noches estudiantes, en la sección de material complementario encontrarán todo lo necesario para desarollar la parte de front e integración full stack de lo que se va viendo de backend en la parte obligatoria.\nNo deja de ser obligatorio, pero no quería mezclarlo con lo de backend, ya veo como lo reestructuro a los títulos de las secciones.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86895"
         },
         {
           "titulo": "Avisos",
           "autor": "Ramiro Adrian CEBALLES",
-          "fecha": "2026-04-19T20:08:27-03:00",
-          "mensaje": "Buenas noches estudiantes, en la sección de material complementario encontrarán todo lo necesario para desarollar la parte de front e integración full stack de lo que se va viendo de backend en la parte obligatoria.\nNo deja de ser obligatorio, pero no quería mezclarlo con lo de backend, ya veo como lo reestructuro a los títulos de las secciones.",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86895"
+          "fecha": "2026-04-22T13:20:39-03:00",
+          "mensaje": "Buen día alumnos/as, ya se encuentra disponible la hoja de ruta.\n\nSepan que en material no obligatorio y en alguna clase hablaremos de temas que uds. fueron solicitado, como el manejo de la consola F12 para auditar páginas web, y temas que son interesantes pero no obligatorios.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=87189"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Ramiro Adrian CEBALLES",
+          "fecha": "2026-04-17T18:23:34-03:00",
+          "mensaje": "Buenas tardes estudiantes, lo prometido es deuda asi que generé los manuales hasta la semana 10 según la hoja de ruta, estamos terminando la semana 5 para ubicarlos temporalmente.\n\nEl martes vimos el material que correspondía a la semana 6, por lo que para la siguiente clase vean el material de la semana 5. Se preguntarán ¿Por qué no los doy vuelta y listo? Para que coincidan con la hoja de ruta, entonces en la semana 7 ya va a ir todo en orden, y cuando quieran ir para atrás en el material para repasar estará ordenado.\n\nSin más que agregar les deseo un buen fin de semana!",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86779"
         },
         {
           "titulo": "Avisos",
@@ -779,8 +793,8 @@
       "materiales": [],
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
-      "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-22T11:19:30.596351"
+      "hoja_de_ruta_archivo": "/data/files/interfaz_de_usuario_hoja_de_ruta.pdf",
+      "ultima_actualizacion": "2026-04-23T11:21:42.743222"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -841,7 +855,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-22T11:20:13.945415"
+      "ultima_actualizacion": "2026-04-23T11:22:30.091374"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -895,7 +909,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": "/data/files/tecnologia_y_sociedad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-22T11:20:47.797697"
+      "ultima_actualizacion": "2026-04-23T11:23:04.091608"
     }
   ]
 }
