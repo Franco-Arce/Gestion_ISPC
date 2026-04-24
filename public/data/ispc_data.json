@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-04-23T11:23:41.855217",
+  "generado_el": "2026-04-24T11:20:31.822935",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -54,7 +54,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": "/data/files/ciberseguridad_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ciberseguridad_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-23T11:15:32.867389"
+      "ultima_actualizacion": "2026-04-24T11:12:30.217391"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -152,7 +152,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-23T11:16:15.265930"
+      "ultima_actualizacion": "2026-04-24T11:13:11.120413"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -299,7 +299,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-23T11:17:01.272667"
+      "ultima_actualizacion": "2026-04-24T11:13:56.047020"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -309,6 +309,13 @@
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4289",
       "criterios": "• Criterios de evaluación\n• Sistema de Acreditación - Espacios curriculares Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
+        {
+          "titulo": "Avisos",
+          "autor": "Laura Anahi ZAVIA",
+          "fecha": "2026-04-23T23:47:29-03:00",
+          "mensaje": "Se desea llevar a cabo la construcción de una vivienda unifamiliar, para lo cual se convoca a un equipo de desarrolladores de software para que lidere el proceso de planificación inicial. Ante este desafío interdisciplinario, el equipo decide estructurar el trabajo a partir de los siguientes entregables fundamentales:\n\na-Objetivos generales y específicos, definiendo 3 metas globales y 15 objetivos específicos.\n\nb-Alcance del proyecto, estableciendo los límites, actividades, recursos y resultados.\n\nc-Cronograma de ejecución, elaborando una línea de tiempo que contenga fases, tareas, hitos y responsables.\n\nRECORDAR: Un intregante de cada equipo deberá enviar el enlace a la resolución de la ctividad y consignar los nombres y apellidos de los demás integrantes participantes.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=87375"
+        },
         {
           "titulo": "Avisos",
           "autor": "Laura Anahi ZAVIA",
@@ -339,7 +346,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/gestion_de_proyectos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-23T11:18:09.177973"
+      "ultima_actualizacion": "2026-04-24T11:15:00.174768"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -389,7 +396,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingenieria_de_software_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-23T11:18:40.635777"
+      "ultima_actualizacion": "2026-04-24T11:15:32.022397"
     },
     {
       "nombre": "Inglés II",
@@ -420,7 +427,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-23T11:19:12.785093"
+      "ultima_actualizacion": "2026-04-24T11:16:02.688553"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -513,9 +520,9 @@
       ],
       "materiales": [],
       "meet_url": "http://meet.google.com/qam-wget-kaq",
-      "programa_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_programa.pdf",
+      "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-23T11:19:27.772880"
+      "ultima_actualizacion": "2026-04-24T11:16:18.611592"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -608,9 +615,9 @@
       ],
       "materiales": [],
       "meet_url": "http://meet.google.com/qam-wget-kaq",
-      "programa_archivo": "/data/files/procesamiento_de_datos_programa.pdf",
+      "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-23T11:20:11.021466"
+      "ultima_actualizacion": "2026-04-24T11:16:58.342774"
     },
     {
       "nombre": "Programación III",
@@ -702,7 +709,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/programacion_iii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-23T11:20:54.831045"
+      "ultima_actualizacion": "2026-04-24T11:17:40.266247"
     },
     {
       "nombre": "Interfaz de Usuario",
@@ -794,7 +801,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/interfaz_de_usuario_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-23T11:21:42.743222"
+      "ultima_actualizacion": "2026-04-24T11:18:27.194495"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -855,7 +862,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-23T11:22:30.091374"
+      "ultima_actualizacion": "2026-04-24T11:19:13.224448"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -903,13 +910,21 @@
           "estado": "entregada",
           "descripcion": "Evidencia NRO 1 – Diagnóstico Digital + Project Charter del Proyecto\n\nFecha de entrega: 21/04/25\n\nEstimados/as estudiantes, la primera evidencia evaluativa integra dos componentes fundamentales trabajados en clase: el análisis de digitalización de una organización y la formulación inicial de un proyecto utilizando la metodología PMI.\n\nPARTE 1: Análisis del Estado Actual de Digitalización\n\nDeberán realizar un diagnóstico del nivel de digitalización de una empresa real o simulada, analizando cuatr",
           "seccion": "Evidencias de Aprendizajes"
+        },
+        {
+          "nombre": "Evidencia 1 - Tecnología y Sociedad - Comisión B",
+          "url": "https://acceso.ispc.edu.ar/mod/quiz/view.php?id=115100",
+          "fecha_entrega": null,
+          "estado": "pendiente",
+          "descripcion": "",
+          "seccion": "Evidencias de Aprendizajes"
         }
       ],
       "materiales": [],
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": "/data/files/tecnologia_y_sociedad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-23T11:23:04.091608"
+      "ultima_actualizacion": "2026-04-24T11:19:45.833757"
     }
   ]
 }
