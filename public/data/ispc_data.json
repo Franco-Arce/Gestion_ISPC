@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-04-24T11:20:31.822935",
+  "generado_el": "2026-04-25T10:58:54.353403",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -54,7 +54,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": "/data/files/ciberseguridad_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ciberseguridad_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-24T11:12:30.217391"
+      "ultima_actualizacion": "2026-04-25T10:50:50.826935"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -152,7 +152,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-24T11:13:11.120413"
+      "ultima_actualizacion": "2026-04-25T10:51:31.944722"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -299,7 +299,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-24T11:13:56.047020"
+      "ultima_actualizacion": "2026-04-25T10:52:18.633984"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -344,9 +344,9 @@
       ],
       "materiales": [],
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
-      "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
+      "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/gestion_de_proyectos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-24T11:15:00.174768"
+      "ultima_actualizacion": "2026-04-25T10:53:24.059511"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -396,7 +396,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingenieria_de_software_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-24T11:15:32.022397"
+      "ultima_actualizacion": "2026-04-25T10:53:54.445607"
     },
     {
       "nombre": "Inglés II",
@@ -427,7 +427,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-24T11:16:02.688553"
+      "ultima_actualizacion": "2026-04-25T10:54:26.797508"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -522,7 +522,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-24T11:16:18.611592"
+      "ultima_actualizacion": "2026-04-25T10:54:41.475374"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -617,7 +617,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-24T11:16:58.342774"
+      "ultima_actualizacion": "2026-04-25T10:55:23.913475"
     },
     {
       "nombre": "Programación III",
@@ -629,6 +629,13 @@
       "avisos": [
         {
           "titulo": "Avisos",
+          "autor": "Maria Florencia GARCIA ZAVIA",
+          "fecha": "2026-04-25T00:45:01-03:00",
+          "mensaje": "Simulacro de Evidencia\n\nHola estudiantes,\n\nAquí les dejamos un formulario a modo práctica para que puedan repasar un poco antes de iniciar la evidencia, si así lo desean.\n\nEsperamos que les vaya muy bien y quedamos a disposición ante cualquier consulta.\n\nIr al simulacro\nAtención: el formulario anterior NO corresponde a la evidencia, es solamente para repasar contenidos.\n\nSaludos,\n\nTS Ramiro Ceballes\nTS Florencia García",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=87538"
+        },
+        {
+          "titulo": "Avisos",
           "autor": "Ramiro Adrian CEBALLES",
           "fecha": "2026-04-19T20:08:27-03:00",
           "mensaje": "Buenas noches estudiantes, en la sección de material complementario encontrarán todo lo necesario para desarollar la parte de front e integración full stack de lo que se va viendo de backend en la parte obligatoria.\nNo deja de ser obligatorio, pero no quería mezclarlo con lo de backend, ya veo como lo reestructuro a los títulos de las secciones.",
@@ -687,29 +694,19 @@
       "unidades": [],
       "tareas": [
         {
-          "nombre": "Evidencias de Aprendizaje",
-          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27878",
+          "nombre": "Evidencia uno",
+          "url": "https://acceso.ispc.edu.ar/mod/quiz/view.php?id=115239",
           "fecha_entrega": null,
-          "estado": "pendiente"
-        },
-        {
-          "nombre": "Proyecto ABP",
-          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27879",
-          "fecha_entrega": null,
-          "estado": "pendiente"
-        },
-        {
-          "nombre": "Coloquio - Promoción",
-          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27880",
-          "fecha_entrega": null,
-          "estado": "pendiente"
+          "estado": "pendiente",
+          "descripcion": "Repaso/diagnóstico de FullStack I",
+          "seccion": "Evidencias de Aprendizaje"
         }
       ],
       "materiales": [],
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/programacion_iii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-24T11:17:40.266247"
+      "ultima_actualizacion": "2026-04-25T10:56:04.888755"
     },
     {
       "nombre": "Interfaz de Usuario",
@@ -721,6 +718,13 @@
       "avisos": [
         {
           "titulo": "Avisos",
+          "autor": "Maria Florencia GARCIA ZAVIA",
+          "fecha": "2026-04-25T00:45:01-03:00",
+          "mensaje": "Simulacro de Evidencia\n\nHola estudiantes,\n\nAquí les dejamos un formulario a modo práctica para que puedan repasar un poco antes de iniciar la evidencia, si así lo desean.\n\nEsperamos que les vaya muy bien y quedamos a disposición ante cualquier consulta.\n\nIr al simulacro\nAtención: el formulario anterior NO corresponde a la evidencia, es solamente para repasar contenidos.\n\nSaludos,\n\nTS Ramiro Ceballes\nTS Florencia García",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=87538"
+        },
+        {
+          "titulo": "Avisos",
           "autor": "Ramiro Adrian CEBALLES",
           "fecha": "2026-04-19T20:08:27-03:00",
           "mensaje": "Buenas noches estudiantes, en la sección de material complementario encontrarán todo lo necesario para desarollar la parte de front e integración full stack de lo que se va viendo de backend en la parte obligatoria.\nNo deja de ser obligatorio, pero no quería mezclarlo con lo de backend, ya veo como lo reestructuro a los títulos de las secciones.",
@@ -779,29 +783,19 @@
       "unidades": [],
       "tareas": [
         {
-          "nombre": "Evidencias de Aprendizaje",
-          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27878",
+          "nombre": "Evidencia uno",
+          "url": "https://acceso.ispc.edu.ar/mod/quiz/view.php?id=115239",
           "fecha_entrega": null,
-          "estado": "pendiente"
-        },
-        {
-          "nombre": "Proyecto ABP",
-          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27879",
-          "fecha_entrega": null,
-          "estado": "pendiente"
-        },
-        {
-          "nombre": "Coloquio - Promoción",
-          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27880",
-          "fecha_entrega": null,
-          "estado": "pendiente"
+          "estado": "pendiente",
+          "descripcion": "Repaso/diagnóstico de FullStack I",
+          "seccion": "Evidencias de Aprendizaje"
         }
       ],
       "materiales": [],
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/interfaz_de_usuario_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-24T11:18:27.194495"
+      "ultima_actualizacion": "2026-04-25T10:56:52.102996"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -862,7 +856,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-24T11:19:13.224448"
+      "ultima_actualizacion": "2026-04-25T10:57:39.167751"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -924,7 +918,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": "/data/files/tecnologia_y_sociedad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-24T11:19:45.833757"
+      "ultima_actualizacion": "2026-04-25T10:58:13.318300"
     }
   ]
 }
