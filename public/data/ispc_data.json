@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-04-27T11:58:20.293874",
+  "generado_el": "2026-04-28T11:59:30.253651",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -54,7 +54,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": "/data/files/ciberseguridad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-27T11:50:17.965888"
+      "ultima_actualizacion": "2026-04-28T11:51:05.520318"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -152,7 +152,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-27T11:50:57.027602"
+      "ultima_actualizacion": "2026-04-28T11:51:45.499085"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -175,6 +175,13 @@
           "fecha": "2026-03-12T20:35:47-03:00",
           "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85226"
+        },
+        {
+          "titulo": "Avisos Com A",
+          "autor": "Cynthia CORSO",
+          "fecha": "2026-04-27T11:19:55-03:00",
+          "mensaje": "Estimados/as, ya se encuentran publicadas los feedbacks correspondientes a la primera Evidencia de Aprendizaje. Les recomiendo revisar detenidamente la devolución realizada, ya que contiene observaciones y orientaciones importantes para continuar fortaleciendo el trabajo.\n\nAsimismo, se encuentra habilitada la tarea de entrega destinada a aquellos grupos que deben realizar una reentrega (considerando el feedback recibido) o bien no presentaron la evidencia en la instancia original. El plazo máximo para su presentación es el 03/05 a las 23:55 hs.\n\nLes pido revisar las pautas de entrega y respetar los plazos establecidos.\n\nSaludos cordiales.\n\nProf. Corso Cynthia.-",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=87617"
         },
         {
           "titulo": "Avisos Com A",
@@ -263,6 +270,14 @@
           "seccion": "Evidencias de Aprendizajes"
         },
         {
+          "nombre": "RECUPERATORIO Evidencia de Aprendizaje Nro 1 - COM A",
+          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=115321",
+          "fecha_entrega": "Todavía no se han realizado envíos",
+          "estado": "pendiente",
+          "descripcion": "Pautas para la entrega\n\n• Esta entrega debe ser realizada por un solo integrante del grupo.\n\n• Deben presentar esta instancia únicamente aquellos grupos que no realizaron la entrega correspondiente a la semana del 20/04 al 26/04.\n\n• El plazo de entrega es hasta el domingo 03 de mayo a las 23:55 hs.\n\n• En caso de reentrega, tener en cuenta el feedback recibido, incorporando las observaciones señaladas para su corrección o mejora.",
+          "seccion": "Evidencias de Aprendizajes"
+        },
+        {
           "nombre": "Entrega 2 – Limpieza y transformación",
           "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=112919",
           "fecha_entrega": "Todavía no se han realizado envíos",
@@ -299,7 +314,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-27T11:51:42.847229"
+      "ultima_actualizacion": "2026-04-28T11:52:32.392419"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -346,7 +361,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/gestion_de_proyectos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-27T11:52:48.521300"
+      "ultima_actualizacion": "2026-04-28T11:53:44.373139"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -396,7 +411,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingenieria_de_software_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-27T11:53:20.882356"
+      "ultima_actualizacion": "2026-04-28T11:54:17.585032"
     },
     {
       "nombre": "Inglés II",
@@ -427,7 +442,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-27T11:53:51.831168"
+      "ultima_actualizacion": "2026-04-28T11:54:48.624889"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -437,6 +452,13 @@
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4268",
       "criterios": "• Criterios de evaluación\n• Sistema de Acreditación Módulos Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
+        {
+          "titulo": "Avisos",
+          "autor": "Yamil SALOMON",
+          "fecha": "2026-04-27T13:43:25-03:00",
+          "mensaje": "Hola comisión B 👋\n\nLes aviso que ya se encuentran subidos los primeros materiales de la cursada. Dentro del contenido disponible van a encontrar una carpeta con los archivos que vamos a utilizar y procesar durante las próximas clases.\n\nAdemás, hoy comenzaremos a trabajar con Python utilizando la herramienta Google Colab, por lo que les pido que ingresen previamente y se preparen para poder seguir la práctica en clase.\n\nRevisen los materiales con anticipación así arrancamos de la mejor manera. ¡Nos vemos hoy!",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=87626"
+        },
         {
           "titulo": "Avisos",
           "autor": "Yamil SALOMON",
@@ -464,6 +486,13 @@
           "fecha": "2026-03-12T20:40:46-03:00",
           "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85227"
+        },
+        {
+          "titulo": "Avisos Com B",
+          "autor": "Yamil SALOMON",
+          "fecha": "2026-04-27T13:43:25-03:00",
+          "mensaje": "Hola comisión B 👋\n\nLes aviso que ya se encuentran subidos los primeros materiales de la cursada. Dentro del contenido disponible van a encontrar una carpeta con los archivos que vamos a utilizar y procesar durante las próximas clases.\n\nAdemás, hoy comenzaremos a trabajar con Python utilizando la herramienta Google Colab, por lo que les pido que ingresen previamente y se preparen para poder seguir la práctica en clase.\n\nRevisen los materiales con anticipación así arrancamos de la mejor manera. ¡Nos vemos hoy!",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=87626"
         }
       ],
       "unidades": [
@@ -522,7 +551,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-27T11:54:06.815068"
+      "ultima_actualizacion": "2026-04-28T11:55:03.208273"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -532,6 +561,13 @@
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4268",
       "criterios": "• Criterios de evaluación\n• Sistema de Acreditación Módulos Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
+        {
+          "titulo": "Avisos",
+          "autor": "Yamil SALOMON",
+          "fecha": "2026-04-27T13:43:25-03:00",
+          "mensaje": "Hola comisión B 👋\n\nLes aviso que ya se encuentran subidos los primeros materiales de la cursada. Dentro del contenido disponible van a encontrar una carpeta con los archivos que vamos a utilizar y procesar durante las próximas clases.\n\nAdemás, hoy comenzaremos a trabajar con Python utilizando la herramienta Google Colab, por lo que les pido que ingresen previamente y se preparen para poder seguir la práctica en clase.\n\nRevisen los materiales con anticipación así arrancamos de la mejor manera. ¡Nos vemos hoy!",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=87626"
+        },
         {
           "titulo": "Avisos",
           "autor": "Yamil SALOMON",
@@ -559,6 +595,13 @@
           "fecha": "2026-03-12T20:40:46-03:00",
           "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85227"
+        },
+        {
+          "titulo": "Avisos Com B",
+          "autor": "Yamil SALOMON",
+          "fecha": "2026-04-27T13:43:25-03:00",
+          "mensaje": "Hola comisión B 👋\n\nLes aviso que ya se encuentran subidos los primeros materiales de la cursada. Dentro del contenido disponible van a encontrar una carpeta con los archivos que vamos a utilizar y procesar durante las próximas clases.\n\nAdemás, hoy comenzaremos a trabajar con Python utilizando la herramienta Google Colab, por lo que les pido que ingresen previamente y se preparen para poder seguir la práctica en clase.\n\nRevisen los materiales con anticipación así arrancamos de la mejor manera. ¡Nos vemos hoy!",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=87626"
         }
       ],
       "unidades": [
@@ -617,7 +660,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-27T11:54:48.293090"
+      "ultima_actualizacion": "2026-04-28T11:55:49.661160"
     },
     {
       "nombre": "Programación III",
@@ -706,7 +749,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/programacion_iii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-27T11:55:31.568712"
+      "ultima_actualizacion": "2026-04-28T11:56:36.471441"
     },
     {
       "nombre": "Interfaz de Usuario",
@@ -795,7 +838,7 @@
       "meet_url": "http://meet.google.com/kue-putq-fxy",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/interfaz_de_usuario_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-27T11:56:18.360165"
+      "ultima_actualizacion": "2026-04-28T11:57:24.231867"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -803,7 +846,7 @@
       "horario": "Miércoles 18:20–19:20",
       "comision": "Única",
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4288",
-      "criterios": "• Sistema de Acreditación de Práctica Profesionalizante Anuales\n• Régimen Académico Institucional\n",
+      "criterios": "• Criterios de evaluación\n• Sistema de Acreditación de Práctica Profesionalizante Anuales\n• Régimen Académico Institucional\n",
       "avisos": [
         {
           "titulo": "Avisos",
@@ -854,9 +897,9 @@
       ],
       "materiales": [],
       "meet_url": "http://meet.google.com/yww-aikn-asr",
-      "programa_archivo": null,
-      "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-27T11:57:04.540210"
+      "programa_archivo": "/data/files/practica_profesionalizante_ii_programa.pdf",
+      "hoja_de_ruta_archivo": "/data/files/practica_profesionalizante_ii_hoja_de_ruta.pdf",
+      "ultima_actualizacion": "2026-04-28T11:58:12.323223"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -918,7 +961,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": "/data/files/tecnologia_y_sociedad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-27T11:57:38.554567"
+      "ultima_actualizacion": "2026-04-28T11:58:48.271472"
     }
   ]
 }
