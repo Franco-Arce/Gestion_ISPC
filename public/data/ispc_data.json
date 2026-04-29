@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-04-28T11:59:30.253651",
+  "generado_el": "2026-04-29T11:51:24.027022",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -54,7 +54,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": "/data/files/ciberseguridad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-28T11:51:05.520318"
+      "ultima_actualizacion": "2026-04-29T11:44:22.446337"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -152,7 +152,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-28T11:51:45.499085"
+      "ultima_actualizacion": "2026-04-29T11:45:04.468392"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -314,7 +314,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-28T11:52:32.392419"
+      "ultima_actualizacion": "2026-04-29T11:45:54.127648"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -361,7 +361,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/gestion_de_proyectos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-28T11:53:44.373139"
+      "ultima_actualizacion": "2026-04-29T11:47:11.579803"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -411,7 +411,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingenieria_de_software_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-28T11:54:17.585032"
+      "ultima_actualizacion": "2026-04-29T11:47:44.680523"
     },
     {
       "nombre": "Inglés II",
@@ -442,7 +442,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-28T11:54:48.624889"
+      "ultima_actualizacion": "2026-04-29T11:48:17.733767"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -486,13 +486,6 @@
           "fecha": "2026-03-12T20:40:46-03:00",
           "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85227"
-        },
-        {
-          "titulo": "Avisos Com B",
-          "autor": "Yamil SALOMON",
-          "fecha": "2026-04-27T13:43:25-03:00",
-          "mensaje": "Hola comisión B 👋\n\nLes aviso que ya se encuentran subidos los primeros materiales de la cursada. Dentro del contenido disponible van a encontrar una carpeta con los archivos que vamos a utilizar y procesar durante las próximas clases.\n\nAdemás, hoy comenzaremos a trabajar con Python utilizando la herramienta Google Colab, por lo que les pido que ingresen previamente y se preparen para poder seguir la práctica en clase.\n\nRevisen los materiales con anticipación así arrancamos de la mejor manera. ¡Nos vemos hoy!",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=87626"
         }
       ],
       "unidades": [
@@ -551,7 +544,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-28T11:55:03.208273"
+      "ultima_actualizacion": "2026-04-29T11:48:32.802883"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -595,13 +588,6 @@
           "fecha": "2026-03-12T20:40:46-03:00",
           "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85227"
-        },
-        {
-          "titulo": "Avisos Com B",
-          "autor": "Yamil SALOMON",
-          "fecha": "2026-04-27T13:43:25-03:00",
-          "mensaje": "Hola comisión B 👋\n\nLes aviso que ya se encuentran subidos los primeros materiales de la cursada. Dentro del contenido disponible van a encontrar una carpeta con los archivos que vamos a utilizar y procesar durante las próximas clases.\n\nAdemás, hoy comenzaremos a trabajar con Python utilizando la herramienta Google Colab, por lo que les pido que ingresen previamente y se preparen para poder seguir la práctica en clase.\n\nRevisen los materiales con anticipación así arrancamos de la mejor manera. ¡Nos vemos hoy!",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=87626"
         }
       ],
       "unidades": [
@@ -660,185 +646,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-28T11:55:49.661160"
-    },
-    {
-      "nombre": "Programación III",
-      "carrera": "TSDS",
-      "horario": "Martes 18:20–20:40",
-      "comision": "Única",
-      "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4286",
-      "criterios": "• Criterios de evaluación\n• Sistema de Acreditación - Módulos Anuales\n• Régimen Académico Institucional\n",
-      "avisos": [
-        {
-          "titulo": "Avisos",
-          "autor": "Maria Florencia GARCIA ZAVIA",
-          "fecha": "2026-04-25T00:45:01-03:00",
-          "mensaje": "Simulacro de Evidencia\n\nHola estudiantes,\n\nAquí les dejamos un formulario a modo práctica para que puedan repasar un poco antes de iniciar la evidencia, si así lo desean.\n\nEsperamos que les vaya muy bien y quedamos a disposición ante cualquier consulta.\n\nIr al simulacro\nAtención: el formulario anterior NO corresponde a la evidencia, es solamente para repasar contenidos.\n\nSaludos,\n\nTS Ramiro Ceballes\nTS Florencia García",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=87538"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Ramiro Adrian CEBALLES",
-          "fecha": "2026-04-19T20:08:27-03:00",
-          "mensaje": "Buenas noches estudiantes, en la sección de material complementario encontrarán todo lo necesario para desarollar la parte de front e integración full stack de lo que se va viendo de backend en la parte obligatoria.\nNo deja de ser obligatorio, pero no quería mezclarlo con lo de backend, ya veo como lo reestructuro a los títulos de las secciones.",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86895"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Ramiro Adrian CEBALLES",
-          "fecha": "2026-04-22T13:20:39-03:00",
-          "mensaje": "Buen día alumnos/as, ya se encuentra disponible la hoja de ruta.\n\nSepan que en material no obligatorio y en alguna clase hablaremos de temas que uds. fueron solicitado, como el manejo de la consola F12 para auditar páginas web, y temas que son interesantes pero no obligatorios.",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=87189"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Ramiro Adrian CEBALLES",
-          "fecha": "2026-04-17T18:23:34-03:00",
-          "mensaje": "Buenas tardes estudiantes, lo prometido es deuda asi que generé los manuales hasta la semana 10 según la hoja de ruta, estamos terminando la semana 5 para ubicarlos temporalmente.\n\nEl martes vimos el material que correspondía a la semana 6, por lo que para la siguiente clase vean el material de la semana 5. Se preguntarán ¿Por qué no los doy vuelta y listo? Para que coincidan con la hoja de ruta, entonces en la semana 7 ya va a ir todo en orden, y cuando quieran ir para atrás en el material para repasar estará ordenado.\n\nSin más que agregar les deseo un buen fin de semana!",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86779"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Ramiro Adrian CEBALLES",
-          "fecha": "2026-03-26T15:33:42-03:00",
-          "mensaje": "INSTITUTO SUPERIOR POLITÉCNICO CÓRDOBA\nTecnicatura Superior en Desarrollo de Software\n\n● Módulo Full Stack II · Desarrollo de Sistemas de Autenticación\n\nDesafío Técnico: Login & Seguridad\n\nEstimados futuros colegas, es momento de pasar de la teoría a la implementación. Esta actividad asíncrona está diseñada para profundizar en los flujos de seguridad de una aplicación real. Les dejo también el material teórico de que se hizo hasta acá a modo de consulta por dudas. El diablo duerme en los detalles, por ello es necesario que presten mucha atención a como funciona y se ve un login profesional que pueden encontrar en muchas páginas.\n\n\n\n\nRecuerden que seguimos en la etapa de diagnóstico, no se preocupen si les resulta muy complejo, pueden usar IA para solventar algún problema pero siempre aprendiendo qué estrategia usa y entendiendo bien qué hace el código creado por ella.\n\nEn dos semanas vemos los resultados finales en el sincrónico y los que no lleguen a presentar, crean una rama en el re",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85788"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Maria Florencia GARCIA ZAVIA",
-          "fecha": "2026-04-07T22:48:47-03:00",
-          "mensaje": "INSTITUTO SUPERIOR POLITÉCNICO CÓRDOBA\nTecnicatura Superior en Desarrollo de Software\n\n● Módulo Full Stack II · 2026\n\nTrabajo colaborativo - Login\n\nAdaptamos un login a los requerimientos de un proyecto en específico, basándonos en el desarrollo previo de un Login funcional en Django y Angular.\n\n\n\nVer proyectos →\n\nDocentes Florencia García y Ramiro Ceballes\nMódulo Full Stack II · Instituto Superior Politécnico Córdoba",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86230"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Ramiro Adrian CEBALLES",
-          "fecha": "2026-04-03T18:49:32-03:00",
-          "mensaje": "INSTITUTO SUPERIOR POLITÉCNICO CÓRDOBA\nTecnicatura Superior en Desarrollo de Software\n\n● Módulo Full Stack II · Desarrollo de Sistemas de Autenticación\n\nManual de autentificación avanzada + Encuesta\n\nEstimados/as estudiantes, ya esta disponible el documento teórico de la semana, creo que este está mejor explicado que el anterior, vamos tratando de mejorar clase a clase, por eso hemos realizado una segunda encuesta, para saber que les pareció la clase, que mejorar, etc.\n\nPor otra parte, les comento que el material de estudio va a estar organizadamente presentado en la pestaña de cada materia, donde aparece semana a semana, como lo tenemos que hacer de cero vamos a demorar en generarlo, pero la idea es que tengan material dos semanas antes de la clase.\n\n Enlaces de interés:\nEncuesta: Encuesta\nDocumentación: Documento de apoyo\n\n\nNota: Estamos terminando la hoja de ruta con los temas que queremos dar y los que ud. nos dijeron que tenían flojos del año pasado. Falta poco para la primera evi",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86087"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Ramiro Adrian CEBALLES",
-          "fecha": "2026-03-16T18:09:08-03:00",
-          "mensaje": "¡Hola a todos/as!\n\nEs un gusto darles la bienvenida a este tercer año y, específicamente, al módulo Full Stack II.\n\nEste es el tramo final de su formación en la Tecnicatura, el espacio donde convergen la lógica robusta del Backend (Programación III) y la experiencia estratégica del usuario (Interfaz de Usuario). Queremos recordarles que mañana daremos inicio a nuestra primera clase, y los esperamos con mucha energía para empezar a trabajar en lo que será su trampolín hacia el ámbito laboral.\n\nEstamos aquí para acompañarlos y verlos transformarse en colegas listos para integrarse con éxito en la industria tecnológica.\n\n¡Muchos éxitos en este ciclo lectivo! Nos vemos mañana en el aula.\n\nSaludos cordiales,\n\nTec. Sup. Ramiro Adrián Ceballes & Lic. María Florencia García Zavia",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85297"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Tatiana MANZANELLI",
-          "fecha": "2026-03-12T19:20:05-03:00",
-          "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85221"
-        }
-      ],
-      "unidades": [],
-      "tareas": [
-        {
-          "nombre": "Evidencia uno",
-          "url": "https://acceso.ispc.edu.ar/mod/quiz/view.php?id=115239",
-          "fecha_entrega": null,
-          "estado": "pendiente",
-          "descripcion": "Repaso/diagnóstico de FullStack I",
-          "seccion": "Evidencias de Aprendizaje"
-        }
-      ],
-      "materiales": [],
-      "meet_url": "http://meet.google.com/kue-putq-fxy",
-      "programa_archivo": null,
-      "hoja_de_ruta_archivo": "/data/files/programacion_iii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-28T11:56:36.471441"
-    },
-    {
-      "nombre": "Interfaz de Usuario",
-      "carrera": "TSDS",
-      "horario": "Martes 18:20–20:40",
-      "comision": "Única",
-      "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4286",
-      "criterios": "• Criterios de evaluación\n• Sistema de Acreditación - Módulos Anuales\n• Régimen Académico Institucional\n",
-      "avisos": [
-        {
-          "titulo": "Avisos",
-          "autor": "Maria Florencia GARCIA ZAVIA",
-          "fecha": "2026-04-25T00:45:01-03:00",
-          "mensaje": "Simulacro de Evidencia\n\nHola estudiantes,\n\nAquí les dejamos un formulario a modo práctica para que puedan repasar un poco antes de iniciar la evidencia, si así lo desean.\n\nEsperamos que les vaya muy bien y quedamos a disposición ante cualquier consulta.\n\nIr al simulacro\nAtención: el formulario anterior NO corresponde a la evidencia, es solamente para repasar contenidos.\n\nSaludos,\n\nTS Ramiro Ceballes\nTS Florencia García",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=87538"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Ramiro Adrian CEBALLES",
-          "fecha": "2026-04-19T20:08:27-03:00",
-          "mensaje": "Buenas noches estudiantes, en la sección de material complementario encontrarán todo lo necesario para desarollar la parte de front e integración full stack de lo que se va viendo de backend en la parte obligatoria.\nNo deja de ser obligatorio, pero no quería mezclarlo con lo de backend, ya veo como lo reestructuro a los títulos de las secciones.",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86895"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Ramiro Adrian CEBALLES",
-          "fecha": "2026-04-22T13:20:39-03:00",
-          "mensaje": "Buen día alumnos/as, ya se encuentra disponible la hoja de ruta.\n\nSepan que en material no obligatorio y en alguna clase hablaremos de temas que uds. fueron solicitado, como el manejo de la consola F12 para auditar páginas web, y temas que son interesantes pero no obligatorios.",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=87189"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Ramiro Adrian CEBALLES",
-          "fecha": "2026-04-17T18:23:34-03:00",
-          "mensaje": "Buenas tardes estudiantes, lo prometido es deuda asi que generé los manuales hasta la semana 10 según la hoja de ruta, estamos terminando la semana 5 para ubicarlos temporalmente.\n\nEl martes vimos el material que correspondía a la semana 6, por lo que para la siguiente clase vean el material de la semana 5. Se preguntarán ¿Por qué no los doy vuelta y listo? Para que coincidan con la hoja de ruta, entonces en la semana 7 ya va a ir todo en orden, y cuando quieran ir para atrás en el material para repasar estará ordenado.\n\nSin más que agregar les deseo un buen fin de semana!",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86779"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Ramiro Adrian CEBALLES",
-          "fecha": "2026-03-26T15:33:42-03:00",
-          "mensaje": "INSTITUTO SUPERIOR POLITÉCNICO CÓRDOBA\nTecnicatura Superior en Desarrollo de Software\n\n● Módulo Full Stack II · Desarrollo de Sistemas de Autenticación\n\nDesafío Técnico: Login & Seguridad\n\nEstimados futuros colegas, es momento de pasar de la teoría a la implementación. Esta actividad asíncrona está diseñada para profundizar en los flujos de seguridad de una aplicación real. Les dejo también el material teórico de que se hizo hasta acá a modo de consulta por dudas. El diablo duerme en los detalles, por ello es necesario que presten mucha atención a como funciona y se ve un login profesional que pueden encontrar en muchas páginas.\n\n\n\n\nRecuerden que seguimos en la etapa de diagnóstico, no se preocupen si les resulta muy complejo, pueden usar IA para solventar algún problema pero siempre aprendiendo qué estrategia usa y entendiendo bien qué hace el código creado por ella.\n\nEn dos semanas vemos los resultados finales en el sincrónico y los que no lleguen a presentar, crean una rama en el re",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85788"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Maria Florencia GARCIA ZAVIA",
-          "fecha": "2026-04-07T22:48:47-03:00",
-          "mensaje": "INSTITUTO SUPERIOR POLITÉCNICO CÓRDOBA\nTecnicatura Superior en Desarrollo de Software\n\n● Módulo Full Stack II · 2026\n\nTrabajo colaborativo - Login\n\nAdaptamos un login a los requerimientos de un proyecto en específico, basándonos en el desarrollo previo de un Login funcional en Django y Angular.\n\n\n\nVer proyectos →\n\nDocentes Florencia García y Ramiro Ceballes\nMódulo Full Stack II · Instituto Superior Politécnico Córdoba",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86230"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Ramiro Adrian CEBALLES",
-          "fecha": "2026-04-03T18:49:32-03:00",
-          "mensaje": "INSTITUTO SUPERIOR POLITÉCNICO CÓRDOBA\nTecnicatura Superior en Desarrollo de Software\n\n● Módulo Full Stack II · Desarrollo de Sistemas de Autenticación\n\nManual de autentificación avanzada + Encuesta\n\nEstimados/as estudiantes, ya esta disponible el documento teórico de la semana, creo que este está mejor explicado que el anterior, vamos tratando de mejorar clase a clase, por eso hemos realizado una segunda encuesta, para saber que les pareció la clase, que mejorar, etc.\n\nPor otra parte, les comento que el material de estudio va a estar organizadamente presentado en la pestaña de cada materia, donde aparece semana a semana, como lo tenemos que hacer de cero vamos a demorar en generarlo, pero la idea es que tengan material dos semanas antes de la clase.\n\n Enlaces de interés:\nEncuesta: Encuesta\nDocumentación: Documento de apoyo\n\n\nNota: Estamos terminando la hoja de ruta con los temas que queremos dar y los que ud. nos dijeron que tenían flojos del año pasado. Falta poco para la primera evi",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86087"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Ramiro Adrian CEBALLES",
-          "fecha": "2026-03-16T18:09:08-03:00",
-          "mensaje": "¡Hola a todos/as!\n\nEs un gusto darles la bienvenida a este tercer año y, específicamente, al módulo Full Stack II.\n\nEste es el tramo final de su formación en la Tecnicatura, el espacio donde convergen la lógica robusta del Backend (Programación III) y la experiencia estratégica del usuario (Interfaz de Usuario). Queremos recordarles que mañana daremos inicio a nuestra primera clase, y los esperamos con mucha energía para empezar a trabajar en lo que será su trampolín hacia el ámbito laboral.\n\nEstamos aquí para acompañarlos y verlos transformarse en colegas listos para integrarse con éxito en la industria tecnológica.\n\n¡Muchos éxitos en este ciclo lectivo! Nos vemos mañana en el aula.\n\nSaludos cordiales,\n\nTec. Sup. Ramiro Adrián Ceballes & Lic. María Florencia García Zavia",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85297"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Tatiana MANZANELLI",
-          "fecha": "2026-03-12T19:20:05-03:00",
-          "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85221"
-        }
-      ],
-      "unidades": [],
-      "tareas": [
-        {
-          "nombre": "Evidencia uno",
-          "url": "https://acceso.ispc.edu.ar/mod/quiz/view.php?id=115239",
-          "fecha_entrega": null,
-          "estado": "pendiente",
-          "descripcion": "Repaso/diagnóstico de FullStack I",
-          "seccion": "Evidencias de Aprendizaje"
-        }
-      ],
-      "materiales": [],
-      "meet_url": "http://meet.google.com/kue-putq-fxy",
-      "programa_archivo": null,
-      "hoja_de_ruta_archivo": "/data/files/interfaz_de_usuario_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-28T11:57:24.231867"
+      "ultima_actualizacion": "2026-04-29T11:49:17.978799"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -899,7 +707,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": "/data/files/practica_profesionalizante_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/practica_profesionalizante_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-28T11:58:12.323223"
+      "ultima_actualizacion": "2026-04-29T11:50:03.581284"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -961,7 +769,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": "/data/files/tecnologia_y_sociedad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-28T11:58:48.271472"
+      "ultima_actualizacion": "2026-04-29T11:50:41.231176"
     }
   ]
 }
