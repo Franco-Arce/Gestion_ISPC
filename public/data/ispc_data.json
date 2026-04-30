@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-04-29T11:51:24.027022",
+  "generado_el": "2026-04-30T11:51:16.899399",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -54,7 +54,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": "/data/files/ciberseguridad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-29T11:44:22.446337"
+      "ultima_actualizacion": "2026-04-30T11:43:57.317008"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -152,7 +152,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-29T11:45:04.468392"
+      "ultima_actualizacion": "2026-04-30T11:44:40.577889"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -314,7 +314,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-29T11:45:54.127648"
+      "ultima_actualizacion": "2026-04-30T11:45:31.595270"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -360,8 +360,8 @@
       "materiales": [],
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
-      "hoja_de_ruta_archivo": "/data/files/gestion_de_proyectos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-29T11:47:11.579803"
+      "hoja_de_ruta_archivo": null,
+      "ultima_actualizacion": "2026-04-30T11:46:49.402175"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -411,7 +411,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingenieria_de_software_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-29T11:47:44.680523"
+      "ultima_actualizacion": "2026-04-30T11:47:23.943105"
     },
     {
       "nombre": "Inglés II",
@@ -442,7 +442,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-29T11:48:17.733767"
+      "ultima_actualizacion": "2026-04-30T11:47:57.204156"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -544,7 +544,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-29T11:48:32.802883"
+      "ultima_actualizacion": "2026-04-30T11:48:14.133148"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -646,7 +646,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-29T11:49:17.978799"
+      "ultima_actualizacion": "2026-04-30T11:48:59.819437"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -707,7 +707,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": "/data/files/practica_profesionalizante_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/practica_profesionalizante_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-04-29T11:50:03.581284"
+      "ultima_actualizacion": "2026-04-30T11:49:47.607046"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -763,13 +763,21 @@
           "estado": "pendiente",
           "descripcion": "",
           "seccion": "Evidencias de Aprendizajes"
+        },
+        {
+          "nombre": "RECUPERATORIO Evidencia 1 - Tecnología y Sociedad - Comisión B",
+          "url": "https://acceso.ispc.edu.ar/mod/quiz/view.php?id=115416",
+          "fecha_entrega": null,
+          "estado": "pendiente",
+          "descripcion": "",
+          "seccion": "Evidencias de Aprendizajes"
         }
       ],
       "materiales": [],
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": "/data/files/tecnologia_y_sociedad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-04-29T11:50:41.231176"
+      "ultima_actualizacion": "2026-04-30T11:50:27.016547"
     }
   ]
 }
