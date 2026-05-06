@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-05-05T11:27:43.207279",
+  "generado_el": "2026-05-06T12:01:02.017348",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -54,7 +54,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": "/data/files/ciberseguridad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-05T11:20:40.413234"
+      "ultima_actualizacion": "2026-05-06T11:53:48.691096"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -152,7 +152,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-05T11:21:21.418216"
+      "ultima_actualizacion": "2026-05-06T11:54:29.933667"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -175,6 +175,13 @@
           "fecha": "2026-03-12T20:35:47-03:00",
           "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85226"
+        },
+        {
+          "titulo": "Avisos Com A",
+          "autor": "Cynthia CORSO",
+          "fecha": "2026-05-05T10:31:59-03:00",
+          "mensaje": "Estimados estudiantes:\n\nLes informo que se encuentra habilitada la entrega de la Evidencia de Aprendizaje N.º 2, disponible desde el lunes 11 de mayo a las 08:00 hs hasta el viernes 15 de mayo a las 23:55 hs.\n\nImportante:\n\nSolo un integrante del grupo debe realizar la entrega.\nEl archivo presentado debe integrar la Evidencia 1 y la Evidencia 2, indicando claramente cada etapa de aprendizaje desarrollada.\n\nSe espera que el grupo trabaje sobre:\n\nLimpieza de datos\n    *Detectar y tratar valores faltantes, inconsistencias, duplicados, errores de carga o valores atípicos.\nEstandarización\n    *Revisar formatos, nombres de categorías, unidades de medida y criterios de registro para dejar los datos uniformes.\nConstrucción del dataset final\n    *Generar una versión depurada del conjunto de datos, lista para ser utilizada en análisis posteriores.\n\nPresentación solicitada\n\nEl informe deberá incluir:\n\n1) Tabla de análisis de calidad de datos (por atributo)\nPara cada atributo relevante (acorde a la",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=87927"
         },
         {
           "titulo": "Avisos Com A",
@@ -262,7 +269,7 @@
       ],
       "tareas": [
         {
-          "nombre": "Entrega 1 – Comprensión del problema y datos",
+          "nombre": "Evidencia de Aprendizaje Nro 1 – Comprensión del problema y datos",
           "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=112918",
           "fecha_entrega": "Todavía no se han realizado envíos",
           "estado": "pendiente",
@@ -278,11 +285,19 @@
           "seccion": "Evidencias de Aprendizajes"
         },
         {
-          "nombre": "Entrega 2 – Limpieza y transformación",
-          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=112919",
+          "nombre": "Entrega Evidencia de Aprendizaje Nro 2 – Limpieza y transformación - COM A",
+          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=115879",
           "fecha_entrega": "Todavía no se han realizado envíos",
           "estado": "pendiente",
           "descripcion": "Objetivo: preparar los datos.\n\nIncluye:\n\nlimpieza de datos\n\nestandarización\n\ndataset final",
+          "seccion": "Evidencias de Aprendizajes"
+        },
+        {
+          "nombre": "Entrega Evidencia de Aprendizaje Nro 2 – Limpieza y transformación - COM B",
+          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=112919",
+          "fecha_entrega": null,
+          "estado": "pendiente",
+          "descripcion": "",
           "seccion": "Evidencias de Aprendizajes"
         },
         {
@@ -314,7 +329,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-05T11:22:08.968566"
+      "ultima_actualizacion": "2026-05-06T11:55:19.219788"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -368,7 +383,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-05T11:23:25.140876"
+      "ultima_actualizacion": "2026-05-06T11:56:43.081243"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -425,7 +440,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-05T11:23:59.555289"
+      "ultima_actualizacion": "2026-05-06T11:57:18.422889"
     },
     {
       "nombre": "Inglés II",
@@ -456,7 +471,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-05T11:24:33.820381"
+      "ultima_actualizacion": "2026-05-06T11:57:51.567229"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -558,7 +573,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-05T11:24:48.906309"
+      "ultima_actualizacion": "2026-05-06T11:58:07.001772"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -660,7 +675,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-05T11:25:36.156334"
+      "ultima_actualizacion": "2026-05-06T11:58:52.742766"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -721,7 +736,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": "/data/files/practica_profesionalizante_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/practica_profesionalizante_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-05T11:26:22.617087"
+      "ultima_actualizacion": "2026-05-06T11:59:39.801295"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -783,7 +798,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": "/data/files/tecnologia_y_sociedad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-05T11:26:59.326597"
+      "ultima_actualizacion": "2026-05-06T12:00:19.007109"
     }
   ]
 }
