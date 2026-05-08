@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-05-07T12:01:12.823174",
+  "generado_el": "2026-05-08T11:31:00.667723",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -54,7 +54,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": "/data/files/ciberseguridad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-07T11:54:02.474968"
+      "ultima_actualizacion": "2026-05-08T11:23:56.850054"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -152,7 +152,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-07T11:54:44.344348"
+      "ultima_actualizacion": "2026-05-08T11:24:37.542354"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -329,7 +329,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-07T11:55:33.245905"
+      "ultima_actualizacion": "2026-05-08T11:25:25.727748"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -383,7 +383,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-07T11:56:55.432364"
+      "ultima_actualizacion": "2026-05-08T11:26:47.176640"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -393,6 +393,13 @@
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4287",
       "criterios": "• Criterios de evaluación\n• Sistema de Acreditación - Espacios Curriculares Anuales\n• Régimen Académico Institucional\n",
       "avisos": [
+        {
+          "titulo": "Avisos",
+          "autor": "Laura Anahi ZAVIA",
+          "fecha": "2026-05-07T18:44:11-03:00",
+          "mensaje": "Consigna: En grupos, investigar un caso de proyecto de software (investigar en la web) en el que un cambio de requerimientos tuvo un impacto significativo. Luego, elaborar un informe breve de máximo 2 páginas que incluya:\n\nDescripción del proyecto y del cambio: ¿Qué se estaba construyendo? ¿Qué cambió y en qué momento del ciclo?\n\nAnálisis del impacto: ¿Qué se vio afectado: diseño, código, tiempos, equipo, cliente?\n\n¿Cómo se gestionó? Aplicar al menos dos de las estrategias ágiles vistas en clase (backlog, sprint review, refinamiento, contratos).\n\nReflexión: ¿Qué aprendió o habría aprendido el equipo sobre la adaptación al cambio?",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=88032"
+        },
         {
           "titulo": "Avisos",
           "autor": "Laura Anahi ZAVIA",
@@ -440,7 +447,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-07T11:57:30.721842"
+      "ultima_actualizacion": "2026-05-08T11:27:21.444576"
     },
     {
       "nombre": "Inglés II",
@@ -471,7 +478,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-07T11:58:04.546719"
+      "ultima_actualizacion": "2026-05-08T11:27:56.134212"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -573,7 +580,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-07T11:58:20.946474"
+      "ultima_actualizacion": "2026-05-08T11:28:11.733104"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -675,7 +682,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-07T11:59:05.588796"
+      "ultima_actualizacion": "2026-05-08T11:28:55.738251"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -736,7 +743,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": "/data/files/practica_profesionalizante_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/practica_profesionalizante_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-07T11:59:50.903488"
+      "ultima_actualizacion": "2026-05-08T11:29:40.891496"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -786,19 +793,19 @@
           "seccion": "Evidencias de Aprendizajes"
         },
         {
-          "nombre": "RECUPERATORIO Evidencia 1 - Tecnología y Sociedad - Comisión B",
-          "url": "https://acceso.ispc.edu.ar/mod/quiz/view.php?id=115416",
+          "nombre": "1er entrega del proyecto ABP - comisión B",
+          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=116006",
           "fecha_entrega": null,
           "estado": "pendiente",
           "descripcion": "",
-          "seccion": "Evidencias de Aprendizajes"
+          "seccion": "Proyecto ABP"
         }
       ],
       "materiales": [],
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": "/data/files/tecnologia_y_sociedad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-07T12:00:29.651419"
+      "ultima_actualizacion": "2026-05-08T11:30:18.406633"
     }
   ]
 }
