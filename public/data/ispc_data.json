@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-05-13T12:16:46.958117",
+  "generado_el": "2026-05-14T12:04:45.985139",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -48,13 +48,21 @@
           "estado": "pendiente",
           "descripcion": "Este cuestionario corresponde a la Evidencia 1 y constituye un requisito indispensable para formalizar la entrega del proyecto.\n\nDebe completar el cuestionario únicamente el responsable del equipo, en representación de todos, cargando los datos, Número de grupo, Comisión, Integrantes del grupo y el link del mismo, garantizando que la información esté completa, precisa y actualizada. Recuerden que deben hacerlo inmediatamente, luego de subir el documento a Drive.  Muchas Suerte! Carolina",
           "seccion": "Evidencias de Aprendizajes"
+        },
+        {
+          "nombre": "Cuestionario - Segunda Evidencia",
+          "url": "https://acceso.ispc.edu.ar/mod/quiz/view.php?id=116268",
+          "fecha_entrega": null,
+          "estado": "pendiente",
+          "descripcion": "Este cuestionario corresponde a la Evidencia 2 y constituye un requisito indispensable para formalizar la entrega del proyecto.\n\nDebe completar el cuestionario únicamente el responsable del equipo, en representación de todos, cargando los datos, Número de grupo, Comisión, Integrantes del grupo y el link del mismo, garantizando que la información esté completa, precisa y actualizada. Recuerden que deben hacerlo inmediatamente, luego de subir el documento a Drive.  Muchas Suerte! Carolina",
+          "seccion": "Evidencias de Aprendizajes"
         }
       ],
       "materiales": [],
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": "/data/files/ciberseguridad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-13T12:09:36.977254"
+      "ultima_actualizacion": "2026-05-14T11:57:32.344152"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -118,16 +126,16 @@
         {
           "nombre": "Entrega 2 – Limpieza y transformación",
           "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=113249",
-          "fecha_entrega": "Todavía no se han realizado envíos",
-          "estado": "pendiente",
+          "fecha_entrega": "Enviado para calificar",
+          "estado": "entregada",
           "descripcion": "Objetivo: preparar los datos.\n\nIncluye:\n\nlimpieza de datos\n\nestandarización\n\ndataset final",
           "seccion": "Evidencias de Aprendizajes"
         },
         {
           "nombre": "Entrega 3 – Análisis exploratorio",
           "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=113250",
-          "fecha_entrega": "Todavía no se han realizado envíos",
-          "estado": "pendiente",
+          "fecha_entrega": "Enviado para calificar",
+          "estado": "entregada",
           "descripcion": "Objetivo: obtener información.\n\nIncluye:\n\nanálisis descriptivo\n\ndetección de patrones\n\nprimeras conclusiones",
           "seccion": "Evidencias de Aprendizajes"
         },
@@ -152,7 +160,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-13T12:10:19.576935"
+      "ultima_actualizacion": "2026-05-14T11:58:16.521122"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -329,7 +337,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-13T12:11:07.646532"
+      "ultima_actualizacion": "2026-05-14T11:59:03.242994"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -383,7 +391,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-13T12:12:29.427921"
+      "ultima_actualizacion": "2026-05-14T12:00:26.844522"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -447,7 +455,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-13T12:13:02.900274"
+      "ultima_actualizacion": "2026-05-14T12:01:00.298626"
     },
     {
       "nombre": "Inglés II",
@@ -478,7 +486,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-13T12:13:39.560936"
+      "ultima_actualizacion": "2026-05-14T12:01:35.876347"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -488,6 +496,13 @@
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4268",
       "criterios": "• Criterios de evaluación\n• Sistema de Acreditación Módulos Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
+        {
+          "titulo": "Avisos",
+          "autor": "Yamil SALOMON",
+          "fecha": "2026-05-13T19:19:27-03:00",
+          "mensaje": "Estimados estudiantes de analista de datos COMB:\nLes comento que por cuestiones personales no estaré presente en las próximas clases debido a una intervención quirúrgica.\nLes dejare unos Cobab para que puedan seguir avanzando en su trabajo.\nPor cualquier duda a disposición.\nSaludos.\nProf Yamil Salomon",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=88316"
+        },
         {
           "titulo": "Avisos",
           "autor": "Yamil SALOMON",
@@ -522,6 +537,13 @@
           "fecha": "2026-03-12T20:40:46-03:00",
           "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85227"
+        },
+        {
+          "titulo": "Avisos Com B",
+          "autor": "Yamil SALOMON",
+          "fecha": "2026-05-13T19:19:27-03:00",
+          "mensaje": "Estimados estudiantes de analista de datos COMB:\nLes comento que por cuestiones personales no estaré presente en las próximas clases debido a una intervención quirúrgica.\nLes dejare unos Cobab para que puedan seguir avanzando en su trabajo.\nPor cualquier duda a disposición.\nSaludos.\nProf Yamil Salomon",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=88316"
         }
       ],
       "unidades": [
@@ -580,7 +602,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-13T12:13:54.672449"
+      "ultima_actualizacion": "2026-05-14T12:01:50.497110"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -590,6 +612,13 @@
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4268",
       "criterios": "• Criterios de evaluación\n• Sistema de Acreditación Módulos Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
+        {
+          "titulo": "Avisos",
+          "autor": "Yamil SALOMON",
+          "fecha": "2026-05-13T19:19:27-03:00",
+          "mensaje": "Estimados estudiantes de analista de datos COMB:\nLes comento que por cuestiones personales no estaré presente en las próximas clases debido a una intervención quirúrgica.\nLes dejare unos Cobab para que puedan seguir avanzando en su trabajo.\nPor cualquier duda a disposición.\nSaludos.\nProf Yamil Salomon",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=88316"
+        },
         {
           "titulo": "Avisos",
           "autor": "Yamil SALOMON",
@@ -624,6 +653,13 @@
           "fecha": "2026-03-12T20:40:46-03:00",
           "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85227"
+        },
+        {
+          "titulo": "Avisos Com B",
+          "autor": "Yamil SALOMON",
+          "fecha": "2026-05-13T19:19:27-03:00",
+          "mensaje": "Estimados estudiantes de analista de datos COMB:\nLes comento que por cuestiones personales no estaré presente en las próximas clases debido a una intervención quirúrgica.\nLes dejare unos Cobab para que puedan seguir avanzando en su trabajo.\nPor cualquier duda a disposición.\nSaludos.\nProf Yamil Salomon",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=88316"
         }
       ],
       "unidades": [
@@ -682,7 +718,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-13T12:14:40.209408"
+      "ultima_actualizacion": "2026-05-14T12:02:39.156706"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -743,7 +779,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": "/data/files/practica_profesionalizante_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/practica_profesionalizante_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-13T12:15:26.428898"
+      "ultima_actualizacion": "2026-05-14T12:03:28.143959"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -805,7 +841,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": "/data/files/tecnologia_y_sociedad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-13T12:16:04.076112"
+      "ultima_actualizacion": "2026-05-14T12:04:04.151404"
     }
   ]
 }
