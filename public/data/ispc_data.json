@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-05-14T12:04:45.985139",
+  "generado_el": "2026-05-15T12:07:14.884425",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -62,7 +62,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": "/data/files/ciberseguridad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-14T11:57:32.344152"
+      "ultima_actualizacion": "2026-05-15T11:59:44.855621"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -160,7 +160,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-14T11:58:16.521122"
+      "ultima_actualizacion": "2026-05-15T12:00:32.639488"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -337,7 +337,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-14T11:59:03.242994"
+      "ultima_actualizacion": "2026-05-15T12:01:22.181868"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -385,13 +385,21 @@
           "estado": "pendiente",
           "descripcion": "El siguiente cuestionario forma parte de la Evidencia 1 de este espacio curricular.\n\n¡Éxitos para tod@s!",
           "seccion": "Evidencias de Aprendizajes"
+        },
+        {
+          "nombre": "Evidencia de Aprendizaje 2",
+          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=116310",
+          "fecha_entrega": "Este es el intento 1 ( 2 intentos permitidos ).",
+          "estado": "pendiente",
+          "descripcion": "Instancia valorativa nro. 2 sobre los temas desarrollados en el espacio curricular.",
+          "seccion": "Evidencias de Aprendizajes"
         }
       ],
       "materiales": [],
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-14T12:00:26.844522"
+      "ultima_actualizacion": "2026-05-15T12:02:45.655126"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -433,29 +441,19 @@
       "unidades": [],
       "tareas": [
         {
-          "nombre": "Evidencias de Aprendizaje",
-          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27886",
-          "fecha_entrega": null,
-          "estado": "pendiente"
-        },
-        {
-          "nombre": "Proyecto ABP",
-          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27887",
-          "fecha_entrega": null,
-          "estado": "pendiente"
-        },
-        {
-          "nombre": "Coloquio - Promoción",
-          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27888",
-          "fecha_entrega": null,
-          "estado": "pendiente"
+          "nombre": "Evidencia de Aprendizaje 2",
+          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=116312",
+          "fecha_entrega": "Este es el intento 1 ( 2 intentos permitidos ).",
+          "estado": "pendiente",
+          "descripcion": "Instancia valorativa de los temas desarrollados en el espacio curricular.",
+          "seccion": "Evidencias de Aprendizaje"
         }
       ],
       "materiales": [],
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-14T12:01:00.298626"
+      "ultima_actualizacion": "2026-05-15T12:03:23.782364"
     },
     {
       "nombre": "Inglés II",
@@ -486,7 +484,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-14T12:01:35.876347"
+      "ultima_actualizacion": "2026-05-15T12:03:55.490815"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -537,13 +535,6 @@
           "fecha": "2026-03-12T20:40:46-03:00",
           "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85227"
-        },
-        {
-          "titulo": "Avisos Com B",
-          "autor": "Yamil SALOMON",
-          "fecha": "2026-05-13T19:19:27-03:00",
-          "mensaje": "Estimados estudiantes de analista de datos COMB:\nLes comento que por cuestiones personales no estaré presente en las próximas clases debido a una intervención quirúrgica.\nLes dejare unos Cobab para que puedan seguir avanzando en su trabajo.\nPor cualquier duda a disposición.\nSaludos.\nProf Yamil Salomon",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=88316"
         }
       ],
       "unidades": [
@@ -602,7 +593,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-14T12:01:50.497110"
+      "ultima_actualizacion": "2026-05-15T12:04:11.530219"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -653,13 +644,6 @@
           "fecha": "2026-03-12T20:40:46-03:00",
           "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85227"
-        },
-        {
-          "titulo": "Avisos Com B",
-          "autor": "Yamil SALOMON",
-          "fecha": "2026-05-13T19:19:27-03:00",
-          "mensaje": "Estimados estudiantes de analista de datos COMB:\nLes comento que por cuestiones personales no estaré presente en las próximas clases debido a una intervención quirúrgica.\nLes dejare unos Cobab para que puedan seguir avanzando en su trabajo.\nPor cualquier duda a disposición.\nSaludos.\nProf Yamil Salomon",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=88316"
         }
       ],
       "unidades": [
@@ -718,7 +702,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-14T12:02:39.156706"
+      "ultima_actualizacion": "2026-05-15T12:04:58.580105"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -779,7 +763,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": "/data/files/practica_profesionalizante_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/practica_profesionalizante_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-14T12:03:28.143959"
+      "ultima_actualizacion": "2026-05-15T12:05:48.024852"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -829,6 +813,14 @@
           "seccion": "Evidencias de Aprendizajes"
         },
         {
+          "nombre": "EVIDENCIA DE APRENDIZAJE NRO 2 PRIMERA PARTE COMISION A",
+          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=116300",
+          "fecha_entrega": "Todavía no se han realizado envíos",
+          "estado": "pendiente",
+          "descripcion": "Evidencia NRO 1 – Diagnóstico Digital + Project Charter del Proyecto\n\nFecha de entrega: 21/04/25\n\nEstimados/as estudiantes, la primera evidencia evaluativa integra dos componentes fundamentales trabajados en clase: el análisis de digitalización de una organización y la formulación inicial de un proyecto utilizando la metodología PMI.\n\nPARTE 1: Análisis del Estado Actual de Digitalización\n\nDeberán realizar un diagnóstico del nivel de digitalización de una empresa real o simulada, analizando cuatr",
+          "seccion": "Evidencias de Aprendizajes"
+        },
+        {
           "nombre": "1er entrega del proyecto ABP - comisión B",
           "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=116006",
           "fecha_entrega": null,
@@ -841,7 +833,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": "/data/files/tecnologia_y_sociedad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-14T12:04:04.151404"
+      "ultima_actualizacion": "2026-05-15T12:06:26.505981"
     }
   ]
 }
