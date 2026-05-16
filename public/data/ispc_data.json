@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-05-15T12:07:14.884425",
+  "generado_el": "2026-05-16T11:14:56.250966",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -62,7 +62,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": "/data/files/ciberseguridad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-15T11:59:44.855621"
+      "ultima_actualizacion": "2026-05-16T11:07:29.926588"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -160,7 +160,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-15T12:00:32.639488"
+      "ultima_actualizacion": "2026-05-16T11:08:15.678772"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -337,7 +337,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-15T12:01:22.181868"
+      "ultima_actualizacion": "2026-05-16T11:09:03.247835"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -399,7 +399,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-15T12:02:45.655126"
+      "ultima_actualizacion": "2026-05-16T11:10:26.913797"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -453,7 +453,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-15T12:03:23.782364"
+      "ultima_actualizacion": "2026-05-16T11:11:04.163603"
     },
     {
       "nombre": "Inglés II",
@@ -484,7 +484,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-15T12:03:55.490815"
+      "ultima_actualizacion": "2026-05-16T11:11:36.518657"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -593,7 +593,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-15T12:04:11.530219"
+      "ultima_actualizacion": "2026-05-16T11:11:51.828922"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -702,7 +702,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-15T12:04:58.580105"
+      "ultima_actualizacion": "2026-05-16T11:12:39.743954"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -712,6 +712,13 @@
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4288",
       "criterios": "• Criterios de evaluación\n• Sistema de Acreditación de Práctica Profesionalizante Anuales\n• Régimen Académico Institucional\n",
       "avisos": [
+        {
+          "titulo": "Avisos",
+          "autor": "Ramiro Adrian CEBALLES",
+          "fecha": "2026-05-15T09:11:17-03:00",
+          "mensaje": "Buen día estudiantes, con la coordinadora en la reunión que tuvimos detectamos muchos CUS desactualizados o a punto de vencer, para realizar las prácticas es obligatorio tenerlo actualizado, por favor regularicen su situación con respecto a eso.\n\nEn otro tema recuerden que las pasantías requieren un seguro que sale de la cooperadora, por favor también regularicen su situación allí, en caso de no poder escriban un mail asi vemos que podemos hacer.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=88404"
+        },
         {
           "titulo": "Avisos",
           "autor": "Ramiro Adrian CEBALLES",
@@ -763,7 +770,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": "/data/files/practica_profesionalizante_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/practica_profesionalizante_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-15T12:05:48.024852"
+      "ultima_actualizacion": "2026-05-16T11:13:28.072246"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -833,7 +840,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": "/data/files/tecnologia_y_sociedad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-15T12:06:26.505981"
+      "ultima_actualizacion": "2026-05-16T11:14:09.116871"
     }
   ]
 }
