@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-05-18T14:00:01.922871",
+  "generado_el": "2026-05-19T12:53:37.869010",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -62,7 +62,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": "/data/files/ciberseguridad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-18T13:52:22.870096"
+      "ultima_actualizacion": "2026-05-19T12:45:41.711058"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -160,7 +160,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-18T13:53:09.662000"
+      "ultima_actualizacion": "2026-05-19T12:46:29.316365"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -183,6 +183,13 @@
           "fecha": "2026-03-12T20:35:47-03:00",
           "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85226"
+        },
+        {
+          "titulo": "Avisos Com A",
+          "autor": "Cynthia CORSO",
+          "fecha": "2026-05-19T07:18:24-03:00",
+          "mensaje": "Estimados/as:\n\nLes informo que ya se encuentran cargadas las calificaciones correspondientes a la Evidencia de Aprendizaje N.º 2.\n\nA modo de aclaración, los grupos que alcanzaron los objetivos propuestos poseen una calificación de 100 puntos (Aprobado), mientras que aquellos que no lograron aprobar la instancia cuentan con una calificación de 20 puntos (No Aprobado).\n\nAsimismo, les comunico que ya se encuentra publicada la instancia de recuperación de esta evidenciade aprendizaje para aquellos estudiantes que necesiten realizarla. La misma tiene vencimiento el viernes 22 de mayo a las 23:55 hs.\n\nSaludos.\nProf. Cynthia Corso.-",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=88542"
         },
         {
           "titulo": "Avisos Com A",
@@ -293,11 +300,19 @@
           "seccion": "Evidencias de Aprendizajes"
         },
         {
-          "nombre": "Entrega Evidencia de Aprendizaje Nro 2 – Limpieza y transformación - COM A",
+          "nombre": "Evidencia de Aprendizaje Nro 2 – Limpieza y transformación - COM A",
           "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=115879",
           "fecha_entrega": "Todavía no se han realizado envíos",
           "estado": "pendiente",
           "descripcion": "Objetivo: preparar los datos.\n\nIncluye:\n\nlimpieza de datos\n\nestandarización\n\ndataset final",
+          "seccion": "Evidencias de Aprendizajes"
+        },
+        {
+          "nombre": "RECUPERATORIO Entrega Evidencia de Aprendizaje Nro 2 – Limpieza y transformación - COM A",
+          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=116537",
+          "fecha_entrega": "Todavía no se han realizado envíos",
+          "estado": "pendiente",
+          "descripcion": "Pautas para la entrega\n\n• Esta entrega debe ser realizada por un solo integrante del grupo.\n\n• Deben presentar esta instancia únicamente aquellos grupos que no realizaron la entrega correspondiente a la semana del 11/05 al 15/05.\n\n• El plazo de entrega es hasta el viernes 22 de mayo a las 23:55 hs.\n\n• En caso de reentrega, tener en cuenta el feedback recibido, incorporando las observaciones señaladas para su corrección o mejora.",
           "seccion": "Evidencias de Aprendizajes"
         },
         {
@@ -309,11 +324,19 @@
           "seccion": "Evidencias de Aprendizajes"
         },
         {
-          "nombre": "Entrega 3 – Análisis exploratorio",
-          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=112920",
+          "nombre": "Evidencia de Aprendizaje Nro 3 – Análisis exploratorio - COM A",
+          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=116538",
           "fecha_entrega": "Todavía no se han realizado envíos",
           "estado": "pendiente",
           "descripcion": "Objetivo: obtener información.\n\nIncluye:\n\nanálisis descriptivo\n\ndetección de patrones\n\nprimeras conclusiones",
+          "seccion": "Evidencias de Aprendizajes"
+        },
+        {
+          "nombre": "Evidencia de Aprendizaje Nro 3 – Análisis exploratorio - COM B",
+          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=112920",
+          "fecha_entrega": null,
+          "estado": "pendiente",
+          "descripcion": "",
           "seccion": "Evidencias de Aprendizajes"
         },
         {
@@ -337,7 +360,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-18T13:53:59.054325"
+      "ultima_actualizacion": "2026-05-19T12:47:20.006939"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -347,6 +370,13 @@
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4289",
       "criterios": "• Criterios de evaluación\n• Sistema de Acreditación - Espacios curriculares Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
+        {
+          "titulo": "Avisos",
+          "autor": "Laura Anahi ZAVIA",
+          "fecha": "2026-05-18T15:19:51-03:00",
+          "mensaje": "Estimad@s estudiantes, les aviso que mañana me sumaré al Módulo FullStack II en su horario pertinente para colaborar en la planificación del proyecto ABP desde mis espacios curriculares. Por esta razón es que no tendrán sincrónico fijado para el día jueves a las 18:20hs. Quedo a disposición.\n\n¡Nos vemos en el Aula!",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=88514"
+        },
         {
           "titulo": "Avisos",
           "autor": "Laura Anahi ZAVIA",
@@ -385,21 +415,13 @@
           "estado": "pendiente",
           "descripcion": "El siguiente cuestionario forma parte de la Evidencia 1 de este espacio curricular.\n\n¡Éxitos para tod@s!",
           "seccion": "Evidencias de Aprendizajes"
-        },
-        {
-          "nombre": "Evidencia de Aprendizaje 2",
-          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=116310",
-          "fecha_entrega": "Este es el intento 1 ( 2 intentos permitidos ).",
-          "estado": "pendiente",
-          "descripcion": "Instancia valorativa nro. 2 sobre los temas desarrollados en el espacio curricular.",
-          "seccion": "Evidencias de Aprendizajes"
         }
       ],
       "materiales": [],
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-18T13:55:25.985085"
+      "ultima_actualizacion": "2026-05-19T12:48:57.925438"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -409,6 +431,13 @@
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4287",
       "criterios": "• Criterios de evaluación\n• Sistema de Acreditación - Espacios Curriculares Anuales\n• Régimen Académico Institucional\n",
       "avisos": [
+        {
+          "titulo": "Avisos",
+          "autor": "Laura Anahi ZAVIA",
+          "fecha": "2026-05-18T15:20:54-03:00",
+          "mensaje": "Estimad@s estudiantes, les aviso que mañana me sumaré al Módulo FullStack II en su horario pertinente para colaborar en la planificación del proyecto ABP desde mis espacios curriculares. Por esta razón es que no tendrán sincrónico fijado para el día jueves a las 19:40hs. Quedo a disposición.\n\n¡Nos vemos en el Aula!",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=88515"
+        },
         {
           "titulo": "Avisos",
           "autor": "Laura Anahi ZAVIA",
@@ -453,7 +482,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-18T13:56:04.822854"
+      "ultima_actualizacion": "2026-05-19T12:49:36.806994"
     },
     {
       "nombre": "Inglés II",
@@ -484,7 +513,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-18T13:56:38.948312"
+      "ultima_actualizacion": "2026-05-19T12:50:13.261156"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -593,7 +622,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-18T13:56:54.396234"
+      "ultima_actualizacion": "2026-05-19T12:50:29.767192"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -702,7 +731,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-18T13:57:43.495769"
+      "ultima_actualizacion": "2026-05-19T12:51:18.144274"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -770,7 +799,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": "/data/files/practica_profesionalizante_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/practica_profesionalizante_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-18T13:58:32.587738"
+      "ultima_actualizacion": "2026-05-19T12:52:07.295791"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -840,7 +869,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": "/data/files/tecnologia_y_sociedad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-18T13:59:13.724406"
+      "ultima_actualizacion": "2026-05-19T12:52:48.125485"
     }
   ]
 }
