@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-05-19T12:53:37.869010",
+  "generado_el": "2026-05-20T12:39:54.999689",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -62,7 +62,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": "/data/files/ciberseguridad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-19T12:45:41.711058"
+      "ultima_actualizacion": "2026-05-20T12:31:53.587512"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -160,7 +160,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-19T12:46:29.316365"
+      "ultima_actualizacion": "2026-05-20T12:32:40.921487"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -360,7 +360,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-19T12:47:20.006939"
+      "ultima_actualizacion": "2026-05-20T12:33:30.698642"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -415,13 +415,21 @@
           "estado": "pendiente",
           "descripcion": "El siguiente cuestionario forma parte de la Evidencia 1 de este espacio curricular.\n\n¡Éxitos para tod@s!",
           "seccion": "Evidencias de Aprendizajes"
+        },
+        {
+          "nombre": "Evidencia 2: Primera entrega Proyecto ABP - Sprint 0",
+          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=116558",
+          "fecha_entrega": "Todavía no se han realizado envíos",
+          "estado": "pendiente",
+          "descripcion": "Estudiantes, en este sector un integrante de cada equipo deberá agregar el enlace a la primera entrega del proyecto.",
+          "seccion": "Evidencias de Aprendizajes"
         }
       ],
       "materiales": [],
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-19T12:48:57.925438"
+      "ultima_actualizacion": "2026-05-20T12:35:10.566284"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -470,11 +478,11 @@
       "unidades": [],
       "tareas": [
         {
-          "nombre": "Evidencia de Aprendizaje 2",
-          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=116312",
-          "fecha_entrega": "Este es el intento 1 ( 2 intentos permitidos ).",
+          "nombre": "Evidencia de Aprendizaje 2 - Sprint 0",
+          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=116572",
+          "fecha_entrega": "Todavía no se han realizado envíos",
           "estado": "pendiente",
-          "descripcion": "Instancia valorativa de los temas desarrollados en el espacio curricular.",
+          "descripcion": "Estudiantes, en este sector un integrante de cada equipo deberá agregar el enlace a la primera entrega del proyecto de ABP.",
           "seccion": "Evidencias de Aprendizaje"
         }
       ],
@@ -482,7 +490,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-19T12:49:36.806994"
+      "ultima_actualizacion": "2026-05-20T12:35:54.235557"
     },
     {
       "nombre": "Inglés II",
@@ -513,7 +521,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-19T12:50:13.261156"
+      "ultima_actualizacion": "2026-05-20T12:36:32.728814"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -622,7 +630,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-19T12:50:29.767192"
+      "ultima_actualizacion": "2026-05-20T12:36:48.463671"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -731,7 +739,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-19T12:51:18.144274"
+      "ultima_actualizacion": "2026-05-20T12:37:36.833401"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -799,7 +807,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": "/data/files/practica_profesionalizante_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/practica_profesionalizante_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-19T12:52:07.295791"
+      "ultima_actualizacion": "2026-05-20T12:38:25.920547"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -869,7 +877,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": "/data/files/tecnologia_y_sociedad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-19T12:52:48.125485"
+      "ultima_actualizacion": "2026-05-20T12:39:06.045568"
     }
   ]
 }
