@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-05-20T12:39:54.999689",
+  "generado_el": "2026-05-21T12:57:50.218948",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -56,13 +56,21 @@
           "estado": "pendiente",
           "descripcion": "Este cuestionario corresponde a la Evidencia 2 y constituye un requisito indispensable para formalizar la entrega del proyecto.\n\nDebe completar el cuestionario únicamente el responsable del equipo, en representación de todos, cargando los datos, Número de grupo, Comisión, Integrantes del grupo y el link del mismo, garantizando que la información esté completa, precisa y actualizada. Recuerden que deben hacerlo inmediatamente, luego de subir el documento a Drive.  Muchas Suerte! Carolina",
           "seccion": "Evidencias de Aprendizajes"
+        },
+        {
+          "nombre": "Cuestionario - Tercera Evidencia",
+          "url": "https://acceso.ispc.edu.ar/mod/quiz/view.php?id=116607",
+          "fecha_entrega": null,
+          "estado": "pendiente",
+          "descripcion": "Este cuestionario corresponde a la Evidencia 3 y constituye un requisito indispensable para formalizar la entrega del proyecto.\n\nDebe completar el cuestionario únicamente el responsable del equipo, en representación de todos, cargando los datos, Número de grupo, Comisión, Integrantes del grupo y el link del mismo, garantizando que la información esté completa, precisa y actualizada. Recuerden que deben hacerlo inmediatamente, luego de subir el documento a Drive.  Muchas Suerte! Carolina",
+          "seccion": "Evidencias de Aprendizajes"
         }
       ],
       "materiales": [],
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": "/data/files/ciberseguridad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-20T12:31:53.587512"
+      "ultima_actualizacion": "2026-05-21T12:49:23.850976"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -160,7 +168,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-20T12:32:40.921487"
+      "ultima_actualizacion": "2026-05-21T12:50:17.073196"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -360,7 +368,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-20T12:33:30.698642"
+      "ultima_actualizacion": "2026-05-21T12:51:09.401131"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -429,7 +437,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-20T12:35:10.566284"
+      "ultima_actualizacion": "2026-05-21T12:52:49.322406"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -490,7 +498,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-20T12:35:54.235557"
+      "ultima_actualizacion": "2026-05-21T12:53:33.734394"
     },
     {
       "nombre": "Inglés II",
@@ -521,7 +529,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-20T12:36:32.728814"
+      "ultima_actualizacion": "2026-05-21T12:54:12.403106"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -630,7 +638,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-20T12:36:48.463671"
+      "ultima_actualizacion": "2026-05-21T12:54:29.191657"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -739,7 +747,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-20T12:37:36.833401"
+      "ultima_actualizacion": "2026-05-21T12:55:19.906491"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -807,7 +815,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": "/data/files/practica_profesionalizante_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/practica_profesionalizante_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-20T12:38:25.920547"
+      "ultima_actualizacion": "2026-05-21T12:56:10.741057"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -865,8 +873,16 @@
           "seccion": "Evidencias de Aprendizajes"
         },
         {
-          "nombre": "1er entrega del proyecto ABP - comisión B",
-          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=116006",
+          "nombre": "EVIDENCIA DE APRENDIZAJE NRO 2 PARTE B 260626 COMISION A",
+          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=116595",
+          "fecha_entrega": "Todavía no se han realizado envíos",
+          "estado": "pendiente",
+          "descripcion": "Evidencia de Aprendizaje N°2 — Tecnología y Sociedad\n\n Buenas tardes!\n\nEn esta segunda evidencia vamos a dar un paso más sobre el trabajo que ya vienen desarrollando. Tomando como base el caso de empresa que cada grupo eligió y presentó en clase, les propongo que ahora lo miren con otros ojos: los de la Inteligencia Artificial.\n\nLa consigna es la siguiente: a partir del proyecto de empresa que están trabajando, identifiquen en qué áreas, procesos o tareas concretas podrían incorporar IA para mej",
+          "seccion": "Evidencias de Aprendizajes"
+        },
+        {
+          "nombre": "RECUPERATORIO 1er entrega del proyecto ABP - comisión B",
+          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=116591",
           "fecha_entrega": null,
           "estado": "pendiente",
           "descripcion": "",
@@ -877,7 +893,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": "/data/files/tecnologia_y_sociedad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-20T12:39:06.045568"
+      "ultima_actualizacion": "2026-05-21T12:56:53.225276"
     }
   ]
 }
