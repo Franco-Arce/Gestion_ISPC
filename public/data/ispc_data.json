@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-05-22T12:34:38.394191",
+  "generado_el": "2026-05-23T11:25:25.971350",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -70,7 +70,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": "/data/files/ciberseguridad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-22T12:27:00.415785"
+      "ultima_actualizacion": "2026-05-23T11:17:44.952511"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -168,7 +168,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-22T12:27:48.829773"
+      "ultima_actualizacion": "2026-05-23T11:18:33.527389"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -191,6 +191,13 @@
           "fecha": "2026-03-12T20:35:47-03:00",
           "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85226"
+        },
+        {
+          "titulo": "Avisos Com A",
+          "autor": "Cynthia CORSO",
+          "fecha": "2026-05-22T10:47:11-03:00",
+          "mensaje": "Buen día.\n\nComparto el link del archivo para que puedan completar los horarios correspondientes a las exposiciones de ABP:\n\nhttps://docs.google.com/spreadsheets/d/1Qh80zpYPqWfC919KwcWMp9psC2-wTCH6/edit?usp=sharing&ouid=109827500395267326835&rtpof=true&sd=true\n\nLes solicito, por favor, realizar la carga a la brevedad posible.\n\nAnte cualquier consulta, quedo a disposición.\n\nGracias.\nSaludos.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=88700"
         },
         {
           "titulo": "Avisos Com A",
@@ -368,7 +375,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-22T12:28:35.814255"
+      "ultima_actualizacion": "2026-05-23T11:19:20.664901"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -437,7 +444,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-22T12:30:07.853606"
+      "ultima_actualizacion": "2026-05-23T11:20:54.457510"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -498,7 +505,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-22T12:30:48.773566"
+      "ultima_actualizacion": "2026-05-23T11:21:35.774453"
     },
     {
       "nombre": "Inglés II",
@@ -529,7 +536,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-22T12:31:24.259913"
+      "ultima_actualizacion": "2026-05-23T11:22:11.536447"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -638,7 +645,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-22T12:31:38.867734"
+      "ultima_actualizacion": "2026-05-23T11:22:26.582422"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -747,7 +754,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-22T12:32:24.521161"
+      "ultima_actualizacion": "2026-05-23T11:23:11.201486"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -815,7 +822,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": "/data/files/practica_profesionalizante_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/practica_profesionalizante_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-22T12:33:09.864039"
+      "ultima_actualizacion": "2026-05-23T11:23:55.695032"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -893,7 +900,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": "/data/files/tecnologia_y_sociedad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-22T12:33:47.773773"
+      "ultima_actualizacion": "2026-05-23T11:24:34.867785"
     }
   ]
 }
