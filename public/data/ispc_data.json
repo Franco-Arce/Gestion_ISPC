@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-05-25T13:41:59.777210",
+  "generado_el": "2026-05-27T13:05:33.842434",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -70,7 +70,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": "/data/files/ciberseguridad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-25T13:33:57.649408"
+      "ultima_actualizacion": "2026-05-27T12:57:20.344567"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -168,7 +168,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-25T13:34:50.049252"
+      "ultima_actualizacion": "2026-05-27T12:58:10.617230"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -343,7 +343,7 @@
           "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=116538",
           "fecha_entrega": "Todavía no se han realizado envíos",
           "estado": "pendiente",
-          "descripcion": "Objetivo: obtener información.\n\nIncluye:\n\nanálisis descriptivo\n\ndetección de patrones\n\nprimeras conclusiones",
+          "descripcion": "Objetivo: obtener información.\n\nIncluye:\n\nanálisis descriptivo\n\ndetección de patrones\n\nprimeras conclusiones\n\nPautas para la entrega\n\n• Esta entrega debe ser realizada por un solo integrante del grupo. El archivo deberá renombrarse con el número de grupo correspondiente (por ejemplo: Grupo3.pdf).\n\n• El plazo de entrega es hasta el viernes 05 de junio a las 23:55 hs.\n\n• No se aceptarán en el contenido del archivo de entrga links a Google Colab ni enlaces externos de ningún tipo. El incumplimiento",
           "seccion": "Evidencias de Aprendizajes"
         },
         {
@@ -375,7 +375,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-25T13:35:40.233588"
+      "ultima_actualizacion": "2026-05-27T12:58:58.807537"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -385,6 +385,13 @@
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4289",
       "criterios": "• Criterios de evaluación\n• Sistema de Acreditación - Espacios curriculares Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
+        {
+          "titulo": "Avisos",
+          "autor": "Laura Anahi ZAVIA",
+          "fecha": "2026-05-26T19:48:36-03:00",
+          "mensaje": "Estimad@s estudiantes, les aviso que estoy en el Módulo FullStack II en su horario pertinente. Por lo cual no tendrán sincrónico fijado para el día jueves a las 19:40hs. Quedo a disposición.\n\n¡Nos vemos en el Aula!",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=88787"
+        },
         {
           "titulo": "Avisos",
           "autor": "Laura Anahi ZAVIA",
@@ -444,7 +451,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-25T13:37:18.495146"
+      "ultima_actualizacion": "2026-05-27T13:00:37.540803"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -454,6 +461,13 @@
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4287",
       "criterios": "• Criterios de evaluación\n• Sistema de Acreditación - Espacios Curriculares Anuales\n• Régimen Académico Institucional\n",
       "avisos": [
+        {
+          "titulo": "Avisos",
+          "autor": "Laura Anahi ZAVIA",
+          "fecha": "2026-05-26T19:49:33-03:00",
+          "mensaje": "Estimad@s estudiantes, les aviso que estoy en el Módulo FullStack II en su horario pertinente. Por lo cual no tendrán sincrónico fijado para el día jueves a las 18:20hs. Quedo a disposición.\n\n¡Nos vemos en el Aula!",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=88788"
+        },
         {
           "titulo": "Avisos",
           "autor": "Laura Anahi ZAVIA",
@@ -505,7 +519,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-25T13:37:59.925608"
+      "ultima_actualizacion": "2026-05-27T13:01:22.898521"
     },
     {
       "nombre": "Inglés II",
@@ -536,7 +550,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-25T13:38:36.914078"
+      "ultima_actualizacion": "2026-05-27T13:02:01.751719"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -645,7 +659,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-25T13:38:52.005064"
+      "ultima_actualizacion": "2026-05-27T13:02:18.483209"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -754,7 +768,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-25T13:39:39.390407"
+      "ultima_actualizacion": "2026-05-27T13:03:04.786808"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -764,6 +778,13 @@
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4288",
       "criterios": "• Criterios de evaluación\n• Sistema de Acreditación de Práctica Profesionalizante Anuales\n• Régimen Académico Institucional\n",
       "avisos": [
+        {
+          "titulo": "Avisos",
+          "autor": "Ramiro Adrian CEBALLES",
+          "fecha": "2026-05-26T19:57:17-03:00",
+          "mensaje": "Buenas noches estudiantes, se me paso totalmente generar la evidencia para el día de hoy. Ya está cargada y da comienzo el día de mañana miércoles 27/05/2026 desde las 00:00 hasta las 23:59.\n\nLos temas son los vistos en los sincrónicos: Proceso de selección y entrevistas, CV profesional y ATS, Freelance: plataformas y presupuestación y Marco normativo, contratos y monotributo.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=88791"
+        },
         {
           "titulo": "Avisos",
           "autor": "Ramiro Adrian CEBALLES",
@@ -816,13 +837,21 @@
           "estado": "pendiente",
           "descripcion": "Su calificación final en este cuestionario es 9,67/10,00.",
           "seccion": "Evidencias de Aprendizaje"
+        },
+        {
+          "nombre": "Evidencia de aprendizaje número dos",
+          "url": "https://acceso.ispc.edu.ar/mod/quiz/view.php?id=116796",
+          "fecha_entrega": null,
+          "estado": "pendiente",
+          "descripcion": "",
+          "seccion": "Evidencias de Aprendizaje"
         }
       ],
       "materiales": [],
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": "/data/files/practica_profesionalizante_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/practica_profesionalizante_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-25T13:40:27.351045"
+      "ultima_actualizacion": "2026-05-27T13:03:52.627236"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -900,7 +929,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": "/data/files/tecnologia_y_sociedad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-25T13:41:06.859764"
+      "ultima_actualizacion": "2026-05-27T13:04:39.969814"
     }
   ]
 }
