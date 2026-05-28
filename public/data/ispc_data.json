@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-05-27T13:05:33.842434",
+  "generado_el": "2026-05-28T14:05:48.190506",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -70,7 +70,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": "/data/files/ciberseguridad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-27T12:57:20.344567"
+      "ultima_actualizacion": "2026-05-28T13:57:31.217932"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -168,7 +168,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-27T12:58:10.617230"
+      "ultima_actualizacion": "2026-05-28T13:58:22.321440"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -375,7 +375,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-27T12:58:58.807537"
+      "ultima_actualizacion": "2026-05-28T13:59:11.274349"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -451,7 +451,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-27T13:00:37.540803"
+      "ultima_actualizacion": "2026-05-28T14:00:51.809638"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -519,7 +519,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-27T13:01:22.898521"
+      "ultima_actualizacion": "2026-05-28T14:01:37.168415"
     },
     {
       "nombre": "Inglés II",
@@ -550,7 +550,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-27T13:02:01.751719"
+      "ultima_actualizacion": "2026-05-28T14:02:17.083178"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -659,7 +659,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-27T13:02:18.483209"
+      "ultima_actualizacion": "2026-05-28T14:02:32.591961"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -768,7 +768,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-27T13:03:04.786808"
+      "ultima_actualizacion": "2026-05-28T14:03:20.795171"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -843,7 +843,7 @@
           "url": "https://acceso.ispc.edu.ar/mod/quiz/view.php?id=116796",
           "fecha_entrega": null,
           "estado": "pendiente",
-          "descripcion": "",
+          "descripcion": "Su calificación final en este cuestionario es 10,00/10,00.",
           "seccion": "Evidencias de Aprendizaje"
         }
       ],
@@ -851,7 +851,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": "/data/files/practica_profesionalizante_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/practica_profesionalizante_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-05-27T13:03:52.627236"
+      "ultima_actualizacion": "2026-05-28T14:04:09.094926"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -867,6 +867,13 @@
           "fecha": "2026-03-12T20:45:39-03:00",
           "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85228"
+        },
+        {
+          "titulo": "Avisos Com A",
+          "autor": "Ana FARIAS",
+          "fecha": "2026-05-27T14:26:46-03:00",
+          "mensaje": "Estimados/as alumnos/as:\n\nLes comparto el siguiente enlace de Google Drive donde podrán visualizar y controlar el registro de asistencia correspondiente a la materia Tecnología y Sociedad – Comisión A:\n\nhttps://drive.google.com/drive/folders/1HE5rOiT_RU7stoxjyxoR8rdv3QN7ch40?usp=sharing\n\nLes pido que revisen sus asistencias y, en caso de detectar alguna inconsistencia, me lo comuniquen a la brevedad respondiendo a este correo.\n\nSaludos cordiales,\nProf ana g. farias",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=88823"
         },
         {
           "titulo": "Avisos Com A",
@@ -915,21 +922,13 @@
           "estado": "pendiente",
           "descripcion": "Evidencia de Aprendizaje N°2 — Tecnología y Sociedad\n\n Buenas tardes!\n\nEn esta segunda evidencia vamos a dar un paso más sobre el trabajo que ya vienen desarrollando. Tomando como base el caso de empresa que cada grupo eligió y presentó en clase, les propongo que ahora lo miren con otros ojos: los de la Inteligencia Artificial.\n\nLa consigna es la siguiente: a partir del proyecto de empresa que están trabajando, identifiquen en qué áreas, procesos o tareas concretas podrían incorporar IA para mej",
           "seccion": "Evidencias de Aprendizajes"
-        },
-        {
-          "nombre": "RECUPERATORIO 1er entrega del proyecto ABP - comisión B",
-          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=116591",
-          "fecha_entrega": null,
-          "estado": "pendiente",
-          "descripcion": "",
-          "seccion": "Proyecto ABP"
         }
       ],
       "materiales": [],
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": "/data/files/tecnologia_y_sociedad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-05-27T13:04:39.969814"
+      "ultima_actualizacion": "2026-05-28T14:04:56.639202"
     }
   ]
 }
