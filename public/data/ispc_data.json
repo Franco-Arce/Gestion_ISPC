@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-06-01T16:19:54.289049",
+  "generado_el": "2026-06-02T14:21:56.300614",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -70,7 +70,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": "/data/files/ciberseguridad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-01T16:10:42.729199"
+      "ultima_actualizacion": "2026-06-02T14:12:23.852174"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -168,7 +168,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-01T16:11:43.395958"
+      "ultima_actualizacion": "2026-06-02T14:13:21.202849"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -375,7 +375,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-01T16:12:42.557390"
+      "ultima_actualizacion": "2026-06-02T14:14:13.835619"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -451,7 +451,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-01T16:14:28.474922"
+      "ultima_actualizacion": "2026-06-02T14:16:05.563134"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -519,7 +519,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-01T16:15:20.434185"
+      "ultima_actualizacion": "2026-06-02T14:16:54.648164"
     },
     {
       "nombre": "Inglés II",
@@ -550,7 +550,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-06-01T16:16:00.945496"
+      "ultima_actualizacion": "2026-06-02T14:17:38.532684"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -560,6 +560,13 @@
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4268",
       "criterios": "• Criterios de evaluación\n• Sistema de Acreditación Módulos Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
+        {
+          "titulo": "Avisos",
+          "autor": "Yamil SALOMON",
+          "fecha": "2026-06-01T23:14:33-03:00",
+          "mensaje": "Tal como lo comentamos en clase, les subimos por aqui los temas tratados:\n\nVamos a subir las notas del EA2 a la brevedad\nLa semana que viene tenemos la Defensa de los trabajos. Los trabajos deben contener\nEA2 (con correcciones) +\nEA3 (punto 3 y 4 de la notebook) +\nPoster\nSe pondrá la nota del EA3 (aprobado o no aprobado) en función de la Nota del trabajo final (#Numerica)\nDEFENSA DE TRABAJOS\nLunes 08/06: desde las 18 hs.\nViernes 12/06: desde las 20 hs.\n\nComunicaremos los grupos y horarios en una planilla asi se presentan en esa hora.\n\nCOLOQUIO: Lunes 22/06: desde18:00 hs.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=89029"
+        },
         {
           "titulo": "Avisos",
           "autor": "Yamil SALOMON",
@@ -612,9 +619,9 @@
         {
           "titulo": "Avisos Com B",
           "autor": "Yamil SALOMON",
-          "fecha": "2026-06-01T10:44:47-03:00",
-          "mensaje": "Estimados estudiantes de Analista de Datos I:\nEsta semana retomaremos las clases.\nNos vemos esta tarde con la COM B.\nSaludos.\nProf. Yamil Salomon",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=89003"
+          "fecha": "2026-06-01T23:14:33-03:00",
+          "mensaje": "Tal como lo comentamos en clase, les subimos por aqui los temas tratados:\n\nVamos a subir las notas del EA2 a la brevedad\nLa semana que viene tenemos la Defensa de los trabajos. Los trabajos deben contener\nEA2 (con correcciones) +\nEA3 (punto 3 y 4 de la notebook) +\nPoster\nSe pondrá la nota del EA3 (aprobado o no aprobado) en función de la Nota del trabajo final (#Numerica)\nDEFENSA DE TRABAJOS\nLunes 08/06: desde las 18 hs.\nViernes 12/06: desde las 20 hs.\n\nComunicaremos los grupos y horarios en una planilla asi se presentan en esa hora.\n\nCOLOQUIO: Lunes 22/06: desde18:00 hs.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=89029"
         }
       ],
       "unidades": [
@@ -673,7 +680,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-06-01T16:16:18.610194"
+      "ultima_actualizacion": "2026-06-02T14:17:56.425848"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -683,6 +690,13 @@
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4268",
       "criterios": "• Criterios de evaluación\n• Sistema de Acreditación Módulos Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
+        {
+          "titulo": "Avisos",
+          "autor": "Yamil SALOMON",
+          "fecha": "2026-06-01T23:14:33-03:00",
+          "mensaje": "Tal como lo comentamos en clase, les subimos por aqui los temas tratados:\n\nVamos a subir las notas del EA2 a la brevedad\nLa semana que viene tenemos la Defensa de los trabajos. Los trabajos deben contener\nEA2 (con correcciones) +\nEA3 (punto 3 y 4 de la notebook) +\nPoster\nSe pondrá la nota del EA3 (aprobado o no aprobado) en función de la Nota del trabajo final (#Numerica)\nDEFENSA DE TRABAJOS\nLunes 08/06: desde las 18 hs.\nViernes 12/06: desde las 20 hs.\n\nComunicaremos los grupos y horarios en una planilla asi se presentan en esa hora.\n\nCOLOQUIO: Lunes 22/06: desde18:00 hs.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=89029"
+        },
         {
           "titulo": "Avisos",
           "autor": "Yamil SALOMON",
@@ -735,9 +749,9 @@
         {
           "titulo": "Avisos Com B",
           "autor": "Yamil SALOMON",
-          "fecha": "2026-06-01T10:44:47-03:00",
-          "mensaje": "Estimados estudiantes de Analista de Datos I:\nEsta semana retomaremos las clases.\nNos vemos esta tarde con la COM B.\nSaludos.\nProf. Yamil Salomon",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=89003"
+          "fecha": "2026-06-01T23:14:33-03:00",
+          "mensaje": "Tal como lo comentamos en clase, les subimos por aqui los temas tratados:\n\nVamos a subir las notas del EA2 a la brevedad\nLa semana que viene tenemos la Defensa de los trabajos. Los trabajos deben contener\nEA2 (con correcciones) +\nEA3 (punto 3 y 4 de la notebook) +\nPoster\nSe pondrá la nota del EA3 (aprobado o no aprobado) en función de la Nota del trabajo final (#Numerica)\nDEFENSA DE TRABAJOS\nLunes 08/06: desde las 18 hs.\nViernes 12/06: desde las 20 hs.\n\nComunicaremos los grupos y horarios en una planilla asi se presentan en esa hora.\n\nCOLOQUIO: Lunes 22/06: desde18:00 hs.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=89029"
         }
       ],
       "unidades": [
@@ -796,7 +810,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-06-01T16:17:12.352965"
+      "ultima_actualizacion": "2026-06-02T14:19:01.232478"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -879,7 +893,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": "/data/files/practica_profesionalizante_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/practica_profesionalizante_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-06-01T16:18:10.417284"
+      "ultima_actualizacion": "2026-06-02T14:20:01.124632"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -950,13 +964,21 @@
           "estado": "pendiente",
           "descripcion": "Evidencia de Aprendizaje N°2 — Tecnología y Sociedad\n\n Buenas tardes!\n\nEn esta segunda evidencia vamos a dar un paso más sobre el trabajo que ya vienen desarrollando. Tomando como base el caso de empresa que cada grupo eligió y presentó en clase, les propongo que ahora lo miren con otros ojos: los de la Inteligencia Artificial.\n\nLa consigna es la siguiente: a partir del proyecto de empresa que están trabajando, identifiquen en qué áreas, procesos o tareas concretas podrían incorporar IA para mej",
           "seccion": "Evidencias de Aprendizajes"
+        },
+        {
+          "nombre": "Entrega FINAL del proyecto ABP - comisión B",
+          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=116855",
+          "fecha_entrega": null,
+          "estado": "pendiente",
+          "descripcion": "",
+          "seccion": "Proyecto ABP"
         }
       ],
       "materiales": [],
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": "/data/files/tecnologia_y_sociedad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-01T16:19:00.823951"
+      "ultima_actualizacion": "2026-06-02T14:20:54.374444"
     }
   ]
 }
