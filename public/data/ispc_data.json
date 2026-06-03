@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-06-02T14:21:56.300614",
+  "generado_el": "2026-06-03T14:58:43.274440",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -70,7 +70,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": "/data/files/ciberseguridad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-02T14:12:23.852174"
+      "ultima_actualizacion": "2026-06-03T14:48:37.420741"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -168,7 +168,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-02T14:13:21.202849"
+      "ultima_actualizacion": "2026-06-03T14:49:36.082859"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -191,6 +191,13 @@
           "fecha": "2026-03-12T20:35:47-03:00",
           "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85226"
+        },
+        {
+          "titulo": "Avisos Com A",
+          "autor": "Cynthia CORSO",
+          "fecha": "2026-06-03T09:40:49-03:00",
+          "mensaje": "Estimados/as estudiantes:\n\nLes informo que el encuentro sincrónico del día 03/06 se desarrollará con normalidad, en el horario habitual.\n\nEste espacio estará destinado al cierre e integración de los contenidos trabajados durante el módulo, así como a la atención de consultas y dudas que consideren necesarias de cara a las próximas instancias de evaluación.\n\nLos espero para compartir este último encuentro y acompañarlos en la preparación de las actividades evaluativas.\n\nSaludos cordiales.\n\nProf. Corso Cynthia",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=89081"
         },
         {
           "titulo": "Avisos Com A",
@@ -339,7 +346,7 @@
           "seccion": "Evidencias de Aprendizajes"
         },
         {
-          "nombre": "Evidencia de Aprendizaje Nro 3 – Análisis exploratorio - COM A",
+          "nombre": "Evidencia de Aprendizaje Nro 3 - Informe final -Análisis exploratorio - COM A",
           "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=116538",
           "fecha_entrega": "Todavía no se han realizado envíos",
           "estado": "pendiente",
@@ -375,7 +382,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-02T14:14:13.835619"
+      "ultima_actualizacion": "2026-06-03T14:50:32.566337"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -445,13 +452,21 @@
           "estado": "pendiente",
           "descripcion": "Estudiantes, en este sector un integrante de cada equipo deberá agregar el enlace a la primera entrega del proyecto.",
           "seccion": "Evidencias de Aprendizajes"
+        },
+        {
+          "nombre": "Evidencia 3: Segunda entrega Proyecto ABP",
+          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=117083",
+          "fecha_entrega": "Todavía no se han realizado envíos",
+          "estado": "pendiente",
+          "descripcion": "Estudiantes, en este sector les pido que un solo integrante por equipo comparta enlace al documento de trabajo para ser valorado.",
+          "seccion": "Evidencias de Aprendizajes"
         }
       ],
       "materiales": [],
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-02T14:16:05.563134"
+      "ultima_actualizacion": "2026-06-03T14:52:24.712284"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -513,13 +528,21 @@
           "estado": "pendiente",
           "descripcion": "Estudiantes, en este sector un integrante de cada equipo deberá agregar el enlace a la primera entrega del proyecto de ABP.",
           "seccion": "Evidencias de Aprendizaje"
+        },
+        {
+          "nombre": "Evidencia 3: Sprint 1",
+          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=117084",
+          "fecha_entrega": "Todavía no se han realizado envíos",
+          "estado": "pendiente",
+          "descripcion": "Estudiantes, en este sector les pido que un integrante por equipo comparta enlace al documento de trabajo para realizar su valoración.",
+          "seccion": "Evidencias de Aprendizaje"
         }
       ],
       "materiales": [],
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-02T14:16:54.648164"
+      "ultima_actualizacion": "2026-06-03T14:53:24.580449"
     },
     {
       "nombre": "Inglés II",
@@ -550,7 +573,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-06-02T14:17:38.532684"
+      "ultima_actualizacion": "2026-06-03T14:54:15.454854"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -615,13 +638,6 @@
           "fecha": "2026-03-12T20:40:46-03:00",
           "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85227"
-        },
-        {
-          "titulo": "Avisos Com B",
-          "autor": "Yamil SALOMON",
-          "fecha": "2026-06-01T23:14:33-03:00",
-          "mensaje": "Tal como lo comentamos en clase, les subimos por aqui los temas tratados:\n\nVamos a subir las notas del EA2 a la brevedad\nLa semana que viene tenemos la Defensa de los trabajos. Los trabajos deben contener\nEA2 (con correcciones) +\nEA3 (punto 3 y 4 de la notebook) +\nPoster\nSe pondrá la nota del EA3 (aprobado o no aprobado) en función de la Nota del trabajo final (#Numerica)\nDEFENSA DE TRABAJOS\nLunes 08/06: desde las 18 hs.\nViernes 12/06: desde las 20 hs.\n\nComunicaremos los grupos y horarios en una planilla asi se presentan en esa hora.\n\nCOLOQUIO: Lunes 22/06: desde18:00 hs.",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=89029"
         }
       ],
       "unidades": [
@@ -680,7 +696,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-06-02T14:17:56.425848"
+      "ultima_actualizacion": "2026-06-03T14:54:34.245370"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -745,13 +761,6 @@
           "fecha": "2026-03-12T20:40:46-03:00",
           "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85227"
-        },
-        {
-          "titulo": "Avisos Com B",
-          "autor": "Yamil SALOMON",
-          "fecha": "2026-06-01T23:14:33-03:00",
-          "mensaje": "Tal como lo comentamos en clase, les subimos por aqui los temas tratados:\n\nVamos a subir las notas del EA2 a la brevedad\nLa semana que viene tenemos la Defensa de los trabajos. Los trabajos deben contener\nEA2 (con correcciones) +\nEA3 (punto 3 y 4 de la notebook) +\nPoster\nSe pondrá la nota del EA3 (aprobado o no aprobado) en función de la Nota del trabajo final (#Numerica)\nDEFENSA DE TRABAJOS\nLunes 08/06: desde las 18 hs.\nViernes 12/06: desde las 20 hs.\n\nComunicaremos los grupos y horarios en una planilla asi se presentan en esa hora.\n\nCOLOQUIO: Lunes 22/06: desde18:00 hs.",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=89029"
         }
       ],
       "unidades": [
@@ -810,7 +819,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-06-02T14:19:01.232478"
+      "ultima_actualizacion": "2026-06-03T14:55:35.895461"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -820,6 +829,13 @@
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4288",
       "criterios": "• Criterios de evaluación\n• Sistema de Acreditación de Práctica Profesionalizante Anuales\n• Régimen Académico Institucional\n",
       "avisos": [
+        {
+          "titulo": "Avisos",
+          "autor": "Ramiro Adrian CEBALLES",
+          "fecha": "2026-06-03T09:46:37-03:00",
+          "mensaje": "En el día de hoy se convoca a la marcha #NiUnaMenos.\nEn virtud de lo dispuesto en el Memo N.° 7/2026 del Ministerio de Educación, se autoriza el retiro a partir de las 16:00 h para quienes deseen participar de la movilización, prevista para las 18:00 h.\n\nDado ese memo del ministerio de educación, suspendemos la clase sincrónica para aquellas personas que quieras movilizarse en el reclamo de justicia por Agostina.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=89083"
+        },
         {
           "titulo": "Avisos",
           "autor": "Ramiro Adrian CEBALLES",
@@ -893,7 +909,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": "/data/files/practica_profesionalizante_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/practica_profesionalizante_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-06-02T14:20:01.124632"
+      "ultima_actualizacion": "2026-06-03T14:56:38.742680"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -978,7 +994,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": "/data/files/tecnologia_y_sociedad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-02T14:20:54.374444"
+      "ultima_actualizacion": "2026-06-03T14:57:38.565432"
     }
   ]
 }
