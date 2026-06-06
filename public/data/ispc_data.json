@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-06-05T12:51:47.149519",
+  "generado_el": "2026-06-06T11:47:53.351864",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -70,7 +70,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": "/data/files/ciberseguridad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-05T12:42:59.979835"
+      "ultima_actualizacion": "2026-06-06T11:38:54.428520"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -167,7 +167,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-05T12:43:51.016875"
+      "ultima_actualizacion": "2026-06-06T11:39:45.390939"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -355,7 +355,7 @@
           "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=112919",
           "fecha_entrega": null,
           "estado": "pendiente",
-          "descripcion": "",
+          "descripcion": "Me ayuda mucho para mejorar en los próximos cuatrimestres. Es anónima. Muchas gracias.",
           "seccion": "Evidencias de Aprendizajes"
         },
         {
@@ -371,7 +371,7 @@
           "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=112920",
           "fecha_entrega": null,
           "estado": "pendiente",
-          "descripcion": "",
+          "descripcion": "Me ayuda mucho para mejorar en los próximos cuatrimestres. Es anónima. Muchas gracias.",
           "seccion": "Evidencias de Aprendizajes"
         },
         {
@@ -395,7 +395,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-05T12:44:37.916831"
+      "ultima_actualizacion": "2026-06-06T11:40:32.575028"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -479,7 +479,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-05T12:46:24.084091"
+      "ultima_actualizacion": "2026-06-06T11:42:18.687477"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -555,7 +555,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-05T12:47:13.740127"
+      "ultima_actualizacion": "2026-06-06T11:43:09.116906"
     },
     {
       "nombre": "Inglés II",
@@ -586,7 +586,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-06-05T12:47:57.434054"
+      "ultima_actualizacion": "2026-06-06T11:43:52.976136"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -596,6 +596,13 @@
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4268",
       "criterios": "• Criterios de evaluación\n• Sistema de Acreditación Módulos Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
+        {
+          "titulo": "Avisos",
+          "autor": "Yamil SALOMON",
+          "fecha": "2026-06-05T23:13:00-03:00",
+          "mensaje": "Estimados alumnos de Analista de Datos I, les hacemos llegar las siguientes fechas\n\nDEFENSAS DE LOS TRABAJOS:\n\n-          COM B: lunes 08/06/2026, 18:00 hs. (Prof. Yamil Salomon y Prof. Nahuel Pratta)\n-          COM A: martes 09/06/2026 15:40 hs (Prof. Milagro Teruel y Prof. Nahuel Pratta)\n-          COM B: viernes 12/06/2026, 20:00 hs. à en caso de que queden grupos pendientes del lunes (Prof. Yamil Salomon y Prof. Nahuel Pratta)\n\nRecuerden armar una carpeta dentro del drive “Trabajo Final” y dejar en el mismo:\n\n-          Poster\n-          Notebook Colab\n\nEl orden dispuesto para los equipos durante la defensa podrán encontrarlo dentro del Excel “Armá tu Equipo”.\n\nCOLOQUIOS:\n\n-          COM B: lunes 22/06/2026 18:30 hs. (Prof. Yamil Salomon y Prof. Nahuel Pratta)\n-          COM A: martes 23/06/2026 15:30 hs. (Prof. Milagro Teruel y Prof. Nahuel Pratta)",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=89255"
+        },
         {
           "titulo": "Avisos",
           "autor": "Yamil SALOMON",
@@ -651,6 +658,13 @@
           "fecha": "2026-03-12T20:40:46-03:00",
           "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85227"
+        },
+        {
+          "titulo": "Avisos Com B",
+          "autor": "Yamil SALOMON",
+          "fecha": "2026-06-05T23:13:00-03:00",
+          "mensaje": "Estimados alumnos de Analista de Datos I, les hacemos llegar las siguientes fechas\n\nDEFENSAS DE LOS TRABAJOS:\n\n-          COM B: lunes 08/06/2026, 18:00 hs. (Prof. Yamil Salomon y Prof. Nahuel Pratta)\n-          COM A: martes 09/06/2026 15:40 hs (Prof. Milagro Teruel y Prof. Nahuel Pratta)\n-          COM B: viernes 12/06/2026, 20:00 hs. à en caso de que queden grupos pendientes del lunes (Prof. Yamil Salomon y Prof. Nahuel Pratta)\n\nRecuerden armar una carpeta dentro del drive “Trabajo Final” y dejar en el mismo:\n\n-          Poster\n-          Notebook Colab\n\nEl orden dispuesto para los equipos durante la defensa podrán encontrarlo dentro del Excel “Armá tu Equipo”.\n\nCOLOQUIOS:\n\n-          COM B: lunes 22/06/2026 18:30 hs. (Prof. Yamil Salomon y Prof. Nahuel Pratta)\n-          COM A: martes 23/06/2026 15:30 hs. (Prof. Milagro Teruel y Prof. Nahuel Pratta)",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=89255"
         }
       ],
       "unidades": [
@@ -709,7 +723,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-06-05T12:48:13.920991"
+      "ultima_actualizacion": "2026-06-06T11:44:09.030371"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -719,6 +733,13 @@
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4268",
       "criterios": "• Criterios de evaluación\n• Sistema de Acreditación Módulos Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
+        {
+          "titulo": "Avisos",
+          "autor": "Yamil SALOMON",
+          "fecha": "2026-06-05T23:13:00-03:00",
+          "mensaje": "Estimados alumnos de Analista de Datos I, les hacemos llegar las siguientes fechas\n\nDEFENSAS DE LOS TRABAJOS:\n\n-          COM B: lunes 08/06/2026, 18:00 hs. (Prof. Yamil Salomon y Prof. Nahuel Pratta)\n-          COM A: martes 09/06/2026 15:40 hs (Prof. Milagro Teruel y Prof. Nahuel Pratta)\n-          COM B: viernes 12/06/2026, 20:00 hs. à en caso de que queden grupos pendientes del lunes (Prof. Yamil Salomon y Prof. Nahuel Pratta)\n\nRecuerden armar una carpeta dentro del drive “Trabajo Final” y dejar en el mismo:\n\n-          Poster\n-          Notebook Colab\n\nEl orden dispuesto para los equipos durante la defensa podrán encontrarlo dentro del Excel “Armá tu Equipo”.\n\nCOLOQUIOS:\n\n-          COM B: lunes 22/06/2026 18:30 hs. (Prof. Yamil Salomon y Prof. Nahuel Pratta)\n-          COM A: martes 23/06/2026 15:30 hs. (Prof. Milagro Teruel y Prof. Nahuel Pratta)",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=89255"
+        },
         {
           "titulo": "Avisos",
           "autor": "Yamil SALOMON",
@@ -774,6 +795,13 @@
           "fecha": "2026-03-12T20:40:46-03:00",
           "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85227"
+        },
+        {
+          "titulo": "Avisos Com B",
+          "autor": "Yamil SALOMON",
+          "fecha": "2026-06-05T23:13:00-03:00",
+          "mensaje": "Estimados alumnos de Analista de Datos I, les hacemos llegar las siguientes fechas\n\nDEFENSAS DE LOS TRABAJOS:\n\n-          COM B: lunes 08/06/2026, 18:00 hs. (Prof. Yamil Salomon y Prof. Nahuel Pratta)\n-          COM A: martes 09/06/2026 15:40 hs (Prof. Milagro Teruel y Prof. Nahuel Pratta)\n-          COM B: viernes 12/06/2026, 20:00 hs. à en caso de que queden grupos pendientes del lunes (Prof. Yamil Salomon y Prof. Nahuel Pratta)\n\nRecuerden armar una carpeta dentro del drive “Trabajo Final” y dejar en el mismo:\n\n-          Poster\n-          Notebook Colab\n\nEl orden dispuesto para los equipos durante la defensa podrán encontrarlo dentro del Excel “Armá tu Equipo”.\n\nCOLOQUIOS:\n\n-          COM B: lunes 22/06/2026 18:30 hs. (Prof. Yamil Salomon y Prof. Nahuel Pratta)\n-          COM A: martes 23/06/2026 15:30 hs. (Prof. Milagro Teruel y Prof. Nahuel Pratta)",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=89255"
         }
       ],
       "unidades": [
@@ -832,7 +860,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-06-05T12:49:04.803815"
+      "ultima_actualizacion": "2026-06-06T11:45:05.517470"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -922,7 +950,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": "/data/files/practica_profesionalizante_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/practica_profesionalizante_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-06-05T12:49:56.820781"
+      "ultima_actualizacion": "2026-06-06T11:46:02.960763"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -1015,7 +1043,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": "/data/files/tecnologia_y_sociedad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-05T12:50:46.702675"
+      "ultima_actualizacion": "2026-06-06T11:46:52.650293"
     }
   ]
 }
