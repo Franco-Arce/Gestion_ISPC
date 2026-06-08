@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-06-07T12:02:29.383480",
+  "generado_el": "2026-06-08T14:23:28.112944",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -70,7 +70,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": "/data/files/ciberseguridad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-07T11:53:40.254504"
+      "ultima_actualizacion": "2026-06-08T14:14:44.363915"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -167,7 +167,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-07T11:54:30.603573"
+      "ultima_actualizacion": "2026-06-08T14:15:33.346703"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -190,6 +190,13 @@
           "fecha": "2026-03-12T20:35:47-03:00",
           "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85226"
+        },
+        {
+          "titulo": "Avisos Com A",
+          "autor": "Cynthia CORSO",
+          "fecha": "2026-06-08T07:48:36-03:00",
+          "mensaje": "Estimados/as estudiantes:\n\nSe informa que ya se encuentra disponible el feedback correspondiente a la Evidencia de Aprendizaje N.º 3, así como también su calificación en el Aula Virtual.\n\nAsimismo, les recuerdo que este miércoles 10/6 se desarrollarán las exposiciones de los ABP, en el horario asignado por cada grupo. Se solicita puntualidad y se recomienda conectarse unos minutos antes del horario previsto.\n\nSaludos cordiales.\n\nProf. Corso Cynthia.-",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=89294"
         },
         {
           "titulo": "Avisos Com A",
@@ -395,7 +402,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-07T11:55:17.536943"
+      "ultima_actualizacion": "2026-06-08T14:16:18.357838"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -479,7 +486,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-07T11:57:01.690777"
+      "ultima_actualizacion": "2026-06-08T14:18:01.400697"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -555,7 +562,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-07T11:57:51.363514"
+      "ultima_actualizacion": "2026-06-08T14:18:49.236230"
     },
     {
       "nombre": "Inglés II",
@@ -586,7 +593,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-06-07T11:58:35.652945"
+      "ultima_actualizacion": "2026-06-08T14:19:31.148226"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -716,7 +723,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-06-07T11:58:50.905846"
+      "ultima_actualizacion": "2026-06-08T14:19:45.786207"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -846,7 +853,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-06-07T11:59:44.687659"
+      "ultima_actualizacion": "2026-06-08T14:20:38.161596"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -856,6 +863,13 @@
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4288",
       "criterios": "• Criterios de evaluación\n• Sistema de Acreditación de Práctica Profesionalizante Anuales\n• Régimen Académico Institucional\n",
       "avisos": [
+        {
+          "titulo": "Avisos",
+          "autor": "Ramiro Adrian CEBALLES",
+          "fecha": "2026-06-08T09:30:17-03:00",
+          "mensaje": "Buen día estimados/as! La evidencia tres tendrá lugar esta semana, como para la pasantía pedí los CV después de dar el modelo de Hardvard de ejemplo y sólo un curriculum fue enviado en ese formato, esta evidencia será crear su CV para que pase ATS y con modelo de Hardvard.\n\n\nSe dará inicio el día Miércoles 10/06 a las entregas, entre las 00:00 y 23:59.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=89301"
+        },
         {
           "titulo": "Avisos",
           "autor": "Ramiro Adrian CEBALLES",
@@ -930,13 +944,21 @@
           "estado": "pendiente",
           "descripcion": "Su calificación final en este cuestionario es 10,00/10,00.",
           "seccion": "Evidencias de Aprendizaje"
+        },
+        {
+          "nombre": "Evidencia de aprendizaje tres",
+          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=117237",
+          "fecha_entrega": "Todavía no se han realizado envíos",
+          "estado": "pendiente",
+          "descripcion": "",
+          "seccion": "Evidencias de Aprendizaje"
         }
       ],
       "materiales": [],
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": "/data/files/practica_profesionalizante_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/practica_profesionalizante_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-06-07T12:00:40.002783"
+      "ultima_actualizacion": "2026-06-08T14:21:31.244559"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -952,6 +974,13 @@
           "fecha": "2026-03-12T20:45:39-03:00",
           "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85228"
+        },
+        {
+          "titulo": "Avisos Com A",
+          "autor": "Ana FARIAS",
+          "fecha": "2026-06-08T02:40:59-03:00",
+          "mensaje": "Evidencia N°3 · Cierre y defensa del ABP /poster — Modelo de póster (con ejemplo)\n\n Les doy un ejemplo ya armado del póster para que lo usen de guía. La consigna es simple: miren el ejemplo, y después ármenlo en su propio póster con el contenido de su proyecto.\n\nCómo hacerlo (en 3 pasos simples):\n\nAbran el ejemplo en Canva y dupliquen el diseño (\"Archivo → Hacer una copia\").\nReemplacen el contenido del ejemplo por el de su proyecto, respetando el orden de las zonas (A a F).\nRevisen que se lea claro y a la distancia. Listo.\n\nEjemplo en Canva: https://www.canva.com/design/DAGiLYw6Vgw/KeSmzeYtXTc_bZRygrn0OA/view?utm_content=DAGiLYw6Vgw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview\n\nQué va en cada zona del modelo:\n\nA · Título + equipo + logos — título del proyecto, integrantes, materias y logos del ISPC y Gobierno de Córdoba. Que se lea a 2 metros.\nB · Problema y objetivo — el problema y el objetivo del Project Charter, con la mirada ética.\nC · Herramien",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=89291"
         },
         {
           "titulo": "Avisos Com A",
@@ -1017,8 +1046,8 @@
           "seccion": "Evidencias de Aprendizajes"
         },
         {
-          "nombre": "Entrega FINAL del proyecto ABP - comisión B",
-          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=116855",
+          "nombre": "Aquí subirán el POSTER del proyecto ABP - comisión B",
+          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=117188",
           "fecha_entrega": null,
           "estado": "pendiente",
           "descripcion": "",
@@ -1029,7 +1058,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": "/data/files/tecnologia_y_sociedad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-07T12:01:29.074036"
+      "ultima_actualizacion": "2026-06-08T14:22:25.731342"
     }
   ]
 }
