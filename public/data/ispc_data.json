@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-06-09T12:52:47.244204",
+  "generado_el": "2026-06-10T13:37:48.083149",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -8,69 +8,15 @@
       "horario": "Jueves 15:40–16:40",
       "comision": "A (tarde)",
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4270",
-      "criterios": "• Sistema de Acreditación - Espacios curriculares Cuatrimestrales\n• Régimen Académico Institucional\n",
-      "avisos": [
-        {
-          "titulo": "Avisos",
-          "autor": "Carolina AHUMADA",
-          "fecha": "2026-03-18T10:13:09-03:00",
-          "mensaje": "BIENVENIDOS\n\n😊¡Estimado estudiante!\n\nMe complace darte la bienvenida a este mundo fascinante de la seguridad, que lo experimentarán a través del trayecto de “Ciberseguridad”!.  Espero sea el inicio de muchos éxitos, logros y satisfacciones, que enriquezcan tu espíritu y crecimiento personal. Estoy encantada de poder ayudarte a extender tus límites y a crecer más allá de lo que jamás soñaste que fuera posible. \n\nSaludos Cordiales.\n\nProf.  Carolina Ahumada\n\n\nAntes de continuar hablando sobre mí, les comparto algunas novedades sobre este trayecto:\n\n✳️Duración: 4 meses\n\n\n✳️¿Qué caminos recorreremos? Vamos a emprender un recorrido para conocer y aprender sobre SEGURIDAD en todo ámbito, y no solo será teórico, también podrán aplicar el conocimiento a situaciones PRÁCTICAS.  \n\n⚠️Algunos consejos para el recorrido...\n\n 🔶Motor siempre ENCENDIDO. (Un motor que no funciona o funciona a medias no los conducirá  a ningún destino).\n\n 🔶Mucha CURIOSIDAD, hay mucho por conocer y descubrir.\n\n🔶PERDER el ",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85392"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Carolina AHUMADA",
-          "fecha": "2026-03-18T10:40:55-03:00",
-          "mensaje": "Escenario:\n\nUna pequeña empresa implementa antivirus, firewall y realiza copias de seguridad periódicas. Sin embargo, un día uno de sus empleados recibe un correo electrónico que aparenta ser del banco, hace clic en un enlace y completa sus datos de acceso.\n\nHoras después, la empresa sufre un acceso no autorizado a sus sistemas y pérdida de información sensible.\n\nA partir de este escenario, debatamos lo siguiente:\n\nAnálisis inicial: ¿Cómo pudo ocurrir el incidente si la empresa contaba con medidas de seguridad técnicas?\nFactor humano: ¿Qué rol juega el usuario en la seguridad de la información? ¿Es realmente el “eslabón más débil”?\nTipos de ataque: ¿Qué tipo de ataque se evidencia en el escenario? ¿Cómo lo identificarías?\nPrevención: ¿Qué acciones podrían haberse implementado para evitar esta situación?\nReflexión: ¿Creés que la ciberseguridad depende más de la tecnología o de las personas? Justificá tu respuesta.\n\nEspero sus respuestas!!! 😄Comenzamos el debate!!!💪",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85398"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Tatiana MANZANELLI",
-          "fecha": "2026-03-12T20:52:19-03:00",
-          "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85229"
-        },
-        {
-          "titulo": "Avisos Com A",
-          "autor": "Carolina AHUMADA",
-          "fecha": "2026-03-18T10:28:53-03:00",
-          "mensaje": "Muy buenos días estudiantes!!! es un placer compartir este espacio con ustedes😀. La clase de esta primer semana será asincrónica(NO DEBEN CONECTARSE AL MEET). Voy a dejar una actividad planteada en el foro para que vayan participando.! Los estaré leyendo y respondiendo. A animarse y participar!!!💪         \n\nCariños Profe Carolina",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85394"
-        }
-      ],
+      "criterios": "",
+      "avisos": [],
       "unidades": [],
-      "tareas": [
-        {
-          "nombre": "Cuestionario - Primera Evidencia",
-          "url": "https://acceso.ispc.edu.ar/mod/quiz/view.php?id=114959",
-          "fecha_entrega": null,
-          "estado": "pendiente",
-          "descripcion": "Este cuestionario corresponde a la Evidencia 1 y constituye un requisito indispensable para formalizar la entrega del proyecto.\n\nDebe completar el cuestionario únicamente el responsable del equipo, en representación de todos, cargando los datos, Número de grupo, Comisión, Integrantes del grupo y el link del mismo, garantizando que la información esté completa, precisa y actualizada. Recuerden que deben hacerlo inmediatamente, luego de subir el documento a Drive.  Muchas Suerte! Carolina",
-          "seccion": "Evidencias de Aprendizajes"
-        },
-        {
-          "nombre": "Cuestionario - Segunda Evidencia",
-          "url": "https://acceso.ispc.edu.ar/mod/quiz/view.php?id=116268",
-          "fecha_entrega": null,
-          "estado": "pendiente",
-          "descripcion": "Este cuestionario corresponde a la Evidencia 2 y constituye un requisito indispensable para formalizar la entrega del proyecto.\n\nDebe completar el cuestionario únicamente el responsable del equipo, en representación de todos, cargando los datos, Número de grupo, Comisión, Integrantes del grupo y el link del mismo, garantizando que la información esté completa, precisa y actualizada. Recuerden que deben hacerlo inmediatamente, luego de subir el documento a Drive.  Muchas Suerte! Carolina",
-          "seccion": "Evidencias de Aprendizajes"
-        },
-        {
-          "nombre": "Cuestionario - Tercera Evidencia",
-          "url": "https://acceso.ispc.edu.ar/mod/quiz/view.php?id=116607",
-          "fecha_entrega": null,
-          "estado": "pendiente",
-          "descripcion": "Este cuestionario corresponde a la Evidencia 3 y constituye un requisito indispensable para formalizar la entrega del proyecto.\n\nDebe completar el cuestionario únicamente el responsable del equipo, en representación de todos, cargando los datos, Número de grupo, Comisión, Integrantes del grupo y el link del mismo, garantizando que la información esté completa, precisa y actualizada. Recuerden que deben hacerlo inmediatamente, luego de subir el documento a Drive.  Muchas Suerte! Carolina",
-          "seccion": "Evidencias de Aprendizajes"
-        }
-      ],
+      "tareas": [],
       "materiales": [],
-      "meet_url": "http://meet.google.com/eps-eita-tks",
-      "programa_archivo": "/data/files/ciberseguridad_programa.pdf",
+      "meet_url": null,
+      "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-09T12:43:23.772242"
+      "ultima_actualizacion": "2026-06-10T13:37:32.311957"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -78,96 +24,15 @@
       "horario": "Miércoles 19:40–20:40",
       "comision": "Única",
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4290",
-      "criterios": "• Criterios de evaluación\n• Sistema de Acreditación - Espacios curriculares Cuatrimestrales\n• Régimen Académico Institucional\n",
-      "avisos": [
-        {
-          "titulo": "Avisos",
-          "autor": "Carlos Ignacio CHARLETTI",
-          "fecha": "2026-06-04T17:58:10-03:00",
-          "mensaje": "Buenas tardes,\n\nComparto el link del archivo para que puedan completar los horarios correspondientes a las exposiciones de ABP:\n\nhttps://docs.google.com/spreadsheets/d/1g_A_1EzmRVxj6opdU0xbT6nZ3jAj9Neb8u-mPmKFzhY/edit?usp=sharing\n\nLes solicito, por favor, realizar la carga a la brevedad posible.\n\nAnte cualquier consulta, quedo a disposición.\n\nGracias.\nSaludos.",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=89190"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Carlos Ignacio CHARLETTI",
-          "fecha": "2026-03-27T20:26:37-03:00",
-          "mensaje": "Buenas tardes, genero este hilo para que podamos debatir sobre la asistencia.\n\nRecuerden que pueden ir comprobando semana a semana su asistencia en la página \"Asistencia\" o ingresando a este link: https://docs.google.com/spreadsheets/d/1xkPMO9rZ7GK3cg77qIoccah9AHmcvECesfLpxUxOmpU/edit?usp=sharing\n\nSaludos.",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85884"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Tatiana MANZANELLI",
-          "fecha": "2026-03-12T19:41:22-03:00",
-          "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85225"
-        }
-      ],
-      "unidades": [
-        {
-          "nombre": "Unidad 1: Introducción a la Ciencia de Datos",
-          "url": "https://acceso.ispc.edu.ar/mod/book/view.php?id=112947",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Unidad 2: Las organizaciones y los procesos",
-          "url": "https://acceso.ispc.edu.ar/mod/book/view.php?id=112944",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Unidad 3: Organización, limpieza y herramientas",
-          "url": "https://acceso.ispc.edu.ar/mod/book/view.php?id=112941",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Unidad 4: Análisis exploratorio de datos (EDA)",
-          "url": "https://acceso.ispc.edu.ar/mod/book/view.php?id=112951",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Unidad 5: Visualización de datos",
-          "url": "https://acceso.ispc.edu.ar/mod/book/view.php?id=112950",
-          "descripcion": ""
-        }
-      ],
-      "tareas": [
-        {
-          "nombre": "Entrega 1 – Comprensión del problema y datos",
-          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=113248",
-          "fecha_entrega": "Enviado para calificar",
-          "estado": "entregada",
-          "descripcion": "Objetivo: entender el problema y explorar los datos.\n\nIncluye:\n\ndescripción del problema\n\nidentificación de fuentes",
-          "seccion": "Evidencias de Aprendizajes"
-        },
-        {
-          "nombre": "Entrega 2 – Limpieza y transformación",
-          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=113249",
-          "fecha_entrega": "Enviado para calificar",
-          "estado": "entregada",
-          "descripcion": "Objetivo: preparar los datos.\n\nIncluye:\n\nlimpieza de datos\n\nestandarización\n\ndataset final",
-          "seccion": "Evidencias de Aprendizajes"
-        },
-        {
-          "nombre": "Entrega Final – Informe",
-          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=113250",
-          "fecha_entrega": "Enviado para calificar",
-          "estado": "entregada",
-          "descripcion": "Objetivo: obtener información. Fecha limite 07/06\n\nIncluye:\n\nanálisis descriptivo\n\ndetección de patrones\n\nprimeras conclusiones",
-          "seccion": "Evidencias de Aprendizajes"
-        },
-        {
-          "nombre": "Actividades de la Unidad 2",
-          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=113247",
-          "fecha_entrega": "Todavía no se han realizado envíos",
-          "estado": "pendiente",
-          "descripcion": "Optativas.",
-          "seccion": "Evidencias de Aprendizajes"
-        }
-      ],
+      "criterios": "",
+      "avisos": [],
+      "unidades": [],
+      "tareas": [],
       "materiales": [],
-      "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
+      "meet_url": null,
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-09T12:44:16.093471"
+      "ultima_actualizacion": "2026-06-10T13:37:34.043731"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -175,234 +40,15 @@
       "horario": "Miércoles 15:40–16:40",
       "comision": "A (tarde)",
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4267",
-      "criterios": "• Criterios de evaluación\n• Sistema de Acreditación - Espacios curriculares Cuatrimestrales\n• Régimen Académico Institucional\n",
-      "avisos": [
-        {
-          "titulo": "Avisos",
-          "autor": "Carlos Ignacio CHARLETTI",
-          "fecha": "2026-03-17T17:45:24-03:00",
-          "mensaje": "Buenas tardes, \n\nEl sincrónico de esta tarde se encuentra cancelado. Esto es porque esta primer semana no tendrán clases sincrónicas. \n\nSaludos.",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85362"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Tatiana MANZANELLI",
-          "fecha": "2026-03-12T20:35:47-03:00",
-          "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85226"
-        },
-        {
-          "titulo": "Avisos Com A",
-          "autor": "Cynthia CORSO",
-          "fecha": "2026-06-08T07:48:36-03:00",
-          "mensaje": "Estimados/as estudiantes:\n\nSe informa que ya se encuentra disponible el feedback correspondiente a la Evidencia de Aprendizaje N.º 3, así como también su calificación en el Aula Virtual.\n\nAsimismo, les recuerdo que este miércoles 10/6 se desarrollarán las exposiciones de los ABP, en el horario asignado por cada grupo. Se solicita puntualidad y se recomienda conectarse unos minutos antes del horario previsto.\n\nSaludos cordiales.\n\nProf. Corso Cynthia.-",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=89294"
-        },
-        {
-          "titulo": "Avisos Com A",
-          "autor": "Cynthia CORSO",
-          "fecha": "2026-06-04T17:28:13-03:00",
-          "mensaje": "Estimados/as estudiantes:\n\nLes recuerdo que la exposición del ABP se realizará respetando el día y horario asignado a cada grupo, utilizando el mismo enlace de Meet empleado para los encuentros sincrónicos del módulo.\n\nSe solicita puntualidad y, de ser posible, que todos los integrantes del equipo se conecten al menos 5 minutos antes del horario establecido para evitar inconvenientes técnicos y agilizar la dinámica de las presentaciones.\n\nAsimismo, recuerden que la presentación oral forma parte de la evaluación del ABP. Por lo tanto, si un grupo o un estudiante integrante de un grupo no se presenta en el día y horario convenido, el ABP será considerado desaprobado.\n\nCualquier duda o consulta quedo a disposición.\n\nSaludos cordiales,\n\nProf. Corso Cynthia.-",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=89183"
-        },
-        {
-          "titulo": "Avisos Com A",
-          "autor": "Cynthia CORSO",
-          "fecha": "2026-06-04T16:56:10-03:00",
-          "mensaje": "Estimados estudiantes:\n\nLes comparto por escrito los lineamientos que hemos hablado en los encuentros sincronos.\n\nEvidencia de aprendizaje Nro 3 - ABP.\n\nObjetivo: obtener información a partir de los datos y comunicar los resultados más relevantes.\n\nEn esta etapa se espera que el grupo realice un análisis descriptivo del conjunto de datos para comprender sus características principales, identificar patrones, relaciones entre variables y posibles valores atípicos, elaborando primeras conclusiones sobre el problema trabajado. Posteriormente, deberá comunicar los hallazgos mediante visualizaciones adecuadas, acompañadas de una interpretación de los resultados y del conocimiento generado.\n\nIncluye:\n\nAnálisis descriptivo.\nDetección de patrones y relaciones.\nPrimeras conclusiones.\nGráficos e interpretación de resultados.\nDashboard (opcional).\nInforme final.\nPresentación.\n\nImportante: seleccionar únicamente las visualizaciones más relevantes. Se recomienda incluir hasta 4 gráficos principales ",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=89175"
-        },
-        {
-          "titulo": "Avisos Com A",
-          "autor": "Cynthia CORSO",
-          "fecha": "2026-06-03T09:40:49-03:00",
-          "mensaje": "Estimados/as estudiantes:\n\nLes informo que el encuentro sincrónico del día 03/06 se desarrollará con normalidad, en el horario habitual.\n\nEste espacio estará destinado al cierre e integración de los contenidos trabajados durante el módulo, así como a la atención de consultas y dudas que consideren necesarias de cara a las próximas instancias de evaluación.\n\nLos espero para compartir este último encuentro y acompañarlos en la preparación de las actividades evaluativas.\n\nSaludos cordiales.\n\nProf. Corso Cynthia",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=89081"
-        },
-        {
-          "titulo": "Avisos Com A",
-          "autor": "Cynthia CORSO",
-          "fecha": "2026-05-22T10:47:11-03:00",
-          "mensaje": "Buen día.\n\nComparto el link del archivo para que puedan completar los horarios correspondientes a las exposiciones de ABP:\n\nhttps://docs.google.com/spreadsheets/d/1Qh80zpYPqWfC919KwcWMp9psC2-wTCH6/edit?usp=sharing&ouid=109827500395267326835&rtpof=true&sd=true\n\nLes solicito, por favor, realizar la carga a la brevedad posible.\n\nAnte cualquier consulta, quedo a disposición.\n\nGracias.\nSaludos.",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=88700"
-        },
-        {
-          "titulo": "Avisos Com A",
-          "autor": "Cynthia CORSO",
-          "fecha": "2026-05-19T07:18:24-03:00",
-          "mensaje": "Estimados/as:\n\nLes informo que ya se encuentran cargadas las calificaciones correspondientes a la Evidencia de Aprendizaje N.º 2.\n\nA modo de aclaración, los grupos que alcanzaron los objetivos propuestos poseen una calificación de 100 puntos (Aprobado), mientras que aquellos que no lograron aprobar la instancia cuentan con una calificación de 20 puntos (No Aprobado).\n\nAsimismo, les comunico que ya se encuentra publicada la instancia de recuperación de esta evidenciade aprendizaje para aquellos estudiantes que necesiten realizarla. La misma tiene vencimiento el viernes 22 de mayo a las 23:55 hs.\n\nSaludos.\nProf. Cynthia Corso.-",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=88542"
-        },
-        {
-          "titulo": "Avisos Com A",
-          "autor": "Cynthia CORSO",
-          "fecha": "2026-05-05T10:31:59-03:00",
-          "mensaje": "Estimados estudiantes:\n\nLes informo que se encuentra habilitada la entrega de la Evidencia de Aprendizaje N.º 2, disponible desde el lunes 11 de mayo a las 08:00 hs hasta el viernes 15 de mayo a las 23:55 hs.\n\nImportante:\n\nSolo un integrante del grupo debe realizar la entrega.\nEl archivo presentado debe integrar la Evidencia 1 y la Evidencia 2, indicando claramente cada etapa de aprendizaje desarrollada.\n\nSe espera que el grupo trabaje sobre:\n\nLimpieza de datos\n    *Detectar y tratar valores faltantes, inconsistencias, duplicados, errores de carga o valores atípicos.\nEstandarización\n    *Revisar formatos, nombres de categorías, unidades de medida y criterios de registro para dejar los datos uniformes.\nConstrucción del dataset final\n    *Generar una versión depurada del conjunto de datos, lista para ser utilizada en análisis posteriores.\n\nPresentación solicitada\n\nEl informe deberá incluir:\n\n1) Tabla de análisis de calidad de datos (por atributo)\nPara cada atributo relevante (acorde a la",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=87927"
-        },
-        {
-          "titulo": "Avisos Com A",
-          "autor": "Cynthia CORSO",
-          "fecha": "2026-04-27T11:19:55-03:00",
-          "mensaje": "Estimados/as, ya se encuentran publicadas los feedbacks correspondientes a la primera Evidencia de Aprendizaje. Les recomiendo revisar detenidamente la devolución realizada, ya que contiene observaciones y orientaciones importantes para continuar fortaleciendo el trabajo.\n\nAsimismo, se encuentra habilitada la tarea de entrega destinada a aquellos grupos que deben realizar una reentrega (considerando el feedback recibido) o bien no presentaron la evidencia en la instancia original. El plazo máximo para su presentación es el 03/05 a las 23:55 hs.\n\nLes pido revisar las pautas de entrega y respetar los plazos establecidos.\n\nSaludos cordiales.\n\nProf. Corso Cynthia.-",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=87617"
-        },
-        {
-          "titulo": "Avisos Com A",
-          "autor": "Cynthia CORSO",
-          "fecha": "2026-04-09T20:22:13-03:00",
-          "mensaje": "Estimados/as estudiantes:\n\nPara el desarrollo del Proyecto Integrador, podrán seleccionar el dataset con el que deseen trabajar según sus intereses. El mismo deberá estar en formato .xls, .xlsx o .csv.\n\nA continuación, se sugieren algunos sitios donde podrán encontrar datasets reales de distintas temáticas:\n\n🔗 https://www.kaggle.com/datasets\n\nGratis\nRequiere crear una cuenta (también gratis)\nPermite descargar datasets en CSV/Excel\n\n🔗 https://mavenanalytics.io/data-playground\n\nGratis\nNo requiere cuenta\nDatasets listos para descargar\n\nPodrán elegir un dataset vinculado a áreas como educación, salud, ventas, deportes, redes sociales, entre otros.\n\nSe recomienda seleccionar un dataset que sea claro, comprensible y acorde al nivel de la materia, de modo que puedan analizar sus variables y extraer conclusiones de manera adecuada.\n\nAnte cualquier duda en la elección del dataset, pueden consultarme.\n\nSaludos,\nProf. Corso Cynthia.-",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86336"
-        },
-        {
-          "titulo": "Avisos Com A",
-          "autor": "Cynthia CORSO",
-          "fecha": "2026-04-08T17:43:13-03:00",
-          "mensaje": "Estimados/as:\n\nA pedido de algunos/as estudiantes, les informo que en el mosaico de Ciencia de Datos I encontrarán una carpeta denominada “Recursos Adicionales – Comisión A”, donde se encuentra el material que se ha ido compartiendo durante los encuentros síncronos.\n\nSaludos cordiales,\nProf. Corso Cynthia",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86268"
-        },
-        {
-          "titulo": "Avisos Com A",
-          "autor": "Cynthia CORSO",
-          "fecha": "2026-04-07T19:06:44-03:00",
-          "mensaje": "Estimados/as,\n\nLes comparto el enlace para que puedan registrar la conformación de grupos.\nLos grupos deberán estar integrados por 6 personas y conformados por estudiantes de la misma comisión.\n\nLink: https://docs.google.com/spreadsheets/d/1yznIRxZURw3F8djYwNai2l4WveW2CSMXLOPQmGMZsf0/edit?usp=sharing\n\nNos vemos en el próximo encuentro.\n\nSaludos cordiales,\nProf. Corso, Cynthia",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86223"
-        },
-        {
-          "titulo": "Avisos Com A",
-          "autor": "Cynthia CORSO",
-          "fecha": "2026-03-30T15:20:57-03:00",
-          "mensaje": "Estimados/as estudiantes:\n\nPara el próximo encuentro, les sugiero realizar la lectura de la Unidad 1 completa y de una parte de la Unidad 2 del material del módulo.\n\nSe recomienda poner especial énfasis en los siguientes temas:\n\n🔹 Unidad 1 (lectura completa)\n\nRoles en Ciencia de Datos\nÉtica y aplicaciones\n\n🔹 Unidad 2 (lectura parcial)\n\nEstructura organizacional y organigramas\nLos procesos: el motor de la organización\n\nEstos contenidos serán trabajados y discutidos en la próxima clase, por lo que es importante que puedan abordarlos previamente para aprovechar mejor el espacio de intercambio.\n\nAnte cualquier duda, pueden consultarla por este medio.\n\nSaludos!",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85960"
-        },
-        {
-          "titulo": "Avisos Com A",
-          "autor": "Cynthia CORSO",
-          "fecha": "2026-03-30T14:08:43-03:00",
-          "mensaje": "Estimados/as estudiantes:\n\nLos invito a completar una encuesta diagnóstica que nos permitirá conocer su punto de partida y acompañar mejor su proceso de aprendizaje a lo largo de este módulo.\n\nLa encuesta es breve y no tiene respuestas correctas ni incorrectas. Su participación es muy importante.\n\nPueden acceder desde el siguiente enlace: \n\n🔗 https://forms.gle/eivP3DurMhPh7xBaA\n\nFecha límite: 10 abril (18:00 hs)\n\nMuchas gracias!",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85955"
-        },
-        {
-          "titulo": "Avisos Com A",
-          "autor": "Cynthia CORSO",
-          "fecha": "2026-03-18T10:29:18-03:00",
-          "mensaje": "Estimados, les comparto el link con el material que les comenté previamente para esta semana.\n\nhttps://acceso.ispc.edu.ar/mod/folder/view.php?id=112924\n\nSaludos\n\nProf. Corso Cynthia.-",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85395"
-        },
-        {
-          "titulo": "Avisos Com A",
-          "autor": "Cynthia CORSO",
-          "fecha": "2026-03-18T07:12:20-03:00",
-          "mensaje": "Estimados/as estudiantes:\n\nMi nombre es Cynthia Corso y este año seré la profesora de la Comisión A en la asignatura Ciencia de Datos I. ¡Es un gusto acompañarlos en este recorrido!\n\nLes comento que, por esta semana, el encuentro de hoy día miércoles 18/03 se realizará de manera asincrónica. La próxima semana retomaremos las clases en modalidad sincrónica, en el horario habitual (Miércoles 15:40 a 16:40).\n\nPara iniciar este recorrido de formación, en el transcurso del día les dejaré una actividad en el aula virtual, que consiste en la lectura de material y la realización de una propuesta simple. La idea es que puedan tener un primer acercamiento a los contenidos de la materia y que podamos discutirla en el encuentro de la semana que viene.\n\n¡Nos vemos muy pronto! 😊",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85385"
-        }
-      ],
-      "unidades": [
-        {
-          "nombre": "Unidad 1: Introducción a la Ciencia de Datos",
-          "url": "https://acceso.ispc.edu.ar/mod/book/view.php?id=112704",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Unidad 2: Las organizaciones y los procesos",
-          "url": "https://acceso.ispc.edu.ar/mod/book/view.php?id=112752",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Unidad 3: Organización, limpieza y herramientas",
-          "url": "https://acceso.ispc.edu.ar/mod/book/view.php?id=112911",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Unidad 4: Análisis exploratorio de datos (EDA)",
-          "url": "https://acceso.ispc.edu.ar/mod/book/view.php?id=112912",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Unidad 5: Visualización de datos",
-          "url": "https://acceso.ispc.edu.ar/mod/book/view.php?id=112913",
-          "descripcion": ""
-        }
-      ],
-      "tareas": [
-        {
-          "nombre": "Evidencia de Aprendizaje Nro 1 – Comprensión del problema y datos",
-          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=112918",
-          "fecha_entrega": "Todavía no se han realizado envíos",
-          "estado": "pendiente",
-          "descripcion": "Objetivo: entender el problema y explorar los datos.\n\nIncluye:\n\ndescripción del problema\n\nidentificación de fuentes",
-          "seccion": "Evidencias de Aprendizajes"
-        },
-        {
-          "nombre": "RECUPERATORIO Evidencia de Aprendizaje Nro 1 - COM A",
-          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=115321",
-          "fecha_entrega": "Todavía no se han realizado envíos",
-          "estado": "pendiente",
-          "descripcion": "Pautas para la entrega\n\n• Esta entrega debe ser realizada por un solo integrante del grupo.\n\n• Deben presentar esta instancia únicamente aquellos grupos que no realizaron la entrega correspondiente a la semana del 20/04 al 26/04.\n\n• El plazo de entrega es hasta el domingo 03 de mayo a las 23:55 hs.\n\n• En caso de reentrega, tener en cuenta el feedback recibido, incorporando las observaciones señaladas para su corrección o mejora.",
-          "seccion": "Evidencias de Aprendizajes"
-        },
-        {
-          "nombre": "Evidencia de Aprendizaje Nro 2 – Limpieza y transformación - COM A",
-          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=115879",
-          "fecha_entrega": "Todavía no se han realizado envíos",
-          "estado": "pendiente",
-          "descripcion": "Objetivo: preparar los datos.\n\nIncluye:\n\nlimpieza de datos\n\nestandarización\n\ndataset final",
-          "seccion": "Evidencias de Aprendizajes"
-        },
-        {
-          "nombre": "RECUPERATORIO Entrega Evidencia de Aprendizaje Nro 2 – Limpieza y transformación - COM A",
-          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=116537",
-          "fecha_entrega": "Todavía no se han realizado envíos",
-          "estado": "pendiente",
-          "descripcion": "Pautas para la entrega\n\n• Esta entrega debe ser realizada por un solo integrante del grupo.\n\n• Deben presentar esta instancia únicamente aquellos grupos que no realizaron la entrega correspondiente a la semana del 11/05 al 15/05.\n\n• El plazo de entrega es hasta el viernes 22 de mayo a las 23:55 hs.\n\n• En caso de reentrega, tener en cuenta el feedback recibido, incorporando las observaciones señaladas para su corrección o mejora.",
-          "seccion": "Evidencias de Aprendizajes"
-        },
-        {
-          "nombre": "Entrega Evidencia de Aprendizaje Nro 2 – Limpieza y transformación - COM B",
-          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=112919",
-          "fecha_entrega": null,
-          "estado": "pendiente",
-          "descripcion": "Me ayuda mucho para mejorar en los próximos cuatrimestres. Es anónima. Muchas gracias.",
-          "seccion": "Evidencias de Aprendizajes"
-        },
-        {
-          "nombre": "Evidencia de Aprendizaje Nro 3 - Informe final -Análisis exploratorio - COM A",
-          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=116538",
-          "fecha_entrega": "Todavía no se han realizado envíos",
-          "estado": "pendiente",
-          "descripcion": "Objetivo: obtener información.\n\nIncluye:\n\nanálisis descriptivo\n\ndetección de patrones\n\nprimeras conclusiones\n\nPautas para la entrega\n\n• Esta entrega debe ser realizada por un solo integrante del grupo. El archivo deberá renombrarse con el número de grupo correspondiente (por ejemplo: Grupo3.pdf).\n\n• El plazo de entrega es hasta el viernes 05 de junio a las 23:55 hs.\n\n• No se aceptarán en el contenido del archivo de entrga links a Google Colab ni enlaces externos de ningún tipo. El incumplimiento",
-          "seccion": "Evidencias de Aprendizajes"
-        },
-        {
-          "nombre": "Evidencia de Aprendizaje Nro 3 – Análisis exploratorio - COM B",
-          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=112920",
-          "fecha_entrega": null,
-          "estado": "pendiente",
-          "descripcion": "Me ayuda mucho para mejorar en los próximos cuatrimestres. Es anónima. Muchas gracias.",
-          "seccion": "Evidencias de Aprendizajes"
-        },
-        {
-          "nombre": "Actividades de la Unidad 2",
-          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=112796",
-          "fecha_entrega": "Todavía no se han realizado envíos",
-          "estado": "pendiente",
-          "descripcion": "Optativas.",
-          "seccion": "Evidencias de Aprendizajes"
-        },
-        {
-          "nombre": "Entrega final – Visualización y comunicación",
-          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=112917",
-          "fecha_entrega": "Todavía no se han realizado envíos",
-          "estado": "pendiente",
-          "descripcion": "Fecha limite: 08/06\n\nObjetivo: comunicar resultados.\n\nIncluye:\n\ngráficos\n\ndashboard (opcional)\n\ninforme final\n\npresentación",
-          "seccion": "Proyecto ABP"
-        }
-      ],
+      "criterios": "",
+      "avisos": [],
+      "unidades": [],
+      "tareas": [],
       "materiales": [],
-      "meet_url": "http://meet.google.com/qma-wqxy-kwk",
+      "meet_url": null,
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-09T12:45:03.747551"
+      "ultima_actualizacion": "2026-06-10T13:37:35.767433"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -410,90 +56,15 @@
       "horario": "Jueves 19:40–20:40",
       "comision": "Única",
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4289",
-      "criterios": "• Criterios de evaluación\n• Sistema de Acreditación - Espacios curriculares Cuatrimestrales\n• Régimen Académico Institucional\n",
-      "avisos": [
-        {
-          "titulo": "Avisos",
-          "autor": "Laura Anahi ZAVIA",
-          "fecha": "2026-06-08T17:30:30-03:00",
-          "mensaje": "Buenas tardes estudiantes, les consulto si están en condiciones de desdoblar la defensa oral de este espacio curricular. Podrían presentarse los 5 primeros equipos anotados este viernes 12/06/26 a la hora prevista y los siguientes deberíamos reorganizarlos. Lo cual, se me ocurre, también podríamos generar la reunión en el horario de la mañana para los equipos que les quede más cómodo. Quedo a disposición entonces. Saludos.",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=89340"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Laura Anahi ZAVIA",
-          "fecha": "2026-05-26T19:48:36-03:00",
-          "mensaje": "Estimad@s estudiantes, les aviso que estoy en el Módulo FullStack II en su horario pertinente. Por lo cual no tendrán sincrónico fijado para el día jueves a las 19:40hs. Quedo a disposición.\n\n¡Nos vemos en el Aula!",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=88787"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Laura Anahi ZAVIA",
-          "fecha": "2026-05-18T15:19:51-03:00",
-          "mensaje": "Estimad@s estudiantes, les aviso que mañana me sumaré al Módulo FullStack II en su horario pertinente para colaborar en la planificación del proyecto ABP desde mis espacios curriculares. Por esta razón es que no tendrán sincrónico fijado para el día jueves a las 18:20hs. Quedo a disposición.\n\n¡Nos vemos en el Aula!",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=88514"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Laura Anahi ZAVIA",
-          "fecha": "2026-04-23T23:47:29-03:00",
-          "mensaje": "Se desea llevar a cabo la construcción de una vivienda unifamiliar, para lo cual se convoca a un equipo de desarrolladores de software para que lidere el proceso de planificación inicial. Ante este desafío interdisciplinario, el equipo decide estructurar el trabajo a partir de los siguientes entregables fundamentales:\n\na-Objetivos generales y específicos, definiendo 3 metas globales y 15 objetivos específicos.\n\nb-Alcance del proyecto, estableciendo los límites, actividades, recursos y resultados.\n\nc-Cronograma de ejecución, elaborando una línea de tiempo que contenga fases, tareas, hitos y responsables.\n\nRECORDAR: Un intregante de cada equipo deberá enviar el enlace a la resolución de la ctividad y consignar los nombres y apellidos de los demás integrantes participantes.",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=87375"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Laura Anahi ZAVIA",
-          "fecha": "2026-04-30T20:25:48-03:00",
-          "mensaje": "Realizar las siguientes actividades de análisis de identificación de riesgos:\n\n1 — Reunirse en grupos y proceder a la lectura del caso.\n\n2 — Identificación de riesgos.\n\n3 — Fundamentación (por qué es un riesgo, qué evidencia del caso lo respalda y qué consecuencias puede generar).\n\n4 — Redactar una conclusión final (10 líneas máximo).\n\n5 — Subir el enlace del trabajo.\n\n \n\nConstruir S.A. es una empresa mediana de construcción con 12 años en el mercado. Cuenta con 80 empleados, la mayoría obreros de obra y técnicos sin formación universitaria. El 60% tiene más de 45 años y varios padecen condiciones preexistentes como hipertensión y diabetes.\n\nLa empresa acaba de ganar una licitación para construir un complejo de viviendas sociales en un plazo de 18 meses. Para cumplir el cronograma, decidió contratar 30 trabajadores informales sin realizarles exámenes médicos de ingreso ni brindarles inducción en seguridad. Estos trabajadores no firmaron contrato escrito y cobran por jornal en efectivo.",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=87813"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Laura Anahi ZAVIA",
-          "fecha": "2026-03-16T23:41:23-03:00",
-          "mensaje": "¡Hola! Es un gusto darles la bienvenida a este espacio curricular llamado Gestión de Proyectos. Mi nombre es Laura Zavia y seré su guía en este camino, ya que los y las acompañaré en la búsqueda profesional de sus capacidades de planificación y liderazgo estratégico.\n\nPara comenzar a conocernos y oganizar nuestra dinámica de trabajo los invito a nuestro primer encuentro el día 19 de marzo a las 19:40hs a través del enlace publicado en el bloque correspondiente. ¡Nos vemos adentro!",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85310"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Tatiana MANZANELLI",
-          "fecha": "2026-03-12T19:35:09-03:00",
-          "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85224"
-        }
-      ],
+      "criterios": "",
+      "avisos": [],
       "unidades": [],
-      "tareas": [
-        {
-          "nombre": "Evidencia 1: Fundamentos y Planificación en la Gestión de Proyectos",
-          "url": "https://acceso.ispc.edu.ar/mod/quiz/view.php?id=114891",
-          "fecha_entrega": null,
-          "estado": "pendiente",
-          "descripcion": "El siguiente cuestionario forma parte de la Evidencia 1 de este espacio curricular.\n\n¡Éxitos para tod@s!",
-          "seccion": "Evidencias de Aprendizajes"
-        },
-        {
-          "nombre": "Evidencia 2: Primera entrega Proyecto ABP - Sprint 0",
-          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=116558",
-          "fecha_entrega": "Todavía no se han realizado envíos",
-          "estado": "pendiente",
-          "descripcion": "Estudiantes, en este sector un integrante de cada equipo deberá agregar el enlace a la primera entrega del proyecto.",
-          "seccion": "Evidencias de Aprendizajes"
-        },
-        {
-          "nombre": "Evidencia 3: Segunda entrega Proyecto ABP",
-          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=117083",
-          "fecha_entrega": "Todavía no se han realizado envíos",
-          "estado": "pendiente",
-          "descripcion": "Estudiantes, en este sector les pido que un solo integrante por equipo comparta enlace al documento de trabajo para ser valorado.",
-          "seccion": "Evidencias de Aprendizajes"
-        }
-      ],
+      "tareas": [],
       "materiales": [],
-      "meet_url": "http://meet.google.com/vts-ttna-wxs",
-      "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
+      "meet_url": null,
+      "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-09T12:46:55.383399"
+      "ultima_actualizacion": "2026-06-10T13:37:37.476272"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -501,75 +72,15 @@
       "horario": "Jueves 18:20–19:20",
       "comision": "Única",
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4287",
-      "criterios": "• Criterios de evaluación\n• Sistema de Acreditación - Espacios Curriculares Anuales\n• Régimen Académico Institucional\n",
-      "avisos": [
-        {
-          "titulo": "Avisos",
-          "autor": "Laura Anahi ZAVIA",
-          "fecha": "2026-05-26T19:49:33-03:00",
-          "mensaje": "Estimad@s estudiantes, les aviso que estoy en el Módulo FullStack II en su horario pertinente. Por lo cual no tendrán sincrónico fijado para el día jueves a las 18:20hs. Quedo a disposición.\n\n¡Nos vemos en el Aula!",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=88788"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Laura Anahi ZAVIA",
-          "fecha": "2026-05-18T15:20:54-03:00",
-          "mensaje": "Estimad@s estudiantes, les aviso que mañana me sumaré al Módulo FullStack II en su horario pertinente para colaborar en la planificación del proyecto ABP desde mis espacios curriculares. Por esta razón es que no tendrán sincrónico fijado para el día jueves a las 19:40hs. Quedo a disposición.\n\n¡Nos vemos en el Aula!",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=88515"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Laura Anahi ZAVIA",
-          "fecha": "2026-05-07T18:44:11-03:00",
-          "mensaje": "Consigna: En grupos, investigar un caso de proyecto de software (investigar en la web) en el que un cambio de requerimientos tuvo un impacto significativo. Luego, elaborar un informe breve de máximo 2 páginas que incluya:\n\nDescripción del proyecto y del cambio: ¿Qué se estaba construyendo? ¿Qué cambió y en qué momento del ciclo?\n\nAnálisis del impacto: ¿Qué se vio afectado: diseño, código, tiempos, equipo, cliente?\n\n¿Cómo se gestionó? Aplicar al menos dos de las estrategias ágiles vistas en clase (backlog, sprint review, refinamiento, contratos).\n\nReflexión: ¿Qué aprendió o habría aprendido el equipo sobre la adaptación al cambio?",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=88032"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Laura Anahi ZAVIA",
-          "fecha": "2026-04-30T18:46:02-03:00",
-          "mensaje": "Objetivo:\n\nAnalizar críticamente los valores y principios del Manifiesto Ágil aplicándolos a un escenario real con tensiones y dilemas concretos.\n\nCaso:\n\nUna empresa de logística contrata un equipo de desarrollo para crear un sistema de seguimiento de envíos. El cliente entrega un documento de 80 páginas con todos los requerimientos. El gerente de proyecto insiste en seguir ese documento al pie de la letra, sin cambios. A mitad del proyecto, el cliente quiere modificar la forma en que se calculan las rutas, pero el gerente se niega porque \"eso no estaba en el contrato\". El equipo técnico dice que el cambio es simple, pero igual se frena. La entrega final es en 6 meses y todavía no hay ninguna versión funcional.\n\nTrabajar en equipo y responder:\n\n1-¿Qué valores del Manifiesto Ágil se están violando en este caso? ¿Cuáles se respetan?\n\n2-¿Qué cambiarías del enfoque del gerente de proyecto basándote en los principios ágiles?\n\n3-¿Hay algún principio del Manifiesto que en este caso sea difíci",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=87811"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Laura Anahi ZAVIA",
-          "fecha": "2026-03-19T10:42:12-03:00",
-          "mensaje": "¡Hola! Es un gusto darles la bienvenida a este espacio curricular llamado Ingeniería de Software. Mi nombre es Laura Zavia y como facilitadora les acompañaré en este camino de aprendizaje y adaptación a los nuevos conocimientos que están por venir.\n\nPara ello, hoy jueves 19/03 a las 18:20hs, nos reuniremos para conocernos y organizar nuestra dinámica de trabajo a lo largo del año a través del enlace publicado en el bloque correspondiente. ¡Nos vemos adentro!",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85480"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Tatiana MANZANELLI",
-          "fecha": "2026-03-12T19:25:09-03:00",
-          "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85222"
-        }
-      ],
+      "criterios": "",
+      "avisos": [],
       "unidades": [],
-      "tareas": [
-        {
-          "nombre": "Evidencia de Aprendizaje 2 - Sprint 0",
-          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=116572",
-          "fecha_entrega": "Todavía no se han realizado envíos",
-          "estado": "pendiente",
-          "descripcion": "Estudiantes, en este sector un integrante de cada equipo deberá agregar el enlace a la primera entrega del proyecto de ABP.",
-          "seccion": "Evidencias de Aprendizaje"
-        },
-        {
-          "nombre": "Evidencia 3: Sprint 1",
-          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=117084",
-          "fecha_entrega": "Todavía no se han realizado envíos",
-          "estado": "pendiente",
-          "descripcion": "Estudiantes, en este sector les pido que un integrante por equipo comparta enlace al documento de trabajo para realizar su valoración.",
-          "seccion": "Evidencias de Aprendizaje"
-        }
-      ],
+      "tareas": [],
       "materiales": [],
-      "meet_url": "http://meet.google.com/stm-stcr-std",
-      "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
+      "meet_url": null,
+      "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-09T12:47:48.628215"
+      "ultima_actualizacion": "2026-06-10T13:37:39.189753"
     },
     {
       "nombre": "Inglés II",
@@ -577,30 +88,15 @@
       "horario": "Jueves 14:20–15:20",
       "comision": "A (tarde)",
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4246",
-      "criterios": "• Sistema de Acreditación - Espacios Curriculares Anuales\n• Régimen Académico Institucional\n",
-      "avisos": [
-        {
-          "titulo": "Avisos",
-          "autor": "Carolina BERTUZZI",
-          "fecha": "2026-03-15T14:57:46-03:00",
-          "mensaje": "Estimado/a estudiante,\n\n¡Te damos la bienvenida a Inglés II!\n\nMi nombre es Carolina y soy la coordinadora del Departamento de Inglés. Junto con el equipo docente, te acompañaremos a lo largo de este ciclo lectivo. Estoy disponible para brindarte asesoramiento y responder tus consultas sobre este espacio curricular. \n\nA continuación, te comparto información importante para estas primeras semanas:\n\n📌 Inicio de clases:\n\nLas clases inician la semana del 16 de marzo con actividades asincrónicas \n\nLos encuentros sincrónicos comienzan en abril\n\n📌 Publicación de horarios:\n  A partir del 25 de marzo se publicará el listado con los horarios de las diferentes comisiones de Inglés II. Podrás encontrarlos en el aula virtual, dentro de la sección \"Comisiones de Inglés II\", donde estará disponible el cronograma de encuentros sincrónicos de cada tecnicatura superior.\n\n💡Aclaración: los estudiantes que cursaron Inglés I en comisiones de Nivel  B1/B2 recibirán un correo electrónico donde se detallará la ",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85261"
-        }
-      ],
+      "criterios": "",
+      "avisos": [],
       "unidades": [],
-      "tareas": [
-        {
-          "nombre": "Coloquio - Promoción",
-          "url": "https://acceso.ispc.edu.ar/course/section.php?id=27558",
-          "fecha_entrega": null,
-          "estado": "pendiente"
-        }
-      ],
+      "tareas": [],
       "materiales": [],
       "meet_url": null,
-      "programa_archivo": "/data/files/ingles_ii_programa.pdf",
-      "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-06-09T12:48:34.167396"
+      "programa_archivo": null,
+      "hoja_de_ruta_archivo": null,
+      "ultima_actualizacion": "2026-06-10T13:37:40.890110"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -608,129 +104,15 @@
       "horario": "Martes 15:40–18:00",
       "comision": "A (tarde)",
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4268",
-      "criterios": "• Criterios de evaluación\n• Sistema de Acreditación Módulos Cuatrimestrales\n• Régimen Académico Institucional\n",
-      "avisos": [
-        {
-          "titulo": "Avisos",
-          "autor": "Yamil SALOMON",
-          "fecha": "2026-06-05T23:13:00-03:00",
-          "mensaje": "Estimados alumnos de Analista de Datos I, les hacemos llegar las siguientes fechas\n\nDEFENSAS DE LOS TRABAJOS:\n\n-          COM B: lunes 08/06/2026, 18:00 hs. (Prof. Yamil Salomon y Prof. Nahuel Pratta)\n-          COM A: martes 09/06/2026 15:40 hs (Prof. Milagro Teruel y Prof. Nahuel Pratta)\n-          COM B: viernes 12/06/2026, 20:00 hs. à en caso de que queden grupos pendientes del lunes (Prof. Yamil Salomon y Prof. Nahuel Pratta)\n\nRecuerden armar una carpeta dentro del drive “Trabajo Final” y dejar en el mismo:\n\n-          Poster\n-          Notebook Colab\n\nEl orden dispuesto para los equipos durante la defensa podrán encontrarlo dentro del Excel “Armá tu Equipo”.\n\nCOLOQUIOS:\n\n-          COM B: lunes 22/06/2026 18:30 hs. (Prof. Yamil Salomon y Prof. Nahuel Pratta)\n-          COM A: martes 23/06/2026 15:30 hs. (Prof. Milagro Teruel y Prof. Nahuel Pratta)",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=89255"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Yamil SALOMON",
-          "fecha": "2026-06-01T23:14:33-03:00",
-          "mensaje": "Tal como lo comentamos en clase, les subimos por aqui los temas tratados:\n\nVamos a subir las notas del EA2 a la brevedad\nLa semana que viene tenemos la Defensa de los trabajos. Los trabajos deben contener\nEA2 (con correcciones) +\nEA3 (punto 3 y 4 de la notebook) +\nPoster\nSe pondrá la nota del EA3 (aprobado o no aprobado) en función de la Nota del trabajo final (#Numerica)\nDEFENSA DE TRABAJOS\nLunes 08/06: desde las 18 hs.\nViernes 12/06: desde las 20 hs.\n\nComunicaremos los grupos y horarios en una planilla asi se presentan en esa hora.\n\nCOLOQUIO: Lunes 22/06: desde18:00 hs.",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=89029"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Yamil SALOMON",
-          "fecha": "2026-06-01T10:44:47-03:00",
-          "mensaje": "Estimados estudiantes de Analista de Datos I:\nEsta semana retomaremos las clases.\nNos vemos esta tarde con la COM B.\nSaludos.\nProf. Yamil Salomon",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=89003"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Yamil SALOMON",
-          "fecha": "2026-05-13T19:19:27-03:00",
-          "mensaje": "Estimados estudiantes de analista de datos COMB:\nLes comento que por cuestiones personales no estaré presente en las próximas clases debido a una intervención quirúrgica.\nLes dejare unos Cobab para que puedan seguir avanzando en su trabajo.\nPor cualquier duda a disposición.\nSaludos.\nProf Yamil Salomon",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=88316"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Yamil SALOMON",
-          "fecha": "2026-04-27T13:43:25-03:00",
-          "mensaje": "Hola comisión B 👋\n\nLes aviso que ya se encuentran subidos los primeros materiales de la cursada. Dentro del contenido disponible van a encontrar una carpeta con los archivos que vamos a utilizar y procesar durante las próximas clases.\n\nAdemás, hoy comenzaremos a trabajar con Python utilizando la herramienta Google Colab, por lo que les pido que ingresen previamente y se preparen para poder seguir la práctica en clase.\n\nRevisen los materiales con anticipación así arrancamos de la mejor manera. ¡Nos vemos hoy!",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=87626"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Yamil SALOMON",
-          "fecha": "2026-04-20T20:36:39-03:00",
-          "mensaje": "Espero que se encuentren bien...\nA lo largo de esta cursada vamos a trabajar con herramientas y enfoques que les permitirán comprender, interpretar y transformar datos en información valiosa para la toma de decisiones. No se trata solo de manejar software, sino de desarrollar una mirada analítica que les permita hacerse buenas preguntas, identificar patrones y proponer soluciones fundamentadas.\n\nRecuerden que su base de datos deben tener:\n\n- Registro duplicados \n- Datos faltantes o nulos\n- formatos inconsistentes (fechas, unidades de medida, textos mayusculas / minusculas)\n- Errores de entrada (tipograficos o datos fuera de rango)\n \nA disposición.\n\nSaludos.",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=87044"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Tatiana MANZANELLI",
-          "fecha": "2026-03-16T17:00:00-03:00",
-          "mensaje": "Objetivo de la actividad\nIdentificar los conocimientos previos sobre conceptos estadísticos fundamentales y\nreconocer su presencia constante en la toma de decisiones cotidianas y profesionales.\n\nInstrucciones para los/as estudiantes\n¡Bienvenidos a nuestro primer foro de debate! Antes de abrir los libros, queremos saber\nqué tan &quot;estadística&quot; es su mirada del mundo. Para participar, por favor respondan a los\nsiguientes tres puntos:\n\n\n1. El Diccionario Personal Sin buscar en Google, definan con sus propias palabras qué\nentienden por Estadística. Si tuvieran que elegir tres conceptos que asocien con esta\npalabra (por ejemplo: promedio, azar, encuesta, etc.), ¿cuáles serían y por qué?\n\n2. La Estadística en tu Mundo Real; Mencionen un ejemplo de su vida cotidiana o\nde su futura profesión donde utilicen la estadística.\n\n3. El Poder de la Imagen y el Número Observen la siguiente estructura básica de\nprocesamiento de datos:\n\n\nRespondan:\n - ¿Para qué creen que sirven los gráficos en lu",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85276"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Nahuel PRATTA",
-          "fecha": "2026-03-17T11:36:09-03:00",
-          "mensaje": "Hola a todos! Primero que nada, quiero darles la bienvenida a este espacio y desearles un gran comienzo de año académico.\n\nPronto tendremos la oportunidad de conocernos en los encuentros sincrónicos: en el día de hoy, a las 15.40 con la Comisión A y el martes 31 con la Comisión B.\n\nMuy interesantes las respuestas a la actividad planteada, sobre la cual ya tomé nota para empezar a trabajar sobre los contenidos y alcances de la Estadística!\n\n¡Saludos y muchos éxitos! \n\nLic. Nahuel Pratta",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85342"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Tatiana MANZANELLI",
-          "fecha": "2026-03-12T20:40:46-03:00",
-          "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85227"
-        }
-      ],
-      "unidades": [
-        {
-          "nombre": "Unidad I - Estadística Descriptiva - Teoría",
-          "url": "https://acceso.ispc.edu.ar/mod/page/view.php?id=112677",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Unidad I - Práctica Descriptiva",
-          "url": "https://acceso.ispc.edu.ar/mod/page/view.php?id=112678",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Unidad II - Probabilidad - Teoría",
-          "url": "https://acceso.ispc.edu.ar/mod/page/view.php?id=112681",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Unidad II - Práctica Probabilidad",
-          "url": "https://acceso.ispc.edu.ar/mod/page/view.php?id=112682",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Unidad III - Estimación de Parámetros - Teoría",
-          "url": "https://acceso.ispc.edu.ar/mod/page/view.php?id=112684",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Unidad III - Estimación de Parámetros - Práctica",
-          "url": "https://acceso.ispc.edu.ar/mod/page/view.php?id=112685",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Unidad IV - Contrastes de Hipótesis - Teoría",
-          "url": "https://acceso.ispc.edu.ar/mod/page/view.php?id=112687",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Unidad IV - Contrastes de Hipótesis - Práctica",
-          "url": "https://acceso.ispc.edu.ar/mod/page/view.php?id=112688",
-          "descripcion": ""
-        }
-      ],
-      "tareas": [
-        {
-          "nombre": "Evidencia 1 ABP",
-          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=114896",
-          "fecha_entrega": "Enviado para calificar",
-          "estado": "entregada",
-          "descripcion": "En base a lo conversado en clases, deberán tener en cuenta los siguientes puntos para esta 1° evidencia, teniendo en cuenta la idea pensada para el EC Proyecto Integrador.\n\n1- Crear grupos de 6 estudiantes (de la misma comisión). Poner un nombre. Subir un documento en pdf en la plataforma, en el cual figuren los nombres de los participantes y el link al repositorio que se detalla en el siguiente punto. IMPORTANTE, cada estudiante debe hacerlo (si no se considera como Ausente la entrega). También",
-          "seccion": "Evidencias de Aprendizajes"
-        }
-      ],
+      "criterios": "",
+      "avisos": [],
+      "unidades": [],
+      "tareas": [],
       "materiales": [],
-      "meet_url": "http://meet.google.com/qam-wget-kaq",
+      "meet_url": null,
       "programa_archivo": null,
-      "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-06-09T12:48:49.865760"
+      "hoja_de_ruta_archivo": null,
+      "ultima_actualizacion": "2026-06-10T13:37:42.661960"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -738,129 +120,15 @@
       "horario": "Martes 15:40–18:00",
       "comision": "A (tarde)",
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4268",
-      "criterios": "• Criterios de evaluación\n• Sistema de Acreditación Módulos Cuatrimestrales\n• Régimen Académico Institucional\n",
-      "avisos": [
-        {
-          "titulo": "Avisos",
-          "autor": "Yamil SALOMON",
-          "fecha": "2026-06-05T23:13:00-03:00",
-          "mensaje": "Estimados alumnos de Analista de Datos I, les hacemos llegar las siguientes fechas\n\nDEFENSAS DE LOS TRABAJOS:\n\n-          COM B: lunes 08/06/2026, 18:00 hs. (Prof. Yamil Salomon y Prof. Nahuel Pratta)\n-          COM A: martes 09/06/2026 15:40 hs (Prof. Milagro Teruel y Prof. Nahuel Pratta)\n-          COM B: viernes 12/06/2026, 20:00 hs. à en caso de que queden grupos pendientes del lunes (Prof. Yamil Salomon y Prof. Nahuel Pratta)\n\nRecuerden armar una carpeta dentro del drive “Trabajo Final” y dejar en el mismo:\n\n-          Poster\n-          Notebook Colab\n\nEl orden dispuesto para los equipos durante la defensa podrán encontrarlo dentro del Excel “Armá tu Equipo”.\n\nCOLOQUIOS:\n\n-          COM B: lunes 22/06/2026 18:30 hs. (Prof. Yamil Salomon y Prof. Nahuel Pratta)\n-          COM A: martes 23/06/2026 15:30 hs. (Prof. Milagro Teruel y Prof. Nahuel Pratta)",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=89255"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Yamil SALOMON",
-          "fecha": "2026-06-01T23:14:33-03:00",
-          "mensaje": "Tal como lo comentamos en clase, les subimos por aqui los temas tratados:\n\nVamos a subir las notas del EA2 a la brevedad\nLa semana que viene tenemos la Defensa de los trabajos. Los trabajos deben contener\nEA2 (con correcciones) +\nEA3 (punto 3 y 4 de la notebook) +\nPoster\nSe pondrá la nota del EA3 (aprobado o no aprobado) en función de la Nota del trabajo final (#Numerica)\nDEFENSA DE TRABAJOS\nLunes 08/06: desde las 18 hs.\nViernes 12/06: desde las 20 hs.\n\nComunicaremos los grupos y horarios en una planilla asi se presentan en esa hora.\n\nCOLOQUIO: Lunes 22/06: desde18:00 hs.",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=89029"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Yamil SALOMON",
-          "fecha": "2026-06-01T10:44:47-03:00",
-          "mensaje": "Estimados estudiantes de Analista de Datos I:\nEsta semana retomaremos las clases.\nNos vemos esta tarde con la COM B.\nSaludos.\nProf. Yamil Salomon",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=89003"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Yamil SALOMON",
-          "fecha": "2026-05-13T19:19:27-03:00",
-          "mensaje": "Estimados estudiantes de analista de datos COMB:\nLes comento que por cuestiones personales no estaré presente en las próximas clases debido a una intervención quirúrgica.\nLes dejare unos Cobab para que puedan seguir avanzando en su trabajo.\nPor cualquier duda a disposición.\nSaludos.\nProf Yamil Salomon",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=88316"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Yamil SALOMON",
-          "fecha": "2026-04-27T13:43:25-03:00",
-          "mensaje": "Hola comisión B 👋\n\nLes aviso que ya se encuentran subidos los primeros materiales de la cursada. Dentro del contenido disponible van a encontrar una carpeta con los archivos que vamos a utilizar y procesar durante las próximas clases.\n\nAdemás, hoy comenzaremos a trabajar con Python utilizando la herramienta Google Colab, por lo que les pido que ingresen previamente y se preparen para poder seguir la práctica en clase.\n\nRevisen los materiales con anticipación así arrancamos de la mejor manera. ¡Nos vemos hoy!",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=87626"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Yamil SALOMON",
-          "fecha": "2026-04-20T20:36:39-03:00",
-          "mensaje": "Espero que se encuentren bien...\nA lo largo de esta cursada vamos a trabajar con herramientas y enfoques que les permitirán comprender, interpretar y transformar datos en información valiosa para la toma de decisiones. No se trata solo de manejar software, sino de desarrollar una mirada analítica que les permita hacerse buenas preguntas, identificar patrones y proponer soluciones fundamentadas.\n\nRecuerden que su base de datos deben tener:\n\n- Registro duplicados \n- Datos faltantes o nulos\n- formatos inconsistentes (fechas, unidades de medida, textos mayusculas / minusculas)\n- Errores de entrada (tipograficos o datos fuera de rango)\n \nA disposición.\n\nSaludos.",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=87044"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Tatiana MANZANELLI",
-          "fecha": "2026-03-16T17:00:00-03:00",
-          "mensaje": "Objetivo de la actividad\nIdentificar los conocimientos previos sobre conceptos estadísticos fundamentales y\nreconocer su presencia constante en la toma de decisiones cotidianas y profesionales.\n\nInstrucciones para los/as estudiantes\n¡Bienvenidos a nuestro primer foro de debate! Antes de abrir los libros, queremos saber\nqué tan &quot;estadística&quot; es su mirada del mundo. Para participar, por favor respondan a los\nsiguientes tres puntos:\n\n\n1. El Diccionario Personal Sin buscar en Google, definan con sus propias palabras qué\nentienden por Estadística. Si tuvieran que elegir tres conceptos que asocien con esta\npalabra (por ejemplo: promedio, azar, encuesta, etc.), ¿cuáles serían y por qué?\n\n2. La Estadística en tu Mundo Real; Mencionen un ejemplo de su vida cotidiana o\nde su futura profesión donde utilicen la estadística.\n\n3. El Poder de la Imagen y el Número Observen la siguiente estructura básica de\nprocesamiento de datos:\n\n\nRespondan:\n - ¿Para qué creen que sirven los gráficos en lu",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85276"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Nahuel PRATTA",
-          "fecha": "2026-03-17T11:36:09-03:00",
-          "mensaje": "Hola a todos! Primero que nada, quiero darles la bienvenida a este espacio y desearles un gran comienzo de año académico.\n\nPronto tendremos la oportunidad de conocernos en los encuentros sincrónicos: en el día de hoy, a las 15.40 con la Comisión A y el martes 31 con la Comisión B.\n\nMuy interesantes las respuestas a la actividad planteada, sobre la cual ya tomé nota para empezar a trabajar sobre los contenidos y alcances de la Estadística!\n\n¡Saludos y muchos éxitos! \n\nLic. Nahuel Pratta",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85342"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Tatiana MANZANELLI",
-          "fecha": "2026-03-12T20:40:46-03:00",
-          "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85227"
-        }
-      ],
-      "unidades": [
-        {
-          "nombre": "Unidad I - Estadística Descriptiva - Teoría",
-          "url": "https://acceso.ispc.edu.ar/mod/page/view.php?id=112677",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Unidad I - Práctica Descriptiva",
-          "url": "https://acceso.ispc.edu.ar/mod/page/view.php?id=112678",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Unidad II - Probabilidad - Teoría",
-          "url": "https://acceso.ispc.edu.ar/mod/page/view.php?id=112681",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Unidad II - Práctica Probabilidad",
-          "url": "https://acceso.ispc.edu.ar/mod/page/view.php?id=112682",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Unidad III - Estimación de Parámetros - Teoría",
-          "url": "https://acceso.ispc.edu.ar/mod/page/view.php?id=112684",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Unidad III - Estimación de Parámetros - Práctica",
-          "url": "https://acceso.ispc.edu.ar/mod/page/view.php?id=112685",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Unidad IV - Contrastes de Hipótesis - Teoría",
-          "url": "https://acceso.ispc.edu.ar/mod/page/view.php?id=112687",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Unidad IV - Contrastes de Hipótesis - Práctica",
-          "url": "https://acceso.ispc.edu.ar/mod/page/view.php?id=112688",
-          "descripcion": ""
-        }
-      ],
-      "tareas": [
-        {
-          "nombre": "Evidencia 1 ABP",
-          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=114896",
-          "fecha_entrega": "Enviado para calificar",
-          "estado": "entregada",
-          "descripcion": "En base a lo conversado en clases, deberán tener en cuenta los siguientes puntos para esta 1° evidencia, teniendo en cuenta la idea pensada para el EC Proyecto Integrador.\n\n1- Crear grupos de 6 estudiantes (de la misma comisión). Poner un nombre. Subir un documento en pdf en la plataforma, en el cual figuren los nombres de los participantes y el link al repositorio que se detalla en el siguiente punto. IMPORTANTE, cada estudiante debe hacerlo (si no se considera como Ausente la entrega). También",
-          "seccion": "Evidencias de Aprendizajes"
-        }
-      ],
+      "criterios": "",
+      "avisos": [],
+      "unidades": [],
+      "tareas": [],
       "materiales": [],
-      "meet_url": "http://meet.google.com/qam-wget-kaq",
+      "meet_url": null,
       "programa_archivo": null,
-      "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-06-09T12:49:45.735920"
+      "hoja_de_ruta_archivo": null,
+      "ultima_actualizacion": "2026-06-10T13:37:44.372841"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -868,104 +136,15 @@
       "horario": "Miércoles 18:20–19:20",
       "comision": "Única",
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4288",
-      "criterios": "• Criterios de evaluación\n• Sistema de Acreditación de Práctica Profesionalizante Anuales\n• Régimen Académico Institucional\n",
-      "avisos": [
-        {
-          "titulo": "Avisos",
-          "autor": "Ramiro Adrian CEBALLES",
-          "fecha": "2026-06-08T09:30:17-03:00",
-          "mensaje": "Buen día estimados/as! La evidencia tres tendrá lugar esta semana, como para la pasantía pedí los CV después de dar el modelo de Hardvard de ejemplo y sólo un curriculum fue enviado en ese formato, esta evidencia será crear su CV para que pase ATS y con modelo de Hardvard.\n\n\nSe dará inicio el día Miércoles 10/06 a las entregas, entre las 00:00 y 23:59.",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=89301"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Ramiro Adrian CEBALLES",
-          "fecha": "2026-06-03T09:46:37-03:00",
-          "mensaje": "En el día de hoy se convoca a la marcha #NiUnaMenos.\nEn virtud de lo dispuesto en el Memo N.° 7/2026 del Ministerio de Educación, se autoriza el retiro a partir de las 16:00 h para quienes deseen participar de la movilización, prevista para las 18:00 h.\n\nDado ese memo del ministerio de educación, suspendemos la clase sincrónica para aquellas personas que quieras movilizarse en el reclamo de justicia por Agostina.",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=89083"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Ramiro Adrian CEBALLES",
-          "fecha": "2026-05-26T19:57:17-03:00",
-          "mensaje": "Buenas noches estudiantes, se me paso totalmente generar la evidencia para el día de hoy. Ya está cargada y da comienzo el día de mañana miércoles 27/05/2026 desde las 00:00 hasta las 23:59.\n\nLos temas son los vistos en los sincrónicos: Proceso de selección y entrevistas, CV profesional y ATS, Freelance: plataformas y presupuestación y Marco normativo, contratos y monotributo.",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=88791"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Ramiro Adrian CEBALLES",
-          "fecha": "2026-05-15T09:11:17-03:00",
-          "mensaje": "Buen día estudiantes, con la coordinadora en la reunión que tuvimos detectamos muchos CUS desactualizados o a punto de vencer, para realizar las prácticas es obligatorio tenerlo actualizado, por favor regularicen su situación con respecto a eso.\n\nEn otro tema recuerden que las pasantías requieren un seguro que sale de la cooperadora, por favor también regularicen su situación allí, en caso de no poder escriban un mail asi vemos que podemos hacer.",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=88404"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Ramiro Adrian CEBALLES",
-          "fecha": "2026-04-21T11:26:32-03:00",
-          "mensaje": "Buen día estudiantes, paso a invitarlos a FliSol una especie de Nerdear.la más tranqui, que va a tener lugar en la biblioteca de ciencias económicas de la UNC, va a haber charlas, talleres y espacio de networking.\n\nhttps://flisol.info/\nPara anotarse:\nhttps://flisol.info/FLISOL2026/Argentina/Cordoba\n\nYo voy a ir, probablemente la profe García Zavia también así que a los que quieran sumarse los invitamos y esperamos verlos allá.",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=87091"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Ramiro Adrian CEBALLES",
-          "fecha": "2026-04-17T18:41:59-03:00",
-          "mensaje": "Buenas tardes estudiantes, ¿cómo están?\n\nLes comento que la evidencia uno va a ser sobre la guía de GitHub y de Scrum que vieron el año pasado, dejo los enlaces a esos textos para que repasen si no recuerdan donde encontrarlos:\n\nhttps://drive.google.com/file/d/15kMN6GC6onH28bh6Bf_FJVjTn397ocup/view?usp=sharing\nhttps://drive.google.com/file/d/13FCJq25Oypn7UFzKhJq4jCsqqiM-MHxr/view?usp=sharing\n\nRecuerden que la primera evidencia normalmente es diagnóstica y niveladora, sumado a que no tiempo de iniciar nuevos temas aún.\n\nPor otro lado quiero comentarles que estoy avanzando en el tema pasantías, pero estas cuestiones van lentas, mientras tanto vamos a ver temas como curriculum vitae, ATS, entrevistas laborales, sitios de trabajo Freelance, cuestiones legales y laborales como monotributo, aportes, etc.\n\nLes deseo un buen fin de semana, en el transcurso de la misma les subiré el material teórico de las siguientes clases.",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86782"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Ramiro Adrian CEBALLES",
-          "fecha": "2026-04-10T16:35:38-03:00",
-          "mensaje": "Buenas tardes estudiantes, cómo les va? Soy Ramiro Ceballes, su nuevo profesor de Prácticas Profesionalizantes II, ya nos conocemos de programación III, asique vamos a agilizar este comunicado sin grandes presentaciones y anunciando las novedades.\nPrimero quiero pedirles disculpas por las clases que se perdieron, me podría haber presentado al primer llamado y a esta altura ya hubieramos avanzado bastante.\nSegundo, la primera clase será el miércoles 15/04/2026 a las 18:20 hs hasta las 19:20 hs. Sería de mucha utilidad para mí, que para ese día todos hayan completado el siguiente formulario (https://forms.gle/U7fEffCMBtWKLUGHA), ya que me dará una perspectiva de como gestionar las pasantías.\nEn el formulario no se indaga más allá de situación laboral de cada uno, disponibilidad para la pasantía, reconocimiento de saberes en los casos que amerite y proyectos que puedan ser útiles para la materia.\nSe que tienen muchas dudas, desde hoy que acepte el cargo me estoy informando sobre la modali",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=86370"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Tatiana MANZANELLI",
-          "fecha": "2026-03-18T11:16:46-03:00",
-          "mensaje": "Estimados/as buenos días!\n\nLes comento que esta semana tendrán clase asincrónica de la practica profesionalizante II.\n\nEn virtud de ello los invito y a animo a participar en este foro compartiendo sus ideas:\n\n¿Cómo imaginan el trabajo de un/a desarrollador/a de software en la vida real?\n\n¿En qué tipo de proyecto o área les gustaría desempeñarse? \n\n¿Qué habilidades creen que son importantes para trabajar en equipo en tecnología?\n\n¿Qué expectativas tienen de este espacio curricular?\n\nLos estaremos leyendo!",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85402"
-        },
-        {
-          "titulo": "Avisos",
-          "autor": "Tatiana MANZANELLI",
-          "fecha": "2026-03-12T19:31:07-03:00",
-          "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85223"
-        }
-      ],
+      "criterios": "",
+      "avisos": [],
       "unidades": [],
-      "tareas": [
-        {
-          "nombre": "Evidencia uno",
-          "url": "https://acceso.ispc.edu.ar/mod/quiz/view.php?id=114841",
-          "fecha_entrega": null,
-          "estado": "pendiente",
-          "descripcion": "Su calificación final en este cuestionario es 9,67/10,00.",
-          "seccion": "Evidencias de Aprendizaje"
-        },
-        {
-          "nombre": "Evidencia de aprendizaje número dos",
-          "url": "https://acceso.ispc.edu.ar/mod/quiz/view.php?id=116796",
-          "fecha_entrega": null,
-          "estado": "pendiente",
-          "descripcion": "Su calificación final en este cuestionario es 10,00/10,00.",
-          "seccion": "Evidencias de Aprendizaje"
-        },
-        {
-          "nombre": "Evidencia de aprendizaje tres",
-          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=117237",
-          "fecha_entrega": "Todavía no se han realizado envíos",
-          "estado": "pendiente",
-          "descripcion": "",
-          "seccion": "Evidencias de Aprendizaje"
-        }
-      ],
+      "tareas": [],
       "materiales": [],
-      "meet_url": "http://meet.google.com/yww-aikn-asr",
-      "programa_archivo": "/data/files/practica_profesionalizante_ii_programa.pdf",
-      "hoja_de_ruta_archivo": "/data/files/practica_profesionalizante_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-06-09T12:50:43.032247"
+      "meet_url": null,
+      "programa_archivo": null,
+      "hoja_de_ruta_archivo": null,
+      "ultima_actualizacion": "2026-06-10T13:37:46.074450"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -973,99 +152,15 @@
       "horario": "Miércoles 17:00–18:00",
       "comision": "A (tarde)",
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4269",
-      "criterios": "• Criterios de evaluación\n• Sistema de Acreditación - Espacios curriculares Cuatrimestrales\n• Régimen Académico Institucional\n",
-      "avisos": [
-        {
-          "titulo": "Avisos",
-          "autor": "Tatiana MANZANELLI",
-          "fecha": "2026-03-12T20:45:39-03:00",
-          "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85228"
-        },
-        {
-          "titulo": "Avisos Com A",
-          "autor": "Ana FARIAS",
-          "fecha": "2026-06-08T02:40:59-03:00",
-          "mensaje": "Evidencia N°3 · Cierre y defensa del ABP /poster — Modelo de póster (con ejemplo)\n\n Les doy un ejemplo ya armado del póster para que lo usen de guía. La consigna es simple: miren el ejemplo, y después ármenlo en su propio póster con el contenido de su proyecto.\n\nCómo hacerlo (en 3 pasos simples):\n\nAbran el ejemplo en Canva y dupliquen el diseño (\"Archivo → Hacer una copia\").\nReemplacen el contenido del ejemplo por el de su proyecto, respetando el orden de las zonas (A a F).\nRevisen que se lea claro y a la distancia. Listo.\n\nEjemplo en Canva: https://www.canva.com/design/DAGiLYw6Vgw/KeSmzeYtXTc_bZRygrn0OA/view?utm_content=DAGiLYw6Vgw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview\n\nQué va en cada zona del modelo:\n\nA · Título + equipo + logos — título del proyecto, integrantes, materias y logos del ISPC y Gobierno de Córdoba. Que se lea a 2 metros.\nB · Problema y objetivo — el problema y el objetivo del Project Charter, con la mirada ética.\nC · Herramien",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=89291"
-        },
-        {
-          "titulo": "Avisos Com A",
-          "autor": "Ana FARIAS",
-          "fecha": "2026-05-27T14:26:46-03:00",
-          "mensaje": "Estimados/as alumnos/as:\n\nLes comparto el siguiente enlace de Google Drive donde podrán visualizar y controlar el registro de asistencia correspondiente a la materia Tecnología y Sociedad – Comisión A:\n\nhttps://drive.google.com/drive/folders/1HE5rOiT_RU7stoxjyxoR8rdv3QN7ch40?usp=sharing\n\nLes pido que revisen sus asistencias y, en caso de detectar alguna inconsistencia, me lo comuniquen a la brevedad respondiendo a este correo.\n\nSaludos cordiales,\nProf ana g. farias",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=88823"
-        },
-        {
-          "titulo": "Avisos Com A",
-          "autor": "Ana FARIAS",
-          "fecha": "2026-03-25T01:53:43-03:00",
-          "mensaje": "¡Buen día a todos! Espero que estén bien. Les comparto la Actividad Integradora Nro. 2 de Tecnología y Sociedad, que van a trabajar a partir de lo que vimos en la clase de hoy.\nComo repasamos recién, esta clase giró en torno a tres ejes: la dataficación de la sociedad, la relación entre tecnología y los Objetivos de Desarrollo Sostenible, y la ética y responsabilidad que tenemos como profesionales de datos. Estos tres ejes no son independientes entre sí, sino que se conectan directamente con el proyecto integrador que van a desarrollar a lo largo de toda la materia.\nLa actividad que les adjunto tiene cuatro momentos. Primero, necesitan conformar equipos de 3 a 5 personas, elegir un nombre para el grupo y designar un coordinador o coordinadora (LIDER DE PROYECTO) que será el nexo  . Segundo, y esto es lo más importante, van a hacer un ejercicio de observación de su comunidad: su barrio, su ciudad, su entorno cercano. La idea es que identifiquen una problemática real que afecte a persona",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85703"
-        },
-        {
-          "titulo": "Avisos Com A",
-          "autor": "Ana FARIAS",
-          "fecha": "2026-03-18T14:18:21-03:00",
-          "mensaje": "Bienvenidos alumnos  al EC  TECNOLOGIA Y SOCIEDAD !!!\n\nLa Actividad Integradora Nro 1 se ldenomina  \"Mapeo de Brechas Digitales en mi Comunidad\" y tiene tres momentos:\n\nPrimero, cada uno individualmente piensa en su barrio o ciudad y se pregunta: ¿qué nivel de acceso a internet tiene la mayoría?, ¿qué dispositivos usan y para qué?, ¿quiénes quedan afuera y por qué?\n\nDespués,se reunen  en grupos de 3 o 4 personas, comparten lo que pensaron y entre todos identifican cuál es el factor de brecha digital más presente, alguna dimensión que no sea tan obvia (como género, edad o idioma) y una estrategia posible para reducir esa brecha a nivel local.\n\nPor último, preparan una presentación con soporte visual (puede ser con Canva, Google Slides o un afiche) que resuma el diagnóstico y la propuesta del grupo no mas de 2 slides \n\nLa exposición es la próxima clase, el martes 25 de marzo de 2026. Cada grupo tiene 5  minutos para presentar. Todos los integrantes tienen que participar de la exposición,",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85421"
-        },
-        {
-          "titulo": "Avisos Com A",
-          "autor": "Ana FARIAS",
-          "fecha": "2026-03-18T12:15:36-03:00",
-          "mensaje": "Bienveniosa  – Comisión A | EC Tecnología y Sociedad Cursada 2026\n\nSe da la bienvenida a todos los alumnos y alumnas de la Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial (TSCDIA), cohorte 2025, a este espacio curricular de Tecnología y Sociedad.\n\nEs un gusto iniciar este recorrido juntos. A lo largo de la cursada se abordarán temas fundamentales sobre el impacto de la tecnología en la sociedad, los dilemas éticos que plantea la transformación digital, el rol del profesional de datos e inteligencia artificial en el contexto actual y las responsabilidades que implica trabajar con información y algoritmos que afectan la vida de las personas.\n\nSobre la clase de hoy:\n\nSe informa que la clase del día de la fecha es de modalidad asincrónica. Esto significa que no habrá encuentro sincrónico (en vivo), sino que se pondrá a disposición el material para que cada alumno lo trabaje en el horario que le resulte conveniente.\n\nEn el transcurso del día se subirán a la plataforma:\n\nE",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85411"
-        }
-      ],
+      "criterios": "",
+      "avisos": [],
       "unidades": [],
-      "tareas": [
-        {
-          "nombre": "EVIDENCIA DE APRENDIZAJE NRO 1 PRIMERA PARTE COMISION A",
-          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=114638",
-          "fecha_entrega": "Enviado para calificar",
-          "estado": "entregada",
-          "descripcion": "Evidencia NRO 1 – Diagnóstico Digital + Project Charter del Proyecto\n\nFecha de entrega: 21/04/25\n\nEstimados/as estudiantes, la primera evidencia evaluativa integra dos componentes fundamentales trabajados en clase: el análisis de digitalización de una organización y la formulación inicial de un proyecto utilizando la metodología PMI.\n\nPARTE 1: Análisis del Estado Actual de Digitalización\n\nDeberán realizar un diagnóstico del nivel de digitalización de una empresa real o simulada, analizando cuatr",
-          "seccion": "Evidencias de Aprendizajes"
-        },
-        {
-          "nombre": "EVIDENCIA DE APRENDIZAJE NRO 2 PRIMERA PARTE COMISION A",
-          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=116300",
-          "fecha_entrega": "Todavía no se han realizado envíos",
-          "estado": "pendiente",
-          "descripcion": "Evidencia NRO 1 – Diagnóstico Digital + Project Charter del Proyecto\n\nFecha de entrega: 21/04/25\n\nEstimados/as estudiantes, la primera evidencia evaluativa integra dos componentes fundamentales trabajados en clase: el análisis de digitalización de una organización y la formulación inicial de un proyecto utilizando la metodología PMI.\n\nPARTE 1: Análisis del Estado Actual de Digitalización\n\nDeberán realizar un diagnóstico del nivel de digitalización de una empresa real o simulada, analizando cuatr",
-          "seccion": "Evidencias de Aprendizajes"
-        },
-        {
-          "nombre": "EVIDENCIA DE APRENDIZAJE NRO 2 PARTE B 260626 COMISION A",
-          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=116595",
-          "fecha_entrega": "Todavía no se han realizado envíos",
-          "estado": "pendiente",
-          "descripcion": "Evidencia de Aprendizaje N°2 — Tecnología y Sociedad\n\n Buenas tardes!\n\nEn esta segunda evidencia vamos a dar un paso más sobre el trabajo que ya vienen desarrollando. Tomando como base el caso de empresa que cada grupo eligió y presentó en clase, les propongo que ahora lo miren con otros ojos: los de la Inteligencia Artificial.\n\nLa consigna es la siguiente: a partir del proyecto de empresa que están trabajando, identifiquen en qué áreas, procesos o tareas concretas podrían incorporar IA para mej",
-          "seccion": "Evidencias de Aprendizajes"
-        },
-        {
-          "nombre": "EVIDENCIA DE APRENDIZAJE NRO 3 INTEGRADORA CIERRE DEL PREOYECTO COMISION A",
-          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=117095",
-          "fecha_entrega": "Todavía no se han realizado envíos",
-          "estado": "pendiente",
-          "descripcion": "Evidencia_3_Cierre_ISPC (2).pptx\n3 junio 2026, 5:26 PM",
-          "seccion": "Evidencias de Aprendizajes"
-        },
-        {
-          "nombre": "Aquí subirán el POSTER del proyecto ABP - comisión B",
-          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=117188",
-          "fecha_entrega": null,
-          "estado": "pendiente",
-          "descripcion": "",
-          "seccion": "Proyecto ABP"
-        }
-      ],
+      "tareas": [],
       "materiales": [],
-      "meet_url": "http://meet.google.com/rgk-eexy-duc",
-      "programa_archivo": "/data/files/tecnologia_y_sociedad_programa.pdf",
+      "meet_url": null,
+      "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-09T12:51:40.742285"
+      "ultima_actualizacion": "2026-06-10T13:37:47.809326"
     }
   ]
 }
