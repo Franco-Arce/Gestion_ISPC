@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-06-12T13:41:01.798758",
+  "generado_el": "2026-06-13T12:08:26.692269",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -70,7 +70,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": "/data/files/ciberseguridad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-12T13:30:53.772050"
+      "ultima_actualizacion": "2026-06-13T11:57:34.071658"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -167,7 +167,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-12T13:31:51.229766"
+      "ultima_actualizacion": "2026-06-13T11:58:33.329609"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -190,6 +190,13 @@
           "fecha": "2026-03-12T20:35:47-03:00",
           "mensaje": "Estimados/as ¡Les doy la bienvenida al inicio de este nuevo ciclo académico! 🎓✨\nEs una gran alegría volver a encontrarnos para continuar transitando juntos este camino de formación.\n\nComenzar segundo año implica nuevos desafíos, pero también grandes oportunidades para seguir profundizando los conocimientos adquiridos, fortalecer el trabajo en equipo y continuar desarrollando las habilidades necesarias para su futuro profesional.\n\nDesde la coordinación y el equipo docente estaremos acompañándolos durante todo este proceso, promoviendo espacios de aprendizaje colaborativo, pensamiento crítico y construcción colectiva del conocimiento.\n\nLes deseamos un excelente inicio de cursado y un año lleno de aprendizajes, crecimiento y nuevos logros 🚀.\n\n¡Muchos éxitos en este nuevo año! 🙌",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85226"
+        },
+        {
+          "titulo": "Avisos Com A",
+          "autor": "Cynthia CORSO",
+          "fecha": "2026-06-12T16:18:17-03:00",
+          "mensaje": "Estimados estudiantes:\n\nQuienes hayan alcanzado la condición de promocional deberán rendir el coloquio integrador final.\n\nCon el fin de orientar la preparación, se comparte el siguiente material con preguntas orientadoras:\n\nhttps://drive.google.com/file/d/1F6BozzYPc7S0Mn28OFAyWFoDklpRh7Ws/view?usp=sharing\n\nLas respuestas y fundamentos de los temas planteados pueden encontrarse en el material teórico, presentaciones y demás recursos de estudio disponibles en el aula virtual, por lo que se recomienda su revisión integral.\n\nDurante el coloquio, cada estudiante deberá responder dos preguntas seleccionadas a partir de los contenidos desarrollados en la asignatura. Se estima una duración aproximada de 5 minutos por estudiante, aunque este tiempo podrá variar según el desarrollo de las respuestas.\n\nImportante: el coloquio se desarrollará de manera secuencial. La segunda pregunta se formulará una vez que el estudiante haya demostrado un conocimiento mínimo adecuado de la primera. En caso de no",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=89506"
         },
         {
           "titulo": "Avisos Com A",
@@ -409,7 +416,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-12T13:32:43.345572"
+      "ultima_actualizacion": "2026-06-13T11:59:25.073736"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -419,6 +426,13 @@
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4289",
       "criterios": "• Criterios de evaluación\n• Sistema de Acreditación - Espacios curriculares Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
+        {
+          "titulo": "Avisos",
+          "autor": "Laura Anahi ZAVIA",
+          "fecha": "2026-06-12T23:08:29-03:00",
+          "mensaje": "Estimad@s estudiantes, en el mosaico de PROYECTO ABP encontrarán un bloque para agregar el enlace al póster y dar cumplimiento al desarrollo de presentación de la defensa de cada uno de los proyectos. Saludos.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=89518"
+        },
         {
           "titulo": "Avisos",
           "autor": "Laura Anahi ZAVIA",
@@ -494,13 +508,21 @@
           "estado": "pendiente",
           "descripcion": "Estudiantes, en este sector les pido que un solo integrante por equipo comparta enlace al documento de trabajo para ser valorado.",
           "seccion": "Evidencias de Aprendizajes"
+        },
+        {
+          "nombre": "AGREGAR ENLACE AL PÓSTER",
+          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=119217",
+          "fecha_entrega": "Todavía no se han realizado envíos",
+          "estado": "pendiente",
+          "descripcion": "Estimad@s estudiantes, en este espacio un sólo integrante por equipo deberá agregar enlace al póster para complimentar con la presentación del proyecto ABP.",
+          "seccion": "Proyecto ABP"
         }
       ],
       "materiales": [],
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-12T13:34:41.498601"
+      "ultima_actualizacion": "2026-06-13T12:01:35.199194"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -576,7 +598,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-12T13:35:34.815627"
+      "ultima_actualizacion": "2026-06-13T12:02:44.863431"
     },
     {
       "nombre": "Inglés II",
@@ -607,7 +629,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-06-12T13:36:23.259920"
+      "ultima_actualizacion": "2026-06-13T12:03:34.948935"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -737,7 +759,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-06-12T13:36:39.434138"
+      "ultima_actualizacion": "2026-06-13T12:03:53.525824"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -867,7 +889,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-06-12T13:37:40.565474"
+      "ultima_actualizacion": "2026-06-13T12:04:57.807732"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -979,7 +1001,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": "/data/files/practica_profesionalizante_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/practica_profesionalizante_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-06-12T13:38:40.780905"
+      "ultima_actualizacion": "2026-06-13T12:06:01.219815"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -1087,7 +1109,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": "/data/files/tecnologia_y_sociedad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-12T13:39:45.383691"
+      "ultima_actualizacion": "2026-06-13T12:07:05.764590"
     }
   ]
 }
