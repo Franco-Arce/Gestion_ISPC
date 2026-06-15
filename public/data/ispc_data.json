@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-06-14T12:14:26.730908",
+  "generado_el": "2026-06-15T16:02:09.205900",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -70,7 +70,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": "/data/files/ciberseguridad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-14T12:03:25.225575"
+      "ultima_actualizacion": "2026-06-15T15:51:31.675336"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -80,6 +80,13 @@
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4290",
       "criterios": "• Criterios de evaluación\n• Sistema de Acreditación - Espacios curriculares Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
+        {
+          "titulo": "Avisos",
+          "autor": "Carlos Ignacio CHARLETTI",
+          "fecha": "2026-06-14T19:34:52-03:00",
+          "mensaje": "Buenas noches,\n\nSe encuentra cargada en la sección de calificaciones las evidencias, notas de la defensa del abp y las asistencias. \n\nDentro de calificaciones, encontraran su condición de cursada, si es promocional deberán inscribirse al coloquio, en caso de que sea libre o regular deberán anotarse directamente a las mesas examinadoras.\nLes adjunto una captura de pantalla de como se ve un estudiante que se encuentra en situación \"Promocional\"\n\nEn el caso de encontrar alguna inconsistencia, por favor reclamarlo por mensajería privada o contestando este hilo. Recuerden que los reclamos se toman hasta 72hs hábiles antes del coloquio, ya que una vez que el sistema genera el acta no es posible modificarla.\n\nDe paso les recuerdo que se encuentra disponible en el campus la encuesta para calificarme, es totalmente anónima, y me ayudaría mucho a mejorar.\n\nGracias,\n\nSaludos.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=89549"
+        },
         {
           "titulo": "Avisos",
           "autor": "Carlos Ignacio CHARLETTI",
@@ -167,7 +174,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-14T12:04:16.742643"
+      "ultima_actualizacion": "2026-06-15T15:52:28.171185"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -416,7 +423,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-14T12:05:12.383035"
+      "ultima_actualizacion": "2026-06-15T15:53:21.872889"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -522,7 +529,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-14T12:07:26.168550"
+      "ultima_actualizacion": "2026-06-15T15:55:25.880177"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -598,7 +605,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-14T12:08:32.482156"
+      "ultima_actualizacion": "2026-06-15T15:56:35.186558"
     },
     {
       "nombre": "Inglés II",
@@ -629,7 +636,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-06-14T12:09:22.761915"
+      "ultima_actualizacion": "2026-06-15T15:57:28.167786"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -759,7 +766,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-06-14T12:09:41.171016"
+      "ultima_actualizacion": "2026-06-15T15:57:44.590174"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -889,7 +896,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-06-14T12:10:49.623964"
+      "ultima_actualizacion": "2026-06-15T15:58:45.986193"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -1001,7 +1008,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": "/data/files/practica_profesionalizante_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/practica_profesionalizante_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-06-14T12:11:59.634957"
+      "ultima_actualizacion": "2026-06-15T15:59:46.555978"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -1109,7 +1116,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": "/data/files/tecnologia_y_sociedad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-14T12:13:07.850971"
+      "ultima_actualizacion": "2026-06-15T16:00:54.356679"
     }
   ]
 }
