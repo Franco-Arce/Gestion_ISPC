@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-06-17T13:56:47.869605",
+  "generado_el": "2026-06-18T13:54:41.616011",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -10,13 +10,6 @@
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4270",
       "criterios": "• Sistema de Acreditación - Espacios curriculares Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
-        {
-          "titulo": "Avisos",
-          "autor": "Carolina AHUMADA",
-          "fecha": "2026-03-18T10:13:09-03:00",
-          "mensaje": "BIENVENIDOS\n\n😊¡Estimado estudiante!\n\nMe complace darte la bienvenida a este mundo fascinante de la seguridad, que lo experimentarán a través del trayecto de “Ciberseguridad”!.  Espero sea el inicio de muchos éxitos, logros y satisfacciones, que enriquezcan tu espíritu y crecimiento personal. Estoy encantada de poder ayudarte a extender tus límites y a crecer más allá de lo que jamás soñaste que fuera posible. \n\nSaludos Cordiales.\n\nProf.  Carolina Ahumada\n\n\nAntes de continuar hablando sobre mí, les comparto algunas novedades sobre este trayecto:\n\n✳️Duración: 4 meses\n\n\n✳️¿Qué caminos recorreremos? Vamos a emprender un recorrido para conocer y aprender sobre SEGURIDAD en todo ámbito, y no solo será teórico, también podrán aplicar el conocimiento a situaciones PRÁCTICAS.  \n\n⚠️Algunos consejos para el recorrido...\n\n 🔶Motor siempre ENCENDIDO. (Un motor que no funciona o funciona a medias no los conducirá  a ningún destino).\n\n 🔶Mucha CURIOSIDAD, hay mucho por conocer y descubrir.\n\n🔶PERDER el ",
-          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=85392"
-        },
         {
           "titulo": "Avisos",
           "autor": "Carolina AHUMADA",
@@ -70,7 +63,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": "/data/files/ciberseguridad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-17T13:46:08.424771"
+      "ultima_actualizacion": "2026-06-18T13:43:34.477305"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -174,7 +167,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-17T13:47:01.874501"
+      "ultima_actualizacion": "2026-06-18T13:44:47.798538"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -430,7 +423,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-17T13:48:00.292345"
+      "ultima_actualizacion": "2026-06-18T13:45:45.414659"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -536,7 +529,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-17T13:50:06.574615"
+      "ultima_actualizacion": "2026-06-18T13:48:02.066549"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -612,7 +605,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-17T13:51:14.694976"
+      "ultima_actualizacion": "2026-06-18T13:49:16.729216"
     },
     {
       "nombre": "Inglés II",
@@ -643,7 +636,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-06-17T13:52:02.255762"
+      "ultima_actualizacion": "2026-06-18T13:50:04.097256"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -773,7 +766,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-06-17T13:52:19.108408"
+      "ultima_actualizacion": "2026-06-18T13:50:22.252380"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -903,7 +896,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-06-17T13:53:13.480754"
+      "ultima_actualizacion": "2026-06-18T13:51:20.316355"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -1015,7 +1008,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": "/data/files/practica_profesionalizante_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/practica_profesionalizante_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-06-17T13:54:12.859385"
+      "ultima_actualizacion": "2026-06-18T13:52:18.144926"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -1130,7 +1123,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": "/data/files/tecnologia_y_sociedad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-17T13:55:19.169936"
+      "ultima_actualizacion": "2026-06-18T13:53:22.023948"
     }
   ]
 }
