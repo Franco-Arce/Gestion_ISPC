@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-06-29T14:20:39.484421",
+  "generado_el": "2026-06-30T12:24:56.481452",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -70,7 +70,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": "/data/files/ciberseguridad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-29T14:10:29.683993"
+      "ultima_actualizacion": "2026-06-30T12:15:37.703520"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -80,6 +80,13 @@
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4290",
       "criterios": "• Criterios de evaluación\n• Sistema de Acreditación - Espacios curriculares Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
+        {
+          "titulo": "Avisos",
+          "autor": "Carlos Ignacio CHARLETTI",
+          "fecha": "2026-06-29T18:35:50-03:00",
+          "mensaje": "Tal cual lo informado en las defensas y en las clases previas, adjunto el listado de preguntas.\n\n¿Qué es un dato?\n¿Cuál es la diferencia entre dato e información?\n¿Qué significa pasar de un proceso a un dataset?\n¿Qué representa una fila en un dataset?\n¿Qué representa una columna en un dataset?\n¿Qué es una unidad de análisis?\n¿Qué es la limpieza de datos?\n¿Por qué es importante limpiar datos antes de analizarlos?\n¿Qué diferencia hay entre limpiar y transformar datos?\n¿Para qué sirve crear una nueva variable?\n¿Qué herramienta podrías usar para limpiar datos simples?\n¿Qué librería de Python se usa mucho para trabajar con tablas de datos?\n¿Qué es Pandas?\n¿Qué es un DataFrame?\n¿Qué hace head()?\n¿Qué hace describe()?\n¿Qué es EDA?\n¿Para qué sirve el EDA?\n¿Qué es un outlier?\n¿Qué es storytelling con datos?\n¿Para qué sirve contar una historia con datos?\n¿Por qué no hay que confiar ciegamente en un dataset?\n\nSaludos.",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=89761"
+        },
         {
           "titulo": "Avisos",
           "autor": "Carlos Ignacio CHARLETTI",
@@ -174,7 +181,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-29T14:11:23.359859"
+      "ultima_actualizacion": "2026-06-30T12:16:26.075914"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -430,7 +437,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-29T14:12:18.385897"
+      "ultima_actualizacion": "2026-06-30T12:17:20.135334"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -536,7 +543,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-29T14:14:21.514667"
+      "ultima_actualizacion": "2026-06-30T12:19:14.890833"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -612,7 +619,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-29T14:15:23.531830"
+      "ultima_actualizacion": "2026-06-30T12:20:11.304029"
     },
     {
       "nombre": "Inglés II",
@@ -643,7 +650,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-06-29T14:16:09.293851"
+      "ultima_actualizacion": "2026-06-30T12:20:53.292352"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -773,7 +780,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-06-29T14:16:25.905767"
+      "ultima_actualizacion": "2026-06-30T12:21:08.734000"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -903,7 +910,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-06-29T14:17:23.084987"
+      "ultima_actualizacion": "2026-06-30T12:21:59.513947"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -1015,7 +1022,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": "/data/files/practica_profesionalizante_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/practica_profesionalizante_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-06-29T14:18:22.747082"
+      "ultima_actualizacion": "2026-06-30T12:22:51.662513"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -1130,7 +1137,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": "/data/files/tecnologia_y_sociedad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-06-29T14:19:23.701164"
+      "ultima_actualizacion": "2026-06-30T12:23:47.868884"
     }
   ]
 }
