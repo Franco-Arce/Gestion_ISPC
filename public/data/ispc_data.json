@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-07-02T12:22:46.769535",
+  "generado_el": "2026-07-03T12:23:43.920970",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -70,7 +70,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": "/data/files/ciberseguridad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-07-02T12:12:47.233647"
+      "ultima_actualizacion": "2026-07-03T12:12:39.379728"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -181,7 +181,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-07-02T12:13:39.159049"
+      "ultima_actualizacion": "2026-07-03T12:13:39.668456"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -437,7 +437,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-07-02T12:14:36.108566"
+      "ultima_actualizacion": "2026-07-03T12:14:44.625395"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -543,7 +543,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-07-02T12:16:37.993054"
+      "ultima_actualizacion": "2026-07-03T12:17:04.488254"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -619,7 +619,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-07-02T12:17:40.144972"
+      "ultima_actualizacion": "2026-07-03T12:18:12.249739"
     },
     {
       "nombre": "Inglés II",
@@ -650,7 +650,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-07-02T12:18:25.489577"
+      "ultima_actualizacion": "2026-07-03T12:19:04.064463"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -780,7 +780,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-07-02T12:18:41.336948"
+      "ultima_actualizacion": "2026-07-03T12:19:22.784299"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -910,7 +910,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-07-02T12:19:37.565389"
+      "ultima_actualizacion": "2026-07-03T12:20:26.211539"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -1022,7 +1022,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": "/data/files/practica_profesionalizante_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/practica_profesionalizante_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-07-02T12:20:33.778008"
+      "ultima_actualizacion": "2026-07-03T12:21:26.863869"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -1137,7 +1137,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": "/data/files/tecnologia_y_sociedad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-07-02T12:21:33.207754"
+      "ultima_actualizacion": "2026-07-03T12:22:26.402031"
     }
   ]
 }
