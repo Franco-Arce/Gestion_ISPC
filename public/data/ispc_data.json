@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-08-02T11:29:23.389581",
+  "generado_el": "2026-08-03T13:06:43.720122",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -70,7 +70,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": "/data/files/ciberseguridad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-08-02T11:20:31.664224"
+      "ultima_actualizacion": "2026-08-03T12:57:24.101602"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -188,7 +188,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-08-02T11:21:21.295743"
+      "ultima_actualizacion": "2026-08-03T12:58:13.070300"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -198,6 +198,13 @@
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4267",
       "criterios": "• Criterios de evaluación\n• Sistema de Acreditación - Espacios curriculares Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
+        {
+          "titulo": "Avisos",
+          "autor": "Cynthia CORSO",
+          "fecha": "2026-08-03T07:56:37-03:00",
+          "mensaje": "Este mensaje está dirigido a los estudiantes que rendirán el examen final de Ciencias de Datos I en la mesa de hoy (03/08/2026).\n\nLes solicito ingresar 15 minutos antes de las 18:00 hs, horario de inicio del examen. El enlace de acceso estará disponible en la siguiente aula:\n\nhttps://acceso.ispc.edu.ar/course/view.php?id=3978\n\nDesde allí encontrarán el link de Meet al que deberán conectarse y el aula virtual donde se desarrollarán las actividades correspondientes al examen final, tanto para estudiantes regulares como libres.\n\nRecuerden que deberán permanecer conectados durante todo el examen con la cámara encendida, ya que es un requisito para la acreditación de identidad y el normal desarrollo del examen final.\n\nLos espero.\n\nProf. Cynthia Corso",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=90167"
+        },
         {
           "titulo": "Avisos",
           "autor": "Carlos Ignacio CHARLETTI",
@@ -444,7 +451,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-08-02T11:22:12.609828"
+      "ultima_actualizacion": "2026-08-03T12:59:05.837155"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -550,7 +557,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-08-02T11:23:58.072347"
+      "ultima_actualizacion": "2026-08-03T13:01:03.638911"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -626,7 +633,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-08-02T11:24:51.608698"
+      "ultima_actualizacion": "2026-08-03T13:01:59.967644"
     },
     {
       "nombre": "Inglés II",
@@ -657,7 +664,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-08-02T11:25:32.973225"
+      "ultima_actualizacion": "2026-08-03T13:02:41.501532"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -787,7 +794,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-08-02T11:25:46.774458"
+      "ultima_actualizacion": "2026-08-03T13:02:55.707679"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -917,7 +924,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-08-02T11:26:35.130922"
+      "ultima_actualizacion": "2026-08-03T13:03:47.071467"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -1029,7 +1036,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": "/data/files/practica_profesionalizante_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/practica_profesionalizante_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-08-02T11:27:25.150905"
+      "ultima_actualizacion": "2026-08-03T13:04:39.269542"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -1144,7 +1151,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": "/data/files/tecnologia_y_sociedad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-08-02T11:28:19.136029"
+      "ultima_actualizacion": "2026-08-03T13:05:35.744248"
     }
   ]
 }
