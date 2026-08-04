@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-08-03T13:06:43.720122",
+  "generado_el": "2026-08-04T12:14:13.050251",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -70,7 +70,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": "/data/files/ciberseguridad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-08-03T12:57:24.101602"
+      "ultima_actualizacion": "2026-08-04T12:05:04.799204"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -188,7 +188,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-08-03T12:58:13.070300"
+      "ultima_actualizacion": "2026-08-04T12:05:52.561928"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -451,7 +451,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-08-03T12:59:05.837155"
+      "ultima_actualizacion": "2026-08-04T12:06:42.468133"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -461,6 +461,13 @@
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4289",
       "criterios": "• Criterios de evaluación\n• Sistema de Acreditación - Espacios curriculares Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [
+        {
+          "titulo": "Avisos",
+          "autor": "Laura Anahi ZAVIA",
+          "fecha": "2026-08-03T12:11:42-03:00",
+          "mensaje": "Muy buen día estimad@s estudiantes, espero se encuentren muy bien! Les recuerdo a los y las estudiantes que se vayan a presentar hoy en la mesa de examen que la instancia será oral, con preguntas sólo del contenido que se encuentra en plataforma. Nos vemos a las 18:00 hs. ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡ ÉXITOS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=90177"
+        },
         {
           "titulo": "Avisos",
           "autor": "Laura Anahi ZAVIA",
@@ -557,7 +564,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-08-03T13:01:03.638911"
+      "ultima_actualizacion": "2026-08-04T12:08:31.551219"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -633,7 +640,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-08-03T13:01:59.967644"
+      "ultima_actualizacion": "2026-08-04T12:09:28.651249"
     },
     {
       "nombre": "Inglés II",
@@ -664,7 +671,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-08-03T13:02:41.501532"
+      "ultima_actualizacion": "2026-08-04T12:10:10.550486"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -794,7 +801,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/estadistica_y_exploracion_de_datos_i_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-08-03T13:02:55.707679"
+      "ultima_actualizacion": "2026-08-04T12:10:25.038248"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -924,7 +931,7 @@
       "meet_url": "http://meet.google.com/qam-wget-kaq",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": "/data/files/procesamiento_de_datos_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-08-03T13:03:47.071467"
+      "ultima_actualizacion": "2026-08-04T12:11:18.736830"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -1036,7 +1043,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": "/data/files/practica_profesionalizante_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/practica_profesionalizante_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-08-03T13:04:39.269542"
+      "ultima_actualizacion": "2026-08-04T12:12:11.154773"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -1151,7 +1158,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": "/data/files/tecnologia_y_sociedad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-08-03T13:05:35.744248"
+      "ultima_actualizacion": "2026-08-04T12:13:05.079307"
     }
   ]
 }
