@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-08-19T10:44:24.200489",
+  "generado_el": "2026-08-20T10:45:16.196249",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -70,7 +70,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": "/data/files/ciberseguridad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-08-19T10:36:02.443627"
+      "ultima_actualizacion": "2026-08-20T10:36:32.798124"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -188,7 +188,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-08-19T10:36:50.889713"
+      "ultima_actualizacion": "2026-08-20T10:37:23.456126"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -451,7 +451,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-08-19T10:37:42.376688"
+      "ultima_actualizacion": "2026-08-20T10:38:15.268843"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -564,7 +564,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-08-19T10:39:29.150155"
+      "ultima_actualizacion": "2026-08-20T10:40:08.326257"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -574,6 +574,13 @@
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4287",
       "criterios": "• Criterios de evaluación\n• Sistema de Acreditación - Espacios Curriculares Anuales\n• Régimen Académico Institucional\n",
       "avisos": [
+        {
+          "titulo": "Avisos",
+          "autor": "Pamela Solange BENITEZ",
+          "fecha": "2026-08-19T11:44:37-03:00",
+          "mensaje": "Estimados/as estudiantes:\n\nDesde el Instituto Superior Politécnico Córdoba informamos a quienes se encuentren cursando activamente y deban realizar instancias de Prácticas Profesionalizantes y/o Formativas en empresas, instituciones, organismos u organizaciones externas deberán contar, de manera previa al inicio de la actividad, con la documentación institucional requerida y encontrarse en condiciones de disponibilidad para cumplir con los horarios establecidos para dichas actividades  prácticas.\n\nEn particular, es indispensable contar con:\n\n✅ CERTIFICADO ÚNICO DE SALUD (CUS) vigente y actualizado al ciclo lectivo en curso.\n✅ Disponibilidad para asistir a las jornadas y horarios establecidos.\n\n✅ Aporte a la Cooperadora para cubrir la póliza de seguro. \n\n✅Documentación requerida por el ISPC que se informe oportunamente. \n\n⚠️ IMPORTANTE: De no cumplirse cualquiera de los ítems antes mencionados se imposibilita el inicio de cualquier actividad práctica y por añadidura irrumpe el proceso d",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=90755"
+        },
         {
           "titulo": "Avisos",
           "autor": "Laura Anahi ZAVIA",
@@ -647,7 +654,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-08-19T10:40:27.650873"
+      "ultima_actualizacion": "2026-08-20T10:41:07.362516"
     },
     {
       "nombre": "Inglés II",
@@ -678,7 +685,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-08-19T10:41:10.828210"
+      "ultima_actualizacion": "2026-08-20T10:41:53.944509"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -686,7 +693,7 @@
       "horario": "Martes 15:40–18:00",
       "comision": "A (tarde)",
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4419",
-      "criterios": "• Sistema de Acreditación Módulos Cuatrimestrales\n• Régimen Académico Institucional\n",
+      "criterios": "• Criterios de evaluación\n• Sistema de Acreditación Módulos Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [],
       "unidades": [
         {
@@ -779,7 +786,7 @@
       "meet_url": null,
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-08-19T10:41:24.968379"
+      "ultima_actualizacion": "2026-08-20T10:42:09.300429"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -787,7 +794,7 @@
       "horario": "Martes 15:40–18:00",
       "comision": "A (tarde)",
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4419",
-      "criterios": "• Sistema de Acreditación Módulos Cuatrimestrales\n• Régimen Académico Institucional\n",
+      "criterios": "• Criterios de evaluación\n• Sistema de Acreditación Módulos Cuatrimestrales\n• Régimen Académico Institucional\n",
       "avisos": [],
       "unidades": [
         {
@@ -880,7 +887,7 @@
       "meet_url": null,
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-08-19T10:41:52.943726"
+      "ultima_actualizacion": "2026-08-20T10:42:37.677504"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -890,6 +897,13 @@
       "url_campus": "https://acceso.ispc.edu.ar/course/view.php?id=4288",
       "criterios": "• Criterios de evaluación\n• Sistema de Acreditación de Práctica Profesionalizante Anuales\n• Régimen Académico Institucional\n",
       "avisos": [
+        {
+          "titulo": "Avisos",
+          "autor": "Pamela Solange BENITEZ",
+          "fecha": "2026-08-19T11:45:12-03:00",
+          "mensaje": "Estimados/as estudiantes:\n\nDesde el Instituto Superior Politécnico Córdoba informamos a quienes se encuentren cursando activamente y deban realizar instancias de Prácticas Profesionalizantes y/o Formativas en empresas, instituciones, organismos u organizaciones externas deberán contar, de manera previa al inicio de la actividad, con la documentación institucional requerida y encontrarse en condiciones de disponibilidad para cumplir con los horarios establecidos para dichas actividades  prácticas.\n\nEn particular, es indispensable contar con:\n\n✅ CERTIFICADO ÚNICO DE SALUD (CUS) vigente y actualizado al ciclo lectivo en curso.\n✅ Disponibilidad para asistir a las jornadas y horarios establecidos.\n\n✅ Aporte a la Cooperadora para cubrir la póliza de seguro. \n\n✅Documentación requerida por el ISPC que se informe oportunamente. \n\n⚠️ IMPORTANTE: De no cumplirse cualquiera de los ítems antes mencionados se imposibilita el inicio de cualquier actividad práctica y por añadidura irrumpe el proceso d",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=90759"
+        },
         {
           "titulo": "Avisos",
           "autor": "Ramiro Adrian CEBALLES",
@@ -992,7 +1006,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": "/data/files/practica_profesionalizante_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/practica_profesionalizante_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-08-19T10:42:23.331822"
+      "ultima_actualizacion": "2026-08-20T10:43:06.574438"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -1107,7 +1121,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": "/data/files/tecnologia_y_sociedad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-08-19T10:43:18.312642"
+      "ultima_actualizacion": "2026-08-20T10:44:06.908736"
     }
   ]
 }
