@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-09-12T13:38:12.535258",
+  "generado_el": "2026-09-13T14:21:14.089977",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -70,7 +70,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": "/data/files/ciberseguridad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-09-12T13:29:30.879755"
+      "ultima_actualizacion": "2026-09-13T14:12:32.072490"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -188,7 +188,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-09-12T13:30:19.443387"
+      "ultima_actualizacion": "2026-09-13T14:13:19.812925"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -451,7 +451,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-09-12T13:31:12.593116"
+      "ultima_actualizacion": "2026-09-13T14:14:11.208306"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -564,7 +564,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-09-12T13:33:04.266657"
+      "ultima_actualizacion": "2026-09-13T14:16:01.677564"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -664,13 +664,21 @@
           "estado": "pendiente",
           "descripcion": "Estimad@s estudiantes en este espacio un sólo integrante por equipo deberá agregar enlace a la documentación solicitada para acreditar el recuperatorio de la instancia. Saludos cordiales.",
           "seccion": "Evidencias de Aprendizaje"
+        },
+        {
+          "nombre": "Evidencia Valorativa 5: Calidad de Software",
+          "url": "https://acceso.ispc.edu.ar/mod/assign/view.php?id=121146",
+          "fecha_entrega": "Todavía no se han realizado envíos",
+          "estado": "pendiente",
+          "descripcion": "Estimad@s estudiantes, en este sector un sólo integrante de cada equipo deberá agregar el enlace a la documentación solicitada para acreditar la instancia. Gracias.",
+          "seccion": "Evidencias de Aprendizaje"
         }
       ],
       "materiales": [],
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-09-12T13:34:01.032806"
+      "ultima_actualizacion": "2026-09-13T14:16:58.095616"
     },
     {
       "nombre": "Inglés II",
@@ -701,7 +709,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-09-12T13:34:55.358288"
+      "ultima_actualizacion": "2026-09-13T14:17:56.383972"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -802,7 +810,7 @@
       "meet_url": null,
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-09-12T13:35:10.862448"
+      "ultima_actualizacion": "2026-09-13T14:18:11.042168"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -903,7 +911,7 @@
       "meet_url": null,
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-09-12T13:35:38.166079"
+      "ultima_actualizacion": "2026-09-13T14:18:39.303355"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -1022,7 +1030,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": "/data/files/practica_profesionalizante_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/practica_profesionalizante_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-09-12T13:36:06.931865"
+      "ultima_actualizacion": "2026-09-13T14:19:07.922127"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -1137,7 +1145,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": "/data/files/tecnologia_y_sociedad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-09-12T13:37:05.004197"
+      "ultima_actualizacion": "2026-09-13T14:20:06.652932"
     }
   ]
 }
