@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-10-08T17:29:37.801914",
+  "generado_el": "2026-10-09T17:04:41.051069",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -70,7 +70,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": "/data/files/ciberseguridad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-10-08T17:18:58.112251"
+      "ultima_actualizacion": "2026-10-09T16:54:42.015926"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -188,7 +188,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-10-08T17:19:55.456439"
+      "ultima_actualizacion": "2026-10-09T16:55:35.611626"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -451,7 +451,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-10-08T17:21:00.946793"
+      "ultima_actualizacion": "2026-10-09T16:56:35.289638"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -564,7 +564,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-10-08T17:23:17.347852"
+      "ultima_actualizacion": "2026-10-09T16:58:38.086553"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -580,6 +580,13 @@
           "fecha": "2026-08-19T11:44:37-03:00",
           "mensaje": "Estimados/as estudiantes:\n\nDesde el Instituto Superior Politécnico Córdoba informamos a quienes se encuentren cursando activamente y deban realizar instancias de Prácticas Profesionalizantes y/o Formativas en empresas, instituciones, organismos u organizaciones externas deberán contar, de manera previa al inicio de la actividad, con la documentación institucional requerida y encontrarse en condiciones de disponibilidad para cumplir con los horarios establecidos para dichas actividades  prácticas.\n\nEn particular, es indispensable contar con:\n\n✅ CERTIFICADO ÚNICO DE SALUD (CUS) vigente y actualizado al ciclo lectivo en curso.\n✅ Disponibilidad para asistir a las jornadas y horarios establecidos.\n\n✅ Aporte a la Cooperadora para cubrir la póliza de seguro. \n\n✅Documentación requerida por el ISPC que se informe oportunamente. \n\n⚠️ IMPORTANTE: De no cumplirse cualquiera de los ítems antes mencionados se imposibilita el inicio de cualquier actividad práctica y por añadidura irrumpe el proceso d",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=90755"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Laura Anahi ZAVIA",
+          "fecha": "2026-10-08T15:44:26-03:00",
+          "mensaje": "Muy buenas tardes estudiantes, espero que se encuentren muy bien.\n\nLes cuento cómo va a ser la dinámica del sincrónico del día de hoy. Primero, vamos a realizar un seguimiento sobre la última evidencia a presentar de modo que no queden dudas al respecto y, segundo, entre todos haremos algunas actividades sobre los ejes temáticos 1 y 2 del espacio curricular a fin de ir preparándonos para el coloquio. Por ello es que les recuerdo repasen los temas vistos, ya que haremos un ping pong de preguntas en el transcurso de la clase.\n\nBien, nos vemos en el Aula!\n\nProf. Laura",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=91981"
         },
         {
           "titulo": "Avisos",
@@ -701,7 +708,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-10-08T17:24:25.075544"
+      "ultima_actualizacion": "2026-10-09T16:59:41.031790"
     },
     {
       "nombre": "Inglés II",
@@ -732,7 +739,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-10-08T17:25:49.176143"
+      "ultima_actualizacion": "2026-10-09T17:01:06.425175"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -833,7 +840,7 @@
       "meet_url": null,
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-10-08T17:26:07.081821"
+      "ultima_actualizacion": "2026-10-09T17:01:24.168134"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -934,7 +941,7 @@
       "meet_url": null,
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-10-08T17:26:38.932171"
+      "ultima_actualizacion": "2026-10-09T17:01:53.170841"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -1053,7 +1060,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": "/data/files/practica_profesionalizante_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/practica_profesionalizante_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-10-08T17:27:11.796591"
+      "ultima_actualizacion": "2026-10-09T17:02:23.246769"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -1166,9 +1173,9 @@
       ],
       "materiales": [],
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
-      "programa_archivo": null,
+      "programa_archivo": "/data/files/tecnologia_y_sociedad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-10-08T17:28:19.556169"
+      "ultima_actualizacion": "2026-10-09T17:03:26.587335"
     }
   ]
 }
