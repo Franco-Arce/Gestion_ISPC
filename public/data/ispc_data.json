@@ -1,6 +1,6 @@
 {
   "usuario": "Franco Arce",
-  "generado_el": "2026-10-21T15:10:49.009690",
+  "generado_el": "2026-10-22T15:13:26.360120",
   "materias": [
     {
       "nombre": "Ciberseguridad",
@@ -70,7 +70,7 @@
       "meet_url": "http://meet.google.com/eps-eita-tks",
       "programa_archivo": "/data/files/ciberseguridad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-10-21T14:59:52.890166"
+      "ultima_actualizacion": "2026-10-22T15:03:06.607121"
     },
     {
       "nombre": "Ciencia de Datos",
@@ -188,7 +188,7 @@
       "meet_url": "http://meet.google.com/tcn-vkoy-uhb",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-10-21T15:00:54.290538"
+      "ultima_actualizacion": "2026-10-22T15:04:01.012716"
     },
     {
       "nombre": "Ciencia de Datos I",
@@ -451,7 +451,7 @@
       "meet_url": "http://meet.google.com/qma-wqxy-kwk",
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-10-21T15:01:58.700749"
+      "ultima_actualizacion": "2026-10-22T15:04:59.477498"
     },
     {
       "nombre": "Gestión de Proyectos",
@@ -564,7 +564,7 @@
       "meet_url": "http://meet.google.com/vts-ttna-wxs",
       "programa_archivo": "/data/files/gestion_de_proyectos_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-10-21T15:04:11.772703"
+      "ultima_actualizacion": "2026-10-22T15:07:04.729819"
     },
     {
       "nombre": "Ingeniería de Software",
@@ -716,7 +716,7 @@
       "meet_url": "http://meet.google.com/stm-stcr-std",
       "programa_archivo": "/data/files/ingenieria_de_software_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-10-21T15:05:21.733135"
+      "ultima_actualizacion": "2026-10-22T15:08:10.659794"
     },
     {
       "nombre": "Inglés II",
@@ -747,7 +747,7 @@
       "meet_url": null,
       "programa_archivo": "/data/files/ingles_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/ingles_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-10-21T15:06:53.650261"
+      "ultima_actualizacion": "2026-10-22T15:09:38.700086"
     },
     {
       "nombre": "Estadística y Exploración de Datos I",
@@ -848,7 +848,7 @@
       "meet_url": null,
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-10-21T15:07:11.562079"
+      "ultima_actualizacion": "2026-10-22T15:09:55.265065"
     },
     {
       "nombre": "Procesamiento de Datos",
@@ -949,7 +949,7 @@
       "meet_url": null,
       "programa_archivo": null,
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-10-21T15:07:43.870722"
+      "ultima_actualizacion": "2026-10-22T15:10:26.942540"
     },
     {
       "nombre": "Práctica Profesionalizante II",
@@ -965,6 +965,13 @@
           "fecha": "2026-08-19T11:45:12-03:00",
           "mensaje": "Estimados/as estudiantes:\n\nDesde el Instituto Superior Politécnico Córdoba informamos a quienes se encuentren cursando activamente y deban realizar instancias de Prácticas Profesionalizantes y/o Formativas en empresas, instituciones, organismos u organizaciones externas deberán contar, de manera previa al inicio de la actividad, con la documentación institucional requerida y encontrarse en condiciones de disponibilidad para cumplir con los horarios establecidos para dichas actividades  prácticas.\n\nEn particular, es indispensable contar con:\n\n✅ CERTIFICADO ÚNICO DE SALUD (CUS) vigente y actualizado al ciclo lectivo en curso.\n✅ Disponibilidad para asistir a las jornadas y horarios establecidos.\n\n✅ Aporte a la Cooperadora para cubrir la póliza de seguro. \n\n✅Documentación requerida por el ISPC que se informe oportunamente. \n\n⚠️ IMPORTANTE: De no cumplirse cualquiera de los ítems antes mencionados se imposibilita el inicio de cualquier actividad práctica y por añadidura irrumpe el proceso d",
           "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=90759"
+        },
+        {
+          "titulo": "Avisos",
+          "autor": "Ramiro Adrian CEBALLES",
+          "fecha": "2026-10-21T14:41:29-03:00",
+          "mensaje": "Hola a todos:\n\nLes aviso que la defensa del ABP de Prácticas Profesionalizantes II se va a tomar en la misma instancia que la defensa de Full Stack. No hay una mesa aparte para PP II: el día de la defensa presentan el proyecto y, en el mismo encuentro, respondo las preguntas del coloquio de PP II.\n\nEl coloquio sale de los cuatro manuales de la materia: CV, ATS y Cover Letter; Entrevistas; Freelance y Normativa; y primer trabajo. Abajo están los temas según su condición.\n\nREGULARES Y PROMOCIONALES\n\nTienen que poder definir y explicar cada concepto con sus palabras.\n\n1. CV, ATS y Cover Letter\n\nQué es un ATS y cómo funciona: parsing, keyword matching y scoring.\nQué cosas el ATS no puede leer: fotos, columnas, tablas y diseños “bonitos”.\nJob Description (JD) y Job Description Mining.\nLa diferencia entre CV base y CV adaptado.\nEl método STAR (y su versión corta, CAR) para redactar logros.\nQué es una cover letter y qué no es.\nLa coherencia entre CV, LinkedIn y GitHub.\n\n2. Entrevistas\n\nLas et",
+          "url": "https://acceso.ispc.edu.ar/mod/forum/discuss.php?d=92141"
         },
         {
           "titulo": "Avisos",
@@ -1075,7 +1082,7 @@
       "meet_url": "http://meet.google.com/yww-aikn-asr",
       "programa_archivo": "/data/files/practica_profesionalizante_ii_programa.pdf",
       "hoja_de_ruta_archivo": "/data/files/practica_profesionalizante_ii_hoja_de_ruta.pdf",
-      "ultima_actualizacion": "2026-10-21T15:08:16.907164"
+      "ultima_actualizacion": "2026-10-22T15:10:58.439857"
     },
     {
       "nombre": "Tecnología y Sociedad",
@@ -1190,7 +1197,7 @@
       "meet_url": "http://meet.google.com/rgk-eexy-duc",
       "programa_archivo": "/data/files/tecnologia_y_sociedad_programa.pdf",
       "hoja_de_ruta_archivo": null,
-      "ultima_actualizacion": "2026-10-21T15:09:27.543022"
+      "ultima_actualizacion": "2026-10-22T15:12:09.456705"
     }
   ]
 }
